@@ -1,5 +1,5 @@
 # Warframe Market Price Intelligence & Opportunities
-**Generated:** 2026-10-17 04:18:58 UTC | **Source:** Warframe.market v2 + v1 Closed Statistics + AlecaFrame Exports
+**Generated:** 2026-10-19 05:06:46 UTC | **Source:** Warframe.market v2 + v1 Closed Statistics + AlecaFrame Exports
 
 ---
 ## 🌟 Your Custom Wishlist (Target Mods to Buy)
@@ -7,11 +7,11 @@ Live market prices, historical 48h & 90d sales stats, and trade whispers:
 
 | Wishlist Mod | Live Best Buy | 48h Avg (Median) | 90d Baseline | 48h Traded Vol | Active Seller IGN | Status | Trade Whisper (Click to Copy) |
 |:---|:---:|:---:|:---:|:---:|:---|:---:|:---|
-| **Bite** | **65p** | 64.2p (69.0p) | 62.6p | 203 sold | DynamismderT | online | `/w DynamismderT Hi! I want to buy: Bite for 65 platinum. (warframe.market)` |
-| **Tenacious Bond** | **14p** | 14.7p (14.5p) | 14.3p | 126 sold | GaoYouLi | ingame | `/w GaoYouLi Hi! I want to buy: Tenacious Bond for 14 platinum. (warframe.market)` |
-| **Cull The Weak** | **8p** | 7.3p (7.5p) | 6.9p | 95 sold | rezarevenger | ingame | `/w rezarevenger Hi! I want to buy: Cull The Weak for 8 platinum. (warframe.market)` |
-| **Frenzied Posture** | **14p** | 13.6p (12.0p) | 13.9p | 21 sold | TropicalSin | ingame | `/w TropicalSin Hi! I want to buy: Frenzied Posture for 14 platinum. (warframe.market)` |
-| **Tandem Bond** | **13p** | 14.5p (14.0p) | 13.8p | 23 sold | QuantumMechanik9 | online | `/w QuantumMechanik9 Hi! I want to buy: Tandem Bond for 13 platinum. (warframe.market)` |
+| **Bite** | **60p** | 66.7p (67.0p) | 62.6p | 259 sold | cctxsy | online | `/w cctxsy Hi! I want to buy: Bite for 60 platinum. (warframe.market)` |
+| **Tenacious Bond** | **14p** | 14.8p (15.0p) | 14.3p | 136 sold | 0-MyEKayE-0 | online | `/w 0-MyEKayE-0 Hi! I want to buy: Tenacious Bond for 14 platinum. (warframe.market)` |
+| **Cull The Weak** | **8p** | 7.5p (8.0p) | 7.0p | 81 sold | ganhaque | ingame | `/w ganhaque Hi! I want to buy: Cull The Weak for 8 platinum. (warframe.market)` |
+| **Frenzied Posture** | **13p** | 14.2p (14.0p) | 13.9p | 64 sold | SilverWing256 | ingame | `/w SilverWing256 Hi! I want to buy: Frenzied Posture for 13 platinum. (warframe.market)` |
+| **Tandem Bond** | **15p** | 14.6p (15.0p) | 13.8p | 32 sold | ENGEL0831 | ingame | `/w ENGEL0831 Hi! I want to buy: Tandem Bond for 15 platinum. (warframe.market)` |
 
 ---
 ## 💎 Top Prime Sets Ready to Sell
@@ -19,14 +19,14 @@ Complete sets in your inventory with live orders and 48h/90d historical trade vo
 
 | Set Name | Owned | Live Best Sell | 48h Avg Sold | 90d Baseline | Instant Buy | 48h Vol | Aleca Est. |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Carrier Prime Set** | 1 | **94p** | 94.3p | 94.4p | 80p | 24 sold | 93p |
-| **Oberon Prime Set** | 1 | **82p** | 84.3p | 82.6p | 65p | 92 sold | 87p |
-| **Nidus Prime Set** | 1 | **76p** | 87.8p | 89.2p | 76p | 89 sold | 86p |
-| **Titania Prime Set** | 1 | **69p** | 69.4p | 66.9p | 59p | 242 sold | 86p |
-| **Octavia Prime Set** | 1 | **75p** | 79.6p | 82.1p | 70p | 134 sold | 79p |
-| **Scourge Prime Set** | 1 | **79p** | 79.3p | 81.7p | 60p | 33 sold | 78p |
-| **Saryn Prime Set** | 1 | **69p** | 77.1p | 78.1p | 65p | 68 sold | 75p |
-| **Latron Prime Set** | 1 | **67p** | 71.8p | 74.6p | 65p | 44 sold | 73p |
+| **Oberon Prime Set** | 1 | **85p** | 84.5p | 82.7p | 73p | 120 sold | 85p |
+| **Nidus Prime Set** | 1 | **77p** | 89.2p | 88.9p | 70p | 4 sold | 81p |
+| **Octavia Prime Set** | 1 | **80p** | 79.8p | 82.0p | 65p | 180 sold | 80p |
+| **Scourge Prime Set** | 1 | **79p** | 79.6p | 81.7p | 61p | 48 sold | 79p |
+| **Wukong Prime Set** | 1 | **70p** | 73.2p | 72.9p | 65p | 187 sold | 73p |
+| **Latron Prime Set** | 1 | **68p** | 71.5p | 74.5p | 55p | 80 sold | 72p |
+| **Saryn Prime Set** | 1 | **69p** | 77.3p | 77.9p | 66p | 22 sold | 72p |
+| **Titania Prime Set** | 1 | **70p** | 68.9p | 66.9p | 60p | 227 sold | 72p |
 
 ---
 ## 📦 Top Duplicate Mods to Sell (Spare Copies)
@@ -34,16 +34,16 @@ Spare copies in your inventory you can liquidate for Platinum:
 
 | Mod Name | Total / Spare | Rank | Live Best Sell | 48h Avg Sold | 90d Baseline | Instant Buy | 48h Vol | Est. Total Plat |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Whiplash Mine** | 1 (1 spare) | R3/3 | **150p** | - | 93.2p | - | 0 sold | **~150p** |
-| **Necrophagic Vigor** | 1 (1 spare) | R0/5 | **99p** | 86.9p | 85.5p | 40p | 14 sold | **~99p** |
-| **Discipline's Merit** | 3 (3 spare) | R0/3 | **84p** | 75.8p | 72.7p | 65p | 99 sold | **~252p** |
-| **Split Flights** | 1 (1 spare) | R0/5 | **59p** | 51.3p | 53.6p | 30p | 7 sold | **~59p** |
-| **Pain Points** | 1 (1 spare) | R0/5 | **55p** | 54.3p | 84.7p | 20p | 23 sold | **~55p** |
-| **Leaded Gas** | 1 (1 spare) | R0/5 | **55p** | 50.1p | 30.0p | 20p | 27 sold | **~55p** |
-| **Primed Regen** | 1 (1 spare) | R0/10 | **39p** | 52.6p | 51.9p | 20p | 13 sold | **~39p** |
-| **Primed Rifle Ammo Mutation** | 1 (1 spare) | R0/10 | **39p** | 39.2p | 54.3p | 25p | 17 sold | **~39p** |
-| **Scan Matter** | 1 (1 spare) | R0/3 | **50p** | - | 39.0p | - | 0 sold | **~50p** |
-| **Looter** | 1 (1 spare) | R0/5 | **49p** | 50.0p | 49.6p | 26p | 1 sold | **~49p** |
+| **Whiplash Mine** | 1 (1 spare) | R3/3 | **95p** | 97.5p | 94.4p | - | 2 sold | **~95p** |
+| **Necrophagic Vigor** | 1 (1 spare) | R0/5 | **70p** | 78.8p | 85.2p | 45p | 18 sold | **~70p** |
+| **Discipline's Merit** | 3 (3 spare) | R0/3 | **74p** | 77.0p | 73.0p | 52p | 145 sold | **~222p** |
+| **Anti-Grav Grenade** | 1 (1 spare) | R3/3 | **60p** | - | 49.2p | - | 0 sold | **~60p** |
+| **Leaded Gas** | 1 (1 spare) | R0/5 | **25p** | 52.1p | 30.7p | 4p | 35 sold | **~25p** |
+| **Pain Points** | 1 (1 spare) | R0/5 | **85p** | 56.0p | 83.6p | 30p | 19 sold | **~85p** |
+| **Split Flights** | 1 (1 spare) | R0/5 | **60p** | 57.1p | 53.8p | 30p | 16 sold | **~60p** |
+| **Dreadful Killshot** | 1 (1 spare) | R0/5 | **50p** | 41.8p | 28.3p | 30p | 36 sold | **~50p** |
+| **Primed Stabilizer** | 1 (1 spare) | R0/10 | **50p** | 48.3p | 38.0p | 30p | 9 sold | **~50p** |
+| **Looter** | 1 (1 spare) | R0/5 | **45p** | 47.0p | 49.5p | 25p | 4 sold | **~45p** |
 
 ---
 ## 🎯 Priority Mods Missing From Inventory (To Buy)
@@ -51,13 +51,13 @@ Key tradable mods (Primed, Corrupted, Archon, Aura) not in your collection:
 
 | Missing Mod | Tags / Tier | Best Buy Price | Seller In-Game Name | Status | Trade Whisper |
 |:---|:---|:---:|:---|:---:|:---|
-| **Archon Vitality** | archon, warframe | **28p** | Reilly721 | ingame | `/w Reilly721 Hi! I want to buy: Archon Vitality for 28 platinum. (warframe.market)` |
-| **Archon Stretch** | archon, warframe | **27p** | Reilly721 | ingame | `/w Reilly721 Hi! I want to buy: Archon Stretch for 27 platinum. (warframe.market)` |
-| **Shotgun Amp** | aura, uncommon | **9p** | XLUY | ingame | `/w XLUY Hi! I want to buy: Shotgun Amp for 9 platinum. (warframe.market)` |
-| **Empowered Blades** | rare, aura | **39p** | Excalibastrd | ingame | `/w Excalibastrd Hi! I want to buy: Empowered Blades for 39 platinum. (warframe.market)` |
-| **Stand United** | aura, uncommon | **7p** | lSargel | ingame | `/w lSargel Hi! I want to buy: Stand United for 7 platinum. (warframe.market)` |
-| **Swift Momentum** | rare, aura | **5p** | SeaOx | online | `/w SeaOx Hi! I want to buy: Swift Momentum for 5 platinum. (warframe.market)` |
-| **Melee Guidance** | rare, aura | **3p** | ssx2012 | ingame | `/w ssx2012 Hi! I want to buy: Melee Guidance for 3 platinum. (warframe.market)` |
-| **Aerodynamic** | rare, aura | **8p** | Charbq | ingame | `/w Charbq Hi! I want to buy: Aerodynamic for 8 platinum. (warframe.market)` |
-| **Pistol Amp** | aura, uncommon | **5p** | Ye11ow- | online | `/w Ye11ow- Hi! I want to buy: Pistol Amp for 5 platinum. (warframe.market)` |
-| **Power Donation** | rare, aura | **9p** | Oleg2611_021 | ingame | `/w Oleg2611_021 Hi! I want to buy: Power Donation for 9 platinum. (warframe.market)` |
+| **Archon Vitality** | archon, warframe | **25p** | SKY1368126148 | ingame | `/w SKY1368126148 Hi! I want to buy: Archon Vitality for 25 platinum. (warframe.market)` |
+| **Archon Stretch** | archon, warframe | **25p** | HadesOnLive | ingame | `/w HadesOnLive Hi! I want to buy: Archon Stretch for 25 platinum. (warframe.market)` |
+| **Shotgun Amp** | aura, uncommon | **14p** | Valquiriem | ingame | `/w Valquiriem Hi! I want to buy: Shotgun Amp for 14 platinum. (warframe.market)` |
+| **Empowered Blades** | rare, aura | **40p** | HoneyLubi | ingame | `/w HoneyLubi Hi! I want to buy: Empowered Blades for 40 platinum. (warframe.market)` |
+| **Stand United** | aura, uncommon | **9p** | Valquiriem | ingame | `/w Valquiriem Hi! I want to buy: Stand United for 9 platinum. (warframe.market)` |
+| **Swift Momentum** | rare, aura | **5p** | Truelove_99 | ingame | `/w Truelove_99 Hi! I want to buy: Swift Momentum for 5 platinum. (warframe.market)` |
+| **Melee Guidance** | rare, aura | **3p** | Tenno35484 | ingame | `/w Tenno35484 Hi! I want to buy: Melee Guidance for 3 platinum. (warframe.market)` |
+| **Aerodynamic** | rare, aura | **8p** | Valquiriem | ingame | `/w Valquiriem Hi! I want to buy: Aerodynamic for 8 platinum. (warframe.market)` |
+| **Pistol Amp** | aura, uncommon | **4p** | Valquiriem | ingame | `/w Valquiriem Hi! I want to buy: Pistol Amp for 4 platinum. (warframe.market)` |
+| **Power Donation** | rare, aura | **10p** | TaKkanashiRikka | online | `/w TaKkanashiRikka Hi! I want to buy: Power Donation for 10 platinum. (warframe.market)` |

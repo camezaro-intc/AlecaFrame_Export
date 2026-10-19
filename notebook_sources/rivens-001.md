@@ -1,6 +1,6 @@
 # Rivens (1/1)
 
-Searchable Warframe inventory data exported from `rivens.json` (Updated: 2026-10-17 04:18:58 UTC).
+Searchable Warframe inventory data exported from `rivens.json` (Updated: 2026-10-19 05:06:00 UTC).
 
 Total entries in `rivens.json`: **124**.
 
