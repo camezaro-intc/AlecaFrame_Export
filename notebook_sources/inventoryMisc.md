@@ -1,6 +1,6 @@
 # inventoryMisc
 
-Searchable Warframe inventory data exported from `inventoryMisc.json` (Updated: 2026-10-19 05:40:51 UTC).
+Searchable Warframe inventory data exported from `inventoryMisc.json` (Updated: 2026-10-19 05:49:00 UTC).
 
 Total entries in `inventoryMisc.json`: **110**.
 
@@ -14,11 +14,11 @@ Total entries in `inventoryMisc.json`: **110**.
 - **Arbiter's Tribunal Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: MiscItems/PhotoboothTileSyndicateArbiters
 - **Arbiters Combat Emote** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Syndicate/AHCombatEmote
 - **Arthur Gemini Emote** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Emotes/LegendaryArthurEmote
-- **Ayatan Amber Star** — Rank: 0/0 (MAXED) | Owned: 43 | Sell: 2p | Buy: 3p | Effect ID: FusionTreasures/OroFusexOrnamentB
+- **Ayatan Amber Star** — Rank: 0/0 (MAXED) | Owned: 43 | Sell: 2p | Buy: 4p | Effect ID: FusionTreasures/OroFusexOrnamentB
 - **Ayatan Anasa Sculpture** — Rank: 0/0 (MAXED) | Owned: 14 | Sell: 7p | Buy: 36p | Effect ID: FusionTreasures/OroFusexF
 - **Ayatan Ayr Sculpture** — Rank: 0/0 (MAXED) | Owned: 5 | Buy: 15p | Effect ID: FusionTreasures/OroFusexB
 - **Ayatan Cyan Star** — Rank: 0/0 (MAXED) | Owned: 70 | Sell: 1p | Buy: 2p | Effect ID: FusionTreasures/OroFusexOrnamentA
-- **Ayatan Hemakara Sculpture** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: FusionTreasures/OroFusexJ
+- **Ayatan Hemakara Sculpture** — Rank: 0/0 (MAXED) | Owned: 1 | Buy: 15p | Effect ID: FusionTreasures/OroFusexJ
 - **Ayatan Orta Sculpture** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 4p | Buy: 20p | Effect ID: FusionTreasures/OroFusexC
 - **Ayatan Piv Sculpture** — Rank: 0/0 (MAXED) | Owned: 5 | Sell: 4p | Buy: 12p | Effect ID: FusionTreasures/OroFusexE
 - **Ayatan Sah Sculpture** — Rank: 0/0 (MAXED) | Owned: 7 | Sell: 3p | Buy: 12p | Effect ID: FusionTreasures/OroFusexA
@@ -34,15 +34,15 @@ Total entries in `inventoryMisc.json`: **110**.
 - **Corpus Ship Orbital Cannon Scene** — Rank: 0/0 (MAXED) | Owned: 5 | Effect ID: MiscItems/PhotoboothTileCorpusShipOrbitalStrike
 - **Cressa's Garrison Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: MiscItems/PhotoboothTileSyndicateSteelMeridian
 - **Damaged Necramech Casing** — Rank: 0/0 (MAXED) | Owned: 25 | Sell: 2p | Effect ID: Mechs/DamagedMechPartChassisItem
-- **Damaged Necramech Engine** — Rank: 0/0 (MAXED) | Owned: 4 | Sell: 5p | Effect ID: Mechs/DamagedMechPartEngineItem
+- **Damaged Necramech Engine** — Rank: 0/0 (MAXED) | Owned: 4 | Sell: 5p | Buy: 2p | Effect ID: Mechs/DamagedMechPartEngineItem
 - **Damaged Necramech Pod** — Rank: 0/0 (MAXED) | Owned: 10 | Sell: 4p | Effect ID: Mechs/DamagedMechPartSystemsItem
 - **Damaged Necramech Weapon Pod** — Rank: 0/0 (MAXED) | Owned: 24 | Sell: 2p | Effect ID: Mechs/DamagedMechPartWeaponPodItem
 - **Deck 12 Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: MiscItems/PhotoboothTileDeckTwelve
 - **Deimos Cenote Scene** — Rank: 0/0 (MAXED) | Owned: 2 | Effect ID: MiscItems/PhotoboothTileDeimosCenote
 - **Deimos Crypt Scene** — Rank: 0/0 (MAXED) | Owned: 2 | Effect ID: MiscItems/PhotoboothTileDeimosBurialChamber
-- **Deimos Depths Scene** — Rank: 0/0 (MAXED) | Owned: 4 | Sell: 25p | Effect ID: MiscItems/PhotoboothTileDeimosCalamity
+- **Deimos Depths Scene** — Rank: 0/0 (MAXED) | Owned: 4 | Sell: 10p | Effect ID: MiscItems/PhotoboothTileDeimosCalamity
 - **Deimos Heart Scene** — Rank: 0/0 (MAXED) | Owned: 2 | Effect ID: MiscItems/PhotoboothTileDeimosHeart
-- **Deimos Membrane Scene** — Rank: 0/0 (MAXED) | Owned: 4 | Sell: 3p | Effect ID: MiscItems/PhotoboothTileDeimosSchism
+- **Deimos Membrane Scene** — Rank: 0/0 (MAXED) | Owned: 4 | Sell: 20p | Effect ID: MiscItems/PhotoboothTileDeimosSchism
 - **Deimos Necralisk Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: MiscItems/PhotoboothTileDeimosHub
 - **Deimos Verge Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: MiscItems/PhotoboothTileDeimosSpawn
 - **Eleanor Gemini Emote** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Emotes/LegendaryEleanorEmote
@@ -56,10 +56,10 @@ Total entries in `inventoryMisc.json`: **110**.
 - **Grineer Forest Industry Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Buy: 10p | Effect ID: MiscItems/PhotoboothTileGrineerForestIntermediateB
 - **Grineer Sealab Centrifuge Scene** — Rank: 0/0 (MAXED) | Owned: 44 | Effect ID: MiscItems/PhotoboothTileGrineerOceanCentrifuge
 - **Grineer Settlement Artillery Scene** — Rank: 0/0 (MAXED) | Owned: 4 | Effect ID: MiscItems/PhotoboothTileGrineerSettlementGunBattery
-- **Grineer Settlement Reactor Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Buy: 11p | Effect ID: MiscItems/PhotoboothTileSyndicateSteelMeridianCave
+- **Grineer Settlement Reactor Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Buy: 10p | Effect ID: MiscItems/PhotoboothTileSyndicateSteelMeridianCave
 - **Hands Up** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Emotes/DanceHandsUp
 - **Harrow's Temple Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: MiscItems/PhotoboothTileHarrowRedVeilTemple
-- **Hunhow's Chamber Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: MiscItems/PhotoboothTileSyndicateRedVeilHunhow
+- **Hunhow's Chamber Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Buy: 10p | Effect ID: MiscItems/PhotoboothTileSyndicateRedVeilHunhow
 - **Hunhow's Datascape Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 50p | Effect ID: MiscItems/PhotoboothTileBardBossArena
 - **Hydroid's Relay Scene** — Rank: 0/0 (MAXED) | Owned: 2 | Effect ID: MiscItems/PhotoboothTileHydroidRelay
 - **Infested Ship Bridge Scene** — Rank: 0/0 (MAXED) | Owned: 1 | Buy: 10p | Effect ID: MiscItems/PhotoboothTileSyndicateRedVeilInfestedShip
@@ -84,9 +84,9 @@ Total entries in `inventoryMisc.json`: **110**.
 - **Pivot Dance** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Emotes/DanceTurnReverseTurn
 - **Prisma Dual Decurions** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 90p | Buy: 65p | Effect ID: Prisma/PrismaArchHeavyPistols
 - **Prisma Grakata** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 66p | Buy: 31p | Effect ID: VoidTrader/PrismaGrakata
-- **Prisma Lenz** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 47p | Buy: 20p | Effect ID: PrismaLenz/PrismaLenzWeapon
+- **Prisma Lenz** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 47p | Buy: 35p | Effect ID: PrismaLenz/PrismaLenzWeapon
 - **Prisma Twin Gremlins** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 42p | Buy: 30p | Effect ID: Prisma/PrismaTwinGremlinsWeapon
-- **Prisma Veritux** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 82p | Buy: 55p | Effect ID: VoidTraderArchsword/VTArchSwordWeapon
+- **Prisma Veritux** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 82p | Buy: 20p | Effect ID: VoidTraderArchsword/VTArchSwordWeapon
 - **Quincy Gemini Emote** — Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Emotes/LegendaryQuincyEmote
 - **Red Veil Engineering Emote** — Rank: 0/0 (MAXED) | Owned: 1 | Buy: 5p | Effect ID: Syndicate/RVEngineeringEmote
 

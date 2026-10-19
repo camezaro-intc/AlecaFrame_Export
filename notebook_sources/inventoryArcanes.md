@@ -1,20 +1,20 @@
 # inventoryArcanes
 
-Searchable Warframe inventory data exported from `inventoryArcanes.json` (Updated: 2026-10-19 05:40:51 UTC).
+Searchable Warframe inventory data exported from `inventoryArcanes.json` (Updated: 2026-10-19 05:49:00 UTC).
 
-Total entries in `inventoryArcanes.json`: **207**.
+Total entries in `inventoryArcanes.json`: **209**.
 
 ## inventoryArcanes: Entries 1 to 40 (Akimbo Slip Shot — Arcane Phantasm)
 
 - **Akimbo Slip Shot** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: Offensive/AmmoEfficiencyOnSliding
 - **Arcane Acceleration** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 78p | Effect ID: Offensive/LongGunSpeedOnCrit
-- **Arcane Aegis** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 129p | Buy: 4p | Effect ID: Defensive/GolemArcaneShieldRegenOnDamage
+- **Arcane Aegis** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 129p | Buy: 25p | Effect ID: Defensive/GolemArcaneShieldRegenOnDamage
 - **Arcane Agility** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 39p | Effect ID: Defensive/SpeedOnDamage
 - **Arcane Arachne** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 61p | Effect ID: Utility/GolemArcaneBonusDamageOnWallLatch
-- **Arcane Avenger** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 80p | Effect ID: Defensive/CritChanceOnDamage
+- **Arcane Avenger** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 80p | Buy: 20p | Effect ID: Defensive/CritChanceOnDamage
 - **Arcane Awakening** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 31p | Effect ID: Utility/PistolDamageOnReload
-- **Arcane Barrier** — Type: primed arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 37p | Effect ID: Defensive/InstantShieldOnDamage
-- **Arcane Battery** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 39p | Effect ID: Offensive/MaxEnergyForArmor
+- **Arcane Barrier** — Type: primed arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 36p | Effect ID: Defensive/InstantShieldOnDamage
+- **Arcane Battery** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 50p | Effect ID: Offensive/MaxEnergyForArmor
 - **Arcane Bellicose** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 27p | Effect ID: Offensive/AbilityStrengthForMaxHealth
 - **Arcane Blade Charger** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Offensive/MeleeDmgOnRifleKill
 - **Arcane Blade Charger** — Type: gold arcane | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Offensive/MeleeDmgOnRifleKill
@@ -23,19 +23,19 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Arcane Bodyguard** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Effect ID: Offensive/HealCompanionOnSixMeleeKills
 - **Arcane Bodyguard** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Effect ID: Offensive/HealCompanionOnSixMeleeKills
 - **Arcane Camisado** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 27p | Effect ID: Offensive/AbilityStrengthOnSummonAttack
-- **Arcane Circumvent** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 3p | Buy: 2p | Effect ID: Defensive/StealDefensiveStatsOnRoll
+- **Arcane Circumvent** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 3p | Effect ID: Defensive/StealDefensiveStatsOnRoll
 - **Arcane Consequence** — Type: bronze arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 26p | Effect ID: Utility/GolemArcaneAimGlideOnHeadshot
 - **Arcane Crepuscular** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 2p | Effect ID: Utility/AbilityStrengthAndCritDamageWhenInvisible
 - **Arcane Crepuscular** — Type: gold arcane | Rank: 4/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Utility/AbilityStrengthAndCritDamageWhenInvisible
 - **Arcane Deflection** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 24p | Effect ID: Defensive/SlashProcResist
 - **Arcane Double Back** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Defensive/DamageResistanceStacksOverTime
 - **Arcane Double Back** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Effect ID: Defensive/DamageResistanceStacksOverTime
-- **Arcane Energize** — Type: primed arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 132p | Buy: 2p | Effect ID: Utility/GolemArcaneRadialEnergyOnEnergyPickup
+- **Arcane Energize** — Type: primed arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 132p | Buy: 18p | Effect ID: Utility/GolemArcaneRadialEnergyOnEnergyPickup
 - **Arcane Eruption** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 24p | Effect ID: Utility/RadialKnockdownOnEnergyPickup
 - **Arcane Expertise** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Defensive/ShieldMaxForAbilityStrength
 - **Arcane Fury** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 131p | Buy: 3p | Effect ID: Offensive/GolemArcaneMeleeDamageOnCrit
 - **Arcane Grace** — Type: primed arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 99p | Effect ID: Defensive/HealthRegenOnDamage
-- **Arcane Guardian** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 48p | Effect ID: Defensive/ArmourOnDamage
+- **Arcane Guardian** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 49p | Effect ID: Defensive/ArmourOnDamage
 - **Arcane Healing** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 21p | Effect ID: Defensive/RadiationProcResist
 - **Arcane Hot Shot** — Type: primed arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 15p | Buy: 11p | Effect ID: Offensive/AbilityHeatProcsGiveCritChance
 - **Arcane Ice** — Type: bronze arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 21p | Effect ID: Defensive/FireProcResist
@@ -71,7 +71,7 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Arcane Tanker** — Type: gold arcane | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Offensive/ArmorOnHeavyGunEquipped
 - **Arcane Tempo** — Type: bronze arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 67p | Buy: 3p | Effect ID: Offensive/GolemArcaneShotgunSpeedOnCrit
 - **Arcane Trickery** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 21p | Effect ID: Offensive/InvisibilityOnFinisher
-- **Arcane Truculence** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 19p | Effect ID: Defensive/RadialViralAttackOnOverguardGain
+- **Arcane Truculence** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 20p | Effect ID: Defensive/RadialViralAttackOnOverguardGain
 - **Arcane Ultimatum** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 19p | Effect ID: Offensive/GolemArcaneArmorOnFinisher
 - **Arcane Universal Fallout** — Type: primed arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 5p | Effect ID: Utility/AbilityRadiationProcsCreateUniversalOrbsOnKill
 - **Arcane Velocity** — Type: silver arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 181p | Buy: 5p | Effect ID: Offensive/GolemArcanePistolSpeedOnCrit
@@ -103,13 +103,13 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Exodia Brave** — Type: gold arcane | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Offensive/ChannelKillEnergyRate
 - **Exodia Brave** — Type: gold arcane | Rank: 1/3 (Unmaxed) | Owned: 1 | Effect ID: Offensive/ChannelKillEnergyRate
 - **Exodia Epidemic** — Type: primed arcane | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Offensive/MeleeArcaneShockwaveOnJump
-- **Exodia Force** — Type: gold arcane | Rank: 2/3 (Unmaxed) | Owned: 1 | Effect ID: Offensive/StatusTriggerRadialDamage
+- **Exodia Force** — Type: gold arcane | Rank: 2/3 (Unmaxed) | Owned: 1 | Buy: 6p | Effect ID: Offensive/StatusTriggerRadialDamage
 - **Exodia Hunt** — Type: gold arcane | Rank: 2/3 (Unmaxed) | Owned: 1 | Effect ID: Offensive/GroundSlamPull
 - **Exodia Might** — Type: gold arcane | Rank: 2/3 (Unmaxed) | Owned: 1 | Effect ID: Offensive/FinisherLifesteal
 - **Exodia Triumph** — Type: silver arcane | Rank: 0/3 (Unmaxed) | Owned: 2 | Effect ID: Offensive/StatusChannelingDamage
 - **Exodia Valor** — Type: silver arcane | Rank: 1/3 (Unmaxed) | Owned: 1 | Effect ID: Offensive/CritChannelingDamage
-- **Fractalized Reset** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 1p | Effect ID: Zariman/PrimaryOnAbilityReloadSpeed
-- **Fractalized Reset** — Type: gold arcane | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 1p | Effect ID: Zariman/PrimaryOnAbilityReloadSpeed
+- **Fractalized Reset** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 2p | Effect ID: Zariman/PrimaryOnAbilityReloadSpeed
+- **Fractalized Reset** — Type: gold arcane | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Zariman/PrimaryOnAbilityReloadSpeed
 - **Longbow Sharpshot** — Type: primed arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 10p | Buy: 8p | Effect ID: Offensive/LongbowDamageOnHeadshot
 - **Longbow Sharpshot** — Type: primed arcane | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 10p | Buy: 8p | Effect ID: Offensive/LongbowDamageOnHeadshot
 - **Magus Accelerant** — Type: bronze arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Effect ID: OperatorArmour/HeatResistOnBlast
@@ -118,8 +118,8 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Magus Anomaly** — Type: bronze arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 6p | Effect ID: OperatorArmour/PullOnTransferenceIn
 - **Magus Cadence** — Type: silver arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: OperatorArmour/SpeedOnVoidDash
 - **Magus Cadence** — Type: silver arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: OperatorArmour/SpeedOnVoidDash
-- **Magus Cloud** — Type: silver arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: OperatorArmour/ImmunityFallDamageOnVoidDash
-- **Magus Cloud** — Type: silver arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: OperatorArmour/ImmunityFallDamageOnVoidDash
+- **Magus Cloud** — Type: silver arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Buy: 6p | Effect ID: OperatorArmour/ImmunityFallDamageOnVoidDash
+- **Magus Cloud** — Type: silver arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 4p | Buy: 6p | Effect ID: OperatorArmour/ImmunityFallDamageOnVoidDash
 - **Magus Destruct** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: OperatorArmour/ProcResistOnBlast
 - **Magus Elevate** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: OperatorArmour/HealOnTransferenceIn
 - **Magus Elevate** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: OperatorArmour/HealOnTransferenceIn
@@ -153,10 +153,10 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Melee Duplicate** — Type: primed arcane | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 7p | Buy: 4p | Effect ID: Offensive/ReplayLightCritHits
 - **Melee Exposure** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 46p | Effect ID: Offensive/CorrosiveMeleePerAbilityCast
 - **Melee Fortification** — Type: bronze arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 13p | Effect ID: Offensive/ArmorOnMeleeKill
-- **Melee Influence** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 31p | Effect ID: Offensive/MeleeProcsSpread
+- **Melee Influence** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 41p | Effect ID: Offensive/MeleeProcsSpread
 - **Melee Retaliation** — Type: bronze arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 15p | Effect ID: Offensive/MeleeDamageForActiveShields
 - **Melee Vortex** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 19p | Effect ID: Offensive/PullEnemiesOnMeleeKill
-- **Molt Augmented** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 2p | Buy: 2p | Effect ID: Offensive/PowerStrengthOnKill
+- **Molt Augmented** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 3p | Buy: 1p | Effect ID: Offensive/PowerStrengthOnKill
 - **Molt Efficiency** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Zariman/WarframeOnShieldUptimePowerDuration
 - **Molt Efficiency** — Type: gold arcane | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Zariman/WarframeOnShieldUptimePowerDuration
 - **Molt Reconstruct** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 2p | Effect ID: Utility/HealAlliesOnEnergySpent
@@ -172,20 +172,21 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Primary Blight** — Type: gold arcane | Rank: 4/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Offensive/PrimaryHeadshotCritMultOnHeadshot
 - **Primary Bulwark** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Offensive/DamageForBonusArmour
 - **Primary Compression** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 11p | Buy: 42p | Effect ID: Utility/ConvergeRadialAttackOnAim
-- **Primary Crux** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 26p | Effect ID: Offensive/StatusAndAmmoEfficiencyOnWeakpointHit
+- **Primary Crux** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 27p | Effect ID: Offensive/StatusAndAmmoEfficiencyOnWeakpointHit
 - **Primary Deadhead** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 14p | Effect ID: Offensive/PrimaryDamageOnNoMelee
 - **Primary Debilitate** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 3p | Effect ID: Offensive/SplitStatusProcsOnStackedStatusHit
 
-## inventoryArcanes: Entries 161 to 200 (Primary Dexterity — Virtuos Ghost)
+## inventoryArcanes: Entries 161 to 200 (Primary Dexterity — Virtuos Forge)
 
-- **Primary Dexterity** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 1p | Effect ID: Offensive/PrimaryDamageOnMeleeKill
+- **Primary Dexterity** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 1p | Effect ID: Offensive/PrimaryDamageOnMeleeKill
 - **Primary Dexterity** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 6p | Effect ID: Offensive/PrimaryDamageOnMeleeKill
 - **Primary Exhilarate** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 4p | Effect ID: Offensive/PrimaryEnergyRegenOnImpactProc
 - **Primary Exhilarate** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Offensive/PrimaryEnergyRegenOnImpactProc
 - **Primary Frostbite** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 2p | Effect ID: Offensive/PrimaryCritDmgAndMultishotOnColdProc
 - **Primary Frostbite** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Offensive/PrimaryCritDmgAndMultishotOnColdProc
+- **Primary Merciless** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Offensive/PrimaryDamageOnKill
 - **Primary Merciless** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 13p | Effect ID: Offensive/PrimaryDamageOnKill
-- **Primary Obstruct** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 3p | Buy: 1p | Effect ID: Offensive/PrimaryJamEnemyWeaponsOnMagneticProc
+- **Primary Obstruct** — Type: gold arcane | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Offensive/PrimaryJamEnemyWeaponsOnMagneticProc
 - **Primary Overcharge** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 3p | Effect ID: Offensive/MultishotForMaxEnergy
 - **Primary Plated Round** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Offensive/PrimaryDamagePerAmmoOnReload
 - **Primary Plated Round** — Type: gold arcane | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Offensive/PrimaryDamagePerAmmoOnReload
@@ -202,6 +203,7 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Secondary Fortifier** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 37p | Effect ID: Offensive/OverguardSteal
 - **Secondary Irradiate** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 3p | Effect ID: Offensive/RadialDamageOnMaxRadiationStackHit
 - **Secondary Kinship** — Type: gold arcane | Rank: 3/5 (Unmaxed) | Owned: 1 | Effect ID: Offensive/SecondaryCritChancePerBuff
+- **Secondary Merciless** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 1p | Effect ID: Offensive/SecondaryDamageOnKill
 - **Secondary Merciless** — Type: gold arcane | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 7p | Effect ID: Offensive/SecondaryDamageOnKill
 - **Secondary Outburst** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Offensive/MultishotForCombo
 - **Secondary Outburst** — Type: gold arcane | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Offensive/MultishotForCombo
@@ -216,16 +218,16 @@ Total entries in `inventoryArcanes.json`: **207**.
 - **Theorem Infection** — Type: gold arcane | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 8p | Buy: 3p | Effect ID: Offensive/CompanionDamageOnResidualContact
 - **Theorem Infection** — Type: gold arcane | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 8p | Buy: 3p | Effect ID: Offensive/CompanionDamageOnResidualContact
 - **Virtuos Forge** — Type: silver arcane | Rank: 0/3 (Unmaxed) | Owned: 2 | Effect ID: OperatorAmps/VoidToHeatDamage
+
+## inventoryArcanes: Entries 201 to 209 (Virtuos Fury — Virtuos Trojan)
+
 - **Virtuos Fury** — Type: silver arcane | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 30p | Effect ID: OperatorAmps/IncreasedDamageOnStatusProc
 - **Virtuos Ghost** — Type: gold arcane | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 29p | Effect ID: OperatorAmps/StatusChanceOnHeadshot
-
-## inventoryArcanes: Entries 201 to 207 (Virtuos Null — Virtuos Trojan)
-
 - **Virtuos Null** — Type: bronze arcane | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 15p | Effect ID: OperatorAmps/OperatorAmmoRegenOnKill
 - **Virtuos Shadow** — Type: gold arcane | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 25p | Effect ID: OperatorAmps/CriticalChanceOnHeadshot
 - **Virtuos Spike** — Type: bronze arcane | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: OperatorAmps/VoidToPunctureDamage
 - **Virtuos Strike** — Type: silver arcane | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 26p | Effect ID: OperatorAmps/IncreasedCriticalDamageOnCriticalStrike
 - **Virtuos Surge** — Type: bronze arcane | Rank: 1/3 (Unmaxed) | Owned: 1 | Effect ID: OperatorAmps/VoidToElectricDamage
 - **Virtuos Tempo** — Type: bronze arcane | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 27p | Effect ID: OperatorAmps/AttackSpeedOnKill
-- **Virtuos Trojan** — Type: silver arcane | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 7p | Effect ID: OperatorAmps/VoidToViralDamage
+- **Virtuos Trojan** — Type: silver arcane | Rank: 0/3 (Unmaxed) | Owned: 2 | Effect ID: OperatorAmps/VoidToViralDamage
 

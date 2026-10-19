@@ -1,6 +1,6 @@
 # inventoryMods
 
-Searchable Warframe inventory data exported from `inventoryMods.json` (Updated: 2026-10-19 05:40:51 UTC).
+Searchable Warframe inventory data exported from `inventoryMods.json` (Updated: 2026-10-19 05:49:00 UTC).
 
 Total entries in `inventoryMods.json`: **1553**.
 
@@ -14,7 +14,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Accelerated Deflection** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Dethcube | Sell: 9p | Effect ID: Sentinel/SentinelShieldRechargeRateMod
 - **Accelerated Isotope** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 25 | Sell: 3p | Effect ID: DualStat/RadiationFireratePistolMod
 - **Accelerated Isotope** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Akmagnus Prime, Aksomati Prime, Catabolyst, Dual Toxocyst, Epitaph and 6 other item(s) | Sell: 5p | Effect ID: DualStat/RadiationFireratePistolMod
-- **Accumulating Whipclaw** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Khora/KhoraCrackAugmentCard
+- **Accumulating Whipclaw** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Khora/KhoraCrackAugmentCard
 - **Acid Shells** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 20p | Buy: 10p | Effect ID: ProjectNightwatch/SobekNightwatchMod
 - **Acidic Spittle** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Vizier Predasite | Effect ID: CreaturePrecepts/InfestedPredatorSpitAcidPrecept
 - **Adaptation** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 3 | Sell: 6p | Effect ID: Warframe/AvatarResistanceOnDamageMod
@@ -64,7 +64,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Animal Instinct** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Sell: 4p | Effect ID: Sentinel/SentinelLootRadarEnemyRadarMod
 - **Animal Instinct** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Carrier, Helminth Charger, Medjay Predasite, Nautilus Prime, Oxylus and 6 other item(s) | Sell: 9p | Effect ID: Sentinel/SentinelLootRadarEnemyRadarMod
 - **Animal Instinct** — Type: gold mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Panzer Vulpaphyla | Sell: 4p | Effect ID: Sentinel/SentinelLootRadarEnemyRadarMod
-- **Anti-Grav Grenade** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 69p | Effect ID: MoaPetPrecept/MoaLiftBombPrecept
+- **Anti-Grav Grenade** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Effect ID: MoaPetPrecept/MoaLiftBombPrecept
 - **Anti-V** — Type: requiem mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 5p | Effect ID: Immortal/AntivirusSevenMod
 - **Antimatter Absorb** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 11p | Effect ID: AntiMatter/AntiMatterDropAugmentCard
 - **Antitoxin** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 9 | Effect ID: Warframe/AvatarDamageResistancePoison
@@ -72,7 +72,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Archgun Ace** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Rifle/ArchwingHeadshotKillAmmoEfficiencyMod
 - **Archon Continuity** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 27p | Effect ID: Kahl/KahlAvatarAbilityDurationMod
 - **Archon Flow** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 27p | Buy: 6p | Effect ID: Kahl/KahlAvatarPowerMaxMod
-- **Archon Intensify** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Wisp Prime | Sell: 97p | Buy: 6p | Effect ID: Kahl/KahlAvatarAbilityStrengthMod
+- **Archon Intensify** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Wisp Prime | Sell: 99p | Buy: 20p | Effect ID: Kahl/KahlAvatarAbilityStrengthMod
 - **Argon Plating** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Effect ID: Suit/ArchwingSuitArmourMod
 - **Argon Plating** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Amesha, Itzal, Odonata, Odonata Prime | Effect ID: Suit/ArchwingSuitArmourMod
 - **Argon Plating** — Type: bronze mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Effect ID: Suit/ArchwingSuitArmourMod
@@ -83,8 +83,8 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Arrow Mutation** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Effect ID: Rifle/WeaponBowConvertAmmoMod
 - **Arrow Mutation** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Bramma | Sell: 20p | Effect ID: Rifle/WeaponBowConvertAmmoMod
 - **Artillery Cheap Shot** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Gunnery/ZektiFreeSuperWeaponAmmo
-- **Assault Mode** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 54 | Sell: 2p | Effect ID: SentinelPrecepts/SentinelAttack
-- **Assault Mode** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Carrier, Dethcube Prime, Helios, Nautilus, Oxylus and 4 other item(s) | Sell: 8p | Effect ID: SentinelPrecepts/SentinelAttack
+- **Assault Mode** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 54 | Sell: 3p | Effect ID: SentinelPrecepts/SentinelAttack
+- **Assault Mode** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Carrier, Dethcube Prime, Helios, Nautilus, Oxylus and 4 other item(s) | Sell: 15p | Effect ID: SentinelPrecepts/SentinelAttack
 - **Assimilate** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Jade/SelfBulletAttractorAugmentCard
 - **Astral Twilight** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 8 | Sell: 8p | Buy: 5p | Effect ID: MeleeTrees/GlaiveCmbTwoMeleeTree
 - **Astral Twilight** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Falcor, Glaive Prime, Halikar Wraith, Pathocyst | Sell: 14p | Buy: 5p | Effect ID: MeleeTrees/GlaiveCmbTwoMeleeTree
@@ -104,14 +104,14 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Augur Pact** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Aegrit, Afuris Prime, Aklex Prime, Aksomati Prime, Akvasto Prime and 26 other item(s) | Sell: 9p | Effect ID: Augur/SecondaryAugurPactMod
 - **Augur Pact** — Type: bronze mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Epitaph | Sell: 4p | Effect ID: Augur/SecondaryAugurPactMod
 - **Augur Secrets** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Banshee Prime, Baruuk Prime, Cyte-09, Dante, Ember Prime and 21 other item(s) | Sell: 25p | Buy: 14p | Effect ID: Augur/WarframeAugurSecretsMod
-- **Augur Seeker** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Augur/SecondaryAugurSeekerMod
-- **Auto Breach** — Type: requiem mod | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Buy: 6p | Effect ID: Cipher/AutoHackMod
+- **Augur Seeker** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 10p | Buy: 6p | Effect ID: Augur/SecondaryAugurSeekerMod
+- **Auto Breach** — Type: requiem mod | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Effect ID: Cipher/AutoHackMod
 - **Auto Omni** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Effect ID: SentinelPrecepts/RepairShip
 - **Automatic Trigger** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 6p | Effect ID: Rifle/ArchwingRifleFireRateMod
 - **Automatic Trigger** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Corvas, Corvas Prime, Grattler, Kuva Ayanga, Morgha | Sell: 13p | Effect ID: Rifle/ArchwingRifleFireRateMod
 - **Auxiliary Power** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 7 | Sell: 6p | Effect ID: Suit/ArchwingSuitPowerMaxMod
 - **Auxiliary Power** — Type: silver mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Amesha, Itzal, Odonata, Odonata Prime | Sell: 6p | Effect ID: Suit/ArchwingSuitPowerMaxMod
-- **Avenging Truth** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Syndicate/SilvaAegisMod
+- **Avenging Truth** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Syndicate/SilvaAegisMod
 - **Aviator** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 8 | Sell: 4p | Effect ID: Warframe/AvatarDamageReductionInAir
 - **Axios Javelineers** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Hoplite/HopliteImpaleAugmentCard
 - **Balanced Posture** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 9 other item(s) | Sell: 12p | Effect ID: Stances/BeastNeutralStance
@@ -169,12 +169,12 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Boreal's Anguish** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Sell: 4p | Effect ID: Boreal/BorealExilusMod
 - **Boreal's Anguish** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Kullervo | Sell: 10p | Effect ID: Boreal/BorealExilusMod
 - **Boreal's Contempt** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 5p | Effect ID: Boreal/BorealMeleeMod
-- **Boreal's Hatred** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 6p | Effect ID: Boreal/BorealWarframeMod
+- **Boreal's Hatred** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 7p | Effect ID: Boreal/BorealWarframeMod
 - **Boreal's Hatred** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Caliban Prime, Follie, Harrow Prime, Mesa Prime and 8 other item(s) | Sell: 15p | Effect ID: Boreal/BorealWarframeMod
 - **Brain Storm** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Rifle/GrakataUnlimitedAmmo
 - **Breach Loader** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 7p | Effect ID: Shotgun/WeaponEventPunctureDamageMod
-- **Breach Quanta** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 14 | Sell: 3p | Effect ID: Tactical/BreachRepair
-- **Brief Respite** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Dagath, Protea Prime, Vauban Prime | Sell: 18p | Effect ID: FairyQuest/FairyQuestAbilityToShieldsAuraMod
+- **Breach Quanta** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 14 | Effect ID: Tactical/BreachRepair
+- **Brief Respite** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Dagath, Protea Prime, Vauban Prime | Sell: 18p | Buy: 3p | Effect ID: FairyQuest/FairyQuestAbilityToShieldsAuraMod
 
 ## inventoryMods: Entries 161 to 200 (Bright Purity — Charged Shell)
 
@@ -214,7 +214,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Champion's Blessing** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 15p | Effect ID: Trinity/BlessingAugmentCard
 - **Chaos Sphere** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Jade/ChaosAugmentCard
 - **Charged Bullets** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Fluctus, Grattler, Kuva Ayanga, Kuva Grattler, Mausolon | Sell: 14p | Buy: 3p | Effect ID: Rifle/ArchwingEventElectricStatusRifleMod
-- **Charged Chamber** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 13 | Sell: 4p | Buy: 1p | Effect ID: Rifle/SniperReloadDamageMod
+- **Charged Chamber** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 13 | Effect ID: Rifle/SniperReloadDamageMod
 - **Charged Shell** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 9 | Sell: 3p | Effect ID: Shotgun/WeaponElectricityDamageMod
 - **Charged Shell** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Boar Prime | Sell: 11p | Effect ID: Shotgun/WeaponElectricityDamageMod
 - **Charged Shell** — Type: silver mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Shotgun/WeaponElectricityDamageMod
@@ -224,8 +224,8 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Charm** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: CatbrowPetPrecepts/CatbrowLuckPrecept
 - **Charm** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Smeeta Kavat | Sell: 3p | Effect ID: CatbrowPetPrecepts/CatbrowLuckPrecept
 - **Chilling Globe** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Frost Prime | Sell: 13p | Effect ID: Frost/IceShieldAugmentCard
-- **Chilling Grasp** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 3p | Buy: 1p | Effect ID: Shotgun/WeaponFreezeDamageMod
-- **Chilling Grasp** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 3p | Buy: 1p | Effect ID: Shotgun/WeaponFreezeDamageMod
+- **Chilling Grasp** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: Shotgun/WeaponFreezeDamageMod
+- **Chilling Grasp** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Shotgun/WeaponFreezeDamageMod
 - **Chilling Reload** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Sell: 3p | Effect ID: DualStat/ColdDmgReloadSpeedMod
 - **Chilling Reload** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Bubonico, Cedo, Coda Bassocyst, Corinth Prime, Kuva Drakgoon and 4 other item(s) | Sell: 5p | Effect ID: DualStat/ColdDmgReloadSpeedMod
 - **Chilling Reload** — Type: gold mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: DualStat/ColdDmgReloadSpeedMod
@@ -239,14 +239,14 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Cleaving Whirlwind** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Galatine Prime, Paracesis, Vitrica, War | Sell: 7p | Effect ID: MeleeTrees/AxeCmbTwoMeleeTree
 - **Clip Delegation** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 32p | Buy: 15p | Effect ID: Nightwave/SobekNightwaveMod
 - **Coaction Drift** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Inaros Prime, Limbo Prime, Sevagoth and 1 other item(s) | Sell: 19p | Buy: 1p | Effect ID: OrokinChallenge/OrokinChallengeModCollaboration
-- **Coil Recharge** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Buy: 3p | Effect ID: Gyre/GyreSphereAugmentCard
+- **Coil Recharge** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Gyre/GyreSphereAugmentCard
 - **Coiling Viper** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 17 | Sell: 2p | Effect ID: MeleeTrees/WhipCmbTwoMeleeTree
 - **Cold Snap** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: StealthJetPack/GravInstabilityAugmentCard
-- **Collision Force** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bo Prime, Sancti Magistar and 1 other item(s) | Sell: 14p | Effect ID: Melee/WeaponEventMeleeImpactDamageMod
+- **Collision Force** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bo Prime, Sancti Magistar and 1 other item(s) | Sell: 20p | Effect ID: Melee/WeaponEventMeleeImpactDamageMod
 - **Combat Discipline** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Aura/WarframeAuraBloodLetterMod
 - **Combat Reload** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 18p | Buy: 6p | Effect ID: Nightwave/NightwaveTigrisAugmentMod
 - **Combo Fury** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Melee/WeaponGlaiveOnKillBuffSecondary
-- **Combo Killer** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Melee/WeaponGlaiveSecondaryHeadshotKillMod
+- **Combo Killer** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Buy: 15p | Effect ID: Melee/WeaponGlaiveSecondaryHeadshotKillMod
 - **Combustion Beam** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 12 | Sell: 1p | Effect ID: Rifle/WeaponBeamExplodeOnDeath
 - **Combustion Beam** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Amprex, Ignis Wraith | Sell: 5p | Effect ID: Rifle/WeaponBeamExplodeOnDeath
 - **Combustion Beam** — Type: gold mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 1p | Effect ID: Rifle/WeaponBeamExplodeOnDeath
@@ -256,7 +256,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Computer Cop** — Type: requiem mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 5p | Effect ID: Immortal/AntivirusEightMod
 - **Concealed Explosives** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 7 | Sell: 1p | Effect ID: Pistol/ThrowingExplosionChanceMod
 - **Concentrated Arrow** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 15p | Effect ID: Ranger/RangerBowAugmentCard
-- **Concussion Rounds** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 17 | Effect ID: Pistol/WeaponImpactDamageMod
+- **Concussion Rounds** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 18 | Effect ID: Pistol/WeaponImpactDamageMod
 - **Concussion Rounds** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akbolto Prime, Euphona Prime and 1 other item(s) | Sell: 42p | Effect ID: Pistol/WeaponImpactDamageMod
 - **Condition Overload** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 7p | Effect ID: Melee/WeaponDamageIfVictimProcActive
 - **Condition Overload** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ceti Lacera, Cobra & Crane Prime, Dual Ichor, Guandao Prime, Ninkondi Prime and 7 other item(s) | Sell: 14p | Effect ID: Melee/WeaponDamageIfVictimProcActive
@@ -268,9 +268,9 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Conductive Blade** — Type: silver mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Veritux and 1 other item(s) | Effect ID: Melee/ArchwingWeaponElectricityDamageMod
 - **Conductive Sphere** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Gyre/GyrePulseAugmentCard
 - **Conductor** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Bard/BardCharmAugmentCard
-- **Conic Nozzle** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 5p | Effect ID: Piloting/ZektiSpeed
+- **Conic Nozzle** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Effect ID: Piloting/ZektiSpeed
 - **Conic Nozzle** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 16p | Effect ID: Piloting/ZektiSpeed
-- **Constitution** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Atlas Prime, Harrow Prime, Lavos, Limbo Prime, Loki Prime and 5 other item(s) | Sell: 16p | Effect ID: DualStat/ConstitutionMod
+- **Constitution** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Atlas Prime, Harrow Prime, Lavos, Limbo Prime, Loki Prime and 5 other item(s) | Sell: 14p | Effect ID: DualStat/ConstitutionMod
 - **Contagion Cloud** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Saryn/WeaponPoisonAugmentCard
 - **Contagious Spread** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 7 | Sell: 4p | Effect ID: Shotgun/WeaponToxinDamageMod
 - **Contagious Spread** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Kuva Hek, Sobek and 1 other item(s) | Sell: 13p | Effect ID: Shotgun/WeaponToxinDamageMod
@@ -283,13 +283,13 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Continuity** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Warframe/AvatarAbilityDurationMod
 - **Continuity** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Equinox Prime, Garuda Prime, Hydroid Prime, Ivara Prime, Koumei and 4 other item(s) | Sell: 8p | Effect ID: Warframe/AvatarAbilityDurationMod
 - **Continuity** — Type: gold mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Warframe/AvatarAbilityDurationMod
-- **Continuous Misery** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 19 | Sell: 2p | Effect ID: Rifle/WeaponProcTimeMod
-- **Continuous Misery** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Ogris | Sell: 9p | Effect ID: Rifle/WeaponProcTimeMod
+- **Continuous Misery** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 19 | Effect ID: Rifle/WeaponProcTimeMod
+- **Continuous Misery** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Ogris | Sell: 8p | Effect ID: Rifle/WeaponProcTimeMod
 - **Controlled Slide** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Nezha Prime | Sell: 15p | Effect ID: Nezha/NezhaDisablePassiveMod
-- **Convulsion** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 18 | Sell: 3p | Effect ID: Pistol/WeaponElectricityDamageMod
+- **Convulsion** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 20 | Sell: 3p | Effect ID: Pistol/WeaponElectricityDamageMod
 - **Convulsion** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akbolto Prime, Akstiletto Prime, Azima, Dex Furis, Epitaph Prime and 7 other item(s) | Sell: 7p | Effect ID: Pistol/WeaponElectricityDamageMod
 - **Convulsion** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Pistol/WeaponElectricityDamageMod
-- **Cordon** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 18p | Buy: 5p | Effect ID: SentinelPrecepts/GatherEnemies
+- **Cordon** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 18p | Effect ID: SentinelPrecepts/GatherEnemies
 - **Corrosive Projection** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk, Baruuk Prime, Citrine, Hildryn Prime, Hydroid Prime and 7 other item(s) | Sell: 17p | Buy: 5p | Effect ID: Aura/EnemyArmorReductionAuraMod
 - **Corrupt Charge** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 7p | Effect ID: DualStat/CorruptedHeavyDamageChargeSpeedMod
 - **Corrupt Charge** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 11p | Effect ID: DualStat/CorruptedHeavyDamageChargeSpeedMod
@@ -310,7 +310,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Crimson Fugue** — Type: gold mod | Rank: 7/10 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Gunnery/LavanDamageOnKill
 - **Critical Deceleration** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: DualStat/CorruptedCritChanceFireRateShotgun
 - **Critical Deceleration** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Coda Bassocyst, Corinth Prime, Felarx, Kuva Hek and 6 other item(s) | Sell: 15p | Effect ID: DualStat/CorruptedCritChanceFireRateShotgun
-- **Critical Delay** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Acceltra Prime, Aeolak, Amprex, Boltor Prime, Fulmin Prime and 21 other item(s) | Sell: 28p | Buy: 5p | Effect ID: DualStat/CorruptedCritRateFireRateRifle
+- **Critical Delay** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Acceltra Prime, Aeolak, Amprex, Boltor Prime, Fulmin Prime and 21 other item(s) | Sell: 24p | Buy: 12p | Effect ID: DualStat/CorruptedCritRateFireRateRifle
 - **Critical Focus** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Grattler | Sell: 21p | Buy: 7p | Effect ID: Rifle/ArchwingRifleCritChanceDamageAimingMod
 - **Critical Meltdown** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 20 | Sell: 2p | Effect ID: Melee/ArchwingEventRadiationCritChanceMeleeMod
 - **Critical Mutation** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 12p | Buy: 3p | Effect ID: Nightwave/NightwaveCatabolystAugmentMod
@@ -323,7 +323,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Crushing Ruin** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 6p | Effect ID: MeleeTrees/HammerCmbTwoMeleeTree
 - **Crushing Ruin** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Coda Motovore, Ekhein, Fragor Prime, Heliocor, Kuva Shildeg and 5 other item(s) | Sell: 12p | Effect ID: MeleeTrees/HammerCmbTwoMeleeTree
 - **Cryo Coating** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Melee/ArchwingEventColdStatusMeleeMod
-- **Cryo Rounds** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 3p | Effect ID: Rifle/WeaponFreezeDamageMod
+- **Cryo Rounds** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 2p | Effect ID: Rifle/WeaponFreezeDamageMod
 - **Cryo Rounds** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Boltor Prime, Braton Prime, Deth Machine Rifle Prime, Dex Sybaris, Perigale | Sell: 12p | Effect ID: Rifle/WeaponFreezeDamageMod
 - **Cunning Drift** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 11p | Buy: 2p | Effect ID: OrokinChallenge/OrokinChallengeModCunning
 - **Cunning Drift** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ash Prime, Atlas Prime, Banshee Prime, Baruuk Prime, Chroma Prime and 34 other item(s) | Sell: 21p | Buy: 2p | Effect ID: OrokinChallenge/OrokinChallengeModCunning
@@ -331,18 +331,18 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Cutting Edge** — Type: silver mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Knux and 1 other item(s) | Sell: 60p | Effect ID: Melee/ArchwingMeleeDamageMod
 - **Damage Decoy** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Loki/DecoyAugmentTwoCard
 - **Damzav-Vati** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akbronco Prime | Sell: 15p | Buy: 2p | Effect ID: Event/AkbroncoViralDamageMod
-- **Dark Propagation** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Wraith/WraithSowAugmentCard
+- **Dark Propagation** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Wraith/WraithSowAugmentCard
 - **Dead Eye** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Aura/PlayerSniperDamageAuraMod
 - **Deadly Maneuvers** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Nightwave/MagnusNightwaveMod
-- **Deadly Sequence** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Buy: 1p | Effect ID: Syndicate/GrinlokMod
-- **Death Blossom** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 15p | Effect ID: Tactical/CrewShipDeathBlossomAbilityCard
+- **Deadly Sequence** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Syndicate/GrinlokMod
+- **Death Blossom** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 15p | Buy: 6p | Effect ID: Tactical/CrewShipDeathBlossomAbilityCard
 - **Deceptive Bond** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Loki/DecoyPvPAugmentCard
 - **Decisive Judgement** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: MeleeTrees/KatanaCmbTwoMeleeTree
 - **Decisive Judgement** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Dex Nikana, Skiajati, Syam and 1 other item(s) | Sell: 7p | Effect ID: MeleeTrees/KatanaCmbTwoMeleeTree
 - **Deep Freeze** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Pistol/WeaponFreezeDamageMod
 - **Deep Freeze** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Kompressa and 2 other item(s) | Sell: 13p | Effect ID: Pistol/WeaponFreezeDamageMod
 - **Defiled Snapdragon** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: MeleeTrees/SwordWhipCmbOneMeleeTree
-- **Defiled Snapdragon** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Ceti Lacera, Dorrclave, Jat Kusar | Sell: 10p | Effect ID: MeleeTrees/SwordWhipCmbOneMeleeTree
+- **Defiled Snapdragon** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Ceti Lacera, Dorrclave, Jat Kusar | Sell: 7p | Effect ID: MeleeTrees/SwordWhipCmbOneMeleeTree
 - **Desiccation's Curse** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Sandman/SandmanBlastAugmentCard
 - **Despoil** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Nekros Prime | Sell: 10p | Effect ID: Necro/SearchTheDeadAugmentCard
 - **Diamond Skin** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 24 | Effect ID: Warframe/AvatarDamageResistanceLaser
@@ -355,21 +355,21 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Discipline's Merit** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Sell: 75p | Buy: 20p | Effect ID: EmpoweredHeavyMelee/CertainStrike
 - **Dispatch Overdrive** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 52 | Sell: 2p | Effect ID: Melee/MoveSpeedOnChannelKillMod
 - **Dispatch Overdrive** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 10p | Effect ID: Melee/MoveSpeedOnChannelKillMod
-- **Disruptor** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 29 | Sell: 3p | Effect ID: Shotgun/WeaponImpactDamageMod
+- **Disruptor** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 29 | Sell: 5p | Effect ID: Shotgun/WeaponImpactDamageMod
 - **Diversified Denial** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: ZanukaPetPrecepts/ZanukaPetClonePrecept
 - **Divine Retribution** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Nezha/NezhaSpearAugmentTwoCard
-- **Dizzying Rounds** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 15p | Effect ID: Nightwave/BroncoNightwaveMod
+- **Dizzying Rounds** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 15p | Buy: 7p | Effect ID: Nightwave/BroncoNightwaveMod
 - **Double Tap** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 19p | Buy: 6p | Effect ID: Rifle/MoreDamageonTripleTapRifleMod
 - **Double-Barrel Drift** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 14 | Effect ID: Shotgun/MoreAccuracyLessRecoilSlidingShotgunMod
 - **Dread Ward** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Garuda/GarudaShieldAugmentCard
-- **Dreadful Killshot** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 49p | Buy: 30p | Effect ID: Nightwave/NightwaveBasmuAugmentMod
-- **Dreamer's Bond** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Aura/PlayerEnergyHealthRegenAuraMod
+- **Dreadful Killshot** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 48p | Buy: 6p | Effect ID: Nightwave/NightwaveBasmuAugmentMod
+- **Dreamer's Bond** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Aura/PlayerEnergyHealthRegenAuraMod
 - **Dreamer's Wrath** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 37p | Buy: 20p | Effect ID: EmpoweredHeavyMelee/FocusedAttack
 - **Dreamer's Wrath** — Type: gold mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Sell: 37p | Buy: 20p | Effect ID: EmpoweredHeavyMelee/FocusedAttack
 - **Drifting Contact** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: DualStat/ComboTimeStatusChanceMod
 - **Drifting Contact** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Destreza, Dorrclave, Innodem, Praedos, Ruvox and 4 other item(s) | Sell: 7p | Effect ID: DualStat/ComboTimeStatusChanceMod
 - **Drive-Duster** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Effect ID: Immortal/AntivirusFiveMod
-- **Duality** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: YinYang/YinYangSwitchAugmentCard
+- **Duality** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: YinYang/YinYangSwitchAugmentCard
 - **Eagle Eye** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Effect ID: Rifle/WeaponZoomFovMod
 - **Efficient Beams** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 16p | Effect ID: Arbitration/CrpSplitLaserArbitrationMod
 - **Eject Magazine** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 13 | Sell: 4p | Effect ID: Pistol/PassiveReloadMod
@@ -380,30 +380,30 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Elemental Sandstorm** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Sandman/SandmanStormAugmentCard
 - **Eleventh Storm** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: MeleeTrees/SwordShieldCmbOneMeleeTree
 - **Eleventh Storm** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Argo & Vel, Cobra & Crane Prime, Sigma & Octantis, Silva & Aegis Prime, Tak & Lug | Sell: 40p | Effect ID: MeleeTrees/SwordShieldCmbOneMeleeTree
-- **Elusive Retribution** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Buy: 3p | Effect ID: Pacifist/PacifistDodgeAugmentCard
+- **Elusive Retribution** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Pacifist/PacifistDodgeAugmentCard
 - **Embedded Catalyzer** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 9p | Effect ID: Event/StatusProcWhileAimingPistolMod
-- **Emp Aura** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Frost, Frost Prime, Saryn Prime, Trinity Prime, Voruna and 1 other item(s) | Sell: 12p | Buy: 5p | Effect ID: Aura/RobotPoorAimAuraMod
+- **Emp Aura** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Frost, Frost Prime, Saryn Prime, Trinity Prime, Voruna and 1 other item(s) | Effect ID: Aura/RobotPoorAimAuraMod
 - **Empazu-Shol** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 29p | Effect ID: Antiques/UltimateInitialChargeSchools
 - **Empowered Quiver** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Ranger/RangerQuiverAugmentCard
 - **Endless Lullaby** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk | Sell: 20p | Effect ID: Pacifist/PacifistWaveAugmentCard
 - **Endoparasitic Vector** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Pharaoh Predasite | Effect ID: CreaturePrecepts/InfestedPredatorSpitParasitePrecept
 - **Endurance Drift** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Wukong Prime | Sell: 7p | Effect ID: OrokinChallenge/OrokinChallengeModEndurance
 - **Enduring Affliction** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 8 | Effect ID: Channel/ChannelProcTimeExtendOnHitMod
-- **Enduring Bastille** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 15p | Buy: 2p | Effect ID: Trapper/LevTrapAugmentCard
+- **Enduring Bastille** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 15p | Effect ID: Trapper/LevTrapAugmentCard
 
 ## inventoryMods: Entries 361 to 400 (Enduring Strike — Extend)
 
 - **Enduring Strike** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Channel/ChannelStatusMod
-- **Enemy Radar** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 16p | Effect ID: Aura/PlayerEnemyRadarAuraMod
+- **Enemy Radar** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 16p | Buy: 4p | Effect ID: Aura/PlayerEnemyRadarAuraMod
 - **Enemy Sense** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: Warframe/AvatarEnemyRadarMod
 - **Energy Channel** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Effect ID: Melee/WeaponPowerDamageMod
 - **Energy Inversion** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 15 | Sell: 3p | Effect ID: Suit/ArchwingSuitShieldMaxMod
 - **Energy Inversion** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Amesha, Odonata | Sell: 3p | Effect ID: Suit/ArchwingSuitShieldMaxMod
 - **Energy Nexus** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 4p | Effect ID: Warframe/AvatarEnergyRegenMod
-- **Energy Siphon** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Caliban, Caliban Prime, Gauss Prime, Grendel Prime and 20 other item(s) | Sell: 17p | Effect ID: Aura/PlayerEnergyRegenAuraMod
-- **Energy Transfer** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Buy: 3p | Effect ID: YinYang/YinYangBurstAugmentCard
-- **Enhanced Durability** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 7 | Sell: 1p | Effect ID: Suit/ArchwingSuitHealthMaxMod
-- **Enhanced Durability** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Itzal, Odonata, Odonata Prime | Sell: 40p | Effect ID: Suit/ArchwingSuitHealthMaxMod
+- **Energy Siphon** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Caliban, Caliban Prime, Gauss Prime, Grendel Prime and 20 other item(s) | Sell: 17p | Buy: 3p | Effect ID: Aura/PlayerEnergyRegenAuraMod
+- **Energy Transfer** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: YinYang/YinYangBurstAugmentCard
+- **Enhanced Durability** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 7 | Effect ID: Suit/ArchwingSuitHealthMaxMod
+- **Enhanced Durability** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Itzal, Odonata, Odonata Prime | Sell: 10p | Effect ID: Suit/ArchwingSuitHealthMaxMod
 - **Enhanced Vitality** — Type: bronze mod | Rank: 0/10 (Unmaxed) | Owned: 11 | Sell: 4p | Effect ID: Sentinel/SentinelHealthMaxMod
 - **Enhanced Vitality** — Type: bronze mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Carrier Prime, Dethcube Prime, Djinn, Helios Prime, Nautilus and 2 other item(s) | Sell: 4p | Effect ID: Sentinel/SentinelHealthMaxMod
 - **Enhanced Vitality** — Type: bronze mod | Rank: 1/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Taxon | Sell: 4p | Effect ID: Sentinel/SentinelHealthMaxMod
@@ -425,12 +425,12 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Evir-Ti** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 4 | Effect ID: Antiques/JumpHeight
 - **Eximus Advantage** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 16p | Buy: 6p | Effect ID: Nightwave/NightwaveZylokAugmentMod
 - **Exothermic** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Ember/WorldOnFireAugmentCard
-- **Expel Corpus** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 15 | Sell: 8p | Effect ID: Pistol/WeaponPistolFactionDamageCorpus
+- **Expel Corpus** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 15 | Sell: 3p | Effect ID: Pistol/WeaponPistolFactionDamageCorpus
 - **Expel Grineer** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 21 | Effect ID: Pistol/WeaponPistolFactionDamageGrineer
 - **Expel Grineer** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 15p | Effect ID: Pistol/WeaponPistolFactionDamageGrineer
 - **Expel Infested** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 16 | Effect ID: Pistol/WeaponPistolFactionDamageInfested
 - **Expel The Murmur** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 23 | Effect ID: Pistol/WeaponPistolFactionDamageMurmurs
-- **Explosive Legerdemain** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Buy: 2p | Effect ID: Harlequin/ObjectChangeAugmentCard
+- **Explosive Legerdemain** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Buy: 3p | Effect ID: Harlequin/ObjectChangeAugmentCard
 - **Exposing Harpoon** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Arbitration/GrnHarpoonGunArbitrationMod
 - **Extend** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 10 | Effect ID: Melee/ArchwingMeleeRangeIncMod
 
@@ -447,7 +447,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Fast Deflection** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Voruna Prime | Sell: 2p | Effect ID: Warframe/AvatarShieldRechargeRateMod
 - **Fast Hands** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 25 | Effect ID: Rifle/WeaponReloadSpeedMod
 - **Fast Hands** — Type: bronze mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Deth Machine Rifle | Effect ID: Rifle/WeaponReloadSpeedMod
-- **Fast Hands** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Alternox, Karak Wraith, Kuva Chakkhurr, Sybaris Prime, Trumna and 2 other item(s) | Sell: 9p | Effect ID: Rifle/WeaponReloadSpeedMod
+- **Fast Hands** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Alternox, Karak Wraith, Kuva Chakkhurr, Sybaris Prime, Trumna and 2 other item(s) | Effect ID: Rifle/WeaponReloadSpeedMod
 - **Fast Hands** — Type: bronze mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Effect ID: Rifle/WeaponReloadSpeedMod
 - **Fast Hands** — Type: bronze mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Paris Prime | Effect ID: Rifle/WeaponReloadSpeedMod
 - **Fast Hands** — Type: bronze mod | Rank: 1/5 (Unmaxed) | Owned: 2 | Effect ID: Rifle/WeaponReloadSpeedMod
@@ -461,7 +461,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Fetch** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 2p | Effect ID: SentinelPrecepts/BeastUniversalVacuum
 - **Fetch** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Chesa Kubrow, Helminth Charger, Panzer Vulpaphyla, Pharaoh Predasite, Smeeta Kavat and 2 other item(s) | Sell: 9p | Effect ID: SentinelPrecepts/BeastUniversalVacuum
 - **Fever Strike** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 14 | Sell: 3p | Effect ID: Melee/WeaponToxinDamageMod
-- **Fever Strike** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ceti Lacera, Deconstructor Prime, Hirudo, Paracesis, Venka Prime and 3 other item(s) | Sell: 5p | Effect ID: Melee/WeaponToxinDamageMod
+- **Fever Strike** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ceti Lacera, Deconstructor Prime, Hirudo, Paracesis, Venka Prime and 3 other item(s) | Sell: 10p | Effect ID: Melee/WeaponToxinDamageMod
 - **Fever Strike** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Melee/WeaponToxinDamageMod
 - **Finishing Touch** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 92 | Sell: 2p | Effect ID: Melee/WeaponMeleeFinisherDamageMod
 - **Finishing Touch** — Type: silver mod | Rank: 1/3 (Unmaxed) | Owned: 2 | Sell: 2p | Effect ID: Melee/WeaponMeleeFinisherDamageMod
@@ -480,10 +480,10 @@ Total entries in `inventoryMods.json`: **1553**.
 ## inventoryMods: Entries 441 to 480 (Flailing Branch — Furious Javelin)
 
 - **Flailing Branch** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Bo Prime, Cadus, Tipedo Prime | Sell: 8p | Effect ID: MeleeTrees/StaffCmbTwoMeleeTree
-- **Flame Repellent** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 20 | Effect ID: Warframe/AvatarDamageResistanceFire
+- **Flame Repellent** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 22 | Effect ID: Warframe/AvatarDamageResistanceFire
 - **Flechette** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 20 | Effect ID: Shotgun/WeaponArmorPiercingDamageMod
 - **Flechette** — Type: bronze mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Effect ID: Shotgun/WeaponArmorPiercingDamageMod
-- **Fleeting Expertise** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 12p | Effect ID: DualStat/CorruptedEfficiencyDurationWarframe
+- **Fleeting Expertise** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 14p | Effect ID: DualStat/CorruptedEfficiencyDurationWarframe
 - **Flow** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 2p | Effect ID: Warframe/AvatarPowerMaxMod
 - **Flow** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Warframe/AvatarPowerMaxMod
 - **Flow** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Excalibur Umbra, Khora Prime, Sevagoth and 1 other item(s) | Sell: 6p | Effect ID: Warframe/AvatarPowerMaxMod
@@ -506,7 +506,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Fracturing Crush** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Mag/CrushAugmentCard
 - **Fracturing Wind** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 25 | Sell: 2p | Effect ID: MeleeTrees/FistCmbOneMeleeTree
 - **Fracturing Wind** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Ankyros Prime | Sell: 40p | Effect ID: MeleeTrees/FistCmbOneMeleeTree
-- **Frail Momentum** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: DualStat/CorruptedFireRateDamageShotgun
+- **Frail Momentum** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: DualStat/CorruptedFireRateDamageShotgun
 - **Frail Momentum** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bubonico | Sell: 10p | Effect ID: DualStat/CorruptedFireRateDamageShotgun
 - **Freeze Force** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 18p | Buy: 3p | Effect ID: Frost/IcicleAugmentCard
 - **Frigid Blast** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Cedo, Phantasma Prime, Sobek, Tenet Arca Plasmor | Sell: 13p | Effect ID: DualStat/IceEventShotgunMod
@@ -523,44 +523,44 @@ Total entries in `inventoryMods.json`: **1553**.
 ## inventoryMods: Entries 481 to 520 (Furor — Gladiator Rush)
 
 - **Furor** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 6 | Effect ID: Melee/ArchwingMeleeFireRateMod
-- **Furor** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Effect ID: Melee/ArchwingMeleeFireRateMod
+- **Furor** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 20p | Effect ID: Melee/ArchwingMeleeFireRateMod
 - **Fury** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 13 | Effect ID: Melee/WeaponFireRateMod
-- **Fury** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 2 | Compatibility: Equipped in Broken War, Dex Dakra, Dual Kamas Prime, Kogake Prime, Nikana Prime and 4 other item(s) | Sell: 9p | Effect ID: Melee/WeaponFireRateMod
+- **Fury** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 2 | Compatibility: Equipped in Broken War, Dex Dakra, Dual Kamas Prime, Kogake Prime, Nikana Prime and 4 other item(s) | Sell: 25p | Effect ID: Melee/WeaponFireRateMod
 - **Fury** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Effect ID: Melee/WeaponFireRateMod
 - **Fury** — Type: silver mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Rakta Dark Dagger | Effect ID: Melee/WeaponFireRateMod
 - **Fused Crucible** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: ConcreteFrame/ConcreteLaserAugmentCard
-- **Fused Reservoir** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 15p | Buy: 3p | Effect ID: Wisp/WispReservoirAugmentCard
+- **Fused Reservoir** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 14p | Effect ID: Wisp/WispReservoirAugmentCard
 - **Gaia's Tragedy** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 15 | Sell: 1p | Effect ID: MeleeTrees/FistCmbThreeMeleeTree
 - **Gaia's Tragedy** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Furax Wraith, Ruvox, Tekko Prime | Sell: 5p | Effect ID: MeleeTrees/FistCmbThreeMeleeTree
 - **Galeforce Dawn** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 5p | Effect ID: MeleeTrees/HeavyScytheCmbOneMeleeTree
 - **Galeforce Dawn** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Corufell, Hespar, Pride, Thalys | Sell: 10p | Effect ID: MeleeTrees/HeavyScytheCmbOneMeleeTree
 - **Galvanized Acceleration** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 9p | Buy: 6p | Effect ID: Shotgun/WeaponProjectileSpeedSPMod
-- **Galvanized Aptitude** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Boltor Prime, Kuva Ogris | Sell: 62p | Buy: 6p | Effect ID: Rifle/WeaponStatusChanceSPMod
+- **Galvanized Aptitude** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Boltor Prime, Kuva Ogris | Sell: 62p | Effect ID: Rifle/WeaponStatusChanceSPMod
 - **Galvanized Chamber** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Aeolak, Ambassador, Amprex, Basmu, Boltor Prime and 19 other item(s) | Sell: 55p | Buy: 5p | Effect ID: Rifle/WeaponFireIterationsSPMod
 - **Galvanized Crosshairs** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 9p | Buy: 5p | Effect ID: Event/CritChanceWhileAimingPistolSPMod
 - **Galvanized Diffusion** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Nukor and 2 other item(s) | Sell: 64p | Buy: 5p | Effect ID: Pistol/WeaponFireIterationsSPMod
 - **Galvanized Elementalist** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Expert/WeaponMeleeStatusChanceSPMod
 - **Galvanized Hell** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bassocyst, Corinth Prime and 12 other item(s) | Sell: 58p | Buy: 6p | Effect ID: Shotgun/WeaponFireIterationsSPMod
-- **Galvanized Reflex** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 9p | Buy: 5p | Effect ID: Expert/WeaponHeavyAttackEfficiencySPMod
+- **Galvanized Reflex** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Expert/WeaponHeavyAttackEfficiencySPMod
 - **Galvanized Savvy** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Tenet Arca Plasmor | Sell: 59p | Buy: 6p | Effect ID: Shotgun/WeaponStatusChanceSPMod
 - **Galvanized Scope** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Boltor Prime, Ignis Wraith | Sell: 62p | Buy: 6p | Effect ID: Event/CritChanceWhileAimingRifleSPMod
 - **Galvanized Shot** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 9p | Buy: 5p | Effect ID: Pistol/WeaponStatusChanceSPMod
-- **Galvanized Steel** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in 2 other item(s) | Sell: 60p | Effect ID: Expert/WeaponCritChanceSPMod
+- **Galvanized Steel** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in 2 other item(s) | Sell: 63p | Buy: 5p | Effect ID: Expert/WeaponCritChanceSPMod
 - **Gaseous Quake** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Banshee/EarthQuakeAugmentCard
 - **Gastro** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Devourer/DevourerRegurgitateAugmentCard
 - **Gemini Cross** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 31 | Effect ID: MeleeTrees/TonfaCmbOneMeleeTree
 - **Gemini Cross** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Kronen Prime, Praedos | Effect ID: MeleeTrees/TonfaCmbOneMeleeTree
-- **Ghost** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 21 | Effect ID: SentinelPrecepts/Ghost
+- **Ghost** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 24 | Effect ID: SentinelPrecepts/Ghost
 - **Gilded Truth** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Syndicate/BurstonPrimeMod
 - **Glacial Edge** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Melee/ArchwingWeaponFreezeDamageMod
 - **Glacial Edge** — Type: silver mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Veritux and 1 other item(s) | Effect ID: Melee/ArchwingWeaponFreezeDamageMod
 - **Gladiator Aegis** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 4p | Effect ID: Gladiator/WarframeGladiatorAegisMod
 - **Gladiator Aegis** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 10p | Effect ID: Gladiator/WarframeGladiatorAegisMod
 - **Gladiator Finesse** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 3p | Effect ID: Gladiator/WarframeGladiatorFinesseMod
-- **Gladiator Might** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Amanata, Ankyros Prime, Bo Prime, Ceti Lacera, Cobra & Crane Prime and 43 other item(s) | Sell: 21p | Effect ID: Gladiator/MeleeGladiatorMightMod
-- **Gladiator Might** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Hespar, Syam | Sell: 16p | Effect ID: Gladiator/MeleeGladiatorMightMod
+- **Gladiator Might** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Amanata, Ankyros Prime, Bo Prime, Ceti Lacera, Cobra & Crane Prime and 43 other item(s) | Sell: 21p | Buy: 6p | Effect ID: Gladiator/MeleeGladiatorMightMod
+- **Gladiator Might** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Hespar, Syam | Sell: 16p | Buy: 6p | Effect ID: Gladiator/MeleeGladiatorMightMod
 - **Gladiator Resolve** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ember Prime, Harrow Prime, Inaros Prime, Nekros Prime, Saryn Prime and 1 other item(s) | Sell: 11p | Effect ID: Gladiator/WarframeGladiatorResolveMod
-- **Gladiator Resolve** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Banshee Prime | Sell: 6p | Effect ID: Gladiator/WarframeGladiatorResolveMod
+- **Gladiator Resolve** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Banshee Prime | Effect ID: Gladiator/WarframeGladiatorResolveMod
 - **Gladiator Rush** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: Gladiator/MeleeGladiatorRushMod
 
 ## inventoryMods: Entries 521 to 560 (Gladiator Rush — Heated Charge)
@@ -573,7 +573,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Gnashing Payara** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 9p | Effect ID: MeleeTrees/DualDaggerCmbTwoMeleeTree
 - **Gourmand** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Devourer/DevourerDevourAugmentCard
 - **Granum's Nemesis** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 2p | Effect ID: Gunnery/VidarCorpusKiller
-- **Granum's Nemesis** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 30p | Effect ID: Gunnery/VidarCorpusKiller
+- **Granum's Nemesis** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 2p | Effect ID: Gunnery/VidarCorpusKiller
 - **Greedy Pull** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Mag/PullAugmentCard
 - **Grim Fury** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 7 | Sell: 10p | Effect ID: MeleeTrees/PunchKickCmbOneMeleeTree
 - **Grim Fury** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Kogake Prime | Sell: 10p | Effect ID: MeleeTrees/PunchKickCmbOneMeleeTree
@@ -588,11 +588,11 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Gunslinger** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akbolto Prime, Akbronco Prime, Aksomati Prime, Akvasto Prime, Ballistica Prime and 8 other item(s) | Sell: 7p | Effect ID: Pistol/WeaponFireRateMod
 - **Gunslinger** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Aegrit | Sell: 4p | Effect ID: Pistol/WeaponFireRateMod
 - **Gunslinger** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Pistol/WeaponFireRateMod
-- **Hall Of Malevolence** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Buy: 2p | Effect ID: Harlequin/IllusionAugmentCard
+- **Hall Of Malevolence** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Buy: 4p | Effect ID: Harlequin/IllusionAugmentCard
 - **Hallowed Eruption** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Paladin/StairwayToHeavenAugmentCard
 - **Hallowed Reckoning** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Paladin/ReckoningAugmentCard
 - **Handspring** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 8 | Sell: 4p | Effect ID: Warframe/AvatarKnockdownRecoveryMod
-- **Hard Engage** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in 3 other item(s) | Sell: 150p | Effect ID: Moa/MoaMeleeMod
+- **Hard Engage** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in 3 other item(s) | Sell: 80p | Effect ID: Moa/MoaMeleeMod
 - **Harrowing Spire** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: MeleeTrees/BayonetCmbOneMeleeTree
 - **Hastened Deflection** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 7p | Effect ID: Kubrow/KubrowShieldRechargeRateMod
 - **Hata-Satya** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Soma Prime | Sell: 22p | Effect ID: Event/SomaCritChanceOnHitMod
@@ -613,10 +613,10 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Heavy Caliber** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Alternox, Amprex, Glaxion Vandal, Hema, Ignis Wraith and 12 other item(s) | Sell: 65p | Effect ID: DualStat/CorruptedDamageRecoilRifle
 - **Heavy Impact** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 19 | Effect ID: Warframe/AvatarFallingImpactMod
 - **Heavy Impact** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Effect ID: Warframe/AvatarFallingImpactMod
-- **Heavy Trauma** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 8 | Sell: 2p | Effect ID: Melee/WeaponImpactDamageMod
+- **Heavy Trauma** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 8 | Sell: 1p | Effect ID: Melee/WeaponImpactDamageMod
 - **Heavy Trauma** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Broken War, Nikana Prime, Reaper Prime, Sancti Magistar, Tatsu Prime and 2 other item(s) | Sell: 10p | Effect ID: Melee/WeaponImpactDamageMod
-- **Heavy Trauma** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Melee/WeaponImpactDamageMod
-- **Heavy Trauma** — Type: gold mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Melee/WeaponImpactDamageMod
+- **Heavy Trauma** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 1p | Effect ID: Melee/WeaponImpactDamageMod
+- **Heavy Trauma** — Type: gold mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 1p | Effect ID: Melee/WeaponImpactDamageMod
 - **Hell's Chamber** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 2p | Effect ID: Shotgun/WeaponFireIterationsMod
 - **Hell's Chamber** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Boar Prime, Bubonico, Coda Bubonico, Kuva Hek and 8 other item(s) | Sell: 6p | Effect ID: Shotgun/WeaponFireIterationsMod
 - **Hell's Chamber** — Type: gold mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Shotgun/WeaponFireIterationsMod
@@ -629,7 +629,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **High Noon** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Redeemer Prime, Sarpa, Stropha | Sell: 11p | Effect ID: MeleeTrees/GunbladeCmbOneMeleeTree
 - **High Voltage** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 34p | Buy: 25p | Effect ID: DualStat/ElectEventRifleMod
 - **High Voltage** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Acceltra Prime, Alternox, Ambassador, Amprex, Artax and 24 other item(s) | Sell: 38p | Buy: 25p | Effect ID: DualStat/ElectEventRifleMod
-- **Hok-Kaal** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Effect ID: Antiques/DamageWhileInvisible
+- **Hok-Kaal** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Sell: 4p | Effect ID: Antiques/DamageWhileInvisible
 - **Hollow Point** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 9p | Effect ID: DualStat/CorruptedCritDamagePistol
 - **Hollowed Bullets** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Rifle/ArchwingRifleCritDamageMod
 - **Hollowed Bullets** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Corvas Prime, Grattler, Imperator, Kuva Ayanga, Kuva Grattler and 4 other item(s) | Sell: 15p | Effect ID: Rifle/ArchwingRifleCritDamageMod
@@ -662,14 +662,14 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Hydraulic Crosshairs** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 7p | Effect ID: Event/CritChanceWhileAimingPistolMod
 - **Hydraulic Crosshairs** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Aegrit | Sell: 7p | Effect ID: Event/CritChanceWhileAimingPistolMod
 - **Hydraulic Crosshairs** — Type: bronze mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Hystrix | Sell: 7p | Effect ID: Event/CritChanceWhileAimingPistolMod
-- **Hyperion Thrusters** — Type: gold mod | Rank: 6/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Amesha, Itzal, Odonata, Odonata Prime | Sell: 8p | Effect ID: Suit/ArchwingSuitSprintSpeedMod
+- **Hyperion Thrusters** — Type: gold mod | Rank: 6/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Amesha, Itzal, Odonata, Odonata Prime | Sell: 8p | Buy: 1p | Effect ID: Suit/ArchwingSuitSprintSpeedMod
 - **Hyperstrike** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 16 | Sell: 4p | Effect ID: Gunnery/VidarGunnerWeaponDamage
-- **Hyperstrike** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 4p | Effect ID: Gunnery/VidarGunnerWeaponDamage
+- **Hyperstrike** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 20p | Effect ID: Gunnery/VidarGunnerWeaponDamage
 - **Hypothermic Shell** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Buy: 5p | Effect ID: Rifle/ArchwingEventColdStatusRifleMod
 - **Hypothermic Shell** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Ayanga, Kuva Grattler, Mausolon | Sell: 15p | Buy: 5p | Effect ID: Rifle/ArchwingEventColdStatusRifleMod
 - **Hysterical Assault** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 16p | Effect ID: Berserker/LastStandAugmentCard
 - **Iatric Mycelium** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Vizier Predasite | Sell: 150p | Effect ID: CreaturePrecepts/InfestedPredatorHealingSporesPrecept
-- **Ice Spring** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 5 | Sell: 6p | Effect ID: Warframe/IceParkourTwoMod
+- **Ice Spring** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 5 | Sell: 7p | Effect ID: Warframe/IceParkourTwoMod
 - **Ice Storm** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 8p | Effect ID: DualStat/IceStormMod
 - **Ice Wave Impedance** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Effect ID: Frost/IceSpikeAugmentCard
 - **Icy Avalanche** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 16p | Effect ID: Frost/AvalancheAugmentCard
@@ -699,8 +699,8 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Intensify** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 8 | Sell: 3p | Effect ID: Warframe/AvatarAbilityStrengthMod
 - **Intensify** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 2 | Compatibility: Equipped in Valkyr Prime | Sell: 3p | Effect ID: Warframe/AvatarAbilityStrengthMod
 - **Intensify** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ash Prime, Caliban Prime, Chroma Prime, Citrine, Dante and 20 other item(s) | Sell: 8p | Effect ID: Warframe/AvatarAbilityStrengthMod
-- **Internal Bleeding** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 9p | Buy: 5p | Effect ID: Rifle/WeaponBleedOnImpactProcRifleMod
-- **Internal Bleeding** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Fulmin Prime, Helstrum, Kuva Chakkhurr | Sell: 15p | Buy: 5p | Effect ID: Rifle/WeaponBleedOnImpactProcRifleMod
+- **Internal Bleeding** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 9p | Buy: 4p | Effect ID: Rifle/WeaponBleedOnImpactProcRifleMod
+- **Internal Bleeding** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Fulmin Prime, Helstrum, Kuva Chakkhurr | Sell: 15p | Buy: 4p | Effect ID: Rifle/WeaponBleedOnImpactProcRifleMod
 - **Intrepid Stand** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Hoplite/HopliteArmyAugmentCard
 - **Intruder** — Type: bronze mod | Rank: 0/0 (MAXED) | Owned: 206 | Effect ID: Warframe/AvatarTimeLimitIncreaseMod
 - **Intruder Stasis** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Tactical/CrewShipStasisAbilityCard
@@ -727,7 +727,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Jahu** — Type: requiem mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Immortal/ImmortalThreeMod
 - **Jahu Canticle** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 29p | Buy: 8p | Effect ID: Grimoire/JahuAuraMod
 - **Jet Stream** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Tengu/TurbulenceAugmentCard
-- **Jolt** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Afuris Prime, Azima, Ballistica Prime, Knell Prime, Kompressa and 8 other item(s) | Sell: 46p | Buy: 15p | Effect ID: DualStat/ElectEventPistolMod
+- **Jolt** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Afuris Prime, Azima, Ballistica Prime, Knell Prime, Kompressa and 8 other item(s) | Sell: 44p | Buy: 20p | Effect ID: DualStat/ElectEventPistolMod
 - **Justice Blades** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 10p | Effect ID: Syndicate/DualCleaversMod
 - **Keep-Clean** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Immortal/AntivirusFourMod
 - **Khra** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Immortal/ImmortalEightMod
@@ -740,17 +740,17 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Kinetic Ricochet** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 2p | Effect ID: CorpusArena/TetraCorpusArenaMod
 - **Kitgun Riven Mod (Veiled)** — Type: riven mod | Rank: 0/0 (MAXED) | Owned: 4 | Sell: 1p | Effect ID: Randomized/LotusModularPistolRandomModRare
 - **Larva Burst** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Infestation/InfestTendrilsAugmentCard
-- **Laser Sight** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 8p | Buy: 1p | Effect ID: Event/CritChanceWhileAimingShotgunMod
+- **Laser Sight** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 10p | Effect ID: Event/CritChanceWhileAimingShotgunMod
 - **Lashta-Vak** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 3p | Effect ID: Antiques/VoidSlingCrateBreaker
-- **Lasting Covenant** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Buy: 3p | Effect ID: Priest/PriestPactAugmentCard
+- **Lasting Covenant** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Priest/PriestPactAugmentCard
 - **Lasting Purity** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Syndicate/VulkarMod
-- **Lasting Sting** — Type: bronze mod | Rank: 0/10 (Unmaxed) | Owned: 20 | Sell: 3p | Effect ID: Melee/WeaponProcTimeMod
+- **Lasting Sting** — Type: bronze mod | Rank: 0/10 (Unmaxed) | Owned: 21 | Sell: 3p | Effect ID: Melee/WeaponProcTimeMod
 - **Leaded Gas** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 58p | Buy: 10p | Effect ID: Nightwave/NightwaveLasSilencedPistolAugmentMod
 - **Lethal Momentum** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 5 | Sell: 7p | Effect ID: Pistol/WeaponProjectileSpeedMod
 - **Lethal Torrent** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akstiletto Prime, Kuva Nukor, Prisma Twin Gremlins, Sagek Prime, Spira Prime and 8 other item(s) | Sell: 25p | Buy: 8p | Effect ID: DualStat/GrinderMod
 - **Life Strike** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Sell: 2p | Effect ID: Channel/ChannelVampireMod
 - **Lightning Dash** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 5 | Sell: 5p | Effect ID: Warframe/ElectricalParkourTwoMod
-- **Lightning Rod** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 62 | Effect ID: Warframe/AvatarDamageResistanceElectricity
+- **Lightning Rod** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 63 | Effect ID: Warframe/AvatarDamageResistanceElectricity
 - **Lingering Torment** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 36 | Effect ID: Shotgun/WeaponProcTimeMod
 - **Link Fiber** — Type: silver mod | Rank: 0/10 (Unmaxed) | Owned: 6 | Sell: 4p | Effect ID: Kubrow/KubrowLinkArmourMaxMod
 - **Link Fiber** — Type: silver mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Chesa Kubrow, Crescent Vulpaphyla, Helminth Charger, Medjay Predasite, Panzer Vulpaphyla and 7 other item(s) | Sell: 4p | Effect ID: Kubrow/KubrowLinkArmourMaxMod
@@ -760,37 +760,37 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Link Vitality** — Type: silver mod | Rank: 0/10 (Unmaxed) | Owned: 5 | Sell: 5p | Effect ID: Kubrow/KubrowLinkHealthMaxMod
 - **Link Vitality** — Type: silver mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Chesa Kubrow, Crescent Vulpaphyla, Helminth Charger, Medjay Predasite, Panzer Vulpaphyla and 10 other item(s) | Sell: 5p | Effect ID: Kubrow/KubrowLinkHealthMaxMod
 - **Link Vitality** — Type: silver mod | Rank: 5/10 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Kubrow/KubrowLinkHealthMaxMod
-- **Live Wire** — Type: requiem mod | Rank: 0/0 (MAXED) | Owned: 3 | Sell: 4p | Buy: 3p | Effect ID: Cipher/ElectrifyOnHackMod
-- **Lock And Load** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Sell: 4p | Effect ID: Shotgun/PassiveReloadMod
-- **Lock And Load** — Type: gold mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Shotgun/PassiveReloadMod
+- **Live Wire** — Type: requiem mod | Rank: 0/0 (MAXED) | Owned: 3 | Sell: 5p | Effect ID: Cipher/ElectrifyOnHackMod
+- **Lock And Load** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Effect ID: Shotgun/PassiveReloadMod
+- **Lock And Load** — Type: gold mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Effect ID: Shotgun/PassiveReloadMod
 - **Lohk** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Immortal/ImmortalOneMod
 - **Lohk** — Type: requiem mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Immortal/ImmortalOneMod
 - **Lohk Canticle** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 45p | Buy: 7p | Effect ID: Grimoire/LohkAuraMod
-- **Loot Detector** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Dante, Volt Prime | Sell: 18p | Effect ID: Aura/PlayerLootRadarAuraMod
+- **Loot Detector** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Dante, Volt Prime | Sell: 18p | Buy: 3p | Effect ID: Aura/PlayerLootRadarAuraMod
 - **Looter** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 48p | Buy: 25p | Effect ID: SentinelPrecepts/Looter
 - **Lorun-Tash** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Effect ID: Antiques/AntiqueArmour
-- **Loyal Companion** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 14 | Sell: 3p | Effect ID: Kubrow/KubrowMasterBleedoutMod
-- **Loyal Companion** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Helminth Charger, Raksa Kubrow | Sell: 9p | Effect ID: Kubrow/KubrowMasterBleedoutMod
+- **Loyal Companion** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 14 | Sell: 5p | Effect ID: Kubrow/KubrowMasterBleedoutMod
+- **Loyal Companion** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Helminth Charger, Raksa Kubrow | Sell: 14p | Effect ID: Kubrow/KubrowMasterBleedoutMod
 - **Loyal Merulina** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Buy: 5p | Effect ID: Yareli/YareliBoardAugmentTwoCard
 - **Loyal Retriever** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Chesa Kubrow, Helminth Charger, Panzer Vulpaphyla | Sell: 9p | Effect ID: SentinelPrecepts/BeastLoyalRetriever
 - **Mach Crash** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Buy: 3p | Effect ID: Runner/RunnerRushAugmentCard
 - **Magazine Extension** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Effect ID: Rifle/ArchwingRifleClipMaxMod
-- **Magazine Extension** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Corvas Prime, Grattler, Mandonel | Sell: 9p | Effect ID: Rifle/ArchwingRifleClipMaxMod
+- **Magazine Extension** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Corvas Prime, Grattler, Mandonel | Sell: 40p | Effect ID: Rifle/ArchwingRifleClipMaxMod
 - **Magazine Extension** — Type: bronze mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Effect ID: Rifle/ArchwingRifleClipMaxMod
 
 ## inventoryMods: Entries 721 to 760 (Magazine Warp — Mecha Overdrive)
 
 - **Magazine Warp** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 23 | Effect ID: Rifle/WeaponClipMaxMod
 - **Magazine Warp** — Type: bronze mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Effect ID: Rifle/WeaponClipMaxMod
-- **Magazine Warp** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Afentis, Dex Sybaris, Opticor Vandal, Prisma Lenz, Trumna | Sell: 8p | Effect ID: Rifle/WeaponClipMaxMod
+- **Magazine Warp** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Afentis, Dex Sybaris, Opticor Vandal, Prisma Lenz, Trumna | Sell: 40p | Effect ID: Rifle/WeaponClipMaxMod
 - **Magazine Warp** — Type: bronze mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Effect ID: Rifle/WeaponClipMaxMod
 - **Magazine Warp** — Type: bronze mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Effect ID: Rifle/WeaponClipMaxMod
-- **Magnetic Capacity** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 15 | Sell: 3p | Buy: 1p | Effect ID: DualStat/MagneticClipRifleMod
-- **Magnetic Capacity** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Tenet Envoy, Thornbak | Sell: 5p | Buy: 1p | Effect ID: DualStat/MagneticClipRifleMod
+- **Magnetic Capacity** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 15 | Sell: 3p | Effect ID: DualStat/MagneticClipRifleMod
+- **Magnetic Capacity** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Tenet Envoy, Thornbak | Sell: 5p | Effect ID: DualStat/MagneticClipRifleMod
 - **Magnetic Claws** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 13 | Sell: 2p | Effect ID: DualStat/KubrowMagneticEventMeleeMod
 - **Magnetic Claws** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 8 other item(s) | Sell: 5p | Effect ID: DualStat/KubrowMagneticEventMeleeMod
 - **Magnetic Might** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Effect ID: DualStat/MagneticCritDamagePistolMod
-- **Magnetic Rush** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 14 | Sell: 2p | Effect ID: DualStat/MagneticAttackSpeedMeleeMod
+- **Magnetic Rush** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 14 | Sell: 2p | Buy: 1p | Effect ID: DualStat/MagneticAttackSpeedMeleeMod
 - **Magnetic Strafe** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 8p | Buy: 10p | Effect ID: DualStat/MagneticFireRateShotgunMod
 - **Magnetic Strafe** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Tenet Arca Plasmor | Sell: 13p | Buy: 10p | Effect ID: DualStat/MagneticFireRateShotgunMod
 - **Magnetic Welt** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 12 | Sell: 2p | Effect ID: Shotgun/WeaponMagneticOnImpactShotgunMod
@@ -808,7 +808,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Malignant Force** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Aeolak, Ambassador, Artax, Baza Prime, Boltor Prime and 25 other item(s) | Sell: 11p | Effect ID: DualStat/PoisonEventRifleMod
 - **Malignant Force** — Type: gold mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Tazicor and 2 other item(s) | Sell: 8p | Effect ID: DualStat/PoisonEventRifleMod
 - **Malignant Force** — Type: gold mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Latron Wraith | Sell: 8p | Effect ID: DualStat/PoisonEventRifleMod
-- **Mark Of The Beast** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Melee/WeaponGlaiveOnSixKillsBuffSecondary
+- **Mark Of The Beast** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Buy: 15p | Effect ID: Melee/WeaponGlaiveOnSixKillsBuffSecondary
 - **Martyr Symbiosis** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Panzer Vulpaphyla, Sly Vulpaphyla | Sell: 14p | Effect ID: CreaturePrecepts/InfestedCatbrowVampireShieldPrecept
 - **Master Key** — Type: requiem mod | Rank: 0/0 (MAXED) | Owned: 2 | Effect ID: Cipher/OnHackLockersMod
 - **Master Thief** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 13 | Sell: 3p | Effect ID: Warframe/AvatarChanceToLoot
@@ -817,7 +817,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Maul** — Type: silver mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Crescent Vulpaphyla, Pharaoh Predasite, Sly Vulpaphyla, Vizier Predasite and 10 other item(s) | Sell: 58p | Effect ID: Kubrow/KubrowMeleeDamageMod
 - **Maul** — Type: silver mod | Rank: 4/10 (Unmaxed) | Owned: 1 | Sell: 7p | Effect ID: Kubrow/KubrowMeleeDamageMod
 - **Maul** — Type: silver mod | Rank: 2/10 (Unmaxed) | Owned: 1 | Sell: 7p | Effect ID: Kubrow/KubrowMeleeDamageMod
-- **Mecha Empowered** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 8 | Sell: 16p | Buy: 10p | Effect ID: Mecha/WarframeAuraMechaEmpowerMod
+- **Mecha Empowered** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 8 | Sell: 16p | Effect ID: Mecha/WarframeAuraMechaEmpowerMod
 - **Mecha Overdrive** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 21p | Effect ID: Mecha/KubrowMechaOverdriveMod
 - **Mecha Overdrive** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 25p | Effect ID: Mecha/KubrowMechaOverdriveMod
 
@@ -827,8 +827,8 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Mecha Recharge** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 7 | Sell: 26p | Buy: 5p | Effect ID: Mecha/KubrowMechaRechargeMod
 - **Medi-Pet Kit** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 2p | Effect ID: Index/CompanionMedipetKitMod
 - **Medi-Pet Kit** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Helminth Charger, Medjay Predasite, Smeeta Kavat | Sell: 9p | Effect ID: Index/CompanionMedipetKitMod
-- **Medi-Ray** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: ProjectNightwatch/SentinelHealthRegenPreceptNightwatchMod
-- **Medi-Ray** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Dethcube Prime, Djinn, Helios Prime, Nautilus, Nautilus Prime and 4 other item(s) | Sell: 21p | Effect ID: ProjectNightwatch/SentinelHealthRegenPreceptNightwatchMod
+- **Medi-Ray** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 8p | Buy: 3p | Effect ID: ProjectNightwatch/SentinelHealthRegenPreceptNightwatchMod
+- **Medi-Ray** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Dethcube Prime, Djinn, Helios Prime, Nautilus, Nautilus Prime and 4 other item(s) | Sell: 21p | Buy: 3p | Effect ID: ProjectNightwatch/SentinelHealthRegenPreceptNightwatchMod
 - **Melee Elementalist** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 10p | Effect ID: Melee/MeleeStatusDamageDuoMod
 - **Melee Prowess** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 46 | Effect ID: Melee/WeaponStunChanceMod
 - **Melee Prowess** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Broken War, Deconstructor, Dex Dakra, Dex Nikana, Guandao Prime and 9 other item(s) | Sell: 8p | Effect ID: Melee/WeaponStunChanceMod
@@ -837,16 +837,16 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Melee Riven Mod** — Type: riven mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Randomized/RawMeleeRandomMod
 - **Mending Splinters** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 14p | Effect ID: Glass/GlassShatterAugmentCard
 - **Mentor's Legacy** — Type: silver mod | Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: EmpoweredHeavyMelee/TennokaiBaseMod
-- **Merciless Gunfight** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 11p | Effect ID: DualStat/CriticalDamagePunchThroughMod
+- **Merciless Gunfight** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 10p | Effect ID: DualStat/CriticalDamagePunchThroughMod
 - **Merulina Guardian** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Buy: 5p | Effect ID: Yareli/YareliBoardAugmentCard
 - **Mesa's Waltz** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Cowgirl/GunFuPvPAugmentCard
 - **Mesmer Shield** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Revenant/RevenantSentientAugmentCard
 - **Metal Auger** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 8 | Sell: 2p | Effect ID: Rifle/WeaponPunctureDepthMod
-- **Metal Auger** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 5p | Effect ID: Rifle/WeaponPunctureDepthMod
+- **Metal Auger** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 9p | Effect ID: Rifle/WeaponPunctureDepthMod
 - **Metal Auger** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Rifle/WeaponPunctureDepthMod
 - **Metal Fiber** — Type: bronze mod | Rank: 0/10 (Unmaxed) | Owned: 16 | Effect ID: Sentinel/SentinelArmourMod
 - **Metal Fiber** — Type: bronze mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Dethcube, Djinn, Helios Prime, Nautilus, Nautilus Prime and 3 other item(s) | Effect ID: Sentinel/SentinelArmourMod
-- **Metamorphic Magazine** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 17p | Effect ID: Nightwave/NightwaveGorgonAugmentMod
+- **Metamorphic Magazine** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 17p | Buy: 4p | Effect ID: Nightwave/NightwaveGorgonAugmentMod
 - **Metem-Erun** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Antiques/SuperSpeedSchools
 - **Metem-Hakh** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: Antiques/HealthAndShieldSchools
 - **Meticulous Aim** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Buy: 16p | Effect ID: Arbitration/GrnSniperRifleArbitrationMod
@@ -861,7 +861,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Molecular Fission** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 14p | Effect ID: AntiMatter/MolecularPrimeAugmentCard
 - **Molten Impact** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 13 | Effect ID: Melee/WeaponFireDamageMod
 - **Molten Impact** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Broken War, Dex Dakra, Edun, Galariak Prime, Glaive Prime and 8 other item(s) | Sell: 10p | Effect ID: Melee/WeaponFireDamageMod
-- **Motus Impact** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 9 | Sell: 5p | Effect ID: Raptor/RaptorModC
+- **Motus Impact** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 9 | Effect ID: Raptor/RaptorModC
 - **Motus Setup** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Sell: 5p | Effect ID: Raptor/RaptorModB
 
 ## inventoryMods: Entries 801 to 840 (Motus Signal — Necramech Streamline)
@@ -891,17 +891,17 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Necramech Efficiency** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bonewidow, Voidrig | Sell: 15p | Effect ID: Necromech/NecromechBoostEfficiencyMod
 - **Necramech Flow** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Necromech/NecromechPowerMaxMod
 - **Necramech Friction** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bonewidow, Voidrig | Effect ID: Necromech/NecromechSlideEfficiencyMod
-- **Necramech Fury** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 10 | Effect ID: Necromech/NecromechMeleeSpeedMod
-- **Necramech Fury** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Bonewidow, Voidrig | Effect ID: Necromech/NecromechMeleeSpeedMod
+- **Necramech Fury** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 10 | Sell: 2p | Effect ID: Necromech/NecromechMeleeSpeedMod
+- **Necramech Fury** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Bonewidow, Voidrig | Sell: 2p | Effect ID: Necromech/NecromechMeleeSpeedMod
 - **Necramech Hydraulics** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Sell: 7p | Effect ID: Necromech/NecromechJumpHeightMod
 - **Necramech Intensify** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bonewidow | Sell: 19p | Effect ID: Necromech/NecromechAbilityStrengthMod
 - **Necramech Pressure Point** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 15p | Effect ID: Necromech/NecromechMeleeDamageMod
-- **Necramech Reach** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Effect ID: Necromech/NecromechMeleeRangeMod
+- **Necramech Reach** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 5p | Effect ID: Necromech/NecromechMeleeRangeMod
 - **Necramech Redirection** — Type: bronze mod | Rank: 0/10 (Unmaxed) | Owned: 10 | Sell: 4p | Effect ID: Necromech/NecromechShieldMaxMod
 - **Necramech Redirection** — Type: bronze mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Bonewidow, Voidrig | Sell: 43p | Effect ID: Necromech/NecromechShieldMaxMod
 - **Necramech Refuel** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Necromech/NecromechBoostRechargeMod
-- **Necramech Seismic Wave** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Necromech/NecromechSlamDamageMod
-- **Necramech Seismic Wave** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Voidrig | Sell: 9p | Effect ID: Necromech/NecromechSlamDamageMod
+- **Necramech Seismic Wave** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Necromech/NecromechSlamDamageMod
+- **Necramech Seismic Wave** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Voidrig | Effect ID: Necromech/NecromechSlamDamageMod
 - **Necramech Slipstream** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Effect ID: Necromech/NecromechSlideSpeedMod
 - **Necramech Steel Fiber** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 14p | Buy: 5p | Effect ID: Necromech/NecromechArmourMaxMod
 - **Necramech Steel Fiber** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bonewidow, Voidrig | Sell: 27p | Buy: 5p | Effect ID: Necromech/NecromechArmourMaxMod
@@ -920,8 +920,8 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Neutralize** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Chesa Kubrow | Sell: 14p | Effect ID: KubrowPetPrecepts/KubrowDisarmPrecept
 - **Neutralizing Justice** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Syndicate/MiterMod
 - **Neutron Star** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Nova Prime | Sell: 14p | Effect ID: AntiMatter/NullStarAugmentCard
-- **Nightwatch Napalm** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 14p | Buy: 9p | Effect ID: ProjectNightwatch/OgrisNightwatchMod
-- **Nightwatch Napalm** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Ogris | Sell: 19p | Buy: 9p | Effect ID: ProjectNightwatch/OgrisNightwatchMod
+- **Nightwatch Napalm** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 14p | Buy: 5p | Effect ID: ProjectNightwatch/OgrisNightwatchMod
+- **Nightwatch Napalm** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Ogris | Sell: 19p | Buy: 5p | Effect ID: ProjectNightwatch/OgrisNightwatchMod
 - **Nira's Anguish** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 9 | Sell: 8p | Effect ID: Nira/NiraExilusMod
 - **Nira's Contempt** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 5p | Effect ID: Nira/NiraMeleeMod
 - **Nira's Hatred** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 6 | Sell: 6p | Effect ID: Nira/NiraWarframeMod
@@ -931,14 +931,14 @@ Total entries in `inventoryMods.json`: **1553**.
 - **North Wind** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 22 | Effect ID: Melee/WeaponFreezeDamageMod
 - **North Wind** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Argo & Vel, Bo Prime, Broken War, Cadus, Dex Dakra and 19 other item(s) | Effect ID: Melee/WeaponFreezeDamageMod
 - **North Wind** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Prisma Skana | Effect ID: Melee/WeaponFreezeDamageMod
-- **Null Audit** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 17p | Effect ID: ZanukaPetPrecepts/ZanukaPetStealEximusPrecept
-- **Omikuji's Fortune** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Buy: 2p | Effect ID: Koumei/KoumeiFortuneAugmentCard
+- **Null Audit** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 10p | Effect ID: ZanukaPetPrecepts/ZanukaPetStealEximusPrecept
+- **Omikuji's Fortune** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Koumei/KoumeiFortuneAugmentCard
 - **Omn-Evi** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 42p | Effect ID: Antiques/CritChanceSchool
-- **Onslaught Matrix** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 4p | Effect ID: Gunnery/VidarOffensiveMatrix
+- **Onslaught Matrix** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Effect ID: Gunnery/VidarOffensiveMatrix
 - **Opportunity's Reach** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: EmpoweredHeavyMelee/PerfectReach
 - **Ordnance Cheap Shot** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Gunnery/LavanFreeOrdnanceAmmo
 - **Ore Gaze** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Brawler/BrawlerGazeAugmentCard
-- **Organ Shatter** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 50 | Sell: 2p | Effect ID: Melee/WeaponCritDamageMod
+- **Organ Shatter** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 51 | Sell: 2p | Effect ID: Melee/WeaponCritDamageMod
 - **Organ Shatter** — Type: bronze mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Heliocor | Sell: 2p | Effect ID: Melee/WeaponCritDamageMod
 - **Organ Shatter** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ankyros Prime, Argo & Vel, Azothane, Ceti Lacera, Cobra & Crane Prime and 54 other item(s) | Sell: 9p | Effect ID: Melee/WeaponCritDamageMod
 - **Organ Shatter** — Type: bronze mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 2p | Effect ID: Melee/WeaponCritDamageMod
@@ -954,14 +954,14 @@ Total entries in `inventoryMods.json`: **1553**.
 
 - **Overloader** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Effect ID: Gunnery/LavanMaxOrdnanceMunitions
 - **Overview** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 64 | Effect ID: Rifle/HigherAirAimFoVRifleMod
-- **Pacifying Bolts** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Nyx Prime | Sell: 15p | Buy: 3p | Effect ID: Jade/DaggerAugmentCard
+- **Pacifying Bolts** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Nyx Prime | Sell: 15p | Effect ID: Jade/DaggerAugmentCard
 - **Pack Leader** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 15 | Sell: 4p | Effect ID: Kubrow/KubrowPackLeaderMod
 - **Pain Points** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 55p | Buy: 30p | Effect ID: Nightwave/NightwaveTnJetTurbinePistolAugmentMod
 - **Pain Threshold** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 10 | Sell: 2p | Effect ID: Events/AvatarStaggerRecoveryMod
 - **Panzer Devolution** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Panzer Vulpaphyla | Sell: 7p | Effect ID: CreaturePrecepts/ArmoredInfestedCatbrowRespawn
 - **Parallax Scope** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 9 | Sell: 3p | Effect ID: Rifle/ArchwingRifleCritChanceMod
 - **Parallax Scope** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 2 | Compatibility: Equipped in Corvas, Corvas Prime, Grattler, Imperator, Kuva Ayanga and 4 other item(s) | Sell: 25p | Effect ID: Rifle/ArchwingRifleCritChanceMod
-- **Paralytic Spores** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Medjay Predasite | Sell: 50p | Effect ID: CreaturePrecepts/InfestedPredatorFinisherSporesPrecept
+- **Paralytic Spores** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Medjay Predasite | Sell: 40p | Effect ID: CreaturePrecepts/InfestedPredatorFinisherSporesPrecept
 - **Parasitic Vitality** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Buy: 7p | Effect ID: Infestation/InfestLinkAugmentCard
 - **Parry** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Effect ID: Warframe/AvatarParryMeleeMod
 - **Particle Ram** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 6p | Effect ID: Abilities/CrewShipRamAbilityCard
@@ -972,8 +972,8 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Pathogen Rounds** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 5p | Effect ID: Pistol/WeaponToxinDamageMod
 - **Pathogen Rounds** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akbolto Prime, Euphona Prime, Kuva Nukor, Twin Rogga | Sell: 14p | Effect ID: Pistol/WeaponToxinDamageMod
 - **Peaceful Provocation** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: YinYang/YinYangAuraAugmentCard
-- **Peculiar Growth** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 21p | Buy: 36p | Effect ID: Peculiars/InflationMod
-- **Peculiar Growth** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 24p | Buy: 36p | Effect ID: Peculiars/InflationMod
+- **Peculiar Growth** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 21p | Effect ID: Peculiars/InflationMod
+- **Peculiar Growth** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 24p | Effect ID: Peculiars/InflationMod
 - **Perpetual Agony** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 29 | Effect ID: Pistol/WeaponProcTimeMod
 - **Phoenix Blaze** — Type: silver mod | Rank: 0/10 (Unmaxed) | Owned: 11 | Effect ID: Abilities/CrewShipPhoenixAbilityCard
 - **Phoenix Renewal** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Paladin/RegenerationAugmentCard
@@ -989,9 +989,9 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Pilfering Strangledome** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Khora/KhoraCageAugmentCard
 - **Pilfering Swarm** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Hydroid Prime | Sell: 13p | Effect ID: Pirate/KrakenAugmentCard
 - **Pistol Acuity** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 7 | Sell: 3p | Effect ID: Pistol/WeaponWeakpointCriticalChanceMod
-- **Pistol Ammo Mutation** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 7p | Buy: 2p | Effect ID: Pistol/WeaponPistolConvertAmmoMod
-- **Pistol Ammo Mutation** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Laetum and 3 other item(s) | Sell: 15p | Buy: 2p | Effect ID: Pistol/WeaponPistolConvertAmmoMod
-- **Pistol Ammo Mutation** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 7p | Buy: 2p | Effect ID: Pistol/WeaponPistolConvertAmmoMod
+- **Pistol Ammo Mutation** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 7p | Effect ID: Pistol/WeaponPistolConvertAmmoMod
+- **Pistol Ammo Mutation** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Laetum and 3 other item(s) | Sell: 15p | Effect ID: Pistol/WeaponPistolConvertAmmoMod
+- **Pistol Ammo Mutation** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 7p | Effect ID: Pistol/WeaponPistolConvertAmmoMod
 
 ## inventoryMods: Entries 921 to 960 (Pistol Elementalist — Pressure Point)
 
@@ -1005,7 +1005,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Pistol Riven Mod** — Type: riven mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Randomized/RawPistolRandomMod
 - **Pistol Riven Mod (Veiled)** — Type: riven mod | Rank: 0/0 (MAXED) | Owned: 2 | Sell: 6p | Buy: 6p | Effect ID: Randomized/LotusPistolRandomModRare
 - **Pistol Scavenger** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 17p | Effect ID: Aura/PlayerPistolAmmoAuraMod
-- **Point Blank** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 16 | Sell: 3p | Effect ID: Shotgun/WeaponDamageAmountMod
+- **Point Blank** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 17 | Sell: 3p | Effect ID: Shotgun/WeaponDamageAmountMod
 - **Point Blank** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Boar Prime, Phage, Sweeper Prime, Tigris Prime | Sell: 9p | Effect ID: Shotgun/WeaponDamageAmountMod
 - **Point Blank** — Type: silver mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Shotgun/WeaponDamageAmountMod
 - **Point Blank** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Shotgun/WeaponDamageAmountMod
@@ -1031,9 +1031,9 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Precision Strike** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 22p | Buy: 8p | Effect ID: Arbitration/GrnGrenadeLauncherArbitrationMod
 - **Predator** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: Gunnery/VidarGunnerWeaponCritChance
 - **Predator** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 12p | Effect ID: Gunnery/VidarGunnerWeaponCritChance
-- **Pressure Point** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 109 | Effect ID: Melee/WeaponMeleeDamageMod
+- **Pressure Point** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 110 | Effect ID: Melee/WeaponMeleeDamageMod
 - **Pressure Point** — Type: bronze mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Effect ID: Melee/WeaponMeleeDamageMod
-- **Pressure Point** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Broken War, Deconstructor, Deconstructor Prime, Kogake Prime, Nikana Prime and 5 other item(s) | Sell: 8p | Effect ID: Melee/WeaponMeleeDamageMod
+- **Pressure Point** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Broken War, Deconstructor, Deconstructor Prime, Kogake Prime, Nikana Prime and 5 other item(s) | Sell: 5p | Effect ID: Melee/WeaponMeleeDamageMod
 - **Pressure Point** — Type: bronze mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Dex Dakra | Effect ID: Melee/WeaponMeleeDamageMod
 
 ## inventoryMods: Entries 961 to 1000 (Pressurized Magazine — Primed Rubedo-Lined Barrel)
@@ -1041,24 +1041,24 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Pressurized Magazine** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 4p | Effect ID: Event/FireRateWhileAimingPistolMod
 - **Prey Of Dynar** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Werewolf/WerewolfShroudAugmentCard
 - **Primal Rage** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: MonkeyKing/MonkeyStaffAugmentCard
-- **Primary Acuity** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 14 | Sell: 4p | Effect ID: Rifle/WeaponWeakpointCriticalChanceMod
-- **Primed Ammo Stock** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 46p | Buy: 15p | Effect ID: Expert/WeaponClipMaxModExpert
-- **Primed Bane Of Corpus** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 26p | Effect ID: Expert/PrimedWeaponFactionDamageCorpus
-- **Primed Chamber** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Rubico Prime | Sell: 260p | Buy: 215p | Effect ID: Rifle/EventSniperReloadDamageMod
-- **Primed Charged Shell** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bassocyst, Coda Bubonico and 15 other item(s) | Sell: 48p | Effect ID: Expert/WeaponElectricityDamageModExpert
-- **Primed Chilling Grasp** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bubonico, Kuva Drakgoon and 8 other item(s) | Sell: 29p | Effect ID: Expert/WeaponFreezeDamageModExpert
-- **Primed Continuity** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Atlas Prime, Baruuk, Baruuk Prime, Caliban, Caliban Prime and 48 other item(s) | Sell: 48p | Buy: 35p | Effect ID: Expert/AvatarAbilityDurationModExpert
+- **Primary Acuity** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 14 | Sell: 5p | Effect ID: Rifle/WeaponWeakpointCriticalChanceMod
+- **Primed Ammo Stock** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 48p | Buy: 20p | Effect ID: Expert/WeaponClipMaxModExpert
+- **Primed Bane Of Corpus** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 26p | Buy: 20p | Effect ID: Expert/PrimedWeaponFactionDamageCorpus
+- **Primed Chamber** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Rubico Prime | Sell: 260p | Buy: 220p | Effect ID: Rifle/EventSniperReloadDamageMod
+- **Primed Charged Shell** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bassocyst, Coda Bubonico and 15 other item(s) | Sell: 47p | Effect ID: Expert/WeaponElectricityDamageModExpert
+- **Primed Chilling Grasp** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bubonico, Kuva Drakgoon and 8 other item(s) | Sell: 31p | Buy: 20p | Effect ID: Expert/WeaponFreezeDamageModExpert
+- **Primed Continuity** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Atlas Prime, Baruuk, Baruuk Prime, Caliban, Caliban Prime and 48 other item(s) | Sell: 48p | Buy: 20p | Effect ID: Expert/AvatarAbilityDurationModExpert
 - **Primed Convulsion** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Akarius Prime, Kompressa Prime, Kuva Nukor, Riot-848, Velox Prime | Sell: 103p | Buy: 22p | Effect ID: Expert/PrimedWeaponElectricityDamageMod
-- **Primed Cryo Rounds** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Acceltra Prime, Aeolak, Ambassador, Amprex, Artax and 36 other item(s) | Sell: 30p | Buy: 20p | Effect ID: Expert/WeaponFreezeDamageModExpert
+- **Primed Cryo Rounds** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Acceltra Prime, Aeolak, Ambassador, Amprex, Artax and 36 other item(s) | Sell: 31p | Buy: 20p | Effect ID: Expert/WeaponFreezeDamageModExpert
 - **Primed Deadly Efficiency** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 32p | Effect ID: Rifle/PrimedArchwingDamageOnReloadMod
-- **Primed Dual Rounds** — Type: primed mod | Rank: 7/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Kuva Ayanga, Mausolon | Sell: 37p | Buy: 20p | Effect ID: Rifle/PrimedArchwingRifleFireIterationsMod
-- **Primed Expel Corpus** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 42p | Effect ID: Expert/WeaponPistolFactionDamageCorpusExpert
+- **Primed Dual Rounds** — Type: primed mod | Rank: 7/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Kuva Ayanga, Mausolon | Sell: 37p | Buy: 10p | Effect ID: Rifle/PrimedArchwingRifleFireIterationsMod
+- **Primed Expel Corpus** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 42p | Buy: 20p | Effect ID: Expert/WeaponPistolFactionDamageCorpusExpert
 - **Primed Expel Grineer** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 41p | Effect ID: Expert/WeaponPistolFactionDamageGrineerExpert
-- **Primed Expel Infested** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 34p | Buy: 21p | Effect ID: Expert/WeaponPistolFactionDamageInfestedExpert
+- **Primed Expel Infested** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 34p | Effect ID: Expert/WeaponPistolFactionDamageInfestedExpert
 - **Primed Expel Orokin** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Effect ID: Expert/WeaponPistolFactionDamageCorruptedExpert
 - **Primed Fast Hands** — Type: primed mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Reconifex, Tenet Envoy and 1 other item(s) | Sell: 55p | Effect ID: Expert/WeaponReloadSpeedModExpert
-- **Primed Fever Strike** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Amanata, Argo & Vel, Azothane, Bo Prime, Caustacyst and 63 other item(s) | Sell: 92p | Effect ID: Expert/WeaponToxinDamageModExpert
-- **Primed Firestorm** — Type: primed mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Basmu, Kuva Ogris, Latron Prime | Sell: 54p | Buy: 25p | Effect ID: Expert/WeaponIncreaseRadialExplosionModExpert
+- **Primed Fever Strike** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Amanata, Argo & Vel, Azothane, Bo Prime, Caustacyst and 63 other item(s) | Sell: 92p | Buy: 25p | Effect ID: Expert/WeaponToxinDamageModExpert
+- **Primed Firestorm** — Type: primed mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Basmu, Kuva Ogris, Latron Prime | Sell: 54p | Buy: 20p | Effect ID: Expert/WeaponIncreaseRadialExplosionModExpert
 - **Primed Flow** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Ash Prime, Baruuk Prime, Caliban, Caliban Prime, Chroma Prime and 25 other item(s) | Sell: 30p | Buy: 20p | Effect ID: Expert/AvatarPowerMaxModExpert
 - **Primed Fulmination** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Seer and 3 other item(s) | Sell: 120p | Buy: 35p | Effect ID: Expert/SecondaryExplosionRadiusModExpert
 - **Primed Fury** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Argo & Vel, Azothane, Caustacyst, Cobra & Crane Prime, Corufell and 39 other item(s) | Effect ID: Expert/WeaponFireRateModExpert
@@ -1067,15 +1067,15 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Primed Magazine Warp** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 41p | Effect ID: Expert/WeaponClipMaxModExpert
 - **Primed Morphic Transformer** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 30p | Effect ID: Expert/ArchwingSuitAbilityStrengthModExpert
 - **Primed Pack Leader** — Type: primed mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Chesa Kubrow, Helminth Charger, Medjay Predasite, Panzer Vulpaphyla, Smeeta Kavat | Sell: 50p | Buy: 30p | Effect ID: Expert/KubrowPackLeaderExpertMod
-- **Primed Pistol Ammo Mutation** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 48p | Buy: 15p | Effect ID: Expert/WeaponPistolConvertAmmoModExpert
-- **Primed Pistol Gambit** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Aegrit, Afuris Prime, Akjagara Prime, Aklex Prime, Akvasto Prime and 22 other item(s) | Sell: 97p | Buy: 20p | Effect ID: Expert/WeaponCritChanceModBeginnerExpert
-- **Primed Point Blank** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bubonico, Corinth Prime and 17 other item(s) | Sell: 112p | Buy: 25p | Effect ID: Expert/WeaponDamageAmountModExpert
-- **Primed Pressure Point** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Akaten, Ankyros Prime, Argo & Vel, Azothane, Batoten and 99 other item(s) | Sell: 96p | Buy: 15p | Effect ID: Expert/WeaponMeleeDamageModExpert
+- **Primed Pistol Ammo Mutation** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 48p | Buy: 20p | Effect ID: Expert/WeaponPistolConvertAmmoModExpert
+- **Primed Pistol Gambit** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Aegrit, Afuris Prime, Akjagara Prime, Aklex Prime, Akvasto Prime and 22 other item(s) | Sell: 97p | Effect ID: Expert/WeaponCritChanceModBeginnerExpert
+- **Primed Point Blank** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bubonico, Corinth Prime and 17 other item(s) | Sell: 112p | Effect ID: Expert/WeaponDamageAmountModExpert
+- **Primed Pressure Point** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Akaten, Ankyros Prime, Argo & Vel, Azothane, Batoten and 99 other item(s) | Sell: 98p | Buy: 15p | Effect ID: Expert/WeaponMeleeDamageModExpert
 - **Primed Quickdraw** — Type: primed mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Seer and 1 other item(s) | Sell: 43p | Effect ID: Expert/WeaponReloadSpeedModExpert
-- **Primed Ravage** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bassocyst, Kuva Hek and 5 other item(s) | Sell: 90p | Buy: 20p | Effect ID: Expert/WeaponCritDamageModExpert
-- **Primed Reach** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Akaten, Argo & Vel, Azothane, Batoten, Cobra & Crane Prime and 40 other item(s) | Sell: 35p | Effect ID: Expert/WeaponMeleeRangeIncModExpert
+- **Primed Ravage** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Bubonico, Cedo, Coda Bassocyst, Kuva Hek and 5 other item(s) | Sell: 94p | Effect ID: Expert/WeaponCritDamageModExpert
+- **Primed Reach** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Akaten, Argo & Vel, Azothane, Batoten, Cobra & Crane Prime and 40 other item(s) | Sell: 35p | Buy: 20p | Effect ID: Expert/WeaponMeleeRangeIncModExpert
 - **Primed Redirection** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 42p | Effect ID: Expert/AvatarShieldMaxModExpert
-- **Primed Regen** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 34p | Buy: 20p | Effect ID: SentinelPrecepts/PrimedRegen
+- **Primed Regen** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 36p | Buy: 20p | Effect ID: SentinelPrecepts/PrimedRegen
 - **Primed Rifle Ammo Mutation** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 35p | Effect ID: Expert/WeaponRifleConvertAmmoModExpert
 - **Primed Rubedo-Lined Barrel** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Corvas, Corvas Prime, Fluctus, Grattler, Kuva Ayanga and 4 other item(s) | Sell: 36p | Effect ID: Expert/ArchwingRifleDamageAmountModExpert
 
@@ -1083,22 +1083,22 @@ Total entries in `inventoryMods.json`: **1553**.
 
 - **Primed Shotgun Ammo Mutation** — Type: primed mod | Rank: 5/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in 2 other item(s) | Sell: 41p | Effect ID: Expert/WeaponShotgunConvertAmmoModExpert
 - **Primed Shred** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Aeolak, Ax-52, Boltor Prime, Braton Prime, Cinta and 11 other item(s) | Effect ID: DualStat/PrimedShredMod
-- **Primed Slip Magazine** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 31p | Effect ID: Expert/WeaponClipMaxModExpert
+- **Primed Slip Magazine** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 31p | Buy: 20p | Effect ID: Expert/WeaponClipMaxModExpert
 - **Primed Smite Corpus** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 43p | Effect ID: Expert/WeaponMeleeFactionDamageCorpusExpert
-- **Primed Smite Grineer** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 33p | Effect ID: Expert/WeaponMeleeFactionDamageGrineerExpert
+- **Primed Smite Grineer** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 33p | Buy: 20p | Effect ID: Expert/WeaponMeleeFactionDamageGrineerExpert
 - **Primed Smite Infested** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 28p | Effect ID: Expert/WeaponMeleeFactionDamageInfestedExpert
 - **Primed Smite Orokin** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Effect ID: Expert/WeaponMeleeFactionDamageCorruptedExpert
 - **Primed Smite The Murmur** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 28p | Effect ID: Expert/WeaponMeleeFactionDamageMurmursExpert
 - **Primed Sniper Ammo Mutation** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 48p | Effect ID: Expert/WeaponSnipersConvertAmmoModExpert
 - **Primed Stabilizer** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 49p | Buy: 30p | Effect ID: Expert/WeaponRecoilReductionModExpert
 - **Primed Sure Footed** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Cyte-09, Dagath, Garuda Prime, Hydroid Prime and 14 other item(s) | Effect ID: Expert/AvatarKnockdownResistanceModExpert
-- **Primed Tactical Pump** — Type: primed mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Bubonico, Felarx | Sell: 42p | Effect ID: Expert/WeaponReloadSpeedModExpert
-- **Primed Target Cracker** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Aegrit, Afuris Prime, Akarius Prime, Akjagara Prime, Aksomati Prime and 23 other item(s) | Sell: 103p | Buy: 30p | Effect ID: Expert/PrimedWeaponCritDamageMod
+- **Primed Tactical Pump** — Type: primed mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Bubonico, Felarx | Sell: 42p | Buy: 20p | Effect ID: Expert/WeaponReloadSpeedModExpert
+- **Primed Target Cracker** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Aegrit, Afuris Prime, Akarius Prime, Akjagara Prime, Aksomati Prime and 23 other item(s) | Sell: 106p | Buy: 30p | Effect ID: Expert/PrimedWeaponCritDamageMod
 - **Primed Vigor** — Type: primed mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Effect ID: Expert/VigorModExpert
-- **Prism Guard** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 15p | Effect ID: Harlequin/PrismPvPAugmentCard
+- **Prism Guard** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 15p | Buy: 3p | Effect ID: Harlequin/PrismPvPAugmentCard
 - **Prismatic Companion** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Geode/GeodeCrystalAugmentCard
 - **Proboscis** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Helminth Charger | Effect ID: KubrowPetPrecepts/KubrowGrabPrecept
-- **Prolonged Paralysis** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Berserker/ShieldBashAugmentCard
+- **Prolonged Paralysis** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Buy: 5p | Effect ID: Berserker/ShieldBashAugmentCard
 - **Protect** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 7p | Effect ID: KubrowPetPrecepts/KubrowShieldPrecept
 - **Protect** — Type: gold mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Raksa Kubrow | Sell: 7p | Effect ID: KubrowPetPrecepts/KubrowShieldPrecept
 - **Protective Shots** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 12 | Effect ID: Gunnery/LavanProtectiveShots
@@ -1115,10 +1115,10 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Quick Correct** — Type: requiem mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Effect ID: Potency/GainAntivirusSmallOnSingleUseMod
 - **Quick Correct** — Type: requiem mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 3p | Effect ID: Potency/GainAntivirusSmallOnSingleUseMod
 - **Quick Reload** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 10p | Effect ID: Rifle/ArchwingRifleReloadSpeedMod
-- **Quick Reload** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Corvas, Grattler, Morgha | Sell: 20p | Effect ID: Rifle/ArchwingRifleReloadSpeedMod
+- **Quick Reload** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Corvas, Grattler, Morgha | Sell: 10p | Effect ID: Rifle/ArchwingRifleReloadSpeedMod
 - **Quick Return** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 197 | Effect ID: Melee/WeaponGlaiveReflectionDecreaseMod
 - **Quickdraw** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 77 | Effect ID: Pistol/WeaponReloadSpeedMod
-- **Quickdraw** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akbolto Prime and 1 other item(s) | Sell: 6p | Effect ID: Pistol/WeaponReloadSpeedMod
+- **Quickdraw** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Akbolto Prime and 1 other item(s) | Sell: 10p | Effect ID: Pistol/WeaponReloadSpeedMod
 - **Quickdraw** — Type: bronze mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Effect ID: Pistol/WeaponReloadSpeedMod
 - **Quicklock** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 15 | Effect ID: Gunnery/LavanFastOrdnanceLock
 
@@ -1137,11 +1137,11 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Ravage** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 7 | Sell: 3p | Effect ID: Shotgun/WeaponCritDamageMod
 - **Ravage** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 9p | Effect ID: Shotgun/WeaponCritDamageMod
 - **Ravage** — Type: gold mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Shotgun/WeaponCritDamageMod
-- **Razor Mortar** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Sentient/SentientWhirlwindAugmentCard
+- **Razor Mortar** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Sentient/SentientWhirlwindAugmentCard
 - **Razor Shot** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 33 | Effect ID: Pistol/WeaponSlashDamageMod
 - **Razor Shot** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Effect ID: Pistol/WeaponSlashDamageMod
 - **Razorwing Blitz** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Fairy/FairyFlightAugmentCard
-- **Reach** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 43 | Effect ID: Melee/WeaponMeleeRangeIncMod
+- **Reach** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 45 | Effect ID: Melee/WeaponMeleeRangeIncMod
 - **Reach** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Jat Kusar, Ninkondi Prime, Paracesis, Volnus Prime and 1 other item(s) | Sell: 7p | Effect ID: Melee/WeaponMeleeRangeIncMod
 - **Reactive Storm** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk, Baruuk Prime | Sell: 14p | Effect ID: Pacifist/PacifistFistAugmentCard
 - **Ready Steel** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 7p | Effect ID: Aura/PlayerMeleeStartingComboAuraMod
@@ -1152,7 +1152,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Rebound** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 5p | Effect ID: Melee/WeaponGlaiveReflectionIncreaseMod
 - **Recharge Barrier** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Volt/ShieldPvPAugmentCard
 - **Recrystalize** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Geode/GeodeGrowthsAugmentCard
-- **Redirection** — Type: bronze mod | Rank: 0/10 (Unmaxed) | Owned: 83 | Sell: 3p | Effect ID: Warframe/AvatarShieldMaxMod
+- **Redirection** — Type: bronze mod | Rank: 0/10 (Unmaxed) | Owned: 84 | Sell: 3p | Effect ID: Warframe/AvatarShieldMaxMod
 - **Redirection** — Type: bronze mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Ash Prime, Baruuk Prime, Chroma Prime, Citrine, Ember Prime and 18 other item(s) | Sell: 25p | Effect ID: Warframe/AvatarShieldMaxMod
 - **Redirection** — Type: bronze mod | Rank: 8/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Baruuk | Sell: 3p | Effect ID: Warframe/AvatarShieldMaxMod
 - **Redirection** — Type: bronze mod | Rank: 1/10 (Unmaxed) | Owned: 2 | Sell: 3p | Effect ID: Warframe/AvatarShieldMaxMod
@@ -1167,9 +1167,9 @@ Total entries in `inventoryMods.json`: **1553**.
 
 ## inventoryMods: Entries 1081 to 1120 (Reflex Draw — Rift Haven)
 
-- **Reflex Draw** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 22 | Sell: 3p | Effect ID: Pistol/HolsterSpeedBonusMod
+- **Reflex Draw** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 22 | Effect ID: Pistol/HolsterSpeedBonusMod
 - **Reflex Guard** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 5 | Sell: 4p | Effect ID: Warframe/AvatarAutoParryMod
-- **Regen** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 52 | Effect ID: SentinelPrecepts/Regen
+- **Regen** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 54 | Effect ID: SentinelPrecepts/Regen
 - **Regen** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Carrier, Carrier Prime, Dethcube, Dethcube Prime, Helios and 3 other item(s) | Sell: 9p | Effect ID: SentinelPrecepts/Regen
 - **Regenerative Molt** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Saryn/ShedAugmentCard
 - **Reinforcing Stomp** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Rhino/RhinoStompAugmentCard
@@ -1178,12 +1178,12 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Rending Crane** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Sell: 5p | Effect ID: MeleeTrees/AxeCmbOneMeleeTree
 - **Rending Crane** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Masseter Prime, Sarofang, Scindo, Scindo Prime, Zenistar | Sell: 10p | Effect ID: MeleeTrees/AxeCmbOneMeleeTree
 - **Rending Strike** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 3p | Effect ID: DualStat/RendingStrikeMod
-- **Rending Strike** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Caustacyst, Guandao Prime, Jat Kusar, Pangolin Prime, Skiajati and 2 other item(s) | Sell: 10p | Effect ID: DualStat/RendingStrikeMod
+- **Rending Strike** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Caustacyst, Guandao Prime, Jat Kusar, Pangolin Prime, Skiajati and 2 other item(s) | Sell: 8p | Effect ID: DualStat/RendingStrikeMod
 - **Rending Strike** — Type: gold mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Sigma & Octantis | Sell: 3p | Effect ID: DualStat/RendingStrikeMod
-- **Rending Turn** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 3p | Effect ID: Warframe/SlashParkourTwoMod
+- **Rending Turn** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Effect ID: Warframe/SlashParkourTwoMod
 - **Repair Dispensary** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Odalisk/OdaliskDispensaryAugmentCard
 - **Repair Kit** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 15 | Effect ID: Sentinel/SentinelRepairKitMod
-- **Repair Kit** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Dethcube Prime | Sell: 6p | Effect ID: Sentinel/SentinelRepairKitMod
+- **Repair Kit** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Dethcube Prime | Sell: 5p | Effect ID: Sentinel/SentinelRepairKitMod
 - **Repeater Clip** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 6p | Effect ID: Event/FireRateWhileAimingShotgunMod
 - **Repo Audit** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: ZanukaPetPrecepts/ZanukaPetDisarmPulsePrecept
 - **Resolute Focus** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Effect ID: Rifle/ArchwingCCImmunityIfAimingMod
@@ -1195,7 +1195,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Revenge** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 93 | Effect ID: SentinelPrecepts/Revenge
 - **Reverse Rotorswell** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Gyre/GyreOverchargedAugmentCard
 - **Revo Reducer** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: Piloting/LavanMultiToolPower
-- **Revo Reducer** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 25p | Effect ID: Piloting/LavanMultiToolPower
+- **Revo Reducer** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 12p | Effect ID: Piloting/LavanMultiToolPower
 - **Rifle Ammo Mutation** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Sell: 5p | Effect ID: Rifle/WeaponRifleConvertAmmoMod
 - **Rifle Ammo Mutation** — Type: gold mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Rifle/WeaponRifleConvertAmmoMod
 - **Rifle Amp** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Ash Prime, Banshee Prime, Oberon Prime, Titania Prime, Valkyr Prime and 2 other item(s) | Sell: 17p | Effect ID: Aura/PlayerRifleDamageAuraMod
@@ -1206,7 +1206,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Rifle Riven Mod** — Type: riven mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Randomized/RawRifleRandomMod
 - **Rifle Riven Mod (Veiled)** — Type: riven mod | Rank: 0/0 (MAXED) | Owned: 2 | Sell: 10p | Buy: 9p | Effect ID: Randomized/LotusRifleRandomModRare
 - **Rifle Scavenger** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Equinox Prime, Hydroid Prime, Mirage Prime | Sell: 40p | Effect ID: Aura/PlayerRifleAmmoAuraMod
-- **Rift Haven** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 30p | Effect ID: Magician/BanishAugmentCard
+- **Rift Haven** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 50p | Effect ID: Magician/BanishAugmentCard
 
 ## inventoryMods: Entries 1121 to 1160 (Rift Torrent — Scavenge)
 
@@ -1219,14 +1219,14 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Rising Storm** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Ninja/NinjaStormAugmentCard
 - **Rousing Plunder** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 15p | Buy: 3p | Effect ID: Pirate/LiquifyAugmentCard
 - **Rubble Heap** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Brawler/BrawlerPassiveAugmentCard
-- **Rubedo-Lined Barrel** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 3p | Effect ID: Rifle/ArchwingRifleDamageAmountMod
+- **Rubedo-Lined Barrel** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Effect ID: Rifle/ArchwingRifleDamageAmountMod
 - **Rubedo-Lined Barrel** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Imperator and 1 other item(s) | Sell: 9p | Effect ID: Rifle/ArchwingRifleDamageAmountMod
-- **Rubedo-Lined Barrel** — Type: silver mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Sell: 3p | Effect ID: Rifle/ArchwingRifleDamageAmountMod
+- **Rubedo-Lined Barrel** — Type: silver mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Effect ID: Rifle/ArchwingRifleDamageAmountMod
 - **Ruinous Extension** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 27p | Effect ID: Pistol/WeaponBeamDistanceMod
 - **Ruinous Extension** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Nukor | Sell: 29p | Effect ID: Pistol/WeaponBeamDistanceMod
 - **Rumbled** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Brawler/BrawlerSummonPvPAugmentCard
 - **Runtime** — Type: requiem mod | Rank: 0/0 (MAXED) | Owned: 2 | Sell: 6p | Effect ID: Cipher/OnHackSprintSpeedMod
-- **Rupture** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 53 | Effect ID: Rifle/WeaponImpactDamageMod
+- **Rupture** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 54 | Effect ID: Rifle/WeaponImpactDamageMod
 - **Rupture** — Type: bronze mod | Rank: 1/5 (Unmaxed) | Owned: 2 | Effect ID: Rifle/WeaponImpactDamageMod
 - **Rush** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: Warframe/AvatarSprintSpeedMod
 - **Rush** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Excalibur Umbra, Inaros Prime, Lavos, Loki Prime, Titania Prime and 1 other item(s) | Sell: 9p | Effect ID: Warframe/AvatarSprintSpeedMod
@@ -1258,13 +1258,13 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Scorch** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Brakk, Kuva Kraken, Kuva Nukor, Kuva Seer and 2 other item(s) | Sell: 12p | Effect ID: DualStat/FireEventPistolMod
 - **Scourging Warheads** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Effect ID: Gunnery/LavanBypassShieldOrdnance
 - **Section Density** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 13 | Sell: 3p | Effect ID: Gunnery/VidarGunnerWeaponCritDamage
-- **Section Density** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 30p | Effect ID: Gunnery/VidarGunnerWeaponCritDamage
+- **Section Density** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 12p | Effect ID: Gunnery/VidarGunnerWeaponCritDamage
 - **Security Override** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 200p | Buy: 20p | Effect ID: MoaPetPrecept/MoaHackerPrecept
 - **Seeker** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 6 | Sell: 3p | Effect ID: Pistol/WeaponPunctureDepthMod
 - **Seeker Volley** — Type: silver mod | Rank: 0/10 (Unmaxed) | Owned: 11 | Sell: 4p | Effect ID: Abilities/CrewShipAttackAbilityCard
 - **Seeking Fury** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: DualStat/ReloadSpeedPunchThroughMod
 - **Seeking Fury** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Bubonico, Kuva Drakgoon, Kuva Hek, Tenet Arca Plasmor | Sell: 10p | Effect ID: DualStat/ReloadSpeedPunchThroughMod
-- **Seeking Shuriken** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 8p | Buy: 1p | Effect ID: Ninja/GlaiveAugmentCard
+- **Seeking Shuriken** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Ninja/GlaiveAugmentCard
 - **Seismic Palm** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 8 | Sell: 3p | Effect ID: MeleeTrees/FistCmbTwoMeleeTree
 - **Seismic Wave** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Masseter Prime, Paracesis, Sancti Magistar, Tenet Livia, Vitrica | Sell: 10p | Effect ID: Melee/WeaponMeleeSlamDamageMod
 - **Self Destruct** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Effect ID: Sentinel/SentinelExplosionMod
@@ -1274,7 +1274,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Semi-Rifle Cannonade** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 13p | Effect ID: Rifle/RifleSemiAutoFantasyMod
 - **Semi-Shotgun Cannonade** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 7p | Effect ID: Shotgun/ShotgunSemiAutoFantasyMod
 - **Semi-Shotgun Cannonade** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Tenet Arca Plasmor | Sell: 11p | Effect ID: Shotgun/ShotgunSemiAutoFantasyMod
-- **Sentient Barrage** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 17p | Buy: 5p | Effect ID: Nightwave/NightwaveBattacorAugmentMod
+- **Sentient Barrage** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 17p | Effect ID: Nightwave/NightwaveBattacorAugmentMod
 - **Sentient Scalpel** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Effect ID: Gunnery/VidarSentientKiller
 - **Sentient Scalpel** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 24p | Effect ID: Gunnery/VidarSentientKiller
 - **Sentient Surge** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 8p | Buy: 2p | Effect ID: Nightwave/NightwaveOcucorAugmentMod
@@ -1304,7 +1304,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Shell Compression** — Type: silver mod | Rank: 1/5 (Unmaxed) | Owned: 2 | Effect ID: Shotgun/WeaponAmmoMaxMod
 - **Shell Rush** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Sell: 6p | Effect ID: Rifle/ArchwingRifleChargeSpeedMod
 - **Shell Rush** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Corvas, Corvas Prime, Imperator, Kuva Ayanga, Mandonel and 1 other item(s) | Sell: 6p | Effect ID: Rifle/ArchwingRifleChargeSpeedMod
-- **Shell Shock** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Cedo, Sobek | Sell: 33p | Buy: 25p | Effect ID: DualStat/ElectEventShotgunMod
+- **Shell Shock** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Cedo, Sobek | Sell: 33p | Buy: 10p | Effect ID: DualStat/ElectEventShotgunMod
 - **Shelter** — Type: silver mod | Rank: 0/10 (Unmaxed) | Owned: 13 | Effect ID: KubrowPetPrecepts/KubrowSanctuary
 - **Shepherd** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 5p | Effect ID: Aura/WarframeAuraLoyalHerdMod
 - **Shepherd** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Gara Prime, Khora Prime, Qorvex | Sell: 5p | Effect ID: Aura/WarframeAuraLoyalHerdMod
@@ -1332,9 +1332,9 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Shotgun Elementalist** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 9p | Effect ID: Shotgun/ShotgunStatusDamageDuoMod
 - **Shotgun Riven Mod** — Type: riven mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Randomized/RawShotgunRandomMod
 - **Shotgun Riven Mod (Veiled)** — Type: riven mod | Rank: 0/0 (MAXED) | Owned: 3 | Sell: 6p | Buy: 5p | Effect ID: Randomized/LotusShotgunRandomModRare
-- **Shotgun Savvy** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 2p | Effect ID: Shotgun/WeaponStunChanceMod
-- **Shotgun Savvy** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Cedo, Phantasma Prime, Tigris Prime | Sell: 2p | Effect ID: Shotgun/WeaponStunChanceMod
-- **Shotgun Savvy** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Sancti Tigris | Sell: 2p | Effect ID: Shotgun/WeaponStunChanceMod
+- **Shotgun Savvy** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 3p | Effect ID: Shotgun/WeaponStunChanceMod
+- **Shotgun Savvy** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Cedo, Phantasma Prime, Tigris Prime | Sell: 3p | Effect ID: Shotgun/WeaponStunChanceMod
+- **Shotgun Savvy** — Type: silver mod | Rank: 2/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Sancti Tigris | Sell: 3p | Effect ID: Shotgun/WeaponStunChanceMod
 - **Shotgun Scavenger** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 6p | Effect ID: Aura/PlayerShellAmmoAuraMod
 
 ## inventoryMods: Entries 1241 to 1280 (Shrapnel Rounds — Spectral Serration)
@@ -1344,7 +1344,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Shred** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: DualStat/ShredMod
 - **Shred** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Fulmin Prime, Helstrum, Kuva Karak, Kuva Quartakk, Latron Wraith and 4 other item(s) | Sell: 13p | Effect ID: DualStat/ShredMod
 - **Shred** — Type: gold mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Rakta Cernos | Sell: 5p | Effect ID: DualStat/ShredMod
-- **Shredder** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 24 | Effect ID: Shotgun/WeaponSlashDamageMod
+- **Shredder** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 25 | Effect ID: Shotgun/WeaponSlashDamageMod
 - **Sil-Tabol** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 6p | Effect ID: Antiques/ProcChanceSchool
 - **Silent Battery** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: ProjectNightwatch/WeaponNoiseReductionMod
 - **Singularity** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Jade/SelfBulletAttractorPvPAugmentCard
@@ -1372,7 +1372,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Sniper Ammo Mutation** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 9 | Sell: 3p | Effect ID: Rifle/WeaponSnipersConvertAmmoMod
 - **Sniper Scavenger** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Aura/PlayerSniperAmmoAuraMod
 - **Soft Hands** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 22 | Effect ID: Shotgun/HolsterSpeedBonusMod
-- **Soft Safe** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Effect ID: Immortal/AntivirusSixMod
+- **Soft Safe** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 6p | Effect ID: Immortal/AntivirusSixMod
 - **Sonic Siphon** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Banshee/PushAugmentCard
 - **Soul Survivor** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Necro/SoulPunchAugmentCard
 - **Sovereign Outcast** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 6 | Sell: 5p | Effect ID: MeleeTrees/TonfaCmbTwoMeleeTree
@@ -1385,9 +1385,9 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Spectral Spirit** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Buy: 4p | Effect ID: Dagath/DagathApparitionAugmentCard
 - **Spectrosiphon** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Gara Prime | Sell: 13p | Effect ID: Glass/GlassFragmentAugmentCard
 - **Speed Drift** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Volt Prime | Sell: 19p | Buy: 2p | Effect ID: OrokinChallenge/OrokinChallengeModSpeed
-- **Speed Trigger** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 16 | Effect ID: Rifle/WeaponFireRateMod
+- **Speed Trigger** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 17 | Effect ID: Rifle/WeaponFireRateMod
 - **Speed Trigger** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Dex Sybaris, Panthera Prime, Scourge Prime | Effect ID: Rifle/WeaponFireRateMod
-- **Speed Trigger** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Aeolak, Braton Prime, Cernos Prime, Deth Machine Rifle Prime, Fulmin Prime and 12 other item(s) | Sell: 9p | Effect ID: Rifle/WeaponFireRateMod
+- **Speed Trigger** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Aeolak, Braton Prime, Cernos Prime, Deth Machine Rifle Prime, Fulmin Prime and 12 other item(s) | Sell: 20p | Effect ID: Rifle/WeaponFireRateMod
 - **Spellbound Harvest** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Fairy/FairyDustAugmentCard
 - **Spinning Needle** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 7 | Sell: 2p | Effect ID: MeleeTrees/DualDaggerCmbThreeMeleeTree
 - **Spinning Needle** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Nepheri, Okina Prime | Sell: 7p | Effect ID: MeleeTrees/DualDaggerCmbThreeMeleeTree
@@ -1395,7 +1395,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Split Chamber** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Acceltra Prime, Alternox, Artax, Braton Prime, Cinta and 30 other item(s) | Sell: 9p | Effect ID: Rifle/WeaponFireIterationsMod
 - **Split Chamber** — Type: gold mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Glaxion Vandal | Sell: 3p | Effect ID: Rifle/WeaponFireIterationsMod
 - **Split Flights** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 55p | Buy: 30p | Effect ID: Rifle/BowMultiShotOnHitMod
-- **Spontaneous Singularity** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 40p | Buy: 15p | Effect ID: Nightwave/NightwaveCephPrimaryAugmentMod
+- **Spontaneous Singularity** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 40p | Buy: 11p | Effect ID: Nightwave/NightwaveCephPrimaryAugmentMod
 - **Spring-Loaded Blade** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 15p | Effect ID: Syndicate/MeleeRangeOnProcMod
 - **Spring-Loaded Broadhead** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Sell: 3p | Effect ID: Rifle/DaikyuMoreDamageOverDistanceMod
 - **Sprint Boost** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Hildryn Prime, Volt Prime | Sell: 23p | Effect ID: Aura/PlayerSprintAuraMod
@@ -1419,13 +1419,13 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Steel Fiber** — Type: bronze mod | Rank: 5/10 (Unmaxed) | Owned: 1 | Effect ID: Warframe/AvatarArmourMod
 - **Steel Fiber** — Type: bronze mod | Rank: 1/10 (Unmaxed) | Owned: 1 | Effect ID: Warframe/AvatarArmourMod
 - **Stinging Truth** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Syndicate/ViperMod
-- **Stockpiled Blight** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Syndicate/KunaiMod
+- **Stockpiled Blight** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Syndicate/KunaiMod
 - **Stormbringer** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 16 | Effect ID: Rifle/WeaponElectricityDamageMod
 - **Stormbringer** — Type: silver mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Effect ID: Rifle/WeaponElectricityDamageMod
 
 ## inventoryMods: Entries 1321 to 1360 (Stormbringer — Swift Mercy)
 
-- **Stormbringer** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Alternox, Cernos Prime, Deth Machine Rifle Prime, Ignis Wraith, Kuva Quartakk and 3 other item(s) | Sell: 9p | Effect ID: Rifle/WeaponElectricityDamageMod
+- **Stormbringer** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Alternox, Cernos Prime, Deth Machine Rifle Prime, Ignis Wraith, Kuva Quartakk and 3 other item(s) | Sell: 10p | Effect ID: Rifle/WeaponElectricityDamageMod
 - **Stormbringer** — Type: silver mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Effect ID: Rifle/WeaponElectricityDamageMod
 - **Strafing Slide** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 14 | Effect ID: Pistol/MoreAccuracyLessRecoilSlidingPistolMod
 - **Strain Infection** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 12p | Effect ID: Strain/MeleeStrainInfectionMod
@@ -1450,7 +1450,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Sundering Weave** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 19 | Effect ID: MeleeTrees/MacheteCmbOneMeleeTree
 - **Sundering Weave** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Machete Wraith, Prova Vandal, Slaytra and 1 other item(s) | Effect ID: MeleeTrees/MacheteCmbOneMeleeTree
 - **Superior Defenses** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 10 | Effect ID: Suit/ArchwingSuitShieldRechargeRateMod
-- **Superior Defenses** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Odonata | Sell: 20p | Effect ID: Suit/ArchwingSuitShieldRechargeRateMod
+- **Superior Defenses** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Odonata | Sell: 9p | Effect ID: Suit/ArchwingSuitShieldRechargeRateMod
 - **Suppress** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 237 | Effect ID: Pistol/WeaponNoiseReductionMod
 - **Sure Footed** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 8p | Effect ID: Warframe/AvatarKnockdownResistanceMod
 - **Sure Footed** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Nekros Prime | Sell: 11p | Effect ID: Warframe/AvatarKnockdownResistanceMod
@@ -1493,7 +1493,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Target Fixation** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: Tengu/DiveBombAugmentCard
 - **Targeting Receptor** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: SentinelPrecepts/ThrowGlaivePrecept
 - **Targeting Receptor** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Helios Prime | Sell: 15p | Effect ID: SentinelPrecepts/ThrowGlaivePrecept
-- **Targeting Subsystem** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 13p | Buy: 5p | Effect ID: Event/AccuracyWhileAimingPistolMod
+- **Targeting Subsystem** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 4 | Sell: 13p | Effect ID: Event/AccuracyWhileAimingPistolMod
 - **Tectonic Fracture** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Brawler/BrawlerBarrierAugmentCard
 - **Teeming Virulence** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Infestation/InfestRuptureAugmentCard
 - **Tek Collateral** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Sell: 3p | Effect ID: Tek/WarframeTekCollateralMod
@@ -1514,16 +1514,16 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Terminal Velocity** — Type: silver mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Rifle/WeaponProjectileSpeedMod
 - **Territorial Aggression** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Sell: 3p | Effect ID: CatbrowPetPrecepts/CatbrowMarkTerritoryPrecept
 - **Tesla Bank** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Vauban Prime | Sell: 17p | Buy: 3p | Effect ID: Trapper/ZapTrapAugmentCard
-- **Tether** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Effect ID: Abilities/CrewShipTetherAbilityCard
+- **Tether** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 3 | Sell: 6p | Effect ID: Abilities/CrewShipTetherAbilityCard
 - **Tether Grenades** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Effect ID: CorpusArena/PentaCorpusArenaMod
 - **Tharros Lethality** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Hoplite/HopliteBashAugmentCard
 - **The Relentless Lost** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: BrokenFrame/EmbraceAugmentCard
 - **Thermagnetic Shells** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 11 | Sell: 3p | Effect ID: CorpusArena/SupraCorpusArenaMod
 - **Thermal Transfer** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: Runner/RunnerTransferAugmentCard
 - **Thermite Rounds** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Basmu, Cernos Prime, Deth Machine Rifle Prime, Ignis Wraith, Kuva Hind and 6 other item(s) | Sell: 23p | Buy: 7p | Effect ID: DualStat/FireEventRifleMod
-- **Thief's Wit** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 37 | Sell: 4p | Effect ID: Warframe/AvatarLootRadarMod
-- **Thief's Wit** — Type: bronze mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: Warframe/AvatarLootRadarMod
-- **Thief's Wit** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Volt Prime | Sell: 8p | Effect ID: Warframe/AvatarLootRadarMod
+- **Thief's Wit** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 37 | Effect ID: Warframe/AvatarLootRadarMod
+- **Thief's Wit** — Type: bronze mod | Rank: 3/5 (Unmaxed) | Owned: 1 | Effect ID: Warframe/AvatarLootRadarMod
+- **Thief's Wit** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Volt Prime | Sell: 10p | Effect ID: Warframe/AvatarLootRadarMod
 - **Thrall Pact** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Revenant/RevenantMarkAugmentCard
 - **Threat Blocker** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 16 | Effect ID: Potency/GainAntivirusAndWeaponDamageOnUseMod
 - **Threat Blocker** — Type: requiem mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Effect ID: Potency/GainAntivirusAndWeaponDamageOnUseMod
@@ -1546,7 +1546,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Trample** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Helminth Charger | Effect ID: KubrowPetPrecepts/ChargerChargePrecept
 - **Tranquil Cleave** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 5 | Sell: 4p | Effect ID: MeleeTrees/KatanaCmbOneMeleeTree
 - **Tranquil Cleave** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Nikana Prime, Skiajati and 1 other item(s) | Sell: 6p | Effect ID: MeleeTrees/KatanaCmbOneMeleeTree
-- **Transient Fortitude** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Dagath, Ember Prime, Kullervo, Mag Prime and 5 other item(s) | Sell: 68p | Effect ID: DualStat/CorruptedPowerStrengthPowerDurationWarframe
+- **Transient Fortitude** — Type: gold mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Dagath, Ember Prime, Kullervo, Mag Prime and 5 other item(s) | Sell: 68p | Buy: 10p | Effect ID: DualStat/CorruptedPowerStrengthPowerDurationWarframe
 - **Transistor Shield** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Volt/ShieldAugmentCard
 - **Tribunal** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Priest/PriestCondemnAugmentCard
 - **Trick Mag** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 16 | Effect ID: Pistol/WeaponAmmoMaxMod
@@ -1558,11 +1558,11 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Trojan Tracker** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 6p | Effect ID: Immortal/AntivirusThreeMod
 - **True Punishment** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 9p | Effect ID: Channel/ChannelCritsMod
 - **True Punishment** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Innodem, Praedos | Sell: 14p | Effect ID: Channel/ChannelCritsMod
-- **True Steel** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 17 | Sell: 2p | Effect ID: Melee/WeaponCritChanceMod
+- **True Steel** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 17 | Sell: 3p | Effect ID: Melee/WeaponCritChanceMod
 - **True Steel** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Argo & Vel, Azothane, Destreza, Dual Keres Prime, Dual Zoren Prime and 18 other item(s) | Sell: 9p | Effect ID: Melee/WeaponCritChanceMod
-- **True Steel** — Type: bronze mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Ekhein, Tenet Livia | Sell: 2p | Effect ID: Melee/WeaponCritChanceMod
+- **True Steel** — Type: bronze mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Ekhein, Tenet Livia | Sell: 3p | Effect ID: Melee/WeaponCritChanceMod
 - **Turbo Protect** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 3 | Effect ID: Potency/GainAntivirusAndSpeedOnUseMod
-- **Turret Velocity** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 24p | Effect ID: Gunnery/VidarTurretRangeAndSpeed
+- **Turret Velocity** — Type: gold mod | Rank: 0/10 (Unmaxed) | Owned: 1 | Sell: 24p | Buy: 17p | Effect ID: Gunnery/VidarTurretRangeAndSpeed
 - **Twirling Spire** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 6p | Effect ID: MeleeTrees/PolearmCmbThreeMeleeTree
 - **Twirling Spire** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 8p | Effect ID: MeleeTrees/PolearmCmbThreeMeleeTree
 - **Twitch** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 20 | Sell: 2p | Effect ID: Rifle/HolsterSpeedBonusMod
@@ -1574,9 +1574,9 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Umbral Intensify** — Type: primed mod | Rank: 10/10 (MAXED) | Owned: 1 | Compatibility: Equipped in Atlas Prime, Banshee Prime, Baruuk, Baruuk Prime, Caliban and 43 other item(s) | Effect ID: Umbra/WarframeUmbraModC
 - **Umbral Vitality** — Type: primed mod | Rank: 9/10 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Baruuk Prime, Excalibur Umbra, Hildryn Prime, Inaros Prime, Kullervo and 4 other item(s) | Effect ID: Umbra/WarframeUmbraModA
 - **Undying Will** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 12 | Sell: 2p | Effect ID: Warframe/AvatarBleedoutDelayMod
-- **Unleashed** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Sell: 5p | Effect ID: KubrowPetPrecepts/KubrowVipChasePrecept
+- **Unleashed** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 5 | Effect ID: KubrowPetPrecepts/KubrowVipChasePrecept
 - **Unseen Dread** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 42p | Buy: 10p | Effect ID: Nightwave/NightwaveStalkerBowAugmentMod
-- **Untime Rift** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 12p | Effect ID: BrokenFrame/BrokenDestructAugmentCard
+- **Untime Rift** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: BrokenFrame/BrokenDestructAugmentCard
 - **Untraceable** — Type: requiem mod | Rank: 0/0 (MAXED) | Owned: 2 | Sell: 5p | Buy: 3p | Effect ID: Cipher/OnHackInvisMod
 - **Vacuum** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 12 | Sell: 3p | Effect ID: SentinelPrecepts/UniversalVacuum
 - **Vacuum** — Type: bronze mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Carrier, Carrier Prime, Dethcube, Helios Prime, Oxylus and 3 other item(s) | Sell: 3p | Effect ID: SentinelPrecepts/UniversalVacuum
@@ -1592,7 +1592,7 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Venomous Clip** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Kuva Ayanga, Mausolon | Sell: 8p | Effect ID: Rifle/ArchwingWeaponToxinDamageMod
 - **Vermillion Storm** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: MeleeTrees/ClawCmbTwoMeleeTree
 - **Vermillion Storm** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Venka Prime | Sell: 28p | Effect ID: MeleeTrees/ClawCmbTwoMeleeTree
-- **Vexing Retaliation** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 11p | Effect ID: Dragon/DragonScalesAugmentCard
+- **Vexing Retaliation** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Dragon/DragonScalesAugmentCard
 - **Vicious Frost** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Akaten, Azothane, Broken War, Dex Dakra, Furax Wraith and 20 other item(s) | Sell: 18p | Effect ID: DualStat/IceEventMeleeMod
 
 ## inventoryMods: Entries 1481 to 1520 (Vigilante Armaments — Vome)
@@ -1606,8 +1606,8 @@ Total entries in `inventoryMods.json`: **1553**.
 - **Vigilante Fervor** — Type: silver mod | Rank: 4/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Kuva Hind | Sell: 9p | Effect ID: Vigilante/PrimaryVigilanteFervorMod
 - **Vigilante Offense** — Type: gold mod | Rank: 1/5 (Unmaxed) | Owned: 1 | Compatibility: Equipped in Phenmor | Sell: 6p | Effect ID: Vigilante/PrimaryVigilanteOffenseMod
 - **Vigilante Pursuit** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 4p | Effect ID: Vigilante/WarframeVigilantePursuitMod
-- **Vigilante Supplies** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Kuva Bramma, Kuva Chakkhurr, Kuva Hek, Kuva Karak and 5 other item(s) | Sell: 24p | Buy: 10p | Effect ID: Vigilante/PrimaryVigilanteSuppliesMod
-- **Vigilante Vigor** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 6p | Effect ID: Vigilante/WarframeVigilanteVigorMod
+- **Vigilante Supplies** — Type: gold mod | Rank: 5/5 (MAXED) | Owned: 1 | Compatibility: Equipped in Astilla Prime, Kuva Bramma, Kuva Chakkhurr, Kuva Hek, Kuva Karak and 5 other item(s) | Sell: 24p | Buy: 8p | Effect ID: Vigilante/PrimaryVigilanteSuppliesMod
+- **Vigilante Vigor** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 5p | Effect ID: Vigilante/WarframeVigilanteVigorMod
 - **Vik-Anam** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 8p | Effect ID: Antiques/AmmoSchool
 - **Vikla-Safor** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 13 | Sell: 4p | Effect ID: Antiques/FireRateAndEfficiency
 - **Vikla-Safor** — Type: bronze mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 24p | Effect ID: Antiques/FireRateAndEfficiency
@@ -1642,33 +1642,33 @@ Total entries in `inventoryMods.json`: **1553**.
 
 - **Vome** — Type: requiem mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 9p | Effect ID: Immortal/ImmortalFourMod
 - **Vome** — Type: requiem mod | Rank: 1/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Immortal/ImmortalFourMod
-- **Vome Invocation** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 64p | Buy: 30p | Effect ID: Grimoire/VomeStrikeMod
+- **Vome Invocation** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in 1 other item(s) | Sell: 64p | Effect ID: Grimoire/VomeStrikeMod
 - **Votive Onslaught** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 6 | Sell: 8p | Effect ID: MeleeTrees/WarfanCmbTwoMeleeTree
 - **Vulcan Blitz** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Sell: 8p | Effect ID: ProjectNightwatch/JatKittagNightwatchMod
 - **Vulpine Mask** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 14 | Sell: 2p | Effect ID: MeleeTrees/RapierCmbOneMeleeTree
-- **Vulpine Mask** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Destreza, Destreza Prime | Sell: 4p | Effect ID: MeleeTrees/RapierCmbOneMeleeTree
-- **Warding Thurible** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Buy: 3p | Effect ID: Priest/PriestRavageAugmentCard
-- **Warhead** — Type: silver mod | Rank: 0/10 (Unmaxed) | Owned: 11 | Sell: 12p | Effect ID: Gunnery/LavanOrdnanceDamage
-- **Warm Coat** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 22 | Effect ID: Warframe/AvatarMissionSpecificResistanceIce
+- **Vulpine Mask** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Destreza, Destreza Prime | Sell: 5p | Effect ID: MeleeTrees/RapierCmbOneMeleeTree
+- **Warding Thurible** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Priest/PriestRavageAugmentCard
+- **Warhead** — Type: silver mod | Rank: 0/10 (Unmaxed) | Owned: 11 | Effect ID: Gunnery/LavanOrdnanceDamage
+- **Warm Coat** — Type: bronze mod | Rank: 0/3 (Unmaxed) | Owned: 23 | Effect ID: Warframe/AvatarMissionSpecificResistanceIce
 - **Warrior's Rest** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 10p | Effect ID: Excalibur/ExcaliburUmbraPassiveAugmentCard
 - **Waveband Disruptor** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 11 | Effect ID: Gunnery/LavanCritBypassShieldTurret
 - **Weeping Wounds** — Type: silver mod | Rank: 5/5 (MAXED) | Owned: 1 | Sell: 24p | Buy: 15p | Effect ID: Event/ComboStatusChanceMod
-- **Whiplash Mine** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 95p | Effect ID: MoaPetPrecept/MoaTetherVaccumMinePrecept
+- **Whiplash Mine** — Type: bronze mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 95p | Buy: 10p | Effect ID: MoaPetPrecept/MoaTetherVaccumMinePrecept
 - **Whirlwind** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 5p | Effect ID: Melee/WeaponGlaiveSpeedMod
 - **Wild Frenzy** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Arbitration/GrnAssaultRifleArbitrationMod
 - **Wildfire** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Afentis, Ax-52, Helstrum, Kuva Zarr, Latron Wraith and 3 other item(s) | Sell: 6p | Effect ID: DualStat/WildfireMod
 - **Wildfire** — Type: gold mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Sell: 4p | Effect ID: DualStat/WildfireMod
 - **Winds Of Purity** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 13p | Effect ID: Syndicate/FurisMod
-- **Wise Razor** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 9p | Buy: 10p | Effect ID: MeleeTrees/LongKatanaCmbOneMeleeTree
-- **Wise Razor** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Azothane, Tatsu Prime, Tenet Livia | Sell: 14p | Buy: 10p | Effect ID: MeleeTrees/LongKatanaCmbOneMeleeTree
+- **Wise Razor** — Type: silver mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 9p | Effect ID: MeleeTrees/LongKatanaCmbOneMeleeTree
+- **Wise Razor** — Type: silver mod | Rank: 3/3 (MAXED) | Owned: 1 | Compatibility: Equipped in Azothane, Tatsu Prime, Tenet Livia | Sell: 14p | Effect ID: MeleeTrees/LongKatanaCmbOneMeleeTree
 - **Worm Away** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 2 | Sell: 6p | Effect ID: Immortal/AntivirusTwoMod
 - **Worm's Torment** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 10 | Sell: 3p | Effect ID: Gunnery/VidarGrineerKiller
 - **Worthy Comradery** — Type: silver mod | Rank: 0/5 (Unmaxed) | Owned: 21 | Sell: 2p | Effect ID: Aura/PlayerWeakpointCriticalChanceAuraMod
 - **Wrath Of Ukko** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 12p | Effect ID: PaxDuviricus/PaxFieldAugmentCard
 - **Wrecking Wall** — Type: gold mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 14p | Effect ID: ConcreteFrame/ConcreteWallAugmentCard
-- **Xata** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Immortal/ImmortalTwoMod
-- **Xata** — Type: requiem mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Sell: 9p | Effect ID: Immortal/ImmortalTwoMod
-- **Xata Invocation** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 34p | Buy: 14p | Effect ID: Grimoire/XataStrikeMod
+- **Xata** — Type: requiem mod | Rank: 0/3 (Unmaxed) | Owned: 1 | Effect ID: Immortal/ImmortalTwoMod
+- **Xata** — Type: requiem mod | Rank: 2/3 (Unmaxed) | Owned: 1 | Effect ID: Immortal/ImmortalTwoMod
+- **Xata Invocation** — Type: gold mod | Rank: 3/3 (MAXED) | Owned: 1 | Sell: 34p | Buy: 16p | Effect ID: Grimoire/XataStrikeMod
 - **Yar Dal** — Type: bronze mod | Rank: 0/5 (Unmaxed) | Owned: 2 | Effect ID: Antiques/HealthMax
 - **Zaw Riven Mod** — Type: riven mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Effect ID: Randomized/RawModularMeleeRandomMod
 - **Zazvat-Kar** — Type: gold mod | Rank: 0/5 (Unmaxed) | Owned: 1 | Sell: 15p | Buy: 5p | Effect ID: Event/AkstilettoEfficiencyWhileAirborneMod

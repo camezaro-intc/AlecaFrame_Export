@@ -1,5 +1,5 @@
 # Warframe Market Price Intelligence & Opportunities
-**Generated:** 2026-10-19 05:41:32 UTC | **Source:** Warframe.market v2 + v1 Closed Statistics + AlecaFrame Exports
+**Generated:** 2026-10-19 05:49:02 UTC | **Source:** Warframe.market v2 + v1 Closed Statistics + AlecaFrame Exports
 
 ---
 ## 🌟 Your Custom Wishlist (Target Mods to Buy)
@@ -37,12 +37,12 @@ Spare copies in your inventory you can liquidate for Platinum:
 | **Whiplash Mine** | 1 (1 spare) | R3/3 | **95p** | 97.5p | 94.4p | - | 2 sold | **~95p** |
 | **Necrophagic Vigor** | 1 (1 spare) | R0/5 | **79p** | 77.6p | 85.2p | 45p | 17 sold | **~79p** |
 | **Discipline's Merit** | 3 (3 spare) | R0/3 | **74p** | 77.0p | 73.0p | 52p | 146 sold | **~222p** |
-| **Anti-Grav Grenade** | 1 (1 spare) | R3/3 | **60p** | - | 49.2p | - | 0 sold | **~60p** |
 | **Leaded Gas** | 1 (1 spare) | R0/5 | **20p** | 52.9p | 30.7p | 25p | 34 sold | **~20p** |
 | **Pain Points** | 1 (1 spare) | R0/5 | **89p** | 56.0p | 83.6p | 30p | 19 sold | **~89p** |
 | **Split Flights** | 1 (1 spare) | R0/5 | **68p** | 57.1p | 53.8p | 30p | 16 sold | **~68p** |
-| **Dreadful Killshot** | 1 (1 spare) | R0/5 | **50p** | 41.8p | 28.3p | 10p | 36 sold | **~50p** |
+| **Rift Haven** | 1 (1 spare) | R3/3 | **55p** | 15.0p | 17.6p | - | 3 sold | **~55p** |
 | **Primed Stabilizer** | 1 (1 spare) | R0/10 | **50p** | 48.3p | 38.0p | 30p | 9 sold | **~50p** |
+| **Dreadful Killshot** | 1 (1 spare) | R0/5 | **50p** | 41.8p | 28.3p | 10p | 36 sold | **~50p** |
 | **Looter** | 1 (1 spare) | R0/5 | **60p** | 47.0p | 49.5p | 25p | 4 sold | **~60p** |
 
 ---

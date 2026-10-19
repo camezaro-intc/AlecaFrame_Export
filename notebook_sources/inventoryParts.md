@@ -1,21 +1,21 @@
 # inventoryParts
 
-Searchable Warframe inventory data exported from `inventoryParts.json` (Updated: 2026-10-19 05:40:51 UTC).
+Searchable Warframe inventory data exported from `inventoryParts.json` (Updated: 2026-10-19 05:49:00 UTC).
 
-Total entries in `inventoryParts.json`: **502**.
+Total entries in `inventoryParts.json`: **503**.
 
 ## inventoryParts: Entries 1 to 40 (Acceltra Prime Barrel — Astilla Prime Receiver)
 
 - **Acceltra Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Ducats: 100 | Effect ID: WeaponParts/AcceltraPrimeBarrel
-- **Acceltra Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 3p | Ducats: 15 | Effect ID: Weapons/AcceltraPrimeBlueprint
+- **Acceltra Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/AcceltraPrimeBlueprint
 - **Acceltra Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/AcceltraPrimeReceiver
-- **Acceltra Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 19p | Ducats: 65 | Effect ID: WeaponParts/AcceltraPrimeStock
+- **Acceltra Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 19p | Buy: 8p | Ducats: 65 | Effect ID: WeaponParts/AcceltraPrimeStock
 - **Aeolak Receiver Blueprint** — Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Sell: 6p | Effect ID: WeaponParts/DuviriRifleReceiverBlueprint
 - **Aeolak Stock Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Effect ID: WeaponParts/DuviriRifleStockBlueprint
-- **Afuris Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 4p | Ducats: 15 | Effect ID: WeaponParts/AfurisPrimeBarrel
+- **Afuris Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/AfurisPrimeBarrel
 - **Afuris Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 3p | Ducats: 15 | Effect ID: Weapons/AfurisPrimeBlueprint
 - **Afuris Prime Link** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/AfurisPrimeLink
-- **Akarius Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: FAVORITED, Vaulted | Sell: 8p | Buy: 4p | Ducats: 15 | Effect ID: WeaponParts/AkariusPrimeBarrel
+- **Akarius Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: FAVORITED, Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/AkariusPrimeBarrel
 - **Akarius Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED, Vaulted | Sell: 4p | Ducats: 45 | Effect ID: WeaponParts/AkariusPrimeLink
 - **Akbolto Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/AkboltoPrimeBlueprint
 - **Akbolto Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: WeaponParts/AkboltoPrimeLink
@@ -24,45 +24,45 @@ Total entries in `inventoryParts.json`: **502**.
 - **Akbronco Prime Link** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 3p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/AkbroncoPrimeLink
 - **Akjagara Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 29p | Buy: 20p | Ducats: 100 | Effect ID: WeaponParts/AkjagaraPrimeBarrel
 - **Akjagara Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 3p | Ducats: 15 | Effect ID: Weapons/AkjagaraPrimeBlueprint
-- **Akjagara Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 4p | Ducats: 45 | Effect ID: WeaponParts/AkjagaraPrimeLink
-- **Akjagara Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 45 | Effect ID: WeaponParts/AkjagaraPrimeReceiver
-- **Akmagnus Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 7p | Ducats: 45 | Effect ID: WeaponParts/AkmagnusPrimeLink
+- **Akjagara Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WeaponParts/AkjagaraPrimeLink
+- **Akjagara Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/AkjagaraPrimeReceiver
+- **Akmagnus Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 12p | Buy: 7p | Ducats: 45 | Effect ID: WeaponParts/AkmagnusPrimeLink
 - **Aksomati Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 13p | Buy: 6p | Ducats: 45 | Effect ID: WeaponParts/AksomatiPrimeBarrel
 - **Aksomati Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: Weapons/AksomatiPrimeBlueprint
 - **Aksomati Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 22p | Buy: 20p | Ducats: 100 | Effect ID: WeaponParts/AksomatiPrimeLink
-- **Akvasto Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 29p | Buy: 9p | Ducats: 100 | Effect ID: Weapons/AkvastoPrimeBlueprint
+- **Akvasto Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 29p | Ducats: 100 | Effect ID: Weapons/AkvastoPrimeBlueprint
 - **Akvasto Prime Link** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 11p | Ducats: 45 | Effect ID: WeaponParts/AkvastoPrimeLink
 - **Alternox Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 4p | Ducats: 15 | Effect ID: WeaponParts/AlternoxPrimeReceiver
 - **Alternox Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 9p | Ducats: 100 | Effect ID: WeaponParts/AlternoxPrimeStock
 - **Ambassador Barrel** — Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Sell: 2p | Effect ID: WeaponParts/AmbassadorBarrelBlueprint
 - **Ambassador Receiver** — Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Sell: 1p | Effect ID: WeaponParts/AmbassadorReceiverBlueprint
-- **Ambassador Stock** — Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Sell: 1p | Effect ID: WeaponParts/AmbassadorStockBlueprint
+- **Ambassador Stock** — Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Sell: 2p | Effect ID: WeaponParts/AmbassadorStockBlueprint
 - **Ankyros Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 65 | Effect ID: WeaponParts/AnkyrosPrimeBlade
 - **Ankyros Prime Gauntlet** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 13p | Buy: 8p | Ducats: 15 | Effect ID: WeaponParts/AnkyrosPrimeGauntlet
 - **Arum Spinosa Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 5p | Effect ID: Weapons/InfWarFanBlueprint
 - **Arum Spinosa Rivet** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 10p | Effect ID: WeaponParts/InfWarFanRivet
 - **Ash Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: WarframeRecipes/AshPrimeChassisBlueprint
-- **Ash Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/AshPrimeHelmetBlueprint
-- **Astilla Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 15p | Ducats: 100 | Effect ID: WeaponParts/AstillaPrimeBarrel
-- **Astilla Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Buy: 6p | Ducats: 45 | Effect ID: Weapons/AstillaPrimeBlueprint
+- **Ash Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 9p | Ducats: 45 | Effect ID: WarframeRecipes/AshPrimeHelmetBlueprint
+- **Astilla Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 10p | Ducats: 100 | Effect ID: WeaponParts/AstillaPrimeBarrel
+- **Astilla Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: Weapons/AstillaPrimeBlueprint
 - **Astilla Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/AstillaPrimeReceiver
 
 ## inventoryParts: Entries 41 to 80 (Astilla Prime Stock — Burston Prime Barrel)
 
 - **Astilla Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/AstillaPrimeStock
-- **Athodai Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/AthodaiPrimeReceiver
+- **Athodai Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Ducats: 45 | Effect ID: WeaponParts/AthodaiPrimeReceiver
 - **Athodai Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 15p | Effect ID: WeaponParts/AthodaiPistolReceiver
-- **Atlas Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/AtlasPrimeBlueprint
-- **Atlas Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WarframeRecipes/AtlasPrimeChassisBlueprint
-- **Atlas Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 49p | Buy: 40p | Ducats: 100 | Effect ID: WarframeRecipes/AtlasPrimeHelmetBlueprint
+- **Atlas Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WarframeRecipes/AtlasPrimeBlueprint
+- **Atlas Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WarframeRecipes/AtlasPrimeChassisBlueprint
+- **Atlas Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 49p | Buy: 41p | Ducats: 100 | Effect ID: WarframeRecipes/AtlasPrimeHelmetBlueprint
 - **Atlas Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WarframeRecipes/AtlasPrimeSystemsBlueprint
 - **Ballistica Prime String** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 10p | Ducats: 45 | Effect ID: WeaponParts/PrimeBallisticaString
-- **Ballistica Prime Upper Limb** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 7p | Ducats: 45 | Effect ID: WeaponParts/PrimeBallisticaUpperLimb
-- **Banshee Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 7p | Ducats: 45 | Effect ID: WarframeRecipes/BansheePrimeBlueprint
-- **Banshee Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 33p | Buy: 30p | Ducats: 100 | Effect ID: WarframeRecipes/BansheePrimeChassisBlueprint
+- **Ballistica Prime Upper Limb** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 6p | Ducats: 45 | Effect ID: WeaponParts/PrimeBallisticaUpperLimb
+- **Banshee Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 4p | Ducats: 45 | Effect ID: WarframeRecipes/BansheePrimeBlueprint
+- **Banshee Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 33p | Ducats: 100 | Effect ID: WarframeRecipes/BansheePrimeChassisBlueprint
 - **Banshee Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WarframeRecipes/BansheePrimeHelmetBlueprint
 - **Banshee Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 19p | Buy: 14p | Ducats: 65 | Effect ID: WarframeRecipes/BansheePrimeSystemsBlueprint
-- **Baruuk Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 10p | Ducats: 100 | Effect ID: WarframeRecipes/BaruukPrimeBlueprint
+- **Baruuk Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 5p | Ducats: 100 | Effect ID: WarframeRecipes/BaruukPrimeBlueprint
 - **Baruuk Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WarframeRecipes/BaruukPrimeChassisBlueprint
 - **Baruuk Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Buy: 5p | Ducats: 65 | Effect ID: WarframeRecipes/BaruukPrimeHelmetBlueprint
 - **Baruuk Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Buy: 5p | Ducats: 15 | Effect ID: WarframeRecipes/BaruukPrimeSystemsBlueprint
@@ -70,14 +70,14 @@ Total entries in `inventoryParts.json`: **502**.
 - **Baza Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 65 | Effect ID: Weapons/BazaPrimeBlueprint
 - **Baza Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/BazaPrimeReceiver
 - **Baza Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 21p | Buy: 10p | Ducats: 100 | Effect ID: WeaponParts/BazaPrimeStock
-- **Bo Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 8p | Ducats: 15 | Effect ID: Weapons/PrimeBoBlueprint
+- **Bo Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 6p | Ducats: 15 | Effect ID: Weapons/PrimeBoBlueprint
 - **Bo Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Ducats: 45 | Effect ID: WeaponParts/PrimeBoHandle
 - **Boar Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 16p | Ducats: 45 | Effect ID: WeaponParts/BoarPrimeBarrel
-- **Boar Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: Weapons/BoarPrimeBlueprint
-- **Boar Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Ducats: 15 | Effect ID: WeaponParts/BoarPrimeReceiver
-- **Boltor Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 11p | Ducats: 15 | Effect ID: WeaponParts/BoltorPrimeBarrel
-- **Boltor Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Buy: 8p | Ducats: 100 | Effect ID: Weapons/BoltorPrimeBlueprint
-- **Boltor Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WeaponParts/BoltorPrimeReceiver
+- **Boar Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: Weapons/BoarPrimeBlueprint
+- **Boar Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Buy: 7p | Ducats: 15 | Effect ID: WeaponParts/BoarPrimeReceiver
+- **Boltor Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 11p | Buy: 3p | Ducats: 15 | Effect ID: WeaponParts/BoltorPrimeBarrel
+- **Boltor Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Ducats: 100 | Effect ID: Weapons/BoltorPrimeBlueprint
+- **Boltor Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/BoltorPrimeReceiver
 - **Braton Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Ducats: 15 | Effect ID: WeaponParts/BratonPrimeBarrel
 - **Braton Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 2p | Ducats: 25 | Effect ID: Weapons/BratonPrimeBlueprint
 - **Braton Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 5p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/BratonPrimeReceiver
@@ -97,38 +97,38 @@ Total entries in `inventoryParts.json`: **502**.
 - **Burston Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Ducats: 15 | Effect ID: WeaponParts/BurstonPrimeStock
 - **Caliban Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: FAVORITED | Sell: 3p | Buy: 2p | Ducats: 45 | Effect ID: WarframeRecipes/CalibanPrimeBlueprint
 - **Caliban Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: FAVORITED | Sell: 3p | Buy: 1p | Ducats: 15 | Effect ID: WarframeRecipes/CalibanPrimeChassisBlueprint
-- **Caliban Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 11p | Buy: 8p | Ducats: 100 | Effect ID: WarframeRecipes/CalibanPrimeHelmetBlueprint
-- **Caliban Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 13p | Buy: 9p | Ducats: 100 | Effect ID: WarframeRecipes/CalibanPrimeSystemsBlueprint
+- **Caliban Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 11p | Buy: 6p | Ducats: 100 | Effect ID: WarframeRecipes/CalibanPrimeHelmetBlueprint
+- **Caliban Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 14p | Buy: 9p | Ducats: 100 | Effect ID: WarframeRecipes/CalibanPrimeSystemsBlueprint
 - **Carmine Penta Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Effect ID: WeaponParts/CarminePentaBarrel
 - **Carmine Penta Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Weapons/CarminePentaBlueprint
 - **Carmine Penta Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 19p | Buy: 12p | Effect ID: WeaponParts/CarminePentaStock
 - **Cedo Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: WeaponParts/TnAlchemistShotgunBarrel
-- **Cedo Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 3p | Ducats: 45 | Effect ID: WeaponParts/CedoPrimeReceiver
+- **Cedo Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 3p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/CedoPrimeReceiver
 - **Cedo Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/CedoPrimeStock
 - **Cedo Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: WeaponParts/TnAlchemistShotgunReceiver
 - **Cedo Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: WeaponParts/TnAlchemistShotgunStock
 - **Cernos Prime Grip** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/PrimeCernosGrip
 - **Cernos Prime String** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Buy: 7p | Ducats: 25 | Effect ID: WeaponParts/PrimeCernosString
-- **Cernos Prime Upper Limb** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 9p | Buy: 9p | Ducats: 15 | Effect ID: WeaponParts/PrimeCernosUpperLimb
+- **Cernos Prime Upper Limb** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/PrimeCernosUpperLimb
 - **Chroma Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 25 | Effect ID: WarframeRecipes/ChromaPrimeChassisBlueprint
 - **Cobra & Crane Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/CobraCranePrimeBlade
 - **Cobra & Crane Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 2p | Ducats: 45 | Effect ID: Weapons/CobraCranePrimeBlueprint
-- **Cobra & Crane Prime Guard** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Ducats: 100 | Effect ID: WeaponParts/CobraCranePrimeGuard
+- **Cobra & Crane Prime Guard** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 6p | Ducats: 100 | Effect ID: WeaponParts/CobraCranePrimeGuard
 - **Cobra & Crane Prime Hilt** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/CobraCranePrimeHandle
 - **Corinth Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: Weapons/CorinthPrimeBlueprint
 - **Corinth Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/CorinthPrimeReceiver
 - **Corinth Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 16p | Buy: 9p | Ducats: 100 | Effect ID: WeaponParts/CorinthPrimeStock
 - **Corufell Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: WeaponParts/GunScytheBlade
 - **Corufell Handle** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 10p | Effect ID: WeaponParts/GunScytheHandle
-- **Corufell Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 6p | Buy: 3p | Ducats: 45 | Effect ID: WeaponParts/CorufellPrimeHandle
-- **Corufell Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Effect ID: WeaponParts/GunScytheReceiver
+- **Corufell Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 6p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/CorufellPrimeHandle
+- **Corufell Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Effect ID: WeaponParts/GunScytheReceiver
 - **Corvas Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: Weapons/CorvasPrimeBlueprint
 - **Corvas Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Buy: 7p | Ducats: 15 | Effect ID: WeaponParts/CorvasPrimeReceiver
 - **Corvas Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/CorvasPrimeStock
 - **Daikyu Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 2p | Ducats: 15 | Effect ID: Weapons/PrimeDaikyuBlueprint
 - **Daikyu Prime Lower Limb** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 4p | Ducats: 45 | Effect ID: WeaponParts/PrimeDaikyuLowerLimb
 - **Daikyu Prime String** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 3p | Buy: 1p | Ducats: 15 | Effect ID: WeaponParts/PrimeDaikyuString
-- **Daikyu Prime Upper Limb** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Ducats: 45 | Effect ID: WeaponParts/PrimeDaikyuUpperLimb
+- **Daikyu Prime Upper Limb** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/PrimeDaikyuUpperLimb
 - **Dakra Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 18p | Ducats: 65 | Effect ID: WeaponParts/PrimeCronusLongSwordBlade
 - **Dakra Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: WeaponParts/PrimeCronusLongSwordHandle
 - **Destreza Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: Weapons/DestrezaPrimeBlueprint
@@ -139,52 +139,52 @@ Total entries in `inventoryParts.json`: **502**.
 - **Dethcube Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Buy: 18p | Ducats: 100 | Effect ID: SentinelRecipes/PrimeDethcubeSentinelBlueprint
 - **Dethcube Prime Carapace** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Buy: 3p | Ducats: 45 | Effect ID: WeaponParts/PrimeDethcubeCarapace
 - **Dethcube Prime Systems** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Buy: 3p | Ducats: 15 | Effect ID: WeaponParts/PrimeDethcubeSystems
-- **Dual Kamas Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Buy: 5p | Ducats: 15 | Effect ID: Weapons/PrimeDualKamasBlueprint
-- **Dual Kamas Prime Handle** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Buy: 4p | Ducats: 45 | Effect ID: WeaponParts/PrimeDualKamasHandle
+- **Dual Kamas Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: Weapons/PrimeDualKamasBlueprint
+- **Dual Kamas Prime Handle** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WeaponParts/PrimeDualKamasHandle
 - **Dual Keres Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: WeaponParts/DualKeresPrimeBlade
 - **Dual Keres Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WeaponParts/DualKeresPrimeHandle
 - **Dual Zoren Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 5 | Sell: 2p | Ducats: 45 | Effect ID: Weapons/DualZorenPrimeBlueprint
 - **Dual Zoren Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 3p | Buy: 1p | Ducats: 15 | Effect ID: WeaponParts/DualZorenPrimeHandle
-- **Ember Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 26p | Buy: 10p | Ducats: 100 | Effect ID: WarframeRecipes/EmberPrimeBlueprint
+- **Ember Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 26p | Buy: 12p | Ducats: 100 | Effect ID: WarframeRecipes/EmberPrimeBlueprint
 - **Ember Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 8p | Ducats: 15 | Effect ID: WarframeRecipes/EmberPrimeHelmetBlueprint
 - **Epitaph Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Effect ID: WeaponParts/WraithSidearmBarrel
 - **Epitaph Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: WeaponParts/EpitaphPrimeBarrel
 - **Epitaph Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/EpitaphPrimeBlueprint
-- **Epitaph Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 12p | Buy: 9p | Ducats: 100 | Effect ID: WeaponParts/EpitaphPrimeReceiver
+- **Epitaph Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 12p | Buy: 6p | Ducats: 100 | Effect ID: WeaponParts/EpitaphPrimeReceiver
 - **Equinox Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 13p | Ducats: 45 | Effect ID: WarframeRecipes/EquinoxPrimeBlueprint
-- **Equinox Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/EquinoxPrimeChassisBlueprint
+- **Equinox Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WarframeRecipes/EquinoxPrimeChassisBlueprint
 - **Equinox Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/EquinoxPrimeHelmetBlueprint
 - **Equinox Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 29p | Buy: 25p | Ducats: 100 | Effect ID: WarframeRecipes/EquinoxPrimeSystemsBlueprint
-- **Euphona Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/Prime1HShotgunBarrel
+- **Euphona Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WeaponParts/Prime1HShotgunBarrel
 - **Euphona Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 3p | Ducats: 15 | Effect ID: Weapons/Prime1HShotgunBlueprint
 - **Euphona Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 27p | Buy: 21p | Ducats: 100 | Effect ID: WeaponParts/Prime1HShotgunReceiver
-- **Fang Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Buy: 1p | Ducats: 15 | Effect ID: WeaponParts/PrimeFangBlade
+- **Fang Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Ducats: 15 | Effect ID: WeaponParts/PrimeFangBlade
 - **Fang Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 2p | Ducats: 15 | Effect ID: Weapons/FangPrimeBlueprint
 - **Fang Prime Handle** — Rank: 0/0 (MAXED) | Owned: 4 | Sell: 2p | Ducats: 25 | Effect ID: WeaponParts/PrimeFangHandle
 - **Fluctus Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Effect ID: WeaponParts/ArchRocketCrossbowBarrel
 - **Fragor Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 11p | Buy: 5p | Ducats: 65 | Effect ID: WeaponParts/FragorPrimeHandle
 - **Fragor Prime Head** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 7p | Ducats: 15 | Effect ID: WeaponParts/FragorPrimeHead
-- **Frost Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: WarframeRecipes/FrostPrimeHelmetBlueprint
+- **Frost Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 1p | Ducats: 15 | Effect ID: WarframeRecipes/FrostPrimeHelmetBlueprint
 - **Frost Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 12p | Buy: 2p | Ducats: 45 | Effect ID: WarframeRecipes/FrostPrimeSystemsBlueprint
 - **Fulmin Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WeaponParts/FulminPrimeBarrel
 - **Fulmin Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: Weapons/FulminPrimeBlueprint
-- **Fulmin Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 24p | Buy: 10p | Ducats: 100 | Effect ID: WeaponParts/FulminPrimeReceiver
-- **Fulmin Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 1p | Ducats: 45 | Effect ID: WeaponParts/FulminPrimeStock
+- **Fulmin Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 24p | Buy: 11p | Ducats: 100 | Effect ID: WeaponParts/FulminPrimeReceiver
+- **Fulmin Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WeaponParts/FulminPrimeStock
 - **Galatine Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/PrimeGalatineBlade
 - **Galatine Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WeaponParts/PrimeGalatineHandle
 - **Gara Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 14p | Buy: 12p | Ducats: 45 | Effect ID: WarframeRecipes/GaraPrimeChassisBlueprint
 - **Gara Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WarframeRecipes/GaraPrimeHelmetBlueprint
-- **Gara Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 6p | Ducats: 15 | Effect ID: WarframeRecipes/GaraPrimeSystemsBlueprint
+- **Gara Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 4p | Ducats: 15 | Effect ID: WarframeRecipes/GaraPrimeSystemsBlueprint
 
 ## inventoryParts: Entries 161 to 200 (Garuda Prime Blueprint — Hydroid Prime Chassis Blueprint)
 
-- **Garuda Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/GarudaPrimeBlueprint
-- **Garuda Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WarframeRecipes/GarudaPrimeChassisBlueprint
+- **Garuda Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 2p | Ducats: 15 | Effect ID: WarframeRecipes/GarudaPrimeBlueprint
+- **Garuda Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/GarudaPrimeChassisBlueprint
 - **Garuda Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 25p | Buy: 16p | Ducats: 100 | Effect ID: WarframeRecipes/GarudaPrimeHelmetBlueprint
-- **Gauss Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 5p | Ducats: 25 | Effect ID: WarframeRecipes/GaussPrimeBlueprint
-- **Gauss Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WarframeRecipes/GaussPrimeChassisBlueprint
+- **Gauss Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 5p | Buy: 3p | Ducats: 25 | Effect ID: WarframeRecipes/GaussPrimeBlueprint
+- **Gauss Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Buy: 4p | Ducats: 15 | Effect ID: WarframeRecipes/GaussPrimeChassisBlueprint
 - **Gauss Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Buy: 7p | Ducats: 45 | Effect ID: WarframeRecipes/GaussPrimeHelmetBlueprint
-- **Gauss Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 27p | Buy: 20p | Ducats: 100 | Effect ID: WarframeRecipes/GaussPrimeSystemsBlueprint
+- **Gauss Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 27p | Buy: 21p | Ducats: 100 | Effect ID: WarframeRecipes/GaussPrimeSystemsBlueprint
 - **Glaive Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 16p | Buy: 15p | Ducats: 45 | Effect ID: WeaponParts/GlaivePrimeBlade
 - **Glaive Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Ducats: 100 | Effect ID: Weapons/GlaivePrimeBlueprint
 - **Glaive Prime Disc** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WeaponParts/GlaivePrimeDisc
@@ -193,26 +193,26 @@ Total entries in `inventoryParts.json`: **502**.
 - **Gorgon Wraith Receiver** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Buy: 2p | Effect ID: WeaponParts/GorgonWraithReceiver
 - **Gorgon Wraith Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 3p | Effect ID: WeaponParts/GorgonWraithStock
 - **Gram Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/GramPrimeBlade
-- **Gram Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: Weapons/GramPrimeBlueprint
-- **Gram Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 5p | Ducats: 100 | Effect ID: WeaponParts/GramPrimeHandle
+- **Gram Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 9p | Ducats: 45 | Effect ID: Weapons/GramPrimeBlueprint
+- **Gram Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 12p | Ducats: 100 | Effect ID: WeaponParts/GramPrimeHandle
 - **Grendel Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 13p | Ducats: 100 | Effect ID: WarframeRecipes/GrendelPrimeBlueprint
 - **Grendel Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WarframeRecipes/GrendelPrimeChassisBlueprint
-- **Grendel Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WarframeRecipes/GrendelPrimeHelmetBlueprint
+- **Grendel Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Buy: 2p | Ducats: 15 | Effect ID: WarframeRecipes/GrendelPrimeHelmetBlueprint
 - **Guandao Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: WeaponParts/GuandaoPrimeBlade
 - **Guandao Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: Weapons/GuandaoPrimeBlueprint
-- **Guandao Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 16p | Ducats: 100 | Effect ID: WeaponParts/GuandaoPrimeHandle
-- **Gunsen Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Buy: 9p | Ducats: 100 | Effect ID: WeaponParts/GunsenPrimeBlade
+- **Guandao Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 15p | Ducats: 100 | Effect ID: WeaponParts/GuandaoPrimeHandle
+- **Gunsen Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Buy: 7p | Ducats: 100 | Effect ID: WeaponParts/GunsenPrimeBlade
 - **Gunsen Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/GunsenPrimeBlueprint
-- **Gunsen Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WeaponParts/GunsenPrimeHandle
-- **Gyre Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 5p | Buy: 1p | Ducats: 45 | Effect ID: WarframeRecipes/GyrePrimeBlueprint
+- **Gunsen Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 4p | Ducats: 45 | Effect ID: WeaponParts/GunsenPrimeHandle
+- **Gyre Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 6p | Buy: 1p | Ducats: 45 | Effect ID: WarframeRecipes/GyrePrimeBlueprint
 - **Gyre Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/GyrePrimeSystemsBlueprint
 - **Harrow Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WarframeRecipes/HarrowPrimeBlueprint
 - **Harrow Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: WarframeRecipes/HarrowPrimeChassisBlueprint
-- **Harrow Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WarframeRecipes/HarrowPrimeHelmetBlueprint
-- **Harrow Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 34p | Buy: 22p | Ducats: 100 | Effect ID: WarframeRecipes/HarrowPrimeSystemsBlueprint
+- **Harrow Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 4p | Ducats: 45 | Effect ID: WarframeRecipes/HarrowPrimeHelmetBlueprint
+- **Harrow Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 33p | Buy: 24p | Ducats: 100 | Effect ID: WarframeRecipes/HarrowPrimeSystemsBlueprint
 - **Helios Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: SentinelRecipes/PrimeHeliosSentinelBlueprint
 - **Hespar Handle Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Effect ID: WeaponParts/DuviriHeavyScytheHandleBlueprint
-- **Hildryn Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 36p | Buy: 28p | Ducats: 100 | Effect ID: WarframeRecipes/HildrynPrimeBlueprint
+- **Hildryn Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 36p | Buy: 26p | Ducats: 100 | Effect ID: WarframeRecipes/HildrynPrimeBlueprint
 - **Hildryn Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 10p | Ducats: 45 | Effect ID: WarframeRecipes/HildrynPrimeChassisBlueprint
 - **Hildryn Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WarframeRecipes/HildrynPrimeHelmetBlueprint
 - **Hildryn Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/HildrynPrimeSystemsBlueprint
@@ -225,22 +225,22 @@ Total entries in `inventoryParts.json`: **502**.
 - **Hystrix Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/HystrixPrimeBarrel
 - **Hystrix Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: Weapons/HystrixPrimeBlueprint
 - **Hystrix Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 18p | Buy: 6p | Ducats: 100 | Effect ID: WeaponParts/HystrixPrimeReceiver
-- **Inaros Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 45 | Effect ID: WarframeRecipes/InarosPrimeBlueprint
+- **Inaros Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WarframeRecipes/InarosPrimeBlueprint
 - **Inaros Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WarframeRecipes/InarosPrimeChassisBlueprint
-- **Ivara Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Buy: 8p | Ducats: 45 | Effect ID: WarframeRecipes/IvaraPrimeBlueprint
+- **Ivara Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WarframeRecipes/IvaraPrimeBlueprint
 - **Ivara Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 17p | Buy: 15p | Ducats: 100 | Effect ID: WarframeRecipes/IvaraPrimeChassisBlueprint
 - **Ivara Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 4p | Ducats: 15 | Effect ID: WarframeRecipes/IvaraPrimeHelmetBlueprint
 - **Ivara Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 10p | Buy: 10p | Ducats: 45 | Effect ID: WarframeRecipes/IvaraPrimeSystemsBlueprint
 - **Karak Wraith Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 16p | Effect ID: WeaponParts/KarakWraithBarrel
-- **Karyst Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 21p | Buy: 16p | Ducats: 100 | Effect ID: WeaponParts/KarystPrimeBlade
+- **Karyst Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 22p | Ducats: 100 | Effect ID: WeaponParts/KarystPrimeBlade
 - **Karyst Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: Weapons/KarystPrimeBlueprint
 - **Karyst Prime Handle** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/KarystPrimeHandle
 - **Kestrel Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 4p | Ducats: 15 | Effect ID: WeaponParts/KestrelPrimeBlade
 - **Khora Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/KhoraPrimeChassisBlueprint
 - **Khora Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 28p | Buy: 15p | Ducats: 100 | Effect ID: WarframeRecipes/KhoraPrimeHelmetBlueprint
 - **Khora Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 15 | Effect ID: WarframeRecipes/KhoraPrimeSystemsBlueprint
-- **Knell Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/KnellPrimeBlueprint
-- **Knell Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Buy: 1p | Ducats: 45 | Effect ID: WeaponParts/KnellPrimeReceiver
+- **Knell Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Buy: 4p | Ducats: 15 | Effect ID: Weapons/KnellPrimeBlueprint
+- **Knell Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/KnellPrimeReceiver
 - **Kogake Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 4p | Ducats: 45 | Effect ID: Weapons/KogakePrimeBlueprint
 - **Kogake Prime Boot** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/KogakePrimeBoot
 - **Kronen Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/KronenPrimeBlueprint
@@ -249,14 +249,14 @@ Total entries in `inventoryParts.json`: **502**.
 - **Larkspur Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WeaponParts/LarkspurPrimeStock
 - **Lato Vandal Receiver** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 3p | Effect ID: WeaponParts/LatoVandalReceiver
 - **Latron Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 10p | Ducats: 15 | Effect ID: WeaponParts/LatronPrimeBarrel
-- **Latron Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Ducats: 15 | Effect ID: Weapons/LatronPrimeBlueprint
+- **Latron Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Buy: 10p | Ducats: 15 | Effect ID: Weapons/LatronPrimeBlueprint
 - **Latron Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Ducats: 15 | Effect ID: WeaponParts/LatronPrimeReceiver
-- **Latron Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Ducats: 15 | Effect ID: WeaponParts/LatronPrimeStock
+- **Latron Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Buy: 6p | Ducats: 15 | Effect ID: WeaponParts/LatronPrimeStock
 - **Lavos Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 4p | Buy: 1p | Ducats: 45 | Effect ID: WarframeRecipes/LavosPrimeBlueprint
 - **Lavos Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 2p | Ducats: 15 | Effect ID: WarframeRecipes/LavosPrimeChassisBlueprint
-- **Lavos Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 4p | Buy: 4p | Ducats: 45 | Effect ID: WarframeRecipes/LavosPrimeHelmetBlueprint
+- **Lavos Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 4p | Buy: 1p | Ducats: 45 | Effect ID: WarframeRecipes/LavosPrimeHelmetBlueprint
 - **Lavos Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 11p | Buy: 13p | Ducats: 100 | Effect ID: WarframeRecipes/LavosPrimeSystemsBlueprint
-- **Lex Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 4p | Ducats: 15 | Effect ID: WeaponParts/LexPrimeBarrel
+- **Lex Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Ducats: 15 | Effect ID: WeaponParts/LexPrimeBarrel
 - **Lex Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Ducats: 25 | Effect ID: Weapons/LexPrimeBlueprint
 - **Lex Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 4p | Ducats: 15 | Effect ID: WeaponParts/LexPrimeReceiver
 - **Limbo Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WarframeRecipes/LimboPrimeBlueprint
@@ -264,11 +264,11 @@ Total entries in `inventoryParts.json`: **502**.
 
 ## inventoryParts: Entries 241 to 280 (Limbo Prime Systems Blueprint — Nidus Prime Neuroptics Blueprint)
 
-- **Limbo Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/LimboPrimeSystemsBlueprint
-- **Loki Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: WarframeRecipes/LokiPrimeBlueprint
+- **Limbo Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WarframeRecipes/LimboPrimeSystemsBlueprint
+- **Loki Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: WarframeRecipes/LokiPrimeBlueprint
 - **Loki Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Ducats: 45 | Effect ID: WarframeRecipes/LokiPrimeChassisBlueprint
 - **Loki Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 30p | Buy: 21p | Ducats: 100 | Effect ID: WarframeRecipes/LokiPrimeSystemsBlueprint
-- **Mag Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/MagPrimeChassisBlueprint
+- **Mag Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/MagPrimeChassisBlueprint
 - **Mag Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 15 | Effect ID: WarframeRecipes/MagPrimeHelmetBlueprint
 - **Mag Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 10p | Ducats: 15 | Effect ID: WarframeRecipes/MagPrimeSystemsBlueprint
 - **Magnus Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 4p | Ducats: 45 | Effect ID: WeaponParts/MagnusPrimeReceiver
@@ -277,27 +277,27 @@ Total entries in `inventoryParts.json`: **502**.
 - **Mandonel Receiver** — Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Sell: 4p | Effect ID: WeaponParts/TnConcreteArchgunReceiver
 - **Mandonel Stock** — Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 4p | Effect ID: WeaponParts/TnConcreteArchgunStock
 - **Masseter Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 14p | Buy: 9p | Ducats: 100 | Effect ID: WeaponParts/MasseterPrimeBlade
-- **Masseter Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 3p | Ducats: 45 | Effect ID: Weapons/MasseterPrimeBlueprint
+- **Masseter Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: Weapons/MasseterPrimeBlueprint
 - **Masseter Prime Handle** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WeaponParts/MasseterPrimeHandle
-- **Mesa Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 6p | Buy: 3p | Ducats: 45 | Effect ID: WarframeRecipes/MesaPrimeBlueprint
+- **Mesa Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 6p | Buy: 2p | Ducats: 45 | Effect ID: WarframeRecipes/MesaPrimeBlueprint
 - **Mesa Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WarframeRecipes/MesaPrimeChassisBlueprint
-- **Mesa Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 15p | Buy: 5p | Ducats: 100 | Effect ID: WarframeRecipes/MesaPrimeSystemsBlueprint
+- **Mesa Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 15p | Buy: 9p | Ducats: 100 | Effect ID: WarframeRecipes/MesaPrimeSystemsBlueprint
 - **Mirage Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 25p | Buy: 23p | Ducats: 100 | Effect ID: WarframeRecipes/MiragePrimeBlueprint
 - **Mirage Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Buy: 3p | Ducats: 15 | Effect ID: WarframeRecipes/MiragePrimeHelmetBlueprint
 - **Nagantaka Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/NagantakaPrimeBarrel
 - **Nagantaka Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Buy: 10p | Ducats: 100 | Effect ID: Weapons/NagantakaPrimeBlueprint
 - **Nagantaka Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WeaponParts/NagantakaPrimeReceiver
 - **Nagantaka Prime Stock** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 8p | Buy: 3p | Ducats: 45 | Effect ID: WeaponParts/NagantakaPrimeStock
-- **Nami Skyla Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 31p | Buy: 25p | Ducats: 100 | Effect ID: WeaponParts/PrimeNamiSkylaBlade
+- **Nami Skyla Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 31p | Buy: 26p | Ducats: 100 | Effect ID: WeaponParts/PrimeNamiSkylaBlade
 - **Nami Skyla Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: Weapons/PrimeNamiSkylaBlueprint
 - **Nami Skyla Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 45 | Effect ID: WeaponParts/PrimeNamiSkylaHandle
 - **Nautilus Carapace** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 16p | Effect ID: WeaponParts/EmpyreanSentinelCarapace
 - **Nautilus Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: FAVORITED, Vaulted | Sell: 10p | Buy: 8p | Ducats: 100 | Effect ID: SentinelRecipes/NautilusPrimeSentinelBlueprint
 - **Nautilus Prime Carapace** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED, Vaulted | Sell: 7p | Ducats: 15 | Effect ID: WeaponParts/NautilusPrimeCarapace
-- **Nautilus Prime Systems** — Rank: 0/0 (MAXED) | Owned: 4 | Flags: FAVORITED, Vaulted | Sell: 4p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/NautilusPrimeSystems
+- **Nautilus Prime Systems** — Rank: 0/0 (MAXED) | Owned: 4 | Flags: FAVORITED, Vaulted | Sell: 4p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/NautilusPrimeSystems
 - **Nekros Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 8p | Ducats: 15 | Effect ID: WarframeRecipes/NekrosPrimeChassisBlueprint
 - **Nekros Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 29p | Buy: 21p | Ducats: 100 | Effect ID: WarframeRecipes/NekrosPrimeSystemsBlueprint
-- **Nezha Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WarframeRecipes/NezhaPrimeBlueprint
+- **Nezha Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WarframeRecipes/NezhaPrimeBlueprint
 - **Nezha Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 29p | Buy: 18p | Ducats: 100 | Effect ID: WarframeRecipes/NezhaPrimeChassisBlueprint
 - **Nezha Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 22p | Buy: 15p | Ducats: 100 | Effect ID: WarframeRecipes/NezhaPrimeHelmetBlueprint
 - **Nezha Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WarframeRecipes/NezhaPrimeSystemsBlueprint
@@ -311,25 +311,25 @@ Total entries in `inventoryParts.json`: **502**.
 - **Nikana Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 25 | Effect ID: Weapons/PrimeNikanaBlueprint
 - **Ninkondi Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: Weapons/NinkondiPrimeBlueprint
 - **Ninkondi Prime Chain** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/NinkondiPrimeChain
-- **Nova Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 30p | Buy: 20p | Ducats: 100 | Effect ID: WarframeRecipes/NovaPrimeChassisBlueprint
-- **Nova Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 13p | Buy: 8p | Ducats: 15 | Effect ID: WarframeRecipes/NovaPrimeHelmetBlueprint
-- **Nova Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 15 | Effect ID: WarframeRecipes/NovaPrimeSystemsBlueprint
-- **Nyx Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 10p | Ducats: 15 | Effect ID: WarframeRecipes/NyxPrimeBlueprint
-- **Nyx Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Ducats: 65 | Effect ID: WarframeRecipes/NyxPrimeChassisBlueprint
-- **Nyx Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 30p | Buy: 25p | Ducats: 100 | Effect ID: WarframeRecipes/NyxPrimeHelmetBlueprint
+- **Nova Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 30p | Buy: 15p | Ducats: 100 | Effect ID: WarframeRecipes/NovaPrimeChassisBlueprint
+- **Nova Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 8p | Ducats: 15 | Effect ID: WarframeRecipes/NovaPrimeHelmetBlueprint
+- **Nova Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 11p | Ducats: 15 | Effect ID: WarframeRecipes/NovaPrimeSystemsBlueprint
+- **Nyx Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 10p | Buy: 5p | Ducats: 15 | Effect ID: WarframeRecipes/NyxPrimeBlueprint
+- **Nyx Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Buy: 7p | Ducats: 65 | Effect ID: WarframeRecipes/NyxPrimeChassisBlueprint
+- **Nyx Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 30p | Buy: 20p | Ducats: 100 | Effect ID: WarframeRecipes/NyxPrimeHelmetBlueprint
 - **Nyx Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 9p | Buy: 8p | Ducats: 45 | Effect ID: WarframeRecipes/NyxPrimeSystemsBlueprint
 - **Oberon Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WarframeRecipes/OberonPrimeBlueprint
-- **Oberon Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 10p | Ducats: 15 | Effect ID: WarframeRecipes/OberonPrimeChassisBlueprint
+- **Oberon Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: WarframeRecipes/OberonPrimeChassisBlueprint
 - **Oberon Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 35p | Buy: 25p | Ducats: 100 | Effect ID: WarframeRecipes/OberonPrimeHelmetBlueprint
-- **Oberon Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 19p | Buy: 13p | Ducats: 65 | Effect ID: WarframeRecipes/OberonPrimeSystemsBlueprint
-- **Octavia Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 49p | Buy: 30p | Ducats: 100 | Effect ID: WarframeRecipes/OctaviaPrimeBlueprint
+- **Oberon Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 19p | Buy: 15p | Ducats: 65 | Effect ID: WarframeRecipes/OberonPrimeSystemsBlueprint
+- **Octavia Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 48p | Buy: 30p | Ducats: 100 | Effect ID: WarframeRecipes/OctaviaPrimeBlueprint
 - **Octavia Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 11p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/OctaviaPrimeChassisBlueprint
 - **Octavia Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WarframeRecipes/OctaviaPrimeHelmetBlueprint
-- **Octavia Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 2p | Ducats: 15 | Effect ID: WarframeRecipes/OctaviaPrimeSystemsBlueprint
+- **Octavia Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 5p | Ducats: 15 | Effect ID: WarframeRecipes/OctaviaPrimeSystemsBlueprint
 - **Odonata Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: PrimeArchwing/PrimeArchwingBlueprint
 - **Odonata Prime Harness Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: PrimeArchwing/PrimeArchwingChassisBlueprint
-- **Okina Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 8p | Ducats: 15 | Effect ID: WeaponParts/OkinaPrimeBlade
-- **Okina Prime Handle** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 9p | Buy: 4p | Ducats: 45 | Effect ID: WeaponParts/OkinaPrimeHandle
+- **Okina Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 15 | Effect ID: WeaponParts/OkinaPrimeBlade
+- **Okina Prime Handle** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 9p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/OkinaPrimeHandle
 - **Orthos Prime Blade** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 4p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/PrimePolearmBlade
 - **Orthos Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 4p | Buy: 2p | Ducats: 45 | Effect ID: Weapons/PolearmPrimeBlueprint
 - **Orthos Prime Handle** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 3p | Ducats: 15 | Effect ID: WeaponParts/PrimePolearmHandle
@@ -341,7 +341,7 @@ Total entries in `inventoryParts.json`: **502**.
 - **Pangolin Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WeaponParts/PangolinPrimeBlade
 - **Pangolin Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 11p | Buy: 6p | Ducats: 100 | Effect ID: Weapons/PangolinPrimeBlueprint
 - **Pangolin Prime Handle** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 15 | Effect ID: WeaponParts/PangolinPrimeHandle
-- **Panthera Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 23p | Buy: 18p | Ducats: 100 | Effect ID: WeaponParts/PantheraPrimeBarrel
+- **Panthera Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 23p | Buy: 15p | Ducats: 100 | Effect ID: WeaponParts/PantheraPrimeBarrel
 - **Panthera Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: Weapons/PantheraPrimeBlueprint
 - **Panthera Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Buy: 13p | Ducats: 100 | Effect ID: WeaponParts/PantheraPrimeReceiver
 - **Panthera Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 5p | Ducats: 45 | Effect ID: WeaponParts/PantheraPrimeStock
@@ -357,50 +357,50 @@ Total entries in `inventoryParts.json`: **502**.
 - **Perigale Barrel** — Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Sell: 4p | Effect ID: WeaponParts/TnQuadSniperRifleBarrel
 - **Perigale Receiver** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 3p | Effect ID: WeaponParts/TnQuadSniperRifleReceiver
 - **Perigale Stock** — Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Sell: 4p | Effect ID: WeaponParts/TnQuadSniperRifleStock
-- **Phantasma Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Ducats: 100 | Effect ID: WeaponParts/PhantasmaPrimeBarrel
+- **Phantasma Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Buy: 8p | Ducats: 100 | Effect ID: WeaponParts/PhantasmaPrimeBarrel
 - **Phantasma Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: Weapons/PhantasmaPrimeBlueprint
 - **Phantasma Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/PhantasmaPrimeReceiver
 - **Phantasma Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 16p | Buy: 5p | Ducats: 65 | Effect ID: WeaponParts/PhantasmaPrimeStock
 - **Protea Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/ProteaPrimeBlueprint
-- **Protea Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Buy: 9p | Ducats: 100 | Effect ID: WarframeRecipes/ProteaPrimeChassisBlueprint
+- **Protea Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Buy: 8p | Ducats: 100 | Effect ID: WarframeRecipes/ProteaPrimeChassisBlueprint
 - **Protea Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Sell: 4p | Buy: 2p | Ducats: 45 | Effect ID: WarframeRecipes/ProteaPrimeHelmetBlueprint
-- **Protea Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 8p | Ducats: 100 | Effect ID: WarframeRecipes/ProteaPrimeSystemsBlueprint
+- **Protea Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 100 | Effect ID: WarframeRecipes/ProteaPrimeSystemsBlueprint
 - **Pyrana Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/PyranaPrimeBarrel
 - **Pyrana Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WeaponParts/PyranaPrimeReceiver
 - **Quassus Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 7p | Ducats: 100 | Effect ID: WeaponParts/QuassusPrimeBlade
-- **Quassus Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: Weapons/QuassusPrimeBlueprint
+- **Quassus Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Buy: 2p | Ducats: 45 | Effect ID: Weapons/QuassusPrimeBlueprint
 - **Quassus Prime Handle** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Buy: 3p | Ducats: 15 | Effect ID: WeaponParts/QuassusPrimeHandle
 - **Redeemer Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/RedeemerPrimeBlade
-- **Redeemer Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Buy: 5p | Ducats: 45 | Effect ID: Weapons/RedeemerPrimeBlueprint
-- **Redeemer Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 36p | Ducats: 100 | Effect ID: WeaponParts/RedeemerPrimeHandle
-- **Revenant Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 22p | Buy: 16p | Ducats: 100 | Effect ID: WarframeRecipes/RevenantPrimeBlueprint
+- **Redeemer Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: Weapons/RedeemerPrimeBlueprint
+- **Redeemer Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 36p | Buy: 15p | Ducats: 100 | Effect ID: WeaponParts/RedeemerPrimeHandle
+- **Revenant Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 22p | Buy: 5p | Ducats: 100 | Effect ID: WarframeRecipes/RevenantPrimeBlueprint
 - **Revenant Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 3p | Ducats: 15 | Effect ID: WarframeRecipes/RevenantPrimeChassisBlueprint
 - **Revenant Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WarframeRecipes/RevenantPrimeHelmetBlueprint
 - **Revenant Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WarframeRecipes/RevenantPrimeSystemsBlueprint
-- **Rhino Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 20p | Buy: 15p | Ducats: 100 | Effect ID: WarframeRecipes/RhinoPrimeBlueprint
+- **Rhino Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 20p | Buy: 16p | Ducats: 100 | Effect ID: WarframeRecipes/RhinoPrimeBlueprint
 - **Rhino Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 65 | Effect ID: WarframeRecipes/RhinoPrimeChassisBlueprint
 - **Rhino Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WarframeRecipes/RhinoPrimeSystemsBlueprint
 - **Riot-848 Barrel Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED, Vaulted | Effect ID: WeaponParts/1999EntHybridPistolBarrelBlueprint
 - **Rubico Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 25 | Effect ID: WeaponParts/RubicoPrimeBarrel
-- **Rubico Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 20p | Ducats: 100 | Effect ID: Weapons/RubicoPrimeBlueprint
+- **Rubico Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 20p | Buy: 12p | Ducats: 100 | Effect ID: Weapons/RubicoPrimeBlueprint
 - **Rubico Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/RubicoPrimeReceiver
 - **Rubico Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WeaponParts/RubicoPrimeStock
 - **Sarofang Blade** — Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Sell: 4p | Effect ID: WeaponParts/WolfFrameAxeWeaponBlade
 - **Sarofang Handle** — Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Sell: 3p | Effect ID: WeaponParts/WolfFrameAxeWeaponHandle
-- **Sarofang Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 9p | Buy: 5p | Ducats: 100 | Effect ID: WeaponParts/SarofangPrimeBlade
+- **Sarofang Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 9p | Ducats: 100 | Effect ID: WeaponParts/SarofangPrimeBlade
 - **Sarofang Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 3p | Ducats: 45 | Effect ID: Weapons/SarofangPrimeBlueprint
-- **Saryn Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 11p | Ducats: 65 | Effect ID: WarframeRecipes/SarynPrimeBlueprint
+- **Saryn Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 13p | Ducats: 65 | Effect ID: WarframeRecipes/SarynPrimeBlueprint
 
 ## inventoryParts: Entries 361 to 400 (Saryn Prime Chassis Blueprint — Stradavar Prime Receiver)
 
-- **Saryn Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 37p | Ducats: 100 | Effect ID: WarframeRecipes/SarynPrimeChassisBlueprint
+- **Saryn Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 37p | Buy: 29p | Ducats: 100 | Effect ID: WarframeRecipes/SarynPrimeChassisBlueprint
 - **Saryn Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 7p | Ducats: 45 | Effect ID: WarframeRecipes/SarynPrimeHelmetBlueprint
 - **Saryn Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 15 | Effect ID: WarframeRecipes/SarynPrimeSystemsBlueprint
 - **Scimitar Avionics** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 6p | Effect ID: BlueSky/BlueSkyAvionicsBlueprint
 - **Scimitar Fuselage** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 6p | Effect ID: BlueSky/BlueSkyFuselageBlueprint
 - **Scindo Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 4p | Ducats: 45 | Effect ID: Weapons/PrimeScindoBlueprint
 - **Scindo Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Ducats: 25 | Effect ID: WeaponParts/PrimeScindoHandle
-- **Scourge Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 34p | Buy: 20p | Ducats: 100 | Effect ID: WeaponParts/ScourgePrimeBarrel
+- **Scourge Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 34p | Buy: 25p | Ducats: 100 | Effect ID: WeaponParts/ScourgePrimeBarrel
 - **Scourge Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/ScourgePrimeBlade
 - **Scourge Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 17p | Ducats: 100 | Effect ID: Weapons/ScourgePrimeBlueprint
 - **Scourge Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WeaponParts/ScourgePrimeHandle
@@ -409,15 +409,15 @@ Total entries in `inventoryParts.json`: **502**.
 - **Sevagoth Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 3p | Ducats: 15 | Effect ID: WarframeRecipes/SevagothPrimeHelmetBlueprint
 - **Sevagoth Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: WarframeRecipes/SevagothPrimeSystemsBlueprint
 - **Shade Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: SentinelRecipes/ShadePrimeSentinelBlueprint
-- **Shade Prime Cerebrum** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 15 | Effect ID: WeaponParts/ShadePrimeCerebrum
+- **Shade Prime Cerebrum** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/ShadePrimeCerebrum
 - **Shade Prime Systems** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/ShadePrimeSystems
-- **Shedu Barrel** — Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Sell: 9p | Effect ID: WeaponParts/SheduHeavyWeaponBarrel
+- **Shedu Barrel** — Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Sell: 10p | Effect ID: WeaponParts/SheduHeavyWeaponBarrel
 - **Shedu Chassis** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 2p | Effect ID: WeaponParts/SheduHeavyWeaponChassis
 - **Shedu Handle** — Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Sell: 8p | Buy: 2p | Effect ID: WeaponParts/SheduHeavyWeaponHandle
 - **Shedu Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Effect ID: WeaponParts/SheduHeavyWeaponReceiver
-- **Sicarus Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 7p | Ducats: 15 | Effect ID: WeaponParts/SicarusPrimeBarrel
+- **Sicarus Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: WeaponParts/SicarusPrimeBarrel
 - **Sicarus Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: Weapons/SicarusPrimeBlueprint
-- **Sicarus Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 36p | Buy: 15p | Ducats: 100 | Effect ID: WeaponParts/SicarusPrimeReceiver
+- **Sicarus Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 36p | Buy: 30p | Ducats: 100 | Effect ID: WeaponParts/SicarusPrimeReceiver
 - **Silva & Aegis Prime Blade** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WeaponParts/SilvaAegisPrimeBlade
 - **Silva & Aegis Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: Weapons/SilvaAegisPrimeBlueprint
 - **Silva & Aegis Prime Hilt** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 15 | Effect ID: WeaponParts/SilvaAegisPrimeHandle
@@ -426,7 +426,7 @@ Total entries in `inventoryParts.json`: **502**.
 - **Spectra Vandal Handle** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: WeaponParts/SpectraVandalHandle
 - **Spira Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 16p | Buy: 10p | Ducats: 65 | Effect ID: WeaponParts/PrimeLiDaggerBlade
 - **Spira Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/PrimeLiDaggerBlueprint
-- **Spira Prime Pouch** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 31p | Buy: 25p | Ducats: 100 | Effect ID: WeaponParts/PrimeLiDaggerHolster
+- **Spira Prime Pouch** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 32p | Buy: 25p | Ducats: 100 | Effect ID: WeaponParts/PrimeLiDaggerHolster
 - **Sporothrix Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 2p | Effect ID: Weapons/InfSniperRifleBlueprint
 - **Stahlta Barrel** — Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Sell: 3p | Effect ID: WeaponParts/CrpRubanRifleBarrel
 - **Stahlta Stock** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 8p | Effect ID: WeaponParts/CrpRubanRifleStock
@@ -434,62 +434,63 @@ Total entries in `inventoryParts.json`: **502**.
 - **Stradavar Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 11p | Ducats: 100 | Effect ID: Weapons/StradavarPrimeBlueprint
 - **Stradavar Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/StradavarPrimeReceiver
 
-## inventoryParts: Entries 401 to 440 (Stradavar Prime Stock — Valkyr Prime Chassis Blueprint)
+## inventoryParts: Entries 401 to 440 (Stradavar Prime Stock — Valkyr Prime Blueprint)
 
 - **Stradavar Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: WeaponParts/StradavarPrimeStock
 - **Stropha Blade** — Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Sell: 6p | Effect ID: WeaponParts/CrpGunbladeBlade
 - **Stropha Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 2p | Effect ID: WeaponParts/CrpGunbladeStock
-- **Strun Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 24p | Buy: 15p | Ducats: 100 | Effect ID: Weapons/StrunPrimeBlueprint
+- **Strun Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 25p | Buy: 15p | Ducats: 100 | Effect ID: Weapons/StrunPrimeBlueprint
 - **Strun Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/StrunPrimeReceiver
-- **Strun Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Ducats: 45 | Effect ID: WeaponParts/StrunPrimeStock
-- **Sybaris Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 15 | Effect ID: Weapons/SybarisPrimeBlueprint
-- **Sybaris Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 8p | Ducats: 45 | Effect ID: WeaponParts/SybarisPrimeReceiver
-- **Sybaris Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 8p | Ducats: 15 | Effect ID: WeaponParts/SybarisPrimeStock
+- **Strun Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WeaponParts/StrunPrimeStock
+- **Sybaris Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: Weapons/SybarisPrimeBlueprint
+- **Sybaris Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WeaponParts/SybarisPrimeReceiver
+- **Sybaris Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 15 | Effect ID: WeaponParts/SybarisPrimeStock
 - **Tatsu Prime Blade** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/TatsuPrimeBlade
-- **Tatsu Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 4p | Ducats: 15 | Effect ID: Weapons/TatsuPrimeBlueprint
+- **Tatsu Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/TatsuPrimeBlueprint
 - **Tekko Prime Blade** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 22p | Buy: 6p | Ducats: 100 | Effect ID: WeaponParts/TekkoPrimeBlade
 - **Tekko Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: Weapons/TekkoPrimeBlueprint
-- **Tekko Prime Gauntlet** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/TekkoPrimeGauntlet
+- **Tekko Prime Gauntlet** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Buy: 4p | Ducats: 15 | Effect ID: WeaponParts/TekkoPrimeGauntlet
 - **Tenora Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Buy: 12p | Ducats: 100 | Effect ID: WeaponParts/TenoraPrimeBarrel
 - **Tenora Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: Weapons/TenoraPrimeBlueprint
-- **Tenora Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 10p | Buy: 8p | Ducats: 45 | Effect ID: WeaponParts/TenoraPrimeStock
+- **Tenora Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 10p | Ducats: 45 | Effect ID: WeaponParts/TenoraPrimeStock
 - **Tiberon Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Ducats: 65 | Effect ID: WeaponParts/TiberonPrimeBarrel
 - **Tiberon Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 25 | Effect ID: Weapons/TiberonPrimeBlueprint
 - **Tiberon Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/TiberonPrimeReceiver
 - **Tiberon Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 26p | Buy: 15p | Ducats: 100 | Effect ID: WeaponParts/TiberonPrimeStock
 - **Tigris Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 45 | Effect ID: WeaponParts/PrimeTigrisBarrel
-- **Tigris Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 29p | Ducats: 100 | Effect ID: Weapons/PrimeTigrisBlueprint
+- **Tigris Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 29p | Buy: 15p | Ducats: 100 | Effect ID: Weapons/PrimeTigrisBlueprint
 - **Tigris Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WeaponParts/PrimeTigrisReceiver
 - **Tigris Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/PrimeTigrisStock
-- **Titania Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WarframeRecipes/TitaniaPrimeBlueprint
-- **Titania Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WarframeRecipes/TitaniaPrimeChassisBlueprint
-- **Titania Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/TitaniaPrimeHelmetBlueprint
-- **Titania Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 32p | Buy: 30p | Ducats: 100 | Effect ID: WarframeRecipes/TitaniaPrimeSystemsBlueprint
+- **Titania Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/TitaniaPrimeBlueprint
+- **Titania Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 7p | Ducats: 15 | Effect ID: WarframeRecipes/TitaniaPrimeChassisBlueprint
+- **Titania Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 10p | Ducats: 45 | Effect ID: WarframeRecipes/TitaniaPrimeHelmetBlueprint
+- **Titania Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 32p | Buy: 25p | Ducats: 100 | Effect ID: WarframeRecipes/TitaniaPrimeSystemsBlueprint
 - **Trinity Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Ducats: 45 | Effect ID: WarframeRecipes/TrinityPrimeBlueprint
 - **Trinity Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/TrinityPrimeChassisBlueprint
-- **Trinity Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 5p | Ducats: 25 | Effect ID: WarframeRecipes/TrinityPrimeHelmetBlueprint
+- **Trinity Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 25 | Effect ID: WarframeRecipes/TrinityPrimeHelmetBlueprint
 - **Trinity Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: WarframeRecipes/TrinityPrimeSystemsBlueprint
-- **Trumna Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 8p | Ducats: 100 | Effect ID: WeaponParts/TrumnaPrimeBarrel
+- **Trumna Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 100 | Effect ID: WeaponParts/TrumnaPrimeBarrel
 - **Trumna Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Ducats: 15 | Effect ID: Weapons/TrumnaPrimeBlueprint
-- **Trumna Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 1p | Ducats: 45 | Effect ID: WeaponParts/TrumnaPrimeStock
+- **Trumna Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: WeaponParts/TrumnaPrimeStock
 - **Vadarya Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 4p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/PrimeLightningGunBarrel
-- **Vadarya Prime Stock** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 2p | Buy: 2p | Ducats: 15 | Effect ID: WeaponParts/PrimeLightningGunStock
-- **Valkyr Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 6p | Buy: 5p | Ducats: 15 | Effect ID: WarframeRecipes/ValkyrPrimeBlueprint
+- **Vadarya Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 3p | Buy: 2p | Ducats: 45 | Effect ID: WeaponParts/PrimeLightningGunReceiver
+- **Vadarya Prime Stock** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 2p | Buy: 2p | Ducats: 15 | Effect ID: WeaponParts/PrimeLightningGunStock
+- **Valkyr Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 6p | Ducats: 15 | Effect ID: WarframeRecipes/ValkyrPrimeBlueprint
+
+## inventoryParts: Entries 441 to 480 (Valkyr Prime Chassis Blueprint — Wukong Prime Systems Blueprint)
+
 - **Valkyr Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 35p | Buy: 26p | Ducats: 100 | Effect ID: WarframeRecipes/ValkyrPrimeChassisBlueprint
-
-## inventoryParts: Entries 441 to 480 (Valkyr Prime Neuroptics Blueprint — Wyrm Prime Blueprint)
-
-- **Valkyr Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 10p | Buy: 10p | Ducats: 45 | Effect ID: WarframeRecipes/ValkyrPrimeHelmetBlueprint
+- **Valkyr Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 10p | Ducats: 45 | Effect ID: WarframeRecipes/ValkyrPrimeHelmetBlueprint
 - **Valkyr Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 15p | Buy: 9p | Ducats: 65 | Effect ID: WarframeRecipes/ValkyrPrimeSystemsBlueprint
 - **Vasto Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 15 | Effect ID: WeaponParts/VastoPrimeBarrel
-- **Vasto Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Buy: 3p | Ducats: 45 | Effect ID: Weapons/VastoPrimeBlueprint
-- **Vasto Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 15 | Effect ID: WeaponParts/VastoPrimeReceiver
-- **Vauban Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Ducats: 25 | Effect ID: WarframeRecipes/VaubanPrimeChassisBlueprint
-- **Vauban Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 32p | Ducats: 100 | Effect ID: WarframeRecipes/VaubanPrimeHelmetBlueprint
-- **Vauban Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 40p | Buy: 20p | Ducats: 100 | Effect ID: WarframeRecipes/VaubanPrimeSystemsBlueprint
-- **Vectis Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 21p | Buy: 12p | Ducats: 15 | Effect ID: WeaponParts/VectisPrimeBarrel
-- **Vectis Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 3p | Ducats: 45 | Effect ID: Weapons/VectisPrimeBlueprint
-- **Vectis Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 53p | Buy: 45p | Ducats: 100 | Effect ID: WeaponParts/VectisPrimeReceiver
+- **Vasto Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: Weapons/VastoPrimeBlueprint
+- **Vasto Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Ducats: 15 | Effect ID: WeaponParts/VastoPrimeReceiver
+- **Vauban Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Buy: 5p | Ducats: 25 | Effect ID: WarframeRecipes/VaubanPrimeChassisBlueprint
+- **Vauban Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 32p | Buy: 25p | Ducats: 100 | Effect ID: WarframeRecipes/VaubanPrimeHelmetBlueprint
+- **Vauban Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 40p | Buy: 30p | Ducats: 100 | Effect ID: WarframeRecipes/VaubanPrimeSystemsBlueprint
+- **Vectis Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 21p | Buy: 10p | Ducats: 15 | Effect ID: WeaponParts/VectisPrimeBarrel
+- **Vectis Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: Weapons/VectisPrimeBlueprint
+- **Vectis Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 53p | Buy: 46p | Ducats: 100 | Effect ID: WeaponParts/VectisPrimeReceiver
 - **Velox Barrel** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 9p | Effect ID: WeaponParts/ProteaSMGBarrel
 - **Velox Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: Weapons/VeloxPrimeBlueprint
 - **Velox Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/VeloxPrimeReceiver
@@ -500,48 +501,48 @@ Total entries in `inventoryParts.json`: **502**.
 - **Volnus Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Ducats: 15 | Effect ID: Weapons/VolnusPrimeBlueprint
 - **Volnus Prime Handle** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 20p | Buy: 5p | Ducats: 100 | Effect ID: WeaponParts/VolnusPrimeHandle
 - **Volnus Prime Head** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 7p | Ducats: 45 | Effect ID: WeaponParts/VolnusPrimeHead
-- **Volt Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Buy: 6p | Ducats: 25 | Effect ID: WarframeRecipes/VoltPrimeBlueprint
-- **Volt Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Ducats: 45 | Effect ID: WarframeRecipes/VoltPrimeChassisBlueprint
+- **Volt Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 15p | Buy: 10p | Ducats: 25 | Effect ID: WarframeRecipes/VoltPrimeBlueprint
+- **Volt Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 9p | Buy: 6p | Ducats: 45 | Effect ID: WarframeRecipes/VoltPrimeChassisBlueprint
 - **Volt Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 20p | Buy: 20p | Ducats: 65 | Effect ID: WarframeRecipes/VoltPrimeHelmetBlueprint
-- **Volt Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Buy: 5p | Ducats: 45 | Effect ID: WarframeRecipes/VoltPrimeSystemsBlueprint
-- **Voruna Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 3p | Buy: 1p | Ducats: 45 | Effect ID: WarframeRecipes/VorunaPrimeHelmetBlueprint
+- **Volt Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 7p | Ducats: 45 | Effect ID: WarframeRecipes/VoltPrimeSystemsBlueprint
+- **Voruna Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: FAVORITED | Sell: 3p | Ducats: 45 | Effect ID: WarframeRecipes/VorunaPrimeHelmetBlueprint
 - **War Blade** — Rank: 0/0 (MAXED) | Owned: 15 | Flags: Vaulted | Sell: 3p | Effect ID: WeaponParts/WarBlade
 - **War Hilt** — Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Sell: 2p | Effect ID: WeaponParts/WarHilt
-- **Wisp Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 33p | Buy: 30p | Ducats: 100 | Effect ID: WarframeRecipes/WispPrimeBlueprint
+- **Wisp Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 34p | Buy: 25p | Ducats: 100 | Effect ID: WarframeRecipes/WispPrimeBlueprint
 - **Wisp Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 18p | Buy: 15p | Ducats: 65 | Effect ID: WarframeRecipes/WispPrimeChassisBlueprint
 - **Wisp Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 2p | Ducats: 45 | Effect ID: WarframeRecipes/WispPrimeHelmetBlueprint
-- **Wisp Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WarframeRecipes/WispPrimeSystemsBlueprint
+- **Wisp Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 6p | Buy: 3p | Ducats: 15 | Effect ID: WarframeRecipes/WispPrimeSystemsBlueprint
 - **Wolf Sledge Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 16p | Effect ID: Weapons/ThrowingHammerBlueprint
 - **Wolf Sledge Head** — Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Sell: 5p | Effect ID: WeaponParts/ThrowingHammerHead
 - **Wolf Sledge Motor** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 19p | Effect ID: WeaponParts/ThrowingHammerMotor
 - **Wukong Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 28p | Buy: 23p | Ducats: 100 | Effect ID: WarframeRecipes/WukongPrimeBlueprint
-- **Wukong Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Ducats: 45 | Effect ID: WarframeRecipes/WukongPrimeChassisBlueprint
-- **Wukong Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 1p | Ducats: 15 | Effect ID: WarframeRecipes/WukongPrimeHelmetBlueprint
+- **Wukong Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Buy: 10p | Ducats: 45 | Effect ID: WarframeRecipes/WukongPrimeChassisBlueprint
+- **Wukong Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 5p | Ducats: 15 | Effect ID: WarframeRecipes/WukongPrimeHelmetBlueprint
 - **Wukong Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Ducats: 45 | Effect ID: WarframeRecipes/WukongPrimeSystemsBlueprint
-- **Wyrm Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 13p | Buy: 5p | Ducats: 15 | Effect ID: SentinelRecipes/PrimeWyrmSentinelBlueprint
 
-## inventoryParts: Entries 481 to 502 (Wyrm Prime Carapace — Zylok Prime Receiver)
+## inventoryParts: Entries 481 to 503 (Wyrm Prime Blueprint — Zylok Prime Receiver)
 
-- **Wyrm Prime Carapace** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Ducats: 15 | Effect ID: WeaponParts/PrimeWyrmCarapace
+- **Wyrm Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 12p | Buy: 5p | Ducats: 15 | Effect ID: SentinelRecipes/PrimeWyrmSentinelBlueprint
+- **Wyrm Prime Carapace** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 15p | Buy: 9p | Ducats: 15 | Effect ID: WeaponParts/PrimeWyrmCarapace
 - **Xaku Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 14p | Buy: 12p | Ducats: 100 | Effect ID: WarframeRecipes/XakuPrimeBlueprint
 - **Xaku Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 1p | Ducats: 45 | Effect ID: WarframeRecipes/XakuPrimeChassisBlueprint
 - **Xaku Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 3p | Buy: 3p | Ducats: 15 | Effect ID: WarframeRecipes/XakuPrimeHelmetBlueprint
 - **Xaku Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Buy: 1p | Ducats: 45 | Effect ID: WarframeRecipes/XakuPrimeSystemsBlueprint
 - **Yareli Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 3 | Sell: 2p | Buy: 1p | Ducats: 15 | Effect ID: WarframeRecipes/YareliPrimeChassisBlueprint
-- **Yareli Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 10p | Buy: 8p | Ducats: 100 | Effect ID: WarframeRecipes/YareliPrimeHelmetBlueprint
+- **Yareli Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Sell: 9p | Buy: 7p | Ducats: 100 | Effect ID: WarframeRecipes/YareliPrimeHelmetBlueprint
 - **Yareli Prime Systems Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Sell: 14p | Buy: 8p | Ducats: 100 | Effect ID: WarframeRecipes/YareliPrimeSystemsBlueprint
 - **Zakti Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: WeaponParts/ZaktiPrimeBarrel
 - **Zakti Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 25p | Buy: 18p | Ducats: 100 | Effect ID: Weapons/ZaktiPrimeBlueprint
 - **Zakti Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 15 | Effect ID: WeaponParts/ZaktiPrimeReceiver
-- **Zephyr Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 17p | Ducats: 65 | Effect ID: WarframeRecipes/ZephyrPrimeBlueprint
+- **Zephyr Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 17p | Buy: 6p | Ducats: 65 | Effect ID: WarframeRecipes/ZephyrPrimeBlueprint
 - **Zephyr Prime Chassis Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 25 | Effect ID: WarframeRecipes/ZephyrPrimeChassisBlueprint
 - **Zephyr Prime Neuroptics Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WarframeRecipes/ZephyrPrimeHelmetBlueprint
-- **Zhuge Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 16p | Buy: 10p | Ducats: 100 | Effect ID: WeaponParts/ZhugePrimeBarrel
+- **Zhuge Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 16p | Buy: 6p | Ducats: 100 | Effect ID: WeaponParts/ZhugePrimeBarrel
 - **Zhuge Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Ducats: 45 | Effect ID: Weapons/ZhugePrimeBlueprint
 - **Zhuge Prime Grip** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/ZhugePrimeStock
 - **Zhuge Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 4p | Ducats: 45 | Effect ID: WeaponParts/ZhugePrimeReceiver
 - **Zhuge Prime String** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 9p | Ducats: 15 | Effect ID: WeaponParts/ZhugePrimeString
-- **Zylok Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Ducats: 15 | Effect ID: WeaponParts/ZylokPrimeBarrel
+- **Zylok Prime Barrel** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Ducats: 15 | Effect ID: WeaponParts/ZylokPrimeBarrel
 - **Zylok Prime Blueprint** — Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 12p | Buy: 6p | Ducats: 100 | Effect ID: Weapons/ZylokPrimeBlueprint
 - **Zylok Prime Receiver** — Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 4p | Ducats: 45 | Effect ID: WeaponParts/ZylokPrimeReceiver
 

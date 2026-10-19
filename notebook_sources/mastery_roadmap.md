@@ -78,7 +78,7 @@
 | **Vesper 77** | Secondary | +3,000 XP | Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required). |
 
 ---
-## 🎯 Priority 2: Missing Only 1 Part (13 Items)
+## 🎯 Priority 2: Missing Only 1 Part (14 Items)
 | Item | Type | Mastery XP | Missing Component | Next Step |
 | :--- | :---: | :---: | :---: | :--- |
 | **Tenet Agendus** | Melee | +4,000 XP | **Tenet Agendus Blueprint** | Needs 1 part: Tenet Agendus Blueprint (Farm via Relic / Bounty or trade on Warframe.market). |
@@ -94,6 +94,7 @@
 | **Braton Vandal** | Primary | +3,000 XP | **Braton Vandal Blueprint** | Needs 1 part: Braton Vandal Blueprint (Farm via Relic / Bounty or trade on Warframe.market). |
 | **Daikyu Prime** | Primary | +3,000 XP | **Daikyu Prime Grip** | Needs 1 part: Daikyu Prime Grip (Farm via Relic / Bounty or trade on Warframe.market). |
 | **Trumna Prime** | Primary | +3,000 XP | **Trumna Prime Receiver** | Needs 1 part: Trumna Prime Receiver (Farm via Relic / Bounty or trade on Warframe.market). |
+| **Vadarya Prime** | Primary | +3,000 XP | **Vadarya Prime Blueprint** | Needs 1 part: Vadarya Prime Blueprint (Farm via Relic / Bounty or trade on Warframe.market). |
 
 ---
 ## 🐾 Priority 3: Companions & Open-World Modulars (15 Items)
@@ -130,7 +131,7 @@
 | **Dual Coda Torxica** | Secondary | +4,000 XP | Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).*  |
 
 ---
-## 🏛️ Priority 5: Clan Dojo / Market / Relic Drops (21 Items)
+## 🏛️ Priority 5: Clan Dojo / Market / Relic Drops (20 Items)
 | Item | Type | Mastery XP | Acquisition Notes |
 | :--- | :---: | :---: | :--- |
 | **Citrine Prime** | Warframe | +6,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
@@ -150,7 +151,6 @@
 | **Cedo Prime** | Primary | +3,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
 | **Perigale Prime** | Primary | +3,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
 | **Steflos Prime** | Primary | +3,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
-| **Vadarya Prime** | Primary | +3,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
 | **Athodai Prime** | Secondary | +3,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
 | **Lato Vandal** | Secondary | +3,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
 | **Twin Kohmak** | Secondary | +3,000 XP | Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics. |
