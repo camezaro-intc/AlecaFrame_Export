@@ -1,0 +1,869 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warframe Account & Mastery Intelligence</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<style>
+  :root {
+    --bg-dark: #0b0e14;
+    --card-bg: #151a23;
+    --card-border: #232c3d;
+    --gold: #e5b85c;
+    --gold-dim: #b89243;
+    --cyan: #00d4ff;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --purple: #9b59b6;
+    --orange: #f39c12;
+    --blue: #3498db;
+    --text-main: #f0f4fc;
+    --text-muted: #8d9ba8;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    padding: 24px;
+    line-height: 1.5;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid var(--card-border);
+    padding-bottom: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .badge {
+    background: #232c3d;
+    color: var(--cyan);
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 13px;
+    font-weight: 600;
+  }
+
+  /* Main Tab Navigation */
+  .main-nav {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid var(--card-border);
+    padding-bottom: 14px;
+  }
+  .main-tab-btn {
+    background: #151a23;
+    border: 1px solid var(--card-border);
+    color: var(--text-muted);
+    padding: 11px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+  }
+  .main-tab-btn:hover {
+    color: var(--text-main);
+    border-color: var(--gold-dim);
+  }
+  .main-tab-btn.active {
+    background: #1c2433;
+    color: var(--gold);
+    border-color: var(--gold);
+    box-shadow: 0 0 15px rgba(229, 184, 92, 0.15);
+  }
+  .main-tab-btn .badge-pill {
+    background: var(--gold);
+    color: #0b0e14;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 10px;
+  }
+
+  /* Finance View Components */
+  .kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .kpi-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .kpi-label {
+    color: var(--text-muted);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+  }
+  .kpi-value {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-main);
+  }
+  .kpi-sub {
+    font-size: 12px;
+    color: var(--text-muted);
+  }
+  .charts-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+  }
+  .chart-box {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .chart-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--gold);
+    margin-bottom: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .table-box {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 18px;
+  }
+  .controls {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  input[type="text"] {
+    background: #0b0e14;
+    border: 1px solid var(--card-border);
+    color: var(--text-main);
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    flex-grow: 1;
+    max-width: 320px;
+  }
+  input[type="text"]:focus {
+    outline: none;
+    border-color: var(--gold);
+  }
+  .tab-btn {
+    background: #1c2331;
+    border: 1px solid var(--card-border);
+    color: var(--text-muted);
+    padding: 7px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 12px;
+    transition: all 0.2s;
+  }
+  .tab-btn.active, .tab-btn:hover {
+    background: var(--gold);
+    color: #0b0e14;
+    border-color: var(--gold);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    text-align: left;
+  }
+  th {
+    background: #11151e;
+    color: var(--text-muted);
+    padding: 10px 14px;
+    font-weight: 600;
+    border-bottom: 1px solid var(--card-border);
+  }
+  td {
+    padding: 10px 14px;
+    border-bottom: 1px solid #1a2230;
+  }
+  tr:hover td {
+    background: #181f2b;
+  }
+  .type-sale { color: var(--green); font-weight: 600; }
+  .type-purchase { color: var(--red); font-weight: 600; }
+  .type-barter { color: var(--cyan); }
+  .plat-badge { font-weight: 700; }
+
+  /* Mastery View Components */
+  .mr-banner {
+    background: linear-gradient(135deg, #151a23 0%, #192233 100%);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom: 24px;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 20px;
+    align-items: center;
+  }
+  @media (max-width: 900px) {
+    .mr-banner { grid-template-columns: 1fr; }
+  }
+  .mr-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--gold);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .progress-track {
+    background: #0b0e14;
+    border: 1px solid var(--card-border);
+    border-radius: 14px;
+    height: 24px;
+    overflow: hidden;
+    margin-top: 12px;
+    position: relative;
+  }
+  .progress-fill {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #2ecc71, #00d4ff);
+    border-radius: 14px;
+    transition: width 0.5s ease;
+    box-shadow: 0 0 15px rgba(46, 204, 113, 0.4);
+  }
+  .progress-text {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0 1px 3px rgba(0,0,0,0.9);
+  }
+  .banner-stats {
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+  .banner-stat-box {
+    background: rgba(11, 14, 20, 0.7);
+    border: 1px solid var(--card-border);
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .banner-stat-val {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--green);
+  }
+  .banner-stat-lbl {
+    font-size: 11px;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+  /* Guide Grid */
+  .guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .guide-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 16px;
+  }
+  .guide-card h3 {
+    font-size: 14px;
+    color: var(--gold);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .guide-card ul {
+    list-style: none;
+    font-size: 12px;
+    color: #c0cad6;
+  }
+  .guide-card li {
+    margin-bottom: 8px;
+    line-height: 1.45;
+  }
+  .guide-card strong {
+    color: var(--text-main);
+  }
+
+  /* Items Catalog */
+  .item-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 14px;
+    margin-top: 16px;
+  }
+  .item-card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 14px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+    transition: transform 0.15s, border-color 0.15s;
+  }
+  .item-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--gold-dim);
+  }
+  .item-thumb {
+    width: 62px;
+    height: 62px;
+    min-width: 62px;
+    background: #0b0e14;
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .item-thumb img {
+    max-width: 56px;
+    max-height: 56px;
+    object-fit: contain;
+  }
+  .item-info {
+    flex-grow: 1;
+    min-width: 0;
+  }
+  .item-name {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-main);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .xp-tag {
+    font-size: 11px;
+    font-weight: 700;
+    color: var(--gold);
+    background: rgba(229, 184, 92, 0.12);
+    border: 1px solid rgba(229, 184, 92, 0.3);
+    padding: 2px 7px;
+    border-radius: 6px;
+    white-space: nowrap;
+  }
+  .xp-tag.xp-6k {
+    color: #2ecc71;
+    background: rgba(46, 204, 113, 0.12);
+    border-color: rgba(46, 204, 113, 0.3);
+  }
+  .badge-prio {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+  .badge-prio-1 { background: rgba(46, 204, 113, 0.15); color: #2ecc71; border: 1px solid rgba(46, 204, 113, 0.4); }
+  .badge-prio-2 { background: rgba(243, 156, 18, 0.15); color: #f39c12; border: 1px solid rgba(243, 156, 18, 0.4); }
+  .badge-prio-3 { background: rgba(155, 89, 182, 0.15); color: #9b59b6; border: 1px solid rgba(155, 89, 182, 0.4); }
+  .badge-prio-4 { background: rgba(231, 76, 60, 0.15); color: #e74c3c; border: 1px solid rgba(231, 76, 60, 0.4); }
+  .badge-prio-5 { background: rgba(52, 152, 219, 0.15); color: #3498db; border: 1px solid rgba(52, 152, 219, 0.4); }
+  .item-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 6px;
+    line-height: 1.35;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>⚔️ Warframe Financial & Mastery Intelligence</h1>
+    <div style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">
+      Telemetric Insights & Progression Optimizer | 330 Days Tracked (2024-09-22 to 2026-10-16)
+    </div>
+  </div>
+  <div style="display: flex; gap: 10px; align-items: center;">
+    <span class="badge">Mastery Rank 34</span>
+    <span class="badge" style="color: var(--gold);">Codex 88%</span>
+  </div>
+</header>
+
+<nav class="main-nav">
+  <button class="main-tab-btn active" id="btn-tab-finance" onclick="switchView('finance', this)">
+    <span>📊 Financial & Progression Stats</span>
+  </button>
+  <button class="main-tab-btn" id="btn-tab-mastery" onclick="switchView('mastery', this)">
+    <span>🎖️ Mastery Rank Helper (MR 34 → 35)</span>
+    <span class="badge-pill">193,000 XP In Inventory</span>
+  </button>
+</nav>
+
+<!-- VIEW 1: FINANCIAL & TELEMETRY -->
+<div id="view-finance">
+  <div class="kpi-grid">
+    <div class="kpi-card">
+      <span class="kpi-label">Current Platinum</span>
+      <span class="kpi-value" style="color: var(--gold);">1,211p</span>
+      <span class="kpi-sub">Baseline: 275p on 2024-09-22 (+936p)</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Total Credits</span>
+      <span class="kpi-value">30.24M</span>
+      <span class="kpi-sub">+2.84M (Baseline: 27.4M on 2024-09-22)</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Total Endo</span>
+      <span class="kpi-value">123,826</span>
+      <span class="kpi-sub">+58,445 (Baseline: 65,381 on 2024-09-22)</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Ducats / Aya</span>
+      <span class="kpi-value">595 <span style="font-size: 16px; color: var(--cyan); font-weight: normal;">/ 49</span></span>
+      <span class="kpi-sub">Ready for Baro Ki'Teer & Resurgence</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Relics Opened</span>
+      <span class="kpi-value">504</span>
+      <span class="kpi-sub">Tracked opening sessions</span>
+    </div>
+    <div class="kpi-card">
+      <span class="kpi-label">Recent Sales Revenue</span>
+      <span class="kpi-value" style="color: var(--green);">+165p</span>
+      <span class="kpi-sub">Spent: 553p on parts</span>
+    </div>
+  </div>
+
+  <div class="charts-grid">
+    <div class="chart-box">
+      <div class="chart-title">
+        <span>📈 Platinum Balance Timeline (2024 - 2026)</span>
+        <span style="font-size: 13px; color: var(--gold);">Peak: 5,432p</span>
+      </div>
+      <canvas id="platChart" height="110"></canvas>
+    </div>
+    <div class="chart-box">
+      <div class="chart-title">
+        <span>💎 Resource Growth Trends</span>
+      </div>
+      <canvas id="resourceChart" height="240"></canvas>
+    </div>
+  </div>
+
+  <div class="table-box">
+    <div class="chart-title">
+      <span>📜 Trade Transaction Ledger (21 Logs)</span>
+    </div>
+    <div class="controls">
+      <input type="text" id="tradeSearch" placeholder="Search item, player, or date..." onkeyup="filterTrades()">
+      <button class="tab-btn active" onclick="setTab('all', this)">All (21)</button>
+      <button class="tab-btn" onclick="setTab('Sale', this)">Sales (3)</button>
+      <button class="tab-btn" onclick="setTab('Purchase', this)">Purchases (13)</button>
+      <button class="tab-btn" onclick="setTab('Barter / Gift', this)">Barter (5)</button>
+    </div>
+    <div style="overflow-x: auto;">
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Player</th>
+            <th>Items Given</th>
+            <th>Items Received</th>
+            <th>Platinum</th>
+          </tr>
+        </thead>
+        <tbody id="tradeTbody"></tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<!-- VIEW 2: MASTERY RANK HELPER -->
+<div id="view-mastery" style="display: none;">
+  <div class="mr-banner">
+    <div>
+      <div class="mr-title">
+        <span>🎖️ Mastery Progression: MR 34 ➔ MR 35 (Legendary 5)</span>
+      </div>
+      <div style="color: var(--text-muted); font-size: 13px; margin-top: 4px;">
+        Leveling the 49 unmastered items already sitting in your inventory will grant <strong>193,000 XP</strong> — exceeding the required <strong>147,500 XP</strong> for Legendary 5 with <strong>+45,500 XP surplus</strong>!
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill"></div>
+        <div class="progress-text">193,000 XP in Inventory / 147,500 XP Target (100% - READY TO RANK UP)</div>
+      </div>
+    </div>
+    <div class="banner-stats">
+      <div class="banner-stat-box">
+        <div class="banner-stat-val" style="color: var(--gold);">147,500</div>
+        <div class="banner-stat-lbl">XP Target</div>
+      </div>
+      <div class="banner-stat-box">
+        <div class="banner-stat-val">+193,000</div>
+        <div class="banner-stat-lbl">Owned XP</div>
+      </div>
+      <div class="banner-stat-box">
+        <div class="banner-stat-val" style="color: var(--cyan);">+45,500</div>
+        <div class="banner-stat-lbl">Surplus XP</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="guide-grid">
+    <div class="guide-card">
+      <h3>🚀 Warframes & Archwings (6,000 XP)</h3>
+      <ul>
+        <li>• <strong>Sanctuary Onslaught (Normal)</strong>: 2–3 zones with an Affinity Booster ranks frames 0 to 30 in ~5 mins.</li>
+        <li>• <strong>Salacia (Neptune)</strong>: Dense mob mobile defense for rapid Archwing / Archgun leveling.</li>
+        <li>• <strong>Incubator / Companions</strong>: Kavats and Kubrows grant 6,000 XP upon reaching Rank 30.</li>
+      </ul>
+    </div>
+    <div class="guide-card">
+      <h3>🔫 Weapons Speed-Leveling (3,000 - 4,000 XP)</h3>
+      <ul>
+        <li>• <strong>ESO 1-Weapon Trick</strong>: Unequip secondary & melee! 75% of teammate affinity goes directly into that single weapon (0 to 30 in 1–2 zones).</li>
+        <li>• <strong>Adaro (Sedna) Stealth Multiplier</strong>: Savage Silence Banshee / Sleep Equinox (500% stealth affinity bonus = 0 to 30 solo in under 2 mins).</li>
+      </ul>
+    </div>
+    <div class="guide-card">
+      <h3>⚡ Essential Rules & Boosters</h3>
+      <ul>
+        <li>• <strong>Modular Gear Must Be Gilded</strong>: Amps, Zaws, Kitguns, and K-Drives ONLY award Mastery XP after being gilded at rank 30 and leveled again!</li>
+        <li>• <strong>Kuva / Tenet / Coda Rank 40</strong>: Grants 3,000 XP at 30, plus 200 XP per level above 30 up to 40 using 5 Formas (+1,000 XP bonus).</li>
+        <li>• <strong>Relay Mastery Blessing</strong>: +25% Affinity for 3 hours from MR 30+ players in any Relay. Stacks with 2x Affinity Booster!</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="table-box">
+    <div class="chart-title">
+      <span>🎯 Mastery Progression Catalog (107 Items Tracked)</span>
+      <span id="masteryCount" style="font-size: 13px; color: var(--gold);">Showing 107 items</span>
+    </div>
+    <div class="controls">
+      <input type="text" id="masterySearch" placeholder="Search weapon, warframe, or missing part..." onkeyup="filterMastery()">
+      <button class="tab-btn prio-btn active" onclick="setMasteryPrio('all', this)">All (107)</button>
+      <button class="tab-btn prio-btn" onclick="setMasteryPrio('1', this)">⚡ In Inventory (49)</button>
+      <button class="tab-btn prio-btn" onclick="setMasteryPrio('2', this)">🎯 Missing 1 Part (13)</button>
+      <button class="tab-btn prio-btn" onclick="setMasteryPrio('3', this)">🐾 Companions / Modular (15)</button>
+      <button class="tab-btn prio-btn" onclick="setMasteryPrio('4', this)">⚔️ Nemesis Hunter (9)</button>
+      <button class="tab-btn prio-btn" onclick="setMasteryPrio('5', this)">🏛️ Market / Dojo / Drops (21)</button>
+    </div>
+    <div class="controls" style="margin-bottom: 20px;">
+      <span style="font-size: 12px; color: var(--text-muted); font-weight: 600;">Category:</span>
+      <button class="tab-btn type-btn active" onclick="setMasteryType('all', this)">All Types</button>
+      <button class="tab-btn type-btn" onclick="setMasteryType('warframe', this)">Warframes</button>
+      <button class="tab-btn type-btn" onclick="setMasteryType('weapons', this)">Weapons</button>
+      <button class="tab-btn type-btn" onclick="setMasteryType('arch', this)">Archwing</button>
+      <button class="tab-btn type-btn" onclick="setMasteryType('modular', this)">Modular & Pets</button>
+    </div>
+    <div class="item-cards-grid" id="masteryGrid"></div>
+  </div>
+</div>
+
+<script>
+  // --- View Switching ---
+  function switchView(viewName, btn) {
+    document.querySelectorAll('.main-tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    if (viewName === 'finance') {
+      document.getElementById('view-finance').style.display = 'block';
+      document.getElementById('view-mastery').style.display = 'none';
+    } else {
+      document.getElementById('view-finance').style.display = 'none';
+      document.getElementById('view-mastery').style.display = 'block';
+      renderMasteryItems();
+    }
+  }
+
+  // --- Financial Charts ---
+  const dates = ["2024-09-22", "2024-10-02", "2024-10-07", "2024-10-12", "2024-10-17", "2024-10-22", "2024-10-27", "2024-11-01", "2024-11-07", "2024-11-14", "2024-11-25", "2024-12-02", "2024-12-15", "2024-12-21", "2024-12-26", "2024-12-31", "2025-01-05", "2025-01-10", "2025-01-15", "2025-01-20", "2025-01-25", "2025-01-30", "2025-02-04", "2025-03-27", "2025-04-14", "2025-04-25", "2025-05-02", "2025-05-11", "2025-05-17", "2025-05-22", "2025-05-28", "2025-06-02", "2025-06-07", "2025-06-13", "2025-06-20", "2025-07-02", "2025-07-08", "2025-07-20", "2025-07-27", "2025-08-10", "2025-10-13", "2025-10-22", "2025-10-30", "2025-11-04", "2025-11-11", "2025-11-19", "2025-11-30", "2025-12-14", "2025-12-22", "2025-12-30", "2026-01-05", "2026-01-14", "2026-01-20", "2026-02-01", "2026-02-09", "2026-02-26", "2026-04-05", "2026-04-12", "2026-05-02", "2026-06-07", "2026-06-24", "2026-07-17", "2026-08-10", "2026-08-29", "2026-09-24", "2026-10-07", "2026-10-16"];
+  const platData = [275, 171, 114, 74, 17, 5, 5, 5, 5, 60, 40, 1016, 796, 784, 559, 439, 427, 255, 706, 486, 274, 237, 205, 181, 181, 306, 106, 106, 2959, 2333, 2033, 1673, 1556, 1556, 1301, 1281, 1281, 1281, 1121, 1081, 3181, 2307, 2265, 2253, 2253, 2253, 2053, 1878, 813, 733, 718, 718, 718, 718, 718, 1478, 1478, 1262, 1027, 5432, 4992, 3914, 3862, 3527, 1421, 1321, 1211];
+  const creditsData = [27.4, 27.6, 27.66, 27.57, 27.59, 26.65, 25.58, 24.69, 23.68, 24.14, 24.56, 25.08, 23.85, 28.04, 28.42, 29.9, 29.14, 30.68, 28.8, 27.59, 28.56, 29.13, 27.95, 32.01, 32.08, 31.65, 31.53, 31.77, 32.63, 31.92, 31.59, 30.78, 31.22, 31.76, 33.83, 33.0, 32.85, 32.89, 32.97, 33.47, 33.48, 34.84, 32.75, 33.02, 34.77, 30.92, 31.15, 26.33, 23.42, 23.53, 22.62, 22.58, 23.31, 23.42, 23.88, 24.13, 25.86, 26.44, 26.71, 27.22, 28.32, 28.68, 29.02, 29.07, 30.58, 29.97, 30.24];
+  const endoData = [65.4, 73.1, 76.5, 80.2, 79.3, 87.3, 119.7, 132.9, 120.2, 109.4, 116.3, 122.3, 80.2, 115.3, 130.6, 133.1, 135.5, 149.8, 122.8, 128.8, 135.6, 142.5, 112.4, 135.4, 140.3, 127.2, 127.6, 129.4, 137.7, 149.2, 119.9, 97.4, 107.8, 153.1, 158.9, 156.4, 157.8, 158.2, 162.4, 163.3, 163.7, 270.1, 287.3, 291.5, 274.6, 197.7, 203.5, 157.9, 86.1, 81.9, 84.5, 84.5, 91.8, 92.0, 94.1, 94.9, 99.1, 102.7, 103.1, 139.1, 143.9, 144.9, 146.0, 146.1, 150.2, 130.8, 123.8];
+
+  const ctxPlat = document.getElementById('platChart').getContext('2d');
+  new Chart(ctxPlat, {
+    type: 'line',
+    data: {
+      labels: dates,
+      datasets: [{
+        label: 'Platinum Balance',
+        data: platData,
+        borderColor: '#e5b85c',
+        backgroundColor: 'rgba(229, 184, 92, 0.1)',
+        fill: true,
+        tension: 0.25,
+        borderWidth: 2,
+        pointRadius: 2,
+        pointHoverRadius: 5
+      }]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            label: function(c) { return c.parsed.y.toLocaleString() + 'p'; }
+          }
+        }
+      },
+      scales: {
+        x: { grid: { color: '#1a2230' }, ticks: { color: '#8d9ba8', maxTicksLimit: 12 } },
+        y: { grid: { color: '#1a2230' }, ticks: { color: '#8d9ba8' } }
+      }
+    }
+  });
+
+  const ctxRes = document.getElementById('resourceChart').getContext('2d');
+  new Chart(ctxRes, {
+    type: 'line',
+    data: {
+      labels: dates,
+      datasets: [
+        {
+          label: 'Credits (Millions)',
+          data: creditsData,
+          borderColor: '#00d4ff',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 1,
+          yAxisID: 'y'
+        },
+        {
+          label: 'Endo (Thousands)',
+          data: endoData,
+          borderColor: '#2ecc71',
+          backgroundColor: 'transparent',
+          borderWidth: 2,
+          pointRadius: 1,
+          yAxisID: 'y1'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      plugins: {
+        legend: { labels: { color: '#f0f4fc' } }
+      },
+      scales: {
+        x: { grid: { color: '#1a2230' }, ticks: { color: '#8d9ba8', maxTicksLimit: 12 } },
+        y: {
+          type: 'linear',
+          display: true,
+          position: 'left',
+          grid: { color: '#1a2230' },
+          ticks: { color: '#00d4ff', callback: v => v + 'M' }
+        },
+        y1: {
+          type: 'linear',
+          display: true,
+          position: 'right',
+          grid: { drawOnChartArea: false },
+          ticks: { color: '#2ecc71', callback: v => v + 'k' }
+        }
+      }
+    }
+  });
+
+  // --- Trade Ledger Logic ---
+  const allTrades = [{"ts": "2026-10-16T23:08:56.178Z", "date": "2026-10-16", "user": "Whata_Burger_", "type": "Sale", "totalPlat": 40, "netPlat": 40, "tx": [{"name": "Helios Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Helios Prime Carapace", "cnt": 1, "rank": -1}, {"name": "Helios Prime Cerebrum", "cnt": 1, "rank": -1}, {"name": "Helios Prime Systems", "cnt": 1, "rank": -1}], "rx": [{"name": "Platinum", "cnt": 40, "rank": -1}]}, {"ts": "2026-10-16T23:06:56.497Z", "date": "2026-10-16", "user": "Whata_Burger_", "type": "Sale", "totalPlat": 75, "netPlat": 75, "tx": [{"name": "Carrier Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Carrier Prime Systems", "cnt": 1, "rank": -1}, {"name": "Carrier Prime Cerebrum", "cnt": 1, "rank": -1}, {"name": "Carrier Prime Carapace", "cnt": 1, "rank": -1}], "rx": [{"name": "Platinum", "cnt": 75, "rank": -1}]}, {"ts": "2026-10-16T23:01:22.323Z", "date": "2026-10-16", "user": "Mykkerz21", "type": "Sale", "totalPlat": 50, "netPlat": 50, "tx": [{"name": "Inaros Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Inaros Prime Chassis Blueprint", "cnt": 1, "rank": -1}, {"name": "Inaros Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Inaros Prime Systems Blueprint", "cnt": 1, "rank": -1}], "rx": [{"name": "Platinum", "cnt": 50, "rank": -1}]}, {"ts": "2026-06-03T05:17:25.281Z", "date": "2026-06-03", "user": "jwolf_thc_787", "type": "Purchase", "totalPlat": 40, "netPlat": -40, "tx": [{"name": "Platinum", "cnt": 40, "rank": -1}], "rx": [{"name": "Caliban Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Caliban Prime Systems Blueprint", "cnt": 1, "rank": -1}, {"name": "Caliban Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Caliban Prime Chassis Blueprint", "cnt": 1, "rank": -1}]}, {"ts": "2026-06-03T05:11:48.029Z", "date": "2026-06-03", "user": "AkatsukiZeroXII", "type": "Purchase", "totalPlat": 40, "netPlat": -40, "tx": [{"name": "Platinum", "cnt": 40, "rank": -1}], "rx": [{"name": "Caliban Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Caliban Prime Systems Blueprint", "cnt": 1, "rank": -1}, {"name": "Caliban Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Caliban Prime Chassis Blueprint", "cnt": 1, "rank": -1}]}, {"ts": "2026-06-03T04:44:49.450Z", "date": "2026-06-03", "user": "BAMKING9857", "type": "Purchase", "totalPlat": 40, "netPlat": -40, "tx": [{"name": "Platinum", "cnt": 40, "rank": -1}], "rx": [{"name": "Gyre Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Gyre Prime Systems Blueprint", "cnt": 1, "rank": -1}, {"name": "Gyre Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Gyre Prime Chassis Blueprint", "cnt": 1, "rank": -1}]}, {"ts": "2026-04-12T04:51:09.508Z", "date": "2026-04-12", "user": "vechaibua", "type": "Purchase", "totalPlat": 26, "netPlat": -26, "tx": [{"name": "Platinum", "cnt": 26, "rank": -1}], "rx": [{"name": "Axi V14 Radiant", "cnt": 2, "rank": -1}]}, {"ts": "2025-11-24T05:35:24.162Z", "date": "2025-11-24", "user": "00prop", "type": "Barter / Gift", "totalPlat": 0, "netPlat": 0, "tx": [{"name": "Amniophysi", "cnt": 1, "rank": 76}], "rx": [{"name": "Neo Z4 Intact", "cnt": 4, "rank": -1}]}, {"ts": "2025-06-19T05:41:24.932Z", "date": "2025-06-19", "user": "Carlos_HS2006", "type": "Purchase", "totalPlat": 75, "netPlat": -75, "tx": [{"name": "Platinum", "cnt": 75, "rank": -1}], "rx": [{"name": "Yareli Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Yareli Prime Systems Blueprint", "cnt": 1, "rank": -1}, {"name": "Yareli Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Yareli Prime Chassis Blueprint", "cnt": 1, "rank": -1}]}, {"ts": "2025-05-21T04:40:33.523Z", "date": "2025-05-21", "user": "CalebWithUhK", "type": "Purchase", "totalPlat": 70, "netPlat": -70, "tx": [{"name": "Platinum", "cnt": 70, "rank": -1}], "rx": [{"name": "Dual Zoren Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Dual Zoren Prime Blade", "cnt": 2, "rank": -1}, {"name": "Dual Zoren Prime Handle", "cnt": 2, "rank": -1}]}, {"ts": "2025-05-17T01:53:35.182Z", "date": "2025-05-17", "user": "RequiemX4499", "type": "Purchase", "totalPlat": 105, "netPlat": -105, "tx": [{"name": "Platinum", "cnt": 105, "rank": -1}], "rx": [{"name": "Spira Prime Blade", "cnt": 2, "rank": -1}, {"name": "Spira Prime Blueprint", "cnt": 1, "rank": -1}, {"name": "Spira Prime Pouch", "cnt": 2, "rank": -1}]}, {"ts": "2025-05-11T18:01:38.335Z", "date": "2025-05-11", "user": "Dr_Theogood", "type": "Purchase", "totalPlat": 45, "netPlat": -45, "tx": [{"name": "Platinum", "cnt": 45, "rank": -1}], "rx": [{"name": "Lavos Prime Chassis Blueprint", "cnt": 1, "rank": -1}, {"name": "Lavos Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Lavos Prime Systems Blueprint", "cnt": 1, "rank": -1}, {"name": "Lavos Prime Blueprint", "cnt": 1, "rank": -1}]}, {"ts": "2025-01-27T02:51:18.354Z", "date": "2025-01-27", "user": "znNemo", "type": "Purchase", "totalPlat": 25, "netPlat": -25, "tx": [{"name": "Platinum", "cnt": 25, "rank": -1}], "rx": [{"name": "Tipedo Prime Handle", "cnt": 1, "rank": -1}]}, {"ts": "2025-01-18T06:48:50.372Z", "date": "2025-01-18", "user": "TheYetiLifts", "type": "Barter / Gift", "totalPlat": 0, "netPlat": 0, "tx": [{"name": "Gauss Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Gauss Prime Systems Blueprint", "cnt": 1, "rank": -1}, {"name": "Gauss Prime Chassis Blueprint", "cnt": 1, "rank": -1}], "rx": [{"name": "Ammo Drum", "cnt": 1, "rank": 0}]}, {"ts": "2025-01-17T04:38:21.417Z", "date": "2025-01-17", "user": "MDen2005", "type": "Purchase", "totalPlat": 20, "netPlat": -20, "tx": [{"name": "Platinum", "cnt": 20, "rank": -1}], "rx": [{"name": "Xaku Prime Systems Blueprint", "cnt": 1, "rank": -1}]}, {"ts": "2024-12-19T20:27:38.360Z", "date": "2024-12-19", "user": "csnakeprime", "type": "Barter / Gift", "totalPlat": 0, "netPlat": 0, "tx": [{"name": "Corvas Prime Barrel", "cnt": 1, "rank": -1}], "rx": [{"name": "Akarius Prime Barrel", "cnt": 1, "rank": -1}]}, {"ts": "2024-12-16T05:54:20.645Z", "date": "2024-12-16", "user": "N7W-37", "type": "Purchase", "totalPlat": 12, "netPlat": -12, "tx": [{"name": "Platinum", "cnt": 12, "rank": -1}], "rx": [{"name": "Acceltra Prime Stock", "cnt": 1, "rank": -1}]}, {"ts": "2024-12-09T04:05:26.417Z", "date": "2024-12-09", "user": "MT_tony", "type": "Purchase", "totalPlat": 50, "netPlat": -50, "tx": [{"name": "Platinum", "cnt": 50, "rank": -1}], "rx": [{"name": "Sevagoth Prime Systems Blueprint", "cnt": 1, "rank": -1}, {"name": "Sevagoth Prime Neuroptics Blueprint", "cnt": 1, "rank": -1}, {"name": "Sevagoth Prime Chassis Blueprint", "cnt": 1, "rank": -1}, {"name": "Sevagoth Prime Blueprint", "cnt": 1, "rank": -1}]}, {"ts": "2024-10-20T07:09:59.736Z", "date": "2024-10-20", "user": "Battousaineo", "type": "Barter / Gift", "totalPlat": 0, "netPlat": 0, "tx": [{"name": "Atlas Prime Chassis Blueprint", "cnt": 1, "rank": -1}], "rx": [{"name": "Acceltra Prime Receiver", "cnt": 1, "rank": -1}]}, {"ts": "2024-10-12T21:35:20.599Z", "date": "2024-10-12", "user": "CHARLIEZW328", "type": "Purchase", "totalPlat": 5, "netPlat": -5, "tx": [{"name": "Platinum", "cnt": 5, "rank": -1}], "rx": [{"name": "Okina Prime Blade", "cnt": 1, "rank": -1}]}, {"ts": "2024-10-06T22:59:33.335Z", "date": "2024-10-06", "user": "00prop", "type": "Barter / Gift", "totalPlat": 0, "netPlat": 0, "tx": [{"name": "Shedu Puracon", "cnt": 1, "rank": 0}, {"name": "Ayatan Cyan Star", "cnt": 5, "rank": -1}], "rx": [{"name": "Sarofang Crita-toxidra", "cnt": 1, "rank": 8}]}];
+  let currentTradeTab = 'all';
+
+  function renderTrades() {
+    const tbody = document.getElementById('tradeTbody');
+    const query = document.getElementById('tradeSearch').value.toLowerCase().trim();
+    tbody.innerHTML = '';
+
+    const filtered = allTrades.filter(t => {
+      if (currentTradeTab !== 'all' && t.type !== currentTradeTab) return false;
+      if (!query) return true;
+      const txNames = t.tx.map(x => x.name.toLowerCase()).join(' ');
+      const rxNames = t.rx.map(x => x.name.toLowerCase()).join(' ');
+      return t.user.toLowerCase().includes(query) ||
+             t.date.includes(query) ||
+             txNames.includes(query) ||
+             rxNames.includes(query);
+    });
+
+    for (const t of filtered) {
+      const tr = document.createElement('tr');
+      const txText = t.tx.map(x => `${x.name}${x.cnt > 1 ? ' x' + x.cnt : ''}`).join(', ');
+      const rxText = t.rx.map(x => `${x.name}${x.cnt > 1 ? ' x' + x.cnt : ''}`).join(', ');
+      
+      let typeClass = 'type-barter';
+      let platClass = '';
+      let platPrefix = '';
+      if (t.type === 'Sale') {
+        typeClass = 'type-sale';
+        platClass = 'type-sale';
+        platPrefix = '+';
+      } else if (t.type === 'Purchase') {
+        typeClass = 'type-purchase';
+        platClass = 'type-purchase';
+        platPrefix = '-';
+      }
+
+      tr.innerHTML = `
+        <td style="color: #8d9ba8;">${t.date}</td>
+        <td class="${typeClass}">${t.type}</td>
+        <td style="font-family: monospace; color: var(--gold);">${t.user}</td>
+        <td>${txText}</td>
+        <td>${rxText}</td>
+        <td class="plat-badge ${platClass}">${t.totalPlat > 0 ? platPrefix + t.totalPlat + 'p' : '0p'}</td>
+      `;
+      tbody.appendChild(tr);
+    }
+  }
+
+  function setTab(tab, el) {
+    currentTradeTab = tab;
+    document.querySelectorAll('.controls .tab-btn').forEach(b => {
+      if (!b.classList.contains('prio-btn') && !b.classList.contains('type-btn')) b.classList.remove('active');
+    });
+    el.classList.add('active');
+    renderTrades();
+  }
+
+  function filterTrades() {
+    renderTrades();
+  }
+
+  renderTrades();
+
+  // --- Mastery Rank Helper Logic ---
+  const allMasteryItems = [{"name": "Elytron", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Elytron.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Elytron Blueprint", "Elytron Harness Blueprint", "Elytron Systems Blueprint", "Elytron Wings Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Odonata Prime", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/OdonataPrime.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Odonata Prime Systems Blueprint", "Odonata Prime Wings Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Kavasa Prime Kubrow Collar", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/KubrowCollarPrimeA.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Kavasa Prime Buckle"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Bad Baby", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/HoverboardSolarisADeck.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Bad Baby Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Needlenose", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/HoverboardCorpusBDeck.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Needlenose Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Caliban Prime", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/CalibanPrime.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Gyre Prime", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/GyrePrime.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Gyre Prime Chassis Blueprint", "Gyre Prime Neuroptics Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Narin", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/Narin.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Narin Blueprint", "Narin Neuroptics Blueprint", "Narin Systems Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Nokko", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/Nokko.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Nokko Chassis Blueprint", "Nokko Neuroptics Blueprint", "Nokko Systems Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Sirius & Orion", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/SiriusOrion.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Sirius & Orion Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Temple", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/Temple.png", "xp": 6000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Temple Blueprint", "Temple Chassis Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Coda Motovore", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/InfLichHammerWeapon.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Kuva Ghoulsaw", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/KuvaGhoulSaw.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Kuva Ghoulsaw Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Tenet Livia", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBriefcase2HKatana.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Tenet Livia Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Coda Bassocyst", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/1999InfShotgunWeapon.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Coda Bubonico", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaBubonico.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Coda Sporothrix", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaSporothrix.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Coda Synapse", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaSynapse.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Kuva Sobek", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/KuvaSobek.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Kuva Sobek Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Tenet Flux Rifle", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBEFluxRifle.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Tenet Flux Rifle Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Tenet Glaxion", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBEGlaxion.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Tenet Glaxion Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Tenet Tetra", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBETetra.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Tenet Tetra Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Tenet Cycron", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBECycron.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Tenet Cycron Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Tenet Detron", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBEDetron.png", "xp": 4000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Tenet Detron Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Agkuza", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Agkuza.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Agkuza Blade", "Agkuza Blueprint", "Agkuza Guard", "Agkuza Handle"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Centaur", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Centaur.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Centaur Aegis", "Centaur Blade", "Centaur Blueprint", "Centaur Handle"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Cortege", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/ThanotechArchGun.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Cortege Blueprint", "Cortege Barrel", "Cortege Receiver", "Cortege Stock"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Cyngas", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Cyngas.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Cyngas Barrel", "Cyngas Blueprint", "Cyngas Receiver", "Cyngas Stock"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Dual Decurion", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/DualDecurion.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Dual Decurion Blueprint", "Decurion Barrel", "Decurion Receiver"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Kaszas", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Kaszas.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Kaszas Blade", "Kaszas Blueprint", "Kaszas Handle"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Larkspur", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/ShieldFrameArchGun.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Larkspur Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Larkspur Prime", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/LarkspurPrime.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Larkspur Prime Barrel"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Morgha", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/ThanoTechGrenadeLauncher.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Morgha Blueprint", "Morgha Barrel", "Morgha Receiver", "Morgha Stock"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Onorix", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Onorix.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Onorix Blade", "Onorix Blueprint", "Onorix Handle"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Phaedra", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Phaedra.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Phaedra Barrel", "Phaedra Blueprint", "Phaedra Receiver", "Phaedra Stock"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Prisma Dual Decurions", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/PrismaDualDecurion.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Prisma Veritux", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/PrismaVeritux.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": [], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Rathbone", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Rathbone.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Rathbone Blueprint", "Rathbone Handle", "Rathbone Head"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Velocitus", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/Velocitus.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Velocitus Barrel", "Velocitus Blueprint", "Velocitus Receiver", "Velocitus Stock"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Venato Prime", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/VenatoPrime.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Venato Prime Blade", "Venato Prime Handle"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Mewan", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/TipThree.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Mewan Blueprint", "Fersteel Alloy"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Rabvee", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/TipTen.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Fersteel Alloy"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Enkaus", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/TnInkRifleWeapon.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Enkaus Blueprint", "Enkaus Stock"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Evensong", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/TnChoirBow.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Evensong Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Snipetron", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/Snipetron.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Snipetron Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Vinquibus", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/TnBayonetRifle.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Vinquibus Blade", "Vinquibus Blueprint", "Vinquibus Receiver", "Vinquibus Stock"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Akarius Prime", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/AkariusPrime.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Akarius Prime Blueprint", "Akarius Prime Receiver"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Aksondol", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/DuelistPistols.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Aksondol Barrel", "Aksondol Blueprint", "Aksondol Link", "Aksondol Receiver"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Vesper 77", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/LasSilencedPistolWeapon.png", "xp": 3000, "owned": true, "prio": 1, "prio_label": "\u26a1 Ready in Inventory", "status_text": "Crafted in Inventory", "missing": ["Vesper 77 Blueprint", "Vesper 77 Handle Blueprint", "Vesper 77 Receiver Blueprint"], "tip": "Equip & level in Sanctuary Onslaught / ESO (0 crafting time / 0 plat required)."}, {"name": "Tenet Agendus", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpHammerShield.png", "xp": 4000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Tenet Agendus Blueprint", "missing": ["Tenet Agendus Blueprint"], "tip": "Needs 1 part: Tenet Agendus Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Tenet Exec", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBigSlash.png", "xp": 4000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Tenet Exec Blueprint", "missing": ["Tenet Exec Blueprint"], "tip": "Needs 1 part: Tenet Exec Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Tenet Grigori", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpBriefcaseScythe.png", "xp": 4000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Tenet Grigori Blueprint", "missing": ["Tenet Grigori Blueprint"], "tip": "Needs 1 part: Tenet Grigori Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Tenet Ferrox", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/TenetFerrox.png", "xp": 4000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Tenet Ferrox Blueprint", "missing": ["Tenet Ferrox Blueprint"], "tip": "Needs 1 part: Tenet Ferrox Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Tenet Quanta", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/TenetQuanta.png", "xp": 4000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Tenet Quanta Blueprint", "missing": ["Tenet Quanta Blueprint"], "tip": "Needs 1 part: Tenet Quanta Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Tenet Spirex", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/CrpIgniterPistol.png", "xp": 4000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Tenet Spirex Blueprint", "missing": ["Tenet Spirex Blueprint"], "tip": "Needs 1 part: Tenet Spirex Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Arum Spinosa", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/InfWarfanWeapon.png", "xp": 3000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Arum Spinosa Guard", "missing": ["Arum Spinosa Guard"], "tip": "Needs 1 part: Arum Spinosa Guard (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Korumm", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/ArchonTrident.png", "xp": 3000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Korumm Blueprint", "missing": ["Korumm Blueprint"], "tip": "Needs 1 part: Korumm Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Quassus Prime", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/QuassusPrime.png", "xp": 3000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Quassus Prime Blade", "missing": ["Quassus Prime Blade"], "tip": "Needs 1 part: Quassus Prime Blade (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Sarofang Prime", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/SarofangPrime.png", "xp": 3000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Sarofang Prime Handle", "missing": ["Sarofang Prime Handle"], "tip": "Needs 1 part: Sarofang Prime Handle (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Braton Vandal", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/BratonVandal.png", "xp": 3000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Braton Vandal Blueprint", "missing": ["Braton Vandal Blueprint"], "tip": "Needs 1 part: Braton Vandal Blueprint (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Daikyu Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/DaikyuPrime.png", "xp": 3000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Daikyu Prime Grip", "missing": ["Daikyu Prime Grip"], "tip": "Needs 1 part: Daikyu Prime Grip (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Trumna Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/TrumnaPrime.png", "xp": 3000, "owned": false, "prio": 2, "prio_label": "\ud83c\udfaf Missing 1 Part", "status_text": "Missing: Trumna Prime Receiver", "missing": ["Trumna Prime Receiver"], "tip": "Needs 1 part: Trumna Prime Receiver (Farm via Relic / Bounty or trade on Warframe.market)."}, {"name": "Adarza Kavat", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/KavatBreedAdarza.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Huras Kubrow", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/KubrowBreedHuras.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Prisma Burst Laser", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/PrismaBurstLaser.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Prisma Shade", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/PrismaShade.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Sahasa Kubrow", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/KubrowBreedSahasa.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Sunika Kubrow", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/KubrowBreedSunika.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Vasca Kavat", "type": "companion", "picture": "https://cdn.alecaframe.com/warframeData/img/KavatBreedVasca.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Feverspine", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/HoverboardInfestedBDeck.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": ["Feverspine Blueprint"], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Flatbelly", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/HoverboardCorpusADeck.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Runway", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/HoverboardCorpusCDeck.png", "xp": 6000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": ["Runway Blueprint"], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Cantic Prism", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/CorpAmpSet1BarrelPartA.png", "xp": 3000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": ["Cantic Prism Blueprint"], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Dokrahm", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/TipEleven.png", "xp": 3000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": ["Pyrotic Alloy"], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Lega Prism", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/CorpAmpSet1BarrelPartB.png", "xp": 3000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Ooltha", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/TipTwo.png", "xp": 3000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": ["Ooltha Blueprint", "Pyrotic Alloy"], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Rahn Prism", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/SentAmpSet2BarrelPartA.png", "xp": 3000, "owned": false, "prio": 3, "prio_label": "\ud83d\udc3e Companions & Modular", "status_text": "Incubator / Open World", "missing": [], "tip": "Breed via Incubator (Kavat/Kubrow) or craft at open-world vendor. *Modular gear must be Gilded at rank 30 before leveling again for Mastery!*"}, {"name": "Coda Caustacyst", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaCaustacyst.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Coda Hirudo", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaHirudo.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Coda Mire", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaMire.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Coda Pathocyst", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaPathocyst.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Coda Hema", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaHema.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Coda Catabolyst", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaCatabolyst.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Coda Pox", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaPox.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Coda Tysis", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/CodaTysis.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Dual Coda Torxica", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/1999InfSporePistolWeapon.png", "xp": 4000, "owned": false, "prio": 4, "prio_label": "\u2694\ufe0f Nemesis Hunter", "status_text": "Sister / Lich / Coda Drop", "missing": [], "tip": "Hunt Nemesis. *Gives 3,000 XP at lvl 30; each of 5 Formas adds 2 levels (+200 XP/lvl up to 4,000 XP).* "}, {"name": "Citrine Prime", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/CitrinePrime.png", "xp": 6000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Citrine Prime Blueprint, Citrine Prime Chassis Blueprint...", "missing": ["Citrine Prime Blueprint", "Citrine Prime Chassis Blueprint", "Citrine Prime Neuroptics Blueprint", "Citrine Prime Systems Blueprint"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Styanax Prime", "type": "warframe", "picture": "https://cdn.alecaframe.com/warframeData/img/StyanaxPrime.png", "xp": 6000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Styanax Prime Blueprint, Styanax Prime Chassis Blueprint...", "missing": ["Styanax Prime Blueprint", "Styanax Prime Chassis Blueprint", "Styanax Prime Neuroptics Blueprint", "Styanax Prime Systems Blueprint"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Arbucep", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/NokkoArchGun.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Arbucep Barrel, Arbucep Receiver...", "missing": ["Arbucep Barrel", "Arbucep Receiver", "Arbucep Stock"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Corufell Prime", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/CorufellPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Corufell Prime Blueprint, Corufell Prime Receiver...", "missing": ["Corufell Prime Blueprint", "Corufell Prime Receiver", "Corufell Prime Stock"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Imperator Vandal", "type": "arch", "picture": "https://cdn.alecaframe.com/warframeData/img/ImperatorVandal.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Imperator Vandal Barrel, Imperator Vandal Blueprint...", "missing": ["Imperator Vandal Barrel", "Imperator Vandal Blueprint", "Imperator Vandal Receiver"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Hate", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/Hate.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Dojo / Market BP", "missing": [], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Kestrel Prime", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/KestrelPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Kestrel Prime Blade, Kestrel Prime Blueprint...", "missing": ["Kestrel Prime Blade", "Kestrel Prime Blueprint", "Kestrel Prime Grip"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Spinnerex", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/SpiderWhip.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Dojo / Market BP", "missing": [], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "War Prime", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/WarPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Dojo / Market BP", "missing": [], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Wrath", "type": "melee", "picture": "https://cdn.alecaframe.com/warframeData/img/TnOrionScytheWeapon.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Wrath Blade, Wrath Handle...", "missing": ["Wrath Blade", "Wrath Handle", "Wrath Blade"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Plague Keewar", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/InfestedTipTwo.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Plague Keewar Blueprint", "missing": ["Plague Keewar Blueprint"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Plague Kripath", "type": "modular", "picture": "https://cdn.alecaframe.com/warframeData/img/InfestedTipOne.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Plague Kripath Blueprint, Pyrotic Alloy", "missing": ["Plague Kripath Blueprint", "Pyrotic Alloy"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Afentis Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/AfentisPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Afentis Prime Barrel, Afentis Prime Blade...", "missing": ["Afentis Prime Barrel", "Afentis Prime Blade", "Afentis Prime Blueprint", "Afentis Prime Handle"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Alternox Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/AlternoxPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Alternox Prime Barrel, Alternox Prime Blueprint", "missing": ["Alternox Prime Barrel", "Alternox Prime Blueprint"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Cedo Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/CedoPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Cedo Prime Barrel, Cedo Prime Blueprint", "missing": ["Cedo Prime Barrel", "Cedo Prime Blueprint"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Perigale Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/PerigalePrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Perigale Prime Barrel, Perigale Prime Blueprint...", "missing": ["Perigale Prime Barrel", "Perigale Prime Blueprint", "Perigale Prime Receiver", "Perigale Prime Stock"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Steflos Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/SteflosPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Steflos Prime Barrel, Steflos Prime Blueprint...", "missing": ["Steflos Prime Barrel", "Steflos Prime Blueprint", "Steflos Prime Receiver", "Steflos Prime Stock"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Vadarya Prime", "type": "primary", "picture": "https://cdn.alecaframe.com/warframeData/img/VadaryaPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Vadarya Prime Blueprint, Vadarya Prime Receiver", "missing": ["Vadarya Prime Blueprint", "Vadarya Prime Receiver"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Athodai Prime", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/AthodaiPrime.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Athodai Prime Barrel, Athodai Prime Blueprint", "missing": ["Athodai Prime Barrel", "Athodai Prime Blueprint"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Lato Vandal", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/LatoVandal.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Lato Vandal Barrel, Lato Vandal Blueprint", "missing": ["Lato Vandal Barrel", "Lato Vandal Blueprint"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}, {"name": "Twin Kohmak", "type": "secondary", "picture": "https://cdn.alecaframe.com/warframeData/img/TwinKohmak.png", "xp": 3000, "owned": false, "prio": 5, "prio_label": "\ud83c\udfdb\ufe0f Clan / Market / Drops", "status_text": "Needs: Twin Kohmak Blueprint, Kohmak...", "missing": ["Twin Kohmak Blueprint", "Kohmak", "Kohmak"], "tip": "Acquire blueprint or components from Clan Dojo labs, Market, Baro Ki'Teer, or Relics."}];
+  let currentMasteryPrio = 'all';
+  let currentMasteryType = 'all';
+  let currentMasterySearch = '';
+
+  function setMasteryPrio(prio, el) {
+    currentMasteryPrio = prio;
+    document.querySelectorAll('.prio-btn').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+    renderMasteryItems();
+  }
+
+  function setMasteryType(type, el) {
+    currentMasteryType = type;
+    document.querySelectorAll('.type-btn').forEach(b => b.classList.remove('active'));
+    el.classList.add('active');
+    renderMasteryItems();
+  }
+
+  function filterMastery() {
+    currentMasterySearch = document.getElementById('masterySearch').value.toLowerCase().trim();
+    renderMasteryItems();
+  }
+
+  function renderMasteryItems() {
+    const container = document.getElementById('masteryGrid');
+    const countEl = document.getElementById('masteryCount');
+    if (!container) return;
+
+    const filtered = allMasteryItems.filter(it => {
+      if (currentMasteryPrio !== 'all' && it.prio !== parseInt(currentMasteryPrio)) {
+        return false;
+      }
+      if (currentMasteryType !== 'all') {
+        if (currentMasteryType === 'warframe' && it.type !== 'warframe') return false;
+        if (currentMasteryType === 'weapons' && !['primary', 'secondary', 'melee'].includes(it.type)) return false;
+        if (currentMasteryType === 'arch' && it.type !== 'arch') return false;
+        if (currentMasteryType === 'modular' && !['modular', 'companion'].includes(it.type)) return false;
+      }
+      if (currentMasterySearch) {
+        const matchName = it.name.toLowerCase().includes(currentMasterySearch);
+        const matchType = it.type.toLowerCase().includes(currentMasterySearch);
+        const matchMissing = it.missing && it.missing.some(m => m.toLowerCase().includes(currentMasterySearch));
+        const matchTip = it.tip && it.tip.toLowerCase().includes(currentMasterySearch);
+        if (!matchName && !matchType && !matchMissing && !matchTip) return false;
+      }
+      return true;
+    });
+
+    const totalXp = filtered.reduce((acc, it) => acc + it.xp, 0);
+    if (countEl) {
+      countEl.innerText = `Showing ${filtered.length} of ${allMasteryItems.length} items (${totalXp.toLocaleString()} XP)`;
+    }
+
+    container.innerHTML = '';
+    if (filtered.length === 0) {
+      container.innerHTML = '<div style="color: var(--text-muted); padding: 40px; text-align: center; grid-column: 1/-1;">No items match the selected filters.</div>';
+      return;
+    }
+
+    const fallbackImg = 'https://cdn.alecaframe.com/warframeData/custom/imgRemote/Blueprint.png';
+    for (const it of filtered) {
+      const card = document.createElement('div');
+      card.className = 'item-card';
+
+      const prioClass = `badge-prio badge-prio-${it.prio}`;
+      const xpClass = it.xp >= 6000 ? 'xp-tag xp-6k' : 'xp-tag';
+
+      card.innerHTML = `
+        <div class="item-thumb">
+          <img src="${it.picture || fallbackImg}" alt="${it.name}" onerror="this.onerror=null;this.src='${fallbackImg}';">
+        </div>
+        <div class="item-info">
+          <div class="item-name">
+            <span>${it.name}</span>
+            <span class="${xpClass}">+${it.xp.toLocaleString()} XP</span>
+          </div>
+          <div style="display: flex; gap: 6px; align-items: center; flex-wrap: wrap; margin-top: 5px;">
+            <span class="badge" style="font-size: 10px; padding: 2px 7px; text-transform: uppercase;">${it.type}</span>
+            <span class="${prioClass}">${it.status_text}</span>
+          </div>
+          <div class="item-meta">${it.tip}</div>
+        </div>
+      `;
+      container.appendChild(card);
+    }
+  }
+
+  // Initial render of mastery items
+  renderMasteryItems();
+</script>
+
+</body>
+</html>

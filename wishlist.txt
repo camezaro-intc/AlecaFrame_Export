@@ -1,0 +1,8 @@
+# Add mods you want to buy (one per line).
+# The script fetches live prices, active online sellers, and trade whispers.
+
+Bite
+Tenacious Bond
+Cull the Weak
+Frenzied Posture
+Tandem Bond
