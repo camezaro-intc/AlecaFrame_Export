@@ -1,56 +1,56 @@
 # inventoryRelics
 
-Searchable Warframe inventory data exported from `inventoryRelics.json` (Updated: 2026-10-19 05:49:00 UTC).
+Searchable Warframe inventory data exported from `inventoryRelics.json` (Updated: 2026-10-19 07:22:41 UTC).
 
 Total entries in `inventoryRelics.json`: **504**.
 
 ## inventoryRelics: Entries 1 to 40 (Axi A11 Intact — Axi K7 Intact)
 
-- **Axi A11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 40p | Effect ID: Projections/T4VoidProjectionInarosPrimeABronze
+- **Axi A11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 30p | Effect ID: Projections/T4VoidProjectionInarosPrimeABronze
 - **Axi A12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 32p | Effect ID: Projections/T4VoidProjectionBansheeMirageVaultBBronze
 - **Axi A12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 32p | Effect ID: Projections/T4VoidProjectionBansheeMirageVaultBPlatinum
 - **Axi A13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionOctaviaPrimeBBronze
-- **Axi A14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionNidusPrimeABronze
+- **Axi A14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T4VoidProjectionNidusPrimeABronze
 - **Axi A16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHildrynPrimeBBronze
 - **Axi A17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGrendelPrimeDBronze
-- **Axi A18 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGaussPrimeDPlatinum
+- **Axi A18 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T4VoidProjectionGaussPrimeDPlatinum
 - **Axi A19 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionXakuPrimeDBronze
 - **Axi A20 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGyrePrimeABronze
 - **Axi A21 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Sell: 2p | Buy: 6p | Effect ID: Projections/T4VoidProjectionStyanaxPrimeABronze
-- **Axi A22 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 6p | Effect ID: Projections/T4VoidProjectionStyanaxPrimeCBronze
-- **Axi A5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionMagNovaVaultBBronze
+- **Axi A22 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 2p | Buy: 10p | Effect ID: Projections/T4VoidProjectionStyanaxPrimeCBronze
+- **Axi A5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T4VoidProjectionMagNovaVaultBBronze
 - **Axi B5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionBaruukPrimeABronze
 - **Axi B6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHildrynPrimeDBronze
 - **Axi C10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionCalibanPrimeCBronze
 - **Axi C11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionVorunaPrimeCBronze
-- **Axi C12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Buy: 30p | Effect ID: Projections/T4VoidProjectionCitrinePrimeBBronze
-- **Axi D3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionLimboTrinityVaultABronze
+- **Axi C12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 8p | Buy: 35p | Effect ID: Projections/T4VoidProjectionCitrinePrimeBBronze
+- **Axi D3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionLimboTrinityVaultABronze
 - **Axi D6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Buy: 6p | Effect ID: Projections/T4VoidProjectionVorunaPrimeBBronze
-- **Axi E1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 50p | Effect ID: Projections/T4VoidProjectionQBronze
+- **Axi E1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionQBronze
 - **Axi F2 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionProteaPrimeBPlatinum
 - **Axi F3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 15p | Effect ID: Projections/T4VoidProjectionLavosPrimeBBronze
-- **Axi G10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T4VoidProjectionHildrynPrimeCBronze
+- **Axi G10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T4VoidProjectionHildrynPrimeCBronze
 - **Axi G11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGrendelPrimeABronze
 - **Axi G11 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGrendelPrimeAPlatinum
 - **Axi G14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionXakuPrimeCBronze
 - **Axi G6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Buy: 4p | Effect ID: Projections/T4VoidProjectionGaraPrimeCBronze
 - **Axi G7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T4VoidProjectionGarudaPrimeABronze
-- **Axi G8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T4VoidProjectionKhoraPrimeDBronze
+- **Axi G8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T4VoidProjectionKhoraPrimeDBronze
 - **Axi G9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionBaruukPrimeCBronze
 - **Axi H5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 6p | Buy: 30p | Effect ID: Projections/T4VoidProjectionBansheeMirageVaultABronze
-- **Axi H6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T4VoidProjectionHildrynPrimeABronze
+- **Axi H6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionHildrynPrimeABronze
 - **Axi H8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionXakuPrimeBBronze
-- **Axi I1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGaraPrimeDBronze
+- **Axi I1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T4VoidProjectionGaraPrimeDBronze
 - **Axi I2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionNidusPrimeBBronze
 - **Axi K10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionKhoraPrimeEBronze
-- **Axi K11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHildrynPrimeEBronze
+- **Axi K11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T4VoidProjectionHildrynPrimeEBronze
 - **Axi K6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHarrowPrimeABronze
 - **Axi K7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGarudaPrimeDBronze
 
 ## inventoryRelics: Entries 41 to 80 (Axi K8 Intact — Axi T12 Radiant)
 
-- **Axi K8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionKhoraPrimeABronze
-- **Axi K8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionKhoraPrimeAPlatinum
+- **Axi K8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionKhoraPrimeABronze
+- **Axi K8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionKhoraPrimeAPlatinum
 - **Axi K9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionKhoraPrimeBBronze
 - **Axi L6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGrendelPrimeCBronze
 - **Axi M2 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionNidusPrimeCPlatinum
@@ -58,36 +58,36 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Axi M6 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionLavosPrimeDPlatinum
 - **Axi N10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T4VoidProjectionBaruukPrimeDBronze
 - **Axi N13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionYareliPrimeBBronze
-- **Axi N7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGaraPrimeABronze
+- **Axi N7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionGaraPrimeABronze
 - **Axi N8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionKhoraPrimeCBronze
-- **Axi N9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionRevenantPrimeABronze
-- **Axi O5 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionOctaviaPrimeASilver
-- **Axi O5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionOctaviaPrimeABronze
+- **Axi N9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionRevenantPrimeABronze
+- **Axi O5 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 13p | Effect ID: Projections/T4VoidProjectionOctaviaPrimeASilver
+- **Axi O5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 13p | Effect ID: Projections/T4VoidProjectionOctaviaPrimeABronze
 - **Axi O6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionSevagothPrimeABronze
-- **Axi P10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 6p | Effect ID: Projections/T4VoidProjectionStyanaxPrimeBBronze
+- **Axi P10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 2p | Buy: 10p | Effect ID: Projections/T4VoidProjectionStyanaxPrimeBBronze
 - **Axi P4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHarrowPrimeDBronze
 - **Axi P7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 15p | Effect ID: Projections/T4VoidProjectionProteaPrimeABronze
 - **Axi P8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionLavosPrimeABronze
 - **Axi P9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionLavosPrimeEBronze
-- **Axi R4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T4VoidProjectionEmberRhinoVaultABronze
-- **Axi R4 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T4VoidProjectionEmberRhinoVaultAPlatinum
+- **Axi R4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionEmberRhinoVaultABronze
+- **Axi R4 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionEmberRhinoVaultAPlatinum
 - **Axi S10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGarudaPrimeBBronze
 - **Axi S11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGarudaPrimeCBronze
 - **Axi S12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionKhoraPrimeFBronze
 - **Axi S14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionBaruukPrimeBBronze
-- **Axi S16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionSevagothPrimeBBronze
+- **Axi S16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T4VoidProjectionSevagothPrimeBBronze
 - **Axi S17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionSevagothPrimeCBronze
-- **Axi S18 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionCalibanPrimeABronze
+- **Axi S18 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T4VoidProjectionCalibanPrimeABronze
 - **Axi S20 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Sell: 2p | Effect ID: Projections/T4VoidProjectionVorunaPrimeDBronze
-- **Axi S3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 9p | Buy: 3p | Effect ID: Projections/T4VoidProjectionRhinoNyxVaultAPlatinum
+- **Axi S3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionRhinoNyxVaultAPlatinum
 - **Axi S4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionMagNovaVaultABronze
 - **Axi S6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionOberonNekrosVaultABronze
 - **Axi S6 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionOberonNekrosVaultAPlatinum
-- **Axi S8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 6p | Effect ID: Projections/T4VoidProjectionNyxValkyrRailjackBBronze
-- **Axi S8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Buy: 6p | Effect ID: Projections/T4VoidProjectionNyxValkyrRailjackBPlatinum
+- **Axi S8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 10p | Effect ID: Projections/T4VoidProjectionNyxValkyrRailjackBBronze
+- **Axi S8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Buy: 10p | Effect ID: Projections/T4VoidProjectionNyxValkyrRailjackBPlatinum
 - **Axi S9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHarrowPrimeCBronze
-- **Axi T10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionRevenantPrimeBBronze
-- **Axi T10 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionRevenantPrimeBPlatinum
+- **Axi T10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T4VoidProjectionRevenantPrimeBBronze
+- **Axi T10 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T4VoidProjectionRevenantPrimeBPlatinum
 - **Axi T12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionXakuPrimeAPlatinum
 
 ## inventoryRelics: Entries 81 to 120 (Axi T13 Intact — Lith C8 Exceptional)
@@ -98,21 +98,21 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Axi T7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionGaraPrimeBBronze
 - **Axi T8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHarrowPrimeBBronze
 - **Axi T8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionHarrowPrimeBPlatinum
-- **Axi V10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 5p | Buy: 6p | Effect ID: Projections/T4VoidProjectionNyxValkyrRailjackABronze
+- **Axi V10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 6p | Effect ID: Projections/T4VoidProjectionNyxValkyrRailjackABronze
 - **Axi V12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionYareliPrimeABronze
 - **Axi V13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Effect ID: Projections/T4VoidProjectionCalibanPrimeBBronze
-- **Axi V14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Buy: 12p | Effect ID: Projections/T4VoidProjectionVorunaPrimeEBronze
-- **Axi V8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 25p | Effect ID: Projections/T4VoidProjectionVoltOdonataPrimeBronze
-- **Axi W2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 27p | Effect ID: Projections/T4VoidProjectionOctaviaPrimeCBronze
+- **Axi V14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Sell: 4p | Buy: 12p | Effect ID: Projections/T4VoidProjectionVorunaPrimeEBronze
+- **Axi V8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 10p | Buy: 30p | Effect ID: Projections/T4VoidProjectionVoltOdonataPrimeBronze
+- **Axi W2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T4VoidProjectionOctaviaPrimeCBronze
 - **Axi Y1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T4VoidProjectionYareliPrimeCBronze
-- **Axi Y2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Sell: 3p | Buy: 10p | Effect ID: Projections/T4VoidProjectionCalibanPrimeDBronze
+- **Axi Y2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionCalibanPrimeDBronze
 - **Axi Y3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionVorunaPrimeABronze
 - **Axi Z1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionNezhaPrimeABronze
 - **Axi Z2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T4VoidProjectionLavosPrimeCBronze
 - **Lith A12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 2p | Effect ID: Projections/T1VoidProjectionStyanaxPrimeBBronze
 - **Lith A13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Effect ID: Projections/T1VoidProjectionCitrinePrimeABronze
 - **Lith A4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaraPrimeCBronze
-- **Lith A5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 40p | Effect ID: Projections/T1VoidProjectionAtlasVaubanVaultABronze
+- **Lith A5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionAtlasVaubanVaultABronze
 - **Lith A6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Sell: 3p | Effect ID: Projections/T1VoidProjectionGaussPrimeBBronze
 - **Lith A6 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 3p | Effect ID: Projections/T1VoidProjectionGaussPrimeBPlatinum
 - **Lith A8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionYareliPrimeCPlatinum
@@ -121,23 +121,23 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Lith B11 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHildrynPrimeCSilver
 - **Lith B11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHildrynPrimeCBronze
 - **Lith B4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Sell: 9p | Buy: 20p | Effect ID: Projections/T1VoidProjectionRhinoNyxVaultABronze
-- **Lith B8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 12p | Effect ID: Projections/T1VoidProjectionOctaviaPrimeBBronze
-- **Lith C10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionGrendelPrimeCBronze
+- **Lith B8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 16p | Effect ID: Projections/T1VoidProjectionOctaviaPrimeBBronze
+- **Lith C10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGrendelPrimeCBronze
 - **Lith C11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaussPrimeABronze
 - **Lith C12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionSevagothPrimeAPlatinum
 - **Lith C13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionCalibanPrimeABronze
 - **Lith C13 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionCalibanPrimeAPlatinum
 - **Lith C14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionVorunaPrimeABronze
 - **Lith C15 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 2p | Effect ID: Projections/T1VoidProjectionCitrinePrimeDBronze
-- **Lith C4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Sell: 5p | Buy: 15p | Effect ID: Projections/T1VoidProjectionMesaPrimeABronze
-- **Lith C6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionTitaniaPrimeABronze
-- **Lith C8 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T1VoidProjectionChromaZephyrVaultASilver
+- **Lith C4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Sell: 5p | Buy: 3p | Effect ID: Projections/T1VoidProjectionMesaPrimeABronze
+- **Lith C6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionTitaniaPrimeABronze
+- **Lith C8 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionChromaZephyrVaultASilver
 
 ## inventoryRelics: Entries 121 to 160 (Lith C8 Intact — Lith K7 Intact)
 
-- **Lith C8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T1VoidProjectionChromaZephyrVaultABronze
+- **Lith C8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionChromaZephyrVaultABronze
 - **Lith C9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHarrowPrimeCBronze
-- **Lith D1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Sell: 4p | Buy: 2p | Effect ID: Projections/T1VoidProjectionAtlasPrimeCBronze
+- **Lith D1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Sell: 4p | Effect ID: Projections/T1VoidProjectionAtlasPrimeCBronze
 - **Lith D2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionInarosPrimeBBronze
 - **Lith D4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionOctaviaPrimeABronze
 - **Lith D7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGyrePrimeABronze
@@ -145,18 +145,18 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Lith E2 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionCalibanPrimeDPlatinum
 - **Lith G1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Buy: 60p | Effect ID: Projections/T1VoidProjectionQBronze
 - **Lith G1 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 20p | Buy: 60p | Effect ID: Projections/T1VoidProjectionQPlatinum
-- **Lith G10 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaussPrimeFSilver
-- **Lith G10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaussPrimeFBronze
-- **Lith G10 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaussPrimeFPlatinum
+- **Lith G10 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 2p | Effect ID: Projections/T1VoidProjectionGaussPrimeFSilver
+- **Lith G10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Sell: 2p | Effect ID: Projections/T1VoidProjectionGaussPrimeFBronze
+- **Lith G10 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 2p | Effect ID: Projections/T1VoidProjectionGaussPrimeFPlatinum
 - **Lith G12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionSevagothPrimeDBronze
-- **Lith G13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionXakuPrimeCBronze
-- **Lith G13 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionXakuPrimeCPlatinum
-- **Lith G14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Sell: 1p | Buy: 6p | Effect ID: Projections/T1VoidProjectionGyrePrimeDBronze
+- **Lith G13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionXakuPrimeCBronze
+- **Lith G13 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionXakuPrimeCPlatinum
+- **Lith G14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Sell: 1p | Effect ID: Projections/T1VoidProjectionGyrePrimeDBronze
 - **Lith G5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionGarudaPrimeABronze
 - **Lith G5 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionGarudaPrimeAPlatinum
-- **Lith G6 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T1VoidProjectionBaruukPrimeASilver
-- **Lith G6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T1VoidProjectionBaruukPrimeABronze
-- **Lith G6 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T1VoidProjectionBaruukPrimeAPlatinum
+- **Lith G6 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionBaruukPrimeASilver
+- **Lith G6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionBaruukPrimeABronze
+- **Lith G6 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionBaruukPrimeAPlatinum
 - **Lith H3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHarrowPrimeBBronze
 - **Lith H4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeBBronze
 - **Lith H5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionRevenantPrimeABronze
@@ -173,31 +173,31 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Lith K12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 1p | Buy: 3p | Effect ID: Projections/T1VoidProjectionCalibanPrimeFPlatinum
 - **Lith K4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T1VoidProjectionNovaTrinityVaultABronze
 - **Lith K5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Sell: 6p | Buy: 40p | Effect ID: Projections/T1VoidProjectionBansheeMirageVaultABronze
-- **Lith K6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaraPrimeBBronze
+- **Lith K6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T1VoidProjectionGaraPrimeBBronze
 - **Lith K7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionNidusPrimeBBronze
 
 ## inventoryRelics: Entries 161 to 200 (Lith K8 Intact — Lith P6 Intact)
 
 - **Lith K8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 50p | Buy: 24p | Effect ID: Projections/T1VoidProjectionLimboTrinityVaultBBronze
-- **Lith K9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionKhoraPrimeABronze
-- **Lith K9 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionKhoraPrimeAPlatinum
+- **Lith K9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionKhoraPrimeABronze
+- **Lith K9 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionKhoraPrimeAPlatinum
 - **Lith L2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionAtlasPrimeBBronze
-- **Lith L3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 40p | Effect ID: Projections/T1VoidProjectionLimboTrinityVaultAPlatinum
+- **Lith L3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 8p | Effect ID: Projections/T1VoidProjectionLimboTrinityVaultAPlatinum
 - **Lith L4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionFrostMagVaultBBronze
 - **Lith L5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionLavosPrimeABronze
-- **Lith L7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 12p | Effect ID: Projections/T1VoidProjectionGyrePrimeBBronze
+- **Lith L7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGyrePrimeBBronze
 - **Lith L8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 2p | Effect ID: Projections/T1VoidProjectionCitrinePrimeBBronze
 - **Lith M10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionYareliPrimeABronze
 - **Lith M6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionInarosPrimeABronze
 - **Lith M7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 7p | Buy: 45p | Effect ID: Projections/T1VoidProjectionBansheeMirageVaultBBronze
-- **Lith M8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 8p | Effect ID: Projections/T1VoidProjectionFrostMagVaultAPlatinum
+- **Lith M8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T1VoidProjectionFrostMagVaultAPlatinum
 - **Lith M9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionXakuPrimeDBronze
 - **Lith M9 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionXakuPrimeDPlatinum
 - **Lith N10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHarrowPrimeFBronze
-- **Lith N11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeDBronze
-- **Lith N11 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeDPlatinum
-- **Lith N12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Sell: 5p | Buy: 3p | Effect ID: Projections/T1VoidProjectionGarudaPrimeFBronze
-- **Lith N12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Buy: 3p | Effect ID: Projections/T1VoidProjectionGarudaPrimeFPlatinum
+- **Lith N11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T1VoidProjectionGarudaPrimeDBronze
+- **Lith N11 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T1VoidProjectionGarudaPrimeDPlatinum
+- **Lith N12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Sell: 5p | Buy: 4p | Effect ID: Projections/T1VoidProjectionGarudaPrimeFBronze
+- **Lith N12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Buy: 4p | Effect ID: Projections/T1VoidProjectionGarudaPrimeFPlatinum
 - **Lith N13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 20p | Effect ID: Projections/T1VoidProjectionWukongEquinoxVaultABronze
 - **Lith N13 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 20p | Effect ID: Projections/T1VoidProjectionWukongEquinoxVaultAPlatinum
 - **Lith N14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGrendelPrimeEBronze
@@ -209,9 +209,9 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Lith N18 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGyrePrimeCSilver
 - **Lith N18 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGyrePrimeCBronze
 - **Lith N19 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T1VoidProjectionVorunaPrimeBBronze
-- **Lith N2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionRBronze
-- **Lith N4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionTitaniaPrimeCBronze
-- **Lith N7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T1VoidProjectionNidusPrimeCBronze
+- **Lith N2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T1VoidProjectionRBronze
+- **Lith N4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 16p | Effect ID: Projections/T1VoidProjectionTitaniaPrimeCBronze
+- **Lith N7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 16p | Effect ID: Projections/T1VoidProjectionNidusPrimeCBronze
 - **Lith N8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionNidusPrimeDBronze
 - **Lith N9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionMesaHydroidVaultABronze
 - **Lith O2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 60p | Effect ID: Projections/T1VoidProjectionLokiVoltVaultABronze
@@ -228,28 +228,28 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Lith P9 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionProteaPrimeAPlatinum
 - **Lith Q2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionYareliPrimeDBronze
 - **Lith Q3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T1VoidProjectionStyanaxPrimeABronze
-- **Lith R1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 12p | Effect ID: Projections/T1VoidProjectionMesaHydroidVaultBBronze
+- **Lith R1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T1VoidProjectionMesaHydroidVaultBBronze
 - **Lith R2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionRevenantPrimeBBronze
 - **Lith R3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHildrynPrimeEBronze
 - **Lith R4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGrendelPrimeBBronze
-- **Lith R5 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T1VoidProjectionGaussPrimeCSilver
-- **Lith R5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T1VoidProjectionGaussPrimeCBronze
+- **Lith R5 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaussPrimeCSilver
+- **Lith R5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGaussPrimeCBronze
 - **Lith S10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionInarosPrimeDBronze
-- **Lith S11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T1VoidProjectionHarrowPrimeEBronze
-- **Lith S12 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeESilver
-- **Lith S12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeEBronze
-- **Lith S12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeEPlatinum
+- **Lith S11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHarrowPrimeEBronze
+- **Lith S12 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionGarudaPrimeESilver
+- **Lith S12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionGarudaPrimeEBronze
+- **Lith S12 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionGarudaPrimeEPlatinum
 - **Lith S14 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionRevenantPrimeCSilver
 - **Lith S14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionRevenantPrimeCBronze
 - **Lith S14 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionRevenantPrimeCPlatinum
-- **Lith S15 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHildrynPrimeBBronze
-- **Lith S15 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHildrynPrimeBPlatinum
+- **Lith S15 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T1VoidProjectionHildrynPrimeBBronze
+- **Lith S15 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T1VoidProjectionHildrynPrimeBPlatinum
 - **Lith S16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 10p | Effect ID: Projections/T1VoidProjectionLavosPrimeDBronze
 - **Lith S16 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 10p | Effect ID: Projections/T1VoidProjectionLavosPrimeDPlatinum
 - **Lith S18 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Sell: 1p | Buy: 1p | Effect ID: Projections/T1VoidProjectionStyanaxPrimeEBronze
-- **Lith S19 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Sell: 4p | Buy: 10p | Effect ID: Projections/T1VoidProjectionCitrinePrimeCBronze
+- **Lith S19 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 18p | Effect ID: Projections/T1VoidProjectionCitrinePrimeCBronze
 - **Lith S4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionNBronze
-- **Lith S8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionAtlasPrimeABronze
+- **Lith S8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionAtlasPrimeABronze
 - **Lith S9 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionOberonNekrosVaultAPlatinum
 - **Lith T10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGrendelPrimeDBronze
 - **Lith T12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionProteaPrimeBBronze
@@ -264,26 +264,26 @@ Total entries in `inventoryRelics.json`: **504**.
 
 ## inventoryRelics: Entries 241 to 280 (Lith T8 Intact — Meso C8 Intact)
 
-- **Lith T8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T1VoidProjectionHarrowPrimeABronze
+- **Lith T8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T1VoidProjectionHarrowPrimeABronze
 - **Lith T9 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHarrowPrimeDSilver
 - **Lith T9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHarrowPrimeDBronze
 - **Lith T9 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionHarrowPrimeDPlatinum
 - **Lith V11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Sell: 1p | Buy: 7p | Effect ID: Projections/T1VoidProjectionStyanaxPrimeCBronze
 - **Lith V2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 8p | Buy: 6p | Effect ID: Projections/T1VoidProjectionMBronze
 - **Lith V8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 10p | Effect ID: Projections/T1VoidProjectionAshVaubanVaultBBronze
-- **Lith W2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T1VoidProjectionIvaraPrimeABronze
-- **Lith W4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Sell: 4p | Buy: 1p | Effect ID: Projections/T1VoidProjectionSevagothPrimeBBronze
-- **Lith W4 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Buy: 1p | Effect ID: Projections/T1VoidProjectionSevagothPrimeBPlatinum
+- **Lith W2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 5p | Buy: 18p | Effect ID: Projections/T1VoidProjectionIvaraPrimeABronze
+- **Lith W4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Sell: 4p | Effect ID: Projections/T1VoidProjectionSevagothPrimeBBronze
+- **Lith W4 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 4p | Effect ID: Projections/T1VoidProjectionSevagothPrimeBPlatinum
 - **Lith X1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionXakuPrimeABronze
 - **Lith X1 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionXakuPrimeAPlatinum
-- **Lith Y1 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionYareliPrimeESilver
-- **Lith Y1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T1VoidProjectionYareliPrimeEBronze
+- **Lith Y1 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionYareliPrimeESilver
+- **Lith Y1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionYareliPrimeEBronze
 - **Lith Z3 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeCSilver
 - **Lith Z3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeCBronze
 - **Lith Z3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionGarudaPrimeCPlatinum
 - **Lith Z4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T1VoidProjectionYareliPrimeBBronze
 - **Meso A10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionVorunaPrimeEBronze
-- **Meso A12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Effect ID: Projections/T2VoidProjectionStyanaxPrimeDBronze
+- **Meso A12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Sell: 1p | Effect ID: Projections/T2VoidProjectionStyanaxPrimeDBronze
 - **Meso A3 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionHarrowPrimeASilver
 - **Meso A3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionHarrowPrimeABronze
 - **Meso A4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T2VoidProjectionBaruukPrimeBBronze
@@ -294,8 +294,8 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Meso A8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionLavosPrimeABronze
 - **Meso A8 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionLavosPrimeAPlatinum
 - **Meso A9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGyrePrimeEBronze
-- **Meso B10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T2VoidProjectionEmberRhinosVaultBBronze
-- **Meso B10 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T2VoidProjectionEmberRhinosVaultBPlatinum
+- **Meso B10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionEmberRhinosVaultBBronze
+- **Meso B10 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionEmberRhinosVaultBPlatinum
 - **Meso B3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 36p | Effect ID: Projections/T2VoidProjectionMagNovaVaultABronze
 - **Meso B5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionNidusPrimeABronze
 - **Meso B7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionMesaHydroidVaultABronze
@@ -318,31 +318,31 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Meso E6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionXakuPrimeBBronze
 - **Meso E7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionVorunaPrimeBBronze
 - **Meso E7 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionVorunaPrimeBPlatinum
-- **Meso F2 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionQPlatinum
-- **Meso F4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T2VoidProjectionFrostMagVaultABronze
+- **Meso F2 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 7p | Effect ID: Projections/T2VoidProjectionQPlatinum
+- **Meso F4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 36p | Effect ID: Projections/T2VoidProjectionFrostMagVaultABronze
 - **Meso F5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionSevagothPrimeDBronze
 - **Meso F5 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionSevagothPrimeDPlatinum
-- **Meso G3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionHarrowPrimeDBronze
-- **Meso G3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionHarrowPrimeDPlatinum
+- **Meso G3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T2VoidProjectionHarrowPrimeDBronze
+- **Meso G3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T2VoidProjectionHarrowPrimeDPlatinum
 - **Meso G4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGarudaPrimeABronze
 - **Meso G5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionWispPrimeABronze
 - **Meso G6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGaussPrimeDBronze
 - **Meso G6 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGaussPrimeDPlatinum
 - **Meso G7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionProteaPrimeBBronze
 - **Meso G7 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionProteaPrimeBPlatinum
-- **Meso G8 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 3p | Effect ID: Projections/T2VoidProjectionXakuPrimeASilver
-- **Meso G8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 3p | Effect ID: Projections/T2VoidProjectionXakuPrimeABronze
+- **Meso G8 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionXakuPrimeASilver
+- **Meso G8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionXakuPrimeABronze
 - **Meso G9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionCalibanPrimeDBronze
 - **Meso H2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionKhoraPrimeABronze
-- **Meso H3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T2VoidProjectionKhoraPrimeBBronze
+- **Meso H3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionKhoraPrimeBBronze
 - **Meso H4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionHildrynPrimeBBronze
 - **Meso H5 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionGaussPrimeAPlatinum
-- **Meso H7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T2VoidProjectionSevagothPrimeBBronze
+- **Meso H7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionSevagothPrimeBBronze
 - **Meso I1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionInarosPrimeEBronze
 - **Meso I2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T2VoidProjectionHarrowPrimeBBronze
 - **Meso I2 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T2VoidProjectionHarrowPrimeBPlatinum
 - **Meso K3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionInarosPrimeDBronze
-- **Meso K4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 20p | Effect ID: Projections/T2VoidProjectionRevenantPrimeDBronze
+- **Meso K4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T2VoidProjectionRevenantPrimeDBronze
 - **Meso K5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionBaruukPrimeCBronze
 - **Meso K7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionYareliPrimeBBronze
 - **Meso K8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T2VoidProjectionStyanaxPrimeCBronze
@@ -350,20 +350,20 @@ Total entries in `inventoryRelics.json`: **504**.
 
 ## inventoryRelics: Entries 321 to 360 (Meso L3 Intact — Meso T7 Intact)
 
-- **Meso L3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T2VoidProjectionCalibanPrimeABronze
+- **Meso L3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionCalibanPrimeABronze
 - **Meso L4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T2VoidProjectionVorunaPrimeABronze
-- **Meso L5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T2VoidProjectionStyanaxPrimeABronze
+- **Meso L5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 1p | Buy: 1p | Effect ID: Projections/T2VoidProjectionStyanaxPrimeABronze
 - **Meso M4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGrendelPrimeABronze
 - **Meso N12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGarudaPrimeCBronze
-- **Meso N13 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T2VoidProjectionRevenantPrimeBSilver
-- **Meso N13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T2VoidProjectionRevenantPrimeBBronze
-- **Meso N14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T2VoidProjectionHildrynPrimeCBronze
+- **Meso N13 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionRevenantPrimeBSilver
+- **Meso N13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionRevenantPrimeBBronze
+- **Meso N14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionHildrynPrimeCBronze
 - **Meso N17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionSevagothPrimeABronze
 - **Meso N17 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionSevagothPrimeAPlatinum
-- **Meso N6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 8p | Buy: 4p | Effect ID: Projections/T2VoidProjectionRhinoNyxVaultABronze
-- **Meso O3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 50p | Effect ID: Projections/T2VoidProjectionLokiVoltVaultAPlatinum
-- **Meso O4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T2VoidProjectionOberonNekrosVaultABronze
-- **Meso O4 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T2VoidProjectionOberonNekrosVaultAPlatinum
+- **Meso N6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionRhinoNyxVaultABronze
+- **Meso O3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionLokiVoltVaultAPlatinum
+- **Meso O4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 36p | Effect ID: Projections/T2VoidProjectionOberonNekrosVaultABronze
+- **Meso O4 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 36p | Effect ID: Projections/T2VoidProjectionOberonNekrosVaultAPlatinum
 - **Meso O5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T2VoidProjectionKhoraPrimeEBronze
 - **Meso P10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionRevenantPrimeCBronze
 - **Meso P11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T2VoidProjectionHildrynPrimeABronze
@@ -372,19 +372,19 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Meso P14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGrendelPrimeCBronze
 - **Meso P15 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T2VoidProjectionLavosPrimeBBronze
 - **Meso P15 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T2VoidProjectionLavosPrimeBPlatinum
-- **Meso P16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionYareliPrimeABronze
-- **Meso P17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Buy: 9p | Effect ID: Projections/T2VoidProjectionGyrePrimeBBronze
+- **Meso P16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T2VoidProjectionYareliPrimeABronze
+- **Meso P17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGyrePrimeBBronze
 - **Meso P2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionInarosPrimeABronze
-- **Meso P4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionOctaviaPrimeABronze
+- **Meso P4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T2VoidProjectionOctaviaPrimeABronze
 - **Meso P5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGaraPrimeBBronze
 - **Meso P5 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGaraPrimeBPlatinum
-- **Meso P6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T2VoidProjectionLimboTrinityVaultABronze
+- **Meso P6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Buy: 30p | Effect ID: Projections/T2VoidProjectionLimboTrinityVaultABronze
 - **Meso P7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Sell: 8p | Buy: 1p | Effect ID: Projections/T2VoidProjectionGarudaPrimeBBronze
-- **Meso P8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T2VoidProjectionKhoraPrimeDBronze
-- **Meso P9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 12p | Effect ID: Projections/T2VoidProjectionRevenantPrimeABronze
+- **Meso P8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionKhoraPrimeDBronze
+- **Meso P9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionRevenantPrimeABronze
 - **Meso R4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 30p | Effect ID: Projections/T2VoidProjectionChromaZephyrVaultABronze
-- **Meso R5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T2VoidProjectionBaruukPrimeABronze
-- **Meso S10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T2VoidProjectionNidusPrimeBBronze
+- **Meso R5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionBaruukPrimeABronze
+- **Meso S10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 20p | Effect ID: Projections/T2VoidProjectionNidusPrimeBBronze
 - **Meso S11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionHarrowPrimeCBronze
 - **Meso S12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T2VoidProjectionHildrynPrimeEBronze
 - **Meso T4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionOctaviaPrimeCBronze
@@ -399,18 +399,18 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Meso V11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionCalibanPrimeBBronze
 - **Meso V11 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionCalibanPrimeBPlatinum
 - **Meso V12 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionCalibanPrimeCBronze
-- **Meso V13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 13 | Sell: 1p | Effect ID: Projections/T2VoidProjectionGyrePrimeABronze
+- **Meso V13 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 13 | Sell: 1p | Buy: 2p | Effect ID: Projections/T2VoidProjectionGyrePrimeABronze
 - **Meso V14 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGyrePrimeCBronze
 - **Meso V15 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T2VoidProjectionVorunaPrimeDBronze
-- **Meso V6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 36p | Effect ID: Projections/T2VoidProjectionAshVaubanVaultABronze
-- **Meso V7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T2VoidProjectionKhoraPrimeCBronze
-- **Meso V7 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T2VoidProjectionKhoraPrimeCPlatinum
+- **Meso V6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 30p | Effect ID: Projections/T2VoidProjectionAshVaubanVaultABronze
+- **Meso V7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionKhoraPrimeCBronze
+- **Meso V7 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionKhoraPrimeCPlatinum
 - **Meso V9 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionProteaPrimeAPlatinum
 - **Meso W4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 7p | Buy: 28p | Effect ID: Projections/T2VoidProjectionProteaPrimeCBronze
 - **Meso W4 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 7p | Buy: 28p | Effect ID: Projections/T2VoidProjectionProteaPrimeCPlatinum
 - **Meso X1 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 2p | Buy: 14p | Effect ID: Projections/T2VoidProjectionGyrePrimeFSilver
 - **Meso X1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 2p | Buy: 14p | Effect ID: Projections/T2VoidProjectionGyrePrimeFBronze
-- **Meso Y1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Buy: 7p | Effect ID: Projections/T2VoidProjectionGyrePrimeDBronze
+- **Meso Y1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGyrePrimeDBronze
 - **Meso Y2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Sell: 2p | Effect ID: Projections/T2VoidProjectionStyanaxPrimeBBronze
 - **Meso Z4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T2VoidProjectionGaraPrimeCBronze
 - **Neo A11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGaussPrimeCBronze
@@ -421,7 +421,7 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Neo A15 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionCalibanPrimeABronze
 - **Neo A15 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionCalibanPrimeAPlatinum
 - **Neo A16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Sell: 2p | Effect ID: Projections/T3VoidProjectionStyanaxPrimeBBronze
-- **Neo A3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionAtlasPrimeCPlatinum
+- **Neo A3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 5p | Effect ID: Projections/T3VoidProjectionAtlasPrimeCPlatinum
 - **Neo A5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Sell: 7p | Buy: 4p | Effect ID: Projections/T3VoidProjectionGaraPrimeCBronze
 - **Neo A6 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionMesaHydroidVaultAPlatinum
 - **Neo A8 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionBaruukPrimeASilver
@@ -430,7 +430,7 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Neo B7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionOctaviaPrimeDBronze
 - **Neo B9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionSevagothPrimeEBronze
 - **Neo C10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Effect ID: Projections/T3VoidProjectionCitrinePrimeABronze
-- **Neo C11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Buy: 5p | Effect ID: Projections/T3VoidProjectionCitrinePrimeDBronze
+- **Neo C11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Buy: 6p | Effect ID: Projections/T3VoidProjectionCitrinePrimeDBronze
 - **Neo C2 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T3VoidProjectionGarudaPrimeBSilver
 - **Neo C2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 15p | Effect ID: Projections/T3VoidProjectionGarudaPrimeBBronze
 
@@ -439,33 +439,33 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Neo C3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionBaruukPrimeCBronze
 - **Neo C3 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionBaruukPrimeCPlatinum
 - **Neo C4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionWispPrimeDBronze
-- **Neo C6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionLavosPrimeABronze
+- **Neo C6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T3VoidProjectionLavosPrimeABronze
 - **Neo C7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Sell: 1p | Effect ID: Projections/T3VoidProjectionGyrePrimeCBronze
-- **Neo C8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 2p | Buy: 7p | Effect ID: Projections/T3VoidProjectionStyanaxPrimeABronze
+- **Neo C8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 2p | Buy: 1p | Effect ID: Projections/T3VoidProjectionStyanaxPrimeABronze
 - **Neo D10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionYareliPrimeBBronze
 - **Neo D3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGaraPrimeABronze
 - **Neo D5 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionKhoraPrimeCSilver
 - **Neo D5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionKhoraPrimeCBronze
-- **Neo D6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T3VoidProjectionAtlasVaubanVaultABronze
+- **Neo D6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionAtlasVaubanVaultABronze
 - **Neo D7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T3VoidProjectionWispPrimeCBronze
-- **Neo D9 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionLavosPrimeDSilver
-- **Neo D9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionLavosPrimeDBronze
-- **Neo E4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T3VoidProjectionSevagothPrimeABronze
+- **Neo D9 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 2p | Effect ID: Projections/T3VoidProjectionLavosPrimeDSilver
+- **Neo D9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 2p | Effect ID: Projections/T3VoidProjectionLavosPrimeDBronze
+- **Neo E4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionSevagothPrimeABronze
 - **Neo F2 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionWispPrimeAPlatinum
 - **Neo G3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionOberonNekrosVaultBBronze
 - **Neo G4 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T3VoidProjectionKhoraPrimeBSilver
 - **Neo G4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T3VoidProjectionKhoraPrimeBBronze
 - **Neo G6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 10p | Effect ID: Projections/T3VoidProjectionEmberRhinoVaultABronze
-- **Neo G7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T3VoidProjectionSevagothPrimeCBronze
+- **Neo G7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionSevagothPrimeCBronze
 - **Neo G8 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionXakuPrimeCBronze
 - **Neo G9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T3VoidProjectionYareliPrimeCBronze
 - **Neo H3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T3VoidProjectionMesaHydroidVaultBBronze
 - **Neo K10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Projections/T3VoidProjectionCitrinePrimeBBronze
-- **Neo K3 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T3VoidProjectionChromaZephyrVaultASilver
-- **Neo K3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Buy: 5p | Effect ID: Projections/T3VoidProjectionChromaZephyrVaultABronze
+- **Neo K3 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T3VoidProjectionChromaZephyrVaultASilver
+- **Neo K3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T3VoidProjectionChromaZephyrVaultABronze
 - **Neo K4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionHarrowPrimeABronze
 - **Neo K5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 6p | Buy: 4p | Effect ID: Projections/T3VoidProjectionBaruukPrimeBBronze
-- **Neo K7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 3p | Effect ID: Projections/T3VoidProjectionGrendelPrimeDBronze
+- **Neo K7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 6p | Buy: 4p | Effect ID: Projections/T3VoidProjectionGrendelPrimeDBronze
 - **Neo K9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGyrePrimeABronze
 - **Neo L2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Buy: 4p | Effect ID: Projections/T3VoidProjectionHildrynPrimeBBronze
 - **Neo L3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionWispPrimeEBronze
@@ -479,42 +479,42 @@ Total entries in `inventoryRelics.json`: **504**.
 
 ## inventoryRelics: Entries 441 to 480 (Neo N16 Exceptional — Neo T9 Intact)
 
-- **Neo N16 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Buy: 18p | Effect ID: Projections/T3VoidProjectionNidusPrimeASilver
-- **Neo N16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 6p | Buy: 18p | Effect ID: Projections/T3VoidProjectionNidusPrimeABronze
-- **Neo N17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T3VoidProjectionNidusPrimeDBronze
+- **Neo N16 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 6p | Buy: 5p | Effect ID: Projections/T3VoidProjectionNidusPrimeASilver
+- **Neo N16 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Sell: 6p | Buy: 5p | Effect ID: Projections/T3VoidProjectionNidusPrimeABronze
+- **Neo N17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T3VoidProjectionNidusPrimeDBronze
 - **Neo N18 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 18p | Effect ID: Projections/T3VoidProjectionHarrowPrimeBBronze
 - **Neo N20 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGarudaPrimeABronze
 - **Neo N21 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionKhoraPrimeABronze
-- **Neo N22 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionHildrynPrimeCBronze
-- **Neo N22 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionHildrynPrimeCPlatinum
+- **Neo N22 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T3VoidProjectionHildrynPrimeCBronze
+- **Neo N22 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T3VoidProjectionHildrynPrimeCPlatinum
 - **Neo N23 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 5p | Effect ID: Projections/T3VoidProjectionWispPrimeFBronze
 - **Neo N24 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionVorunaPrimeABronze
 - **Neo N9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Sell: 10p | Buy: 4p | Effect ID: Projections/T3VoidProjectionMagNovaVaultABronze
 - **Neo O3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGyrePrimeDBronze
 - **Neo P1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionTitaniaPrimeBBronze
 - **Neo P10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionVorunaPrimeBBronze
-- **Neo P2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionOctaviaPrimeCBronze
+- **Neo P2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T3VoidProjectionOctaviaPrimeCBronze
 - **Neo P3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionNidusPrimeCBronze
 - **Neo P4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionHarrowPrimeCBronze
 - **Neo P6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionProteaPrimeBBronze
 - **Neo P7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionSevagothPrimeFBronze
-- **Neo P9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGyrePrimeBBronze
+- **Neo P9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Buy: 1p | Effect ID: Projections/T3VoidProjectionGyrePrimeBBronze
 - **Neo Q1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionXakuPrimeBBronze
-- **Neo R1 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 24p | Effect ID: Projections/T3VoidProjectionRhinoNyxVaultAPlatinum
+- **Neo R1 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T3VoidProjectionRhinoNyxVaultAPlatinum
 - **Neo S15 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 11 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionKhoraPrimeDBronze
 - **Neo S15 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionKhoraPrimeDPlatinum
-- **Neo S17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionHildrynPrimeABronze
-- **Neo S17 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionHildrynPrimeAPlatinum
+- **Neo S17 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 9 | Flags: Vaulted | Buy: 20p | Effect ID: Projections/T3VoidProjectionHildrynPrimeABronze
+- **Neo S17 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 20p | Effect ID: Projections/T3VoidProjectionHildrynPrimeAPlatinum
 - **Neo S18 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGrendelPrimeBBronze
 - **Neo S18 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGrendelPrimeBPlatinum
-- **Neo S20 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 10p | Effect ID: Projections/T3VoidProjectionVorunaPrimeCBronze
-- **Neo S5 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 42p | Effect ID: Projections/T3VoidProjectionQPlatinum
+- **Neo S20 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Buy: 6p | Effect ID: Projections/T3VoidProjectionVorunaPrimeCBronze
+- **Neo S5 Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Buy: 8p | Effect ID: Projections/T3VoidProjectionQPlatinum
 - **Neo T10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGyrePrimeEBronze
 - **Neo T11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T3VoidProjectionStyanaxPrimeCBronze
 - **Neo T2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 7 | Flags: Vaulted | Sell: 3p | Effect ID: Projections/T3VoidProjectionAtlasPrimeABronze
 - **Neo T3 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 7p | Buy: 3p | Effect ID: Projections/T3VoidProjectionInarosPrimeABronze
 - **Neo T4 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 6 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGaraPrimeBBronze
-- **Neo T5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionNidusPrimeBBronze
+- **Neo T5 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 4 | Flags: Vaulted | Buy: 2p | Effect ID: Projections/T3VoidProjectionNidusPrimeBBronze
 - **Neo T6 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionRevenantPrimeABronze
 - **Neo T7 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionWispPrimeBBronze
 - **Neo T9 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionLavosPrimeCSilver
@@ -532,8 +532,8 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Neo V9 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 8 | Effect ID: Projections/T3VoidProjectionNyxValkyrRailjackABronze
 - **Neo W2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 10 | Flags: Vaulted | Sell: 6p | Buy: 4p | Effect ID: Projections/T3VoidProjectionXakuPrimeDBronze
 - **Neo X1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionLavosPrimeBBronze
-- **Neo Y1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 2p | Buy: 6p | Effect ID: Projections/T3VoidProjectionStyanaxPrimeDBronze
-- **Neo Y2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Buy: 7p | Effect ID: Projections/T3VoidProjectionCitrinePrimeEBronze
+- **Neo Y1 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 2 | Flags: Vaulted | Sell: 2p | Buy: 8p | Effect ID: Projections/T3VoidProjectionStyanaxPrimeDBronze
+- **Neo Y2 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Effect ID: Projections/T3VoidProjectionCitrinePrimeEBronze
 - **Neo Z10 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 5 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionGrendelPrimeABronze
 - **Neo Z11 Exceptional** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionSevagothPrimeDSilver
 - **Neo Z11 Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 12 | Flags: Vaulted | Effect ID: Projections/T3VoidProjectionSevagothPrimeDBronze
@@ -543,7 +543,7 @@ Total entries in `inventoryRelics.json`: **504**.
 - **Requiem I Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 27 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T5VoidProjectionImmortalABronze
 - **Requiem I Radiant** — Type: relic | Rank: 0/0 (MAXED) | Owned: 3 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T5VoidProjectionImmortalAPlatinum
 - **Requiem II Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 38 | Flags: Vaulted | Effect ID: Projections/T5VoidProjectionImmortalBBronze
-- **Requiem III Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 35 | Flags: Vaulted | Buy: 3p | Effect ID: Projections/T5VoidProjectionImmortalCBronze
-- **Requiem IV Flawless** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Effect ID: Projections/T5VoidProjectionImmortalDGold
-- **Requiem IV Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 23 | Flags: Vaulted | Effect ID: Projections/T5VoidProjectionImmortalDBronze
+- **Requiem III Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 35 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T5VoidProjectionImmortalCBronze
+- **Requiem IV Flawless** — Type: relic | Rank: 0/0 (MAXED) | Owned: 1 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T5VoidProjectionImmortalDGold
+- **Requiem IV Intact** — Type: relic | Rank: 0/0 (MAXED) | Owned: 23 | Flags: Vaulted | Sell: 1p | Effect ID: Projections/T5VoidProjectionImmortalDBronze
 
