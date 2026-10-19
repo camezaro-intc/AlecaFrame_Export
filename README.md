@@ -200,3 +200,4 @@ To query your inventory using Google Gemini or NotebookLM:
 
 ## 📄 License
 This project is open-source and intended for personal Warframe account intelligence and NotebookLM source ingestion. Warframe and all associated assets are trademarks of Digital Extremes Ltd. Warframe.market is an independent trading platform.
+
