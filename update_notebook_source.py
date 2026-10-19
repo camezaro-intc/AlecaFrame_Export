@@ -625,6 +625,11 @@ def main() -> int:
         default=None,
         help="Path to custom wishlist text file (default: <directory>/wishlist.txt).",
     )
+    parser.add_argument(
+        "--skip-push",
+        action="store_true",
+        help="Skip automatic Git push of Markdown and HTML files to GitHub.",
+    )
     args = parser.parse_args()
 
     directory = args.directory.resolve()
@@ -776,6 +781,15 @@ def main() -> int:
         f"Included {len(current)} JSON file(s), "
         f"{sum(len(data) if isinstance(data, list) else 1 for data in current.values())} top-level record(s)."
     )
+
+    if not args.skip_push:
+        try:
+            print(f"[{datetime.now().strftime('%H:%M:%S')}] Syncing updated sources & dashboard to GitHub...", file=sys.stderr)
+            from push_to_github import push_changes
+            push_changes(repo_dir=directory)
+        except Exception as push_err:
+            print(f"Warning: could not push to GitHub: {push_err}", file=sys.stderr)
+
     return 0
 
 
