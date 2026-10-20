@@ -777,6 +777,9 @@ def main() -> int:
         previous = parse_previous_snapshot(output)
         markdown = build_markdown(current, previous)
         write_atomically(output, markdown)
+        combined_split = split_output_dir / "combined.md"
+        write_atomically(combined_split, markdown)
+        generated_split_files.add(combined_split)
         for filename, data in current.items():
             if filename == "rivens.json" and isinstance(data, list):
                 chunks = [

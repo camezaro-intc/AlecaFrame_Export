@@ -26,10 +26,14 @@ def get_drive_directory(custom_path: Path | str | None = None) -> Path:
 
 
 def get_markdown_sources(source_dir: Path) -> list[Path]:
-    """Find all Markdown sources in source_dir."""
+    """Find all Markdown sources in source_dir, plus combined.md if present."""
     if not source_dir.exists():
         return []
-    return sorted(list(source_dir.glob("*.md")), key=lambda p: p.name.casefold())
+    sources = set(source_dir.glob("*.md"))
+    root_combined = source_dir.parent / "combined.md"
+    if root_combined.exists() and root_combined.is_file():
+        sources.add(root_combined)
+    return sorted(list(sources), key=lambda p: p.name.casefold())
 
 
 def sync_to_drive(
