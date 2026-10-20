@@ -112,6 +112,9 @@ AlecaFrame_Export/
    * `inventoryMisc.json`
    * `rivens.json`
 
+> [!TIP]
+> **Automatic Desktop Detection**: If AlecaFrame exports `alecaframeStatsExport.json` (or any other JSON export) directly onto your **Desktop**, `update_notebook_source.py` automatically detects the newer file on your Desktop, copies it into this folder, and processes it immediately—zero manual file copying needed!
+
 ---
 
 ### Step 2: Run the Master Pipeline
