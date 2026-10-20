@@ -10,3 +10,6 @@ __pycache__/
 *.tmp
 *.log
 
+#personal data
+notebook_sources/
+*.json

@@ -721,9 +721,20 @@ def main() -> int:
         help="Path to custom wishlist text file (default: <directory>/wishlist.txt).",
     )
     parser.add_argument(
-        "--skip-push",
+        "--drive-dir",
+        type=Path,
+        default=Path(r"G:\Mi unidad\WF_DATA"),
+        help=r"Google Drive destination folder for flat Markdown copies (default: G:\Mi unidad\WF_DATA).",
+    )
+    parser.add_argument(
+        "--skip-drive-copy",
         action="store_true",
-        help="Skip automatic Git push of Markdown and HTML files to GitHub.",
+        help="Skip auto-copying Markdown files to Google Drive.",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Simulate the workflow and Google Drive copy without copying files to Drive.",
     )
     parser.add_argument(
         "--no-desktop-sync",
@@ -899,13 +910,18 @@ def main() -> int:
         f"{sum(len(data) if isinstance(data, list) else 1 for data in current.values())} top-level record(s)."
     )
 
-    if not args.skip_push:
+    # Auto-copy generated Markdown sources directly into Google Drive (flat structure)
+    if not args.skip_drive_copy:
         try:
-            print(f"[{datetime.now().strftime('%H:%M:%S')}] Syncing updated sources & dashboard to GitHub...", file=sys.stderr)
-            from push_to_github import push_changes
-            push_changes(repo_dir=directory)
-        except Exception as push_err:
-            print(f"Warning: could not push to GitHub: {push_err}", file=sys.stderr)
+            from sync_to_drive import sync_to_drive
+            sync_to_drive(
+                source_dir=split_output_dir,
+                drive_dir=args.drive_dir,
+                dry_run=args.dry_run,
+                verbose=True,
+            )
+        except Exception as drive_err:
+            print(f"Warning: could not sync to Google Drive: {drive_err}", file=sys.stderr)
 
     return 0
 

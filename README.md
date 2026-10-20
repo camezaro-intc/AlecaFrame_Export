@@ -118,7 +118,7 @@ AlecaFrame_Export/
 ---
 
 ### Step 2: Run the Master Pipeline
-To process all exports, generate markdown sources, build the interactive dashboard, fetch live market prices, and push changes to GitHub automatically, run:
+To process all exports, generate markdown sources, build the interactive dashboard, fetch live market prices, and automatically copy the markdown files to **Google Drive (`G:\Mi unidad\WF_DATA\`)**, run:
 
 ```powershell
 python update_notebook_source.py
@@ -126,7 +126,7 @@ python update_notebook_source.py
 
 #### Pipeline Execution Flow:
 ```text
-[AlecaFrame JSONs]
+[AlecaFrame JSONs (Desktop / Folder)]
         │
         ├──▶ update_notebook_source.py (Generates combined.md & notebook_sources/*.md)
         │            │
@@ -134,9 +134,9 @@ python update_notebook_source.py
         │            │
         │            ├──▶ market_tracker.py (Fetches live Warframe.market prices & whispers)
         │            │
-        │            └──▶ push_to_github.py (Stages, commits & pushes to GitHub)
+        │            └──▶ sync_to_drive.py (Flat copy directly into G:\Mi unidad\WF_DATA\)
         ▼
-[GitHub Repository & Gemini NotebookLM Updated]
+[Google Drive & Gemini NotebookLM Updated]
 ```
 
 ---
@@ -145,7 +145,18 @@ python update_notebook_source.py
 
 Each script can also be executed independently for specific tasks:
 
-### 1. View or Rebuild the Dashboard & Mastery Rank Helper
+### 1. Auto-Copy Markdown Sources to Google Drive
+```powershell
+# Copy all markdown sources directly to G:\Mi unidad\WF_DATA\ (flat, no subfolders):
+python sync_to_drive.py
+
+# Preview what files would be copied without writing to Google Drive (Dry Run):
+python sync_to_drive.py --dry-run
+```
+
+---
+
+### 2. View or Rebuild the Dashboard & Mastery Rank Helper
 ```powershell
 python stats_analyzer.py
 ```
@@ -154,7 +165,7 @@ python stats_analyzer.py
 
 ---
 
-### 2. Live Market Intelligence & Wishlist Whispers
+### 3. Live Market Intelligence & Wishlist Whispers
 ```powershell
 # Analyze wishlist and top inventory sell opportunities:
 python market_tracker.py --wishlist wishlist.txt
@@ -165,19 +176,11 @@ python market_tracker.py --watch --interval 15
 
 ---
 
-### 3. Push Updates to GitHub On-Demand
+### 4. Run Pipeline in Simulation Mode (Dry Run)
 ```powershell
-# Commit and push modified Markdown sources & HTML dashboard:
-python push_to_github.py
-
-# Preview changes without committing or pushing (Dry Run):
-python push_to_github.py --dry-run
+# Process exports and preview Drive sync without writing files to Google Drive:
+python update_notebook_source.py --dry-run
 ```
-
----
-
-### 4. Run Pipeline Without Pushing to GitHub
-```powershell
 python update_notebook_source.py --skip-push
 ```
 
