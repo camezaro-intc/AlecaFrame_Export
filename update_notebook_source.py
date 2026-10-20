@@ -7,6 +7,7 @@ import argparse
 import json
 import os
 import re
+import shutil
 import sys
 import tempfile
 from collections import Counter
@@ -40,6 +41,100 @@ NOISE_KEYS = {
     "editlistVisibility",
     "debugInfo",
 }
+
+
+KNOWN_ALECAFRAME_EXPORTS = [
+    "alecaframeStatsExport.json",
+    "foundry.json",
+    "inventoryMods.json",
+    "inventorySets.json",
+    "inventoryParts.json",
+    "inventoryRelics.json",
+    "inventoryArcanes.json",
+    "inventoryMisc.json",
+    "rivens.json",
+]
+
+
+def get_desktop_directories(target_dir: Path | None = None) -> list[Path]:
+    """Find valid Desktop folders on the current operating system."""
+    candidates = []
+    if target_dir:
+        candidates.append(target_dir.parent)
+    userprofile = os.environ.get("USERPROFILE")
+    if userprofile:
+        candidates.append(Path(userprofile) / "Desktop")
+        candidates.append(Path(userprofile) / "OneDrive" / "Desktop")
+    candidates.append(Path.home() / "Desktop")
+    candidates.append(Path.cwd().parent)
+
+    seen = set()
+    valid_dirs = []
+    for c in candidates:
+        try:
+            resolved = c.resolve()
+            if resolved.exists() and resolved.is_dir() and resolved not in seen:
+                if target_dir and resolved == target_dir.resolve():
+                    continue
+                seen.add(resolved)
+                valid_dirs.append(resolved)
+        except Exception:
+            pass
+    return valid_dirs
+
+
+def sync_desktop_exports(
+    target_dir: Path,
+    file_names: list[str] | None = None,
+    search_dirs: list[Path] | None = None,
+) -> list[tuple[Path, Path]]:
+    """
+    Search Desktop directories for AlecaFrame JSON exports.
+    If a file is found that is newer or different from the local one, copy it into target_dir.
+    Returns list of (source_path, dest_path) for copied files.
+    """
+    if file_names is None:
+        file_names = KNOWN_ALECAFRAME_EXPORTS
+
+    if search_dirs is None:
+        search_dirs = get_desktop_directories(target_dir)
+
+    copied_files: list[tuple[Path, Path]] = []
+
+    for d_dir in search_dirs:
+        for fname in file_names:
+            src = d_dir / fname
+            if not src.exists() or not src.is_file():
+                continue
+
+            dst = target_dir / fname
+            should_copy = False
+
+            if not dst.exists():
+                should_copy = True
+            else:
+                try:
+                    src_stat = src.stat()
+                    dst_stat = dst.stat()
+                    # Copy if Desktop copy has a newer modification timestamp
+                    if src_stat.st_mtime > dst_stat.st_mtime + 1.0:
+                        should_copy = True
+                    elif src_stat.st_size != dst_stat.st_size:
+                        should_copy = True
+                    else:
+                        if src.read_bytes() != dst.read_bytes():
+                            should_copy = True
+                except Exception:
+                    should_copy = True
+
+            if should_copy:
+                try:
+                    shutil.copy2(src, dst)
+                    copied_files.append((src, dst))
+                except Exception as copy_err:
+                    print(f"Warning: could not copy {src} to {dst}: {copy_err}", file=sys.stderr)
+
+    return copied_files
 
 
 def strip_html(text: Any) -> str:
@@ -630,6 +725,17 @@ def main() -> int:
         action="store_true",
         help="Skip automatic Git push of Markdown and HTML files to GitHub.",
     )
+    parser.add_argument(
+        "--no-desktop-sync",
+        action="store_true",
+        help="Skip searching the Desktop directory for newly exported JSON files.",
+    )
+    parser.add_argument(
+        "--desktop-dir",
+        type=Path,
+        default=None,
+        help="Custom folder to check for exported AlecaFrame JSON files (defaults to Desktop).",
+    )
     args = parser.parse_args()
 
     directory = args.directory.resolve()
@@ -637,6 +743,17 @@ def main() -> int:
     split_output_dir = (
         args.split_output_dir or directory / "notebook_sources"
     ).resolve()
+
+    # Automatically check Desktop for new AlecaFrame JSON exports
+    if not args.no_desktop_sync:
+        custom_dirs = [args.desktop_dir.resolve()] if args.desktop_dir else None
+        copied = sync_desktop_exports(directory, search_dirs=custom_dirs)
+        if copied:
+            for src_p, dst_p in copied:
+                print(
+                    f"[{datetime.now().strftime('%H:%M:%S')}] Detected updated {src_p.name} on Desktop -> Copied to {directory.name}/",
+                    file=sys.stderr,
+                )
     json_files = sorted(directory.glob("*.json"), key=lambda path: path.name.casefold())
     if not json_files:
         parser.error(f"No .json exports found in {directory}")

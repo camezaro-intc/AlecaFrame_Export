@@ -63,7 +63,7 @@ def get_modified_target_files(repo_dir: Path, include_all: bool = False) -> list
 
         if include_all:
             targets.append(raw_path)
-        elif raw_path.endswith(".md") or raw_path.endswith(".html"):
+        elif raw_path.endswith(".md") or raw_path.endswith(".html") or raw_path.endswith(".json"):
             targets.append(raw_path)
 
     return sorted(list(set(targets)))
@@ -130,6 +130,9 @@ def build_commit_message(repo_dir: Path, staged_files: list[str]) -> tuple[str, 
     if sources_md:
         base_names = [Path(f).name for f in sources_md]
         body_lines.append(f"- Notebook Sources ({len(sources_md)}): {', '.join(base_names)}")
+    json_files = [f for f in staged_files if f.endswith(".json")]
+    if json_files:
+        body_lines.append(f"- Raw Data Exports: {', '.join(json_files)}")
 
     # Add telemetry bullets if available
     telemetry_bullets = extract_telemetry_summary(repo_dir)

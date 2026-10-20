@@ -1357,6 +1357,16 @@ def main() -> int:
 
     args = parser.parse_args()
 
+    # Automatically check Desktop for newer alecaframeStatsExport.json or foundry.json
+    try:
+        from update_notebook_source import sync_desktop_exports
+        copied = sync_desktop_exports(Path.cwd(), file_names=["alecaframeStatsExport.json", "foundry.json"])
+        if copied:
+            for src_p, dst_p in copied:
+                print(f"[{datetime.now().strftime('%H:%M:%S')}] Detected updated {src_p.name} on Desktop -> Copied to {dst_p.name}", file=sys.stderr)
+    except Exception:
+        pass
+
     if not args.file.exists():
         print(f"Error: {args.file} not found.", file=sys.stderr)
         return 1
