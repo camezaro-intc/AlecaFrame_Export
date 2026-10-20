@@ -147,7 +147,7 @@ def canonical(value: Any) -> str:
     return json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
 
 
-def record_label(record: Any, fallback: str) -> str:
+def record_label(record: Any, fallback: str, include_rank: bool = True) -> str:
     if isinstance(record, dict):
         # If it's a Riven with statsPerWeapon, include the primary weapon name first
         stats_per_wep = record.get("statsPerWeapon")
@@ -159,10 +159,24 @@ def record_label(record: Any, fallback: str) -> str:
             if wep_name:
                 return f"{wep_name} Riven"
 
-        for field in ("name", "weaponName", "internalName", "randomID"):
+        if "user" in record and "totalPlat" in record:
+            user = record.get("user")
+            ts = record.get("ts", "")
+            return f"Trade with {user} ({ts})" if user else f"Trade ({ts})"
+        if "ts" in record and "plat" in record:
+            return f"DataPoint ({record.get('ts')})"
+
+        for field in ("name", "weaponName", "displayName", "internalName", "randomID"):
             value = record.get(field)
             if value is not None and value != "":
-                return strip_html(str(value))
+                label = strip_html(str(value))
+                if include_rank:
+                    cur_r = record.get("currentModRank")
+                    if cur_r is None:
+                        cur_r = record.get("rank")
+                    if cur_r is not None:
+                        return f"{label} (Rank {cur_r})"
+                return label
     return fallback
 
 
@@ -206,6 +220,70 @@ def parse_previous_snapshot(path: Path) -> dict[str, Any]:
     return snapshots
 
 
+def get_record_identity_key(item: Any) -> str | None:
+    """Extract a stable identity key for a record to support order-independent delta comparisons."""
+    if not isinstance(item, dict):
+        return None
+
+    # Rivens and explicitly keyed items
+    random_id = item.get("randomID")
+    if random_id:
+        return f"randomID:{random_id}"
+
+    # Warframe items: Mods, Arcanes, Weapons, Warframes, Parts, Sets, Relics, Foundry, Misc
+    base_name = item.get("internalName") or item.get("name") or item.get("weaponName") or item.get("displayName")
+    if base_name:
+        rank = item.get("currentModRank")
+        if rank is None:
+            rank = item.get("rank")
+        if rank is None:
+            rank = item.get("modRank")
+        if rank is not None:
+            return f"item:{base_name}#rank={rank}"
+        return f"item:{base_name}"
+
+    # Stats, Trades, Timestamps
+    ts = item.get("ts")
+    if ts is not None:
+        return f"ts:{ts}"
+
+    # Generic IDs
+    for id_key in ("id", "uuid", "tradeId", "uniqueId"):
+        val = item.get(id_key)
+        if val is not None:
+            return f"{id_key}:{val}"
+
+    # Traits / levels / shards
+    level = item.get("level")
+    if level is not None:
+        return f"level:{level}"
+    desc = item.get("description")
+    if desc:
+        return f"desc:{desc}"
+    text = item.get("text")
+    if text:
+        return f"text:{text}"
+
+    return None
+
+
+def index_records_by_identity(records: list[Any]) -> tuple[dict[str, Any], list[str]]:
+    """Index an array of records by their unique identity keys while preserving encounter order."""
+    indexed: dict[str, Any] = {}
+    ordered_keys: list[str] = []
+    counts: Counter[str] = Counter()
+    for item in records:
+        base_key = get_record_identity_key(item)
+        if base_key is None:
+            base_key = f"__canonical__:{canonical(item)}"
+        counts[base_key] += 1
+        c = counts[base_key]
+        unique_key = f"{base_key}#{c}" if c > 1 else base_key
+        indexed[unique_key] = item
+        ordered_keys.append(unique_key)
+    return indexed, ordered_keys
+
+
 def unique_identity_field(old: list[Any], new: list[Any]) -> str | None:
     for field in IDENTITY_FIELDS:
         old_values = [item.get(field) for item in old if isinstance(item, dict)]
@@ -231,7 +309,10 @@ def short_value(value: Any) -> str:
 def nested_changes(old: Any, new: Any, path: str) -> list[str]:
     if type(old) is not type(new):
         return [f"`{path}` changed from `{short_value(old)}` to `{short_value(new)}`"]
+
     if isinstance(old, dict):
+        if old == new:
+            return []
         changes: list[str] = []
         for key in sorted(old.keys() | new.keys()):
             child_path = f"{path}.{key}"
@@ -244,9 +325,51 @@ def nested_changes(old: Any, new: Any, path: str) -> list[str]:
             if len(changes) >= MAX_CHANGE_DETAILS:
                 return changes[:MAX_CHANGE_DETAILS]
         return changes
+
     if isinstance(old, list):
         if old == new:
             return []
+
+        # If both are lists of dicts, compare using identity rather than array index
+        if all(isinstance(x, dict) for x in old) and all(isinstance(x, dict) for x in new):
+            old_indexed, old_keys = index_records_by_identity(old)
+            new_indexed, new_keys = index_records_by_identity(new)
+
+            changes: list[str] = []
+            # Check for property changes in matching items
+            for key in new_keys:
+                if key in old_indexed:
+                    old_item = old_indexed[key]
+                    new_item = new_indexed[key]
+                    if old_item == new_item:
+                        continue
+                    item_label = record_label(new_item, key)
+                    changes.extend(nested_changes(old_item, new_item, f"{path}[{item_label}]"))
+                    if len(changes) >= MAX_CHANGE_DETAILS:
+                        return changes[:MAX_CHANGE_DETAILS]
+
+            # Added items
+            for key in new_keys:
+                if key not in old_indexed:
+                    item_label = record_label(new_indexed[key], key)
+                    changes.append(f"`{path}` added item `{item_label}`: `{short_value(new_indexed[key])}`")
+                    if len(changes) >= MAX_CHANGE_DETAILS:
+                        return changes[:MAX_CHANGE_DETAILS]
+
+            # Removed items
+            for key in old_keys:
+                if key not in new_indexed:
+                    item_label = record_label(old_indexed[key], key)
+                    changes.append(f"`{path}` removed item `{item_label}` (was `{short_value(old_indexed[key])}`)")
+                    if len(changes) >= MAX_CHANGE_DETAILS:
+                        return changes[:MAX_CHANGE_DETAILS]
+
+            return changes[:MAX_CHANGE_DETAILS]
+
+        # For primitive lists, if order changed but elements are identical, treat as no changes
+        if Counter(map(canonical, old)) == Counter(map(canonical, new)):
+            return []
+
         changes = []
         for index in range(min(len(old), len(new))):
             changes.extend(nested_changes(old[index], new[index], f"{path}[{index}]"))
@@ -263,6 +386,7 @@ def nested_changes(old: Any, new: Any, path: str) -> list[str]:
                 f"(was `{short_value(old[len(new) + index])}`)"
             )
         return changes[:MAX_CHANGE_DETAILS]
+
     if old != new:
         return [f"`{path}` changed from `{short_value(old)}` to `{short_value(new)}`"]
     return []
@@ -273,44 +397,32 @@ def compare_records(old: Any, new: Any) -> tuple[list[str], list[str], list[tupl
         changes = nested_changes(old, new, "$")
         return ([], [], [("$", changes)] if changes else [])
 
-    identity = unique_identity_field(old, new)
-    if identity is None:
-        old_counts = Counter(map(canonical, old))
-        new_counts = Counter(map(canonical, new))
-        old_remaining = old_counts - new_counts
-        new_remaining = new_counts - old_counts
-        removed = [
-            record_label(json.loads(value), f"record {number}")
-            for number, value in enumerate(
-                (value for value, count in old_remaining.items() for _ in range(count)),
-                start=1,
-            )
-        ]
-        added = [
-            record_label(json.loads(value), f"record {number}")
-            for number, value in enumerate(
-                (value for value, count in new_remaining.items() for _ in range(count)),
-                start=1,
-            )
-        ]
-        return added, removed, []
+    old_indexed, old_keys = index_records_by_identity(old)
+    new_indexed, new_keys = index_records_by_identity(new)
 
-    old_by_id = {canonical(item[identity]): item for item in old}
-    new_by_id = {canonical(item[identity]): item for item in new}
     added = [
-        record_label(new_by_id[key], str(new_by_id[key][identity]))
-        for key in sorted(new_by_id.keys() - old_by_id.keys())
+        record_label(new_indexed[key], key)
+        for key in new_keys
+        if key not in old_indexed
     ]
     removed = [
-        record_label(old_by_id[key], str(old_by_id[key][identity]))
-        for key in sorted(old_by_id.keys() - new_by_id.keys())
+        record_label(old_indexed[key], key)
+        for key in old_keys
+        if key not in new_indexed
     ]
+
     changed: list[tuple[str, list[str]]] = []
-    for key in sorted(old_by_id.keys() & new_by_id.keys()):
-        details = nested_changes(old_by_id[key], new_by_id[key], "$")
-        if details:
-            label = record_label(new_by_id[key], str(new_by_id[key][identity]))
-            changed.append((label, details))
+    for key in new_keys:
+        if key in old_indexed:
+            old_item = old_indexed[key]
+            new_item = new_indexed[key]
+            if old_item == new_item:
+                continue
+            details = nested_changes(old_item, new_item, "$")
+            if details:
+                label = record_label(new_item, key)
+                changed.append((label, details))
+
     return added, removed, changed
 
 
@@ -338,9 +450,11 @@ def render_change_summary(previous: dict[str, Any], current: dict[str, Any]) -> 
         if not added and not removed and not changed:
             lines.append(f"- **{filename}:** no data changes.")
             continue
+
+        update_count = len(changed[0][1]) if len(changed) == 1 and changed[0][0] == "$" else len(changed)
         lines.append(
             f"- **{filename}:** {len(added)} record(s) added, "
-            f"{len(removed)} removed, {len(changed)} updated."
+            f"{len(removed)} removed, {update_count} updated."
         )
         for label in added[:MAX_CHANGE_DETAILS]:
             lines.append(f"  - Added: `{label}`")
@@ -351,12 +465,19 @@ def render_change_summary(previous: dict[str, Any], current: dict[str, Any]) -> 
         for label, changes in changed:
             if detail_count >= MAX_CHANGE_DETAILS:
                 break
-            lines.append(f"  - Updated `{label}`:")
-            for change in changes:
-                if detail_count >= MAX_CHANGE_DETAILS:
-                    break
-                lines.append(f"    - {change}")
-                detail_count += 1
+            if label == "$":
+                for change in changes:
+                    if detail_count >= MAX_CHANGE_DETAILS:
+                        break
+                    lines.append(f"  - {change}")
+                    detail_count += 1
+            else:
+                lines.append(f"  - Updated `{label}`:")
+                for change in changes:
+                    if detail_count >= MAX_CHANGE_DETAILS:
+                        break
+                    lines.append(f"    - {change}")
+                    detail_count += 1
         if detail_count >= MAX_CHANGE_DETAILS:
             lines.append(
                 f"- Change details were limited to the first {MAX_CHANGE_DETAILS} entries; "
@@ -455,7 +576,7 @@ def format_record_line(record: Any, index: int) -> str:
     if not isinstance(record, dict):
         return f"- Record {index}: {json.dumps(record, ensure_ascii=False)}"
 
-    name = record_label(record, f"Item #{index}")
+    name = record_label(record, f"Item #{index}", include_rank=False)
     details: list[str] = []
 
     # 1. Type & Rarity
