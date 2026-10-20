@@ -916,6 +916,37 @@ def main() -> int:
                         build_split_markdown(filename, chunk, title),
                     )
                     generated_split_files.add(split_path)
+
+                # Generate riven_intelligence.md
+                try:
+                    from riven_tracker import (
+                        parse_riven_record,
+                        RivenMarketClient,
+                        generate_riven_intelligence_markdown,
+                    )
+                    rivens_objs = [parse_riven_record(r) for r in data if isinstance(r, dict)]
+                    r_client = None if args.skip_market else RivenMarketClient()
+                    p_weapons: set[str] = {r.weapon_name.casefold() for r in rivens_objs if r.grade == "Perfect"}
+                    for r in rivens_objs:
+                        if len(p_weapons) >= 6:
+                            break
+                        if r.grade == "Good" and r.is_meta_weapon:
+                            p_weapons.add(r.weapon_name.casefold())
+
+                    riven_intel_md = generate_riven_intelligence_markdown(
+                        rivens=rivens_objs,
+                        market_client=r_client,
+                        price_check_weapons=p_weapons,
+                    )
+                    intel_path = split_output_dir / "riven_intelligence.md"
+                    write_atomically(intel_path, riven_intel_md)
+                    generated_split_files.add(intel_path)
+                    print(
+                        f"[{datetime.now().strftime('%H:%M:%S')}] Generated riven intelligence in {intel_path.name}",
+                        file=sys.stderr,
+                    )
+                except Exception as r_err:
+                    print(f"Warning: could not generate riven intelligence: {r_err}", file=sys.stderr)
                 continue
 
             if filename == "alecaframeStatsExport.json" and isinstance(data, dict):

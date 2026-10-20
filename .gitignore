@@ -10,6 +10,15 @@ __pycache__/
 *.tmp
 *.log
 
-#personal data
-notebook_sources/
+# AlecaFrame raw exports (Personal Data)
 *.json
+
+# Personal inventory, account stats, trade reports, and dashboards
+notebook_sources/
+combined.md
+market_opportunities.md
+account_stats.md
+trade_history.md
+mastery_roadmap.md
+stats_dashboard.html
+riven_watchlist.txt

@@ -8,15 +8,16 @@
 A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** data exports into:
 1. **Interactive HTML Visualizer Dashboard** featuring historical Platinum & resource charts, trade transaction ledgers, and a **Mastery Rank (MR) Helper** with live Warframe wiki artwork.
 2. **Live Market Pricing & Trading Engine** integrating the **Warframe.market** v2 & v1 APIs to monitor wishlist mod prices, sellable duplicate mods, prime sets, and auto-generated in-game trade whisper commands (`/w <user>...`).
-3. **Structured Markdown Knowledge Bases** in [`notebook_sources/`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/notebook_sources) and [`combined.md`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/combined.md) specifically formatted for instant ingestion into **Google Gemini** and **Google NotebookLM**.
-4. **Automated GitHub Sync Pipeline** keeping remote GitHub repositories and linked NotebookLM notebooks perpetually updated with zero manual copy-pasting.
+3. **Riven Valuation & Market Intelligence** ([`riven_tracker.py`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/riven_tracker.py)) evaluating roll quality, trait combinations, unrolled buyer premiums, and live Warframe.market auction buyouts across all owned Rivens.
+4. **Structured Markdown Knowledge Bases** in [`notebook_sources/`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/notebook_sources) specifically formatted for instant ingestion into **Google Gemini** and **Google NotebookLM** via direct **Google Drive** synchronization.
+5. **Two-Way Google Drive Synchronization** keeping both knowledge base markdown sources and active Python scripts continuously synchronized with automatic previous-version archiving (`OLD/`).
 
 ---
 
 ## 🌟 Key Capabilities
 
 ### 1. 🎖️ Mastery Rank (MR) Helper & Progression Optimizer
-* **Inventory Analysis**: Automatically inspects [`foundry.json`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/foundry.json) and classifies all unmastered items into prioritized tiers:
+* **Inventory Analysis**: Automatically inspects `foundry.json` and classifies all unmastered items into prioritized tiers:
   * **⚡ Priority 1 (In Inventory):** Items already owned and crafted in your arsenal (immediate 0-plat / 0-crafting XP wins).
   * **🎯 Priority 2 (Missing 1 Part):** Prime sets and weapons needing only a single component from relics or trading.
   * **🐾 Priority 3 (Companions & Modulars):** Kavat/Kubrow breeding and open-world modular items (Amps, Zaws, K-Drives).
@@ -25,12 +26,25 @@ A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** da
 * **Speed-Leveling Meta Guide**: Integrated power-leveling cheat sheet covering Normal Sanctuary Onslaught (Frames/Archwings), the ESO 1-Weapon Affinity Trick, and Adaro Savage Silence 500% stealth multiplier runs.
 * **Live Visual Artwork**: High-resolution transparent item renders sourced directly from the AlecaFrame CDN with graceful fallback placeholders.
 
-### 2. 📊 Financial & Progression Dashboard ([`stats_dashboard.html`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/stats_dashboard.html))
+### 2. 🔮 Riven Intelligence & Valuation Tracker ([`riven_tracker.py`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/riven_tracker.py))
+* **Instant Offline Full-Inventory Audit**: Analyzes all owned Rivens locally in < 0.05 seconds with zero network overhead using AlecaFrame's local traits, roll counts, weapon disposition, and roll grades (`Perfect`, `Good`, `HasPotential`, `Bad`).
+* **Live Warframe.market Auction Integration**: Queries live online sellers on Warframe.market to retrieve:
+  * **Trash Floor Buyout**: Minimum active price for that weapon's rivens (liquidation floor).
+  * **Unrolled Buyout Floor**: Minimum active price for 0-reroll rivens (unrolled buyer premium).
+  * **Median Active Buyout**: General market benchmark for usable rolls.
+* **Strategic Action Buckets**:
+  * 💎 **High-Value / Ready to Sell**: Perfect & Good rolls on meta weapons or unrolled popular weapons.
+  * 🎯 **Kuva Reroll Targets**: High-disposition (1.1x+) meta weapons with mediocre rolls (invest Kuva here for max profit).
+  * 🪙 **Quick Trash Sale**: Rolled fodder rivens to liquidate at the floor price (15–30p) and free up inventory slots.
+  * ♻️ **Transmute / Dissolve**: Obscure weapons with bad rolls to combine 4:1 with a Riven Transmuter or dissolve for Endo.
+* **In-Game Trade Chat Strings**: Ready-to-copy chat messages (e.g., `WTS [Corinth Lexi-critacan] unrolled 95p or offer`).
+
+### 3. 📊 Financial & Progression Dashboard ([`stats_dashboard.html`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/stats_dashboard.html))
 * **Historical Timeline**: Chart.js timeline tracking daily Platinum balances, peak wealth milestones, and resource accumulation (Credits & Endo) across 330+ days.
 * **Trade Transaction Ledger**: Filterable and searchable ledger tracking sales, purchases, partner names, itemized trades, and net Platinum exchange.
 * **Data Provenance**: Clear baseline comparatives measured against your first recorded AlecaFrame tracking session.
 
-### 3. 💰 Live Warframe.market Pricing Engine ([`market_tracker.py`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/market_tracker.py))
+### 4. 💰 Live Warframe.market Pricing Engine ([`market_tracker.py`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/market_tracker.py))
 * **Wishlist Monitoring**: Automatically fetches real-time lowest buy/sell orders, 48-hour volume-weighted averages, 90-day baseline prices, and 48-hour sales volume for items listed in [`wishlist.txt`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/wishlist.txt).
 * **Inventory Sell Opportunities**: Identifies completed prime sets and duplicate mods with high market demand.
 * **Ready-to-Use In-Game Whispers**: Generates click-and-copy whisper commands:
@@ -38,19 +52,16 @@ A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** da
   /w PlayerName Hi! I want to buy: "Primed Continuity (Rank 0)" for 45 platinum. (warframe.market)
   ```
 
-### 4. 🤖 Google NotebookLM & Gemini Knowledge Sources
-* Splits raw JSON telemetry into clean, token-efficient Markdown sources in [`notebook_sources/`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/notebook_sources):
+### 5. 🤖 Google Drive & Gemini NotebookLM Integration
+* All generated markdown intelligence files are flat-copied directly to **`G:\Mi unidad\WF_DATA\`** for instant ingestion by Google Gemini and NotebookLM:
+  * `riven_intelligence.md` — Strategic riven valuation, market floors & trade strings
   * `account_stats.md` — Wallet & account telemetry
-  * `mastery_roadmap.md` — Prioritized MR leveling roadmap
+  * `mastery_roadmap.md` — Prioritized MR ranking roadmap & leveling guide
   * `trade_history.md` — Itemized trade transaction receipts
   * `market_opportunities.md` — Current live market pricing & buy/sell targets
-  * `inventoryMods.md`, `inventorySets.md`, `inventoryParts.md`, `inventoryRelics.md`, `inventoryArcanes.md`, `inventoryMisc.md`, `foundry.md`, `rivens-001.md`
-* Generates [`combined.md`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/combined.md) for single-document ingestion.
-
-### 5. 🚀 Automated GitHub Sync ([`push_to_github.py`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/push_to_github.py))
-* Automatically detects modified `.md` sources and `.html` dashboards.
-* Generates an informative commit summary with current account statistics, mastery progress, and updated file counts.
-* Commits and pushes to `origin/main` so linked NotebookLM notebooks always have the latest data without manual file re-uploads.
+  * `foundry.md`, `inventoryMods.md`, `inventorySets.md`, `inventoryParts.md`, `inventoryRelics.md`, `inventoryArcanes.md`, `inventoryMisc.md`, `rivens-001.md`, `combined.md`
+* **Automatic Version Archiving (`OLD/`)**: Before new files are copied, previous versions are moved to `G:\Mi unidad\WF_DATA\OLD\` (replacing older files without accumulating duplicates).
+* **Active Script Sync (`SCRIPTS/` & `SCRIPTS/OLD/`)**: Current `.py` tools are mirrored to `G:\Mi unidad\WF_DATA\SCRIPTS\` so Gemini has access to the latest code, while previous script revisions are archived in `G:\Mi unidad\WF_DATA\SCRIPTS\OLD\`.
 
 ---
 
@@ -59,66 +70,43 @@ A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** da
 ```text
 AlecaFrame_Export/
 ├── README.md                      # Repository documentation & guide
-├── .gitignore                     # Ignores __pycache__ and .market_cache
-├── stats_dashboard.html           # Interactive multi-tab visualizer dashboard
-├── combined.md                    # Monolithic markdown export
-├── market_opportunities.md        # Current market pricing & whisper report
+├── .gitignore                     # Excludes personal data (*.json, *.md, dashboards)
 ├── wishlist.txt                   # User-defined mod & item wishlist
+├── riven_watchlist.txt            # (Optional) User-defined weapon watchlist for Riven pricing
 │
-├── update_notebook_source.py      # Master pipeline runner (JSON -> MD -> HTML -> Git)
+├── update_notebook_source.py      # Master pipeline runner (JSON -> MD -> HTML -> Drive)
+├── riven_tracker.py               # Riven intelligence & Warframe.market auction engine
+├── market_tracker.py              # Warframe.market standard items v2/v1 client
 ├── stats_analyzer.py              # Telemetry & Mastery Rank optimizer
-├── market_tracker.py              # Warframe.market v2/v1 API client
-├── push_to_github.py              # Automated Git staging, commit & push engine
+├── sync_to_drive.py               # Google Drive flat sync & version archiving engine
 │
-├── notebook_sources/              # Modular Markdown sources for NotebookLM
-│   ├── account_stats.md           # Progression milestones & financial summary
+├── notebook_sources/              # Generated Markdown sources (Local & Google Drive synced)
+│   ├── riven_intelligence.md      # Riven valuations, market floors & sales suggestions
 │   ├── mastery_roadmap.md         # Prioritized MR ranking roadmap & leveling guide
-│   ├── trade_history.md           # Trade receipts & ledger
 │   ├── market_opportunities.md    # Wishlist pricing & in-game trade whispers
-│   ├── foundry.md                 # Foundry blueprints & crafting readiness
-│   ├── inventoryMods.md           # Mod collection & duplicate tracking
-│   ├── inventorySets.md           # Prime sets & trade readiness
-│   ├── inventoryParts.md          # Prime parts & components
-│   ├── inventoryRelics.md         # Void relics & refinement tiers
-│   ├── inventoryArcanes.md        # Arcanes inventory & ranks
-│   ├── inventoryMisc.md           # Resources, keys, and miscellaneous items
-│   └── rivens-001.md              # Riven mods & weapon stats
+│   ├── account_stats.md           # Progression milestones & financial summary
+│   ├── trade_history.md           # Trade receipts & ledger
+│   └── ...                        # Inventory catalog sources
 │
-└── *.json                         # Raw AlecaFrame JSON exports (foundry, inventory, stats)
+└── *.json                         # Raw AlecaFrame JSON exports (Excluded from Git)
 ```
 
 ---
 
 ## ⚡ Quick Start Guide
 
-### Prerequisites
-* **Python 3.10+**
-* **Zero external dependencies** (uses only standard library modules: `urllib`, `json`, `sqlite3`, `subprocess`, etc.).
-* **Git** configured with access to your repository.
-
----
-
 ### Step 1: Export Data from AlecaFrame
 1. Open **AlecaFrame** on your PC.
 2. Navigate to **Settings ➔ Export Data**.
-3. Export your files into this repository directory:
-   * `alecaframeStatsExport.json`
-   * `foundry.json`
-   * `inventoryMods.json`
-   * `inventorySets.json`
-   * `inventoryParts.json`
-   * `inventoryRelics.json`
-   * `inventoryArcanes.json`
-   * `inventoryMisc.json`
-   * `rivens.json`
+3. Export your files into this repository directory (or leave them on your **Desktop**).
 
 > [!TIP]
-> **Automatic Desktop Detection**: If AlecaFrame exports `alecaframeStatsExport.json` (or any other JSON export) directly onto your **Desktop**, `update_notebook_source.py` automatically detects the newer file on your Desktop, copies it into this folder, and processes it immediately—zero manual file copying needed!
+> **Automatic Desktop Detection**: If AlecaFrame exports files directly onto your **Desktop**, `update_notebook_source.py` automatically detects newer exports on your Desktop and copies them in—zero manual moving needed.
 
 ---
 
 ### Step 2: Run the Master Pipeline
-To process all exports, generate markdown sources, build the interactive dashboard, fetch live market prices, and automatically copy the markdown files to **Google Drive (`G:\Mi unidad\WF_DATA\`)**, run:
+To process all exports, generate markdown sources, evaluate rivens, fetch market prices, and synchronize files to **Google Drive (`G:\Mi unidad\WF_DATA\`)**:
 
 ```powershell
 python update_notebook_source.py
@@ -130,11 +118,13 @@ python update_notebook_source.py
         │
         ├──▶ update_notebook_source.py (Generates combined.md & notebook_sources/*.md)
         │            │
+        │            ├──▶ riven_tracker.py (Generates riven_intelligence.md with live auction floors)
+        │            │
         │            ├──▶ stats_analyzer.py (Generates stats_dashboard.html & mastery_roadmap.md)
         │            │
         │            ├──▶ market_tracker.py (Fetches live Warframe.market prices & whispers)
         │            │
-        │            └──▶ sync_to_drive.py (Flat copy directly into G:\Mi unidad\WF_DATA\)
+        │            └──▶ sync_to_drive.py (Syncs to G:\Mi unidad\WF_DATA\ & archives to OLD/)
         ▼
 [Google Drive & Gemini NotebookLM Updated]
 ```
@@ -145,27 +135,53 @@ python update_notebook_source.py
 
 Each script can also be executed independently for specific tasks:
 
-### 1. Auto-Copy Markdown Sources to Google Drive
+### 1. Riven Intelligence & Market Valuation (`riven_tracker.py`)
 ```powershell
-# Copy all markdown sources directly to G:\Mi unidad\WF_DATA\ (flat, no subfolders):
+# Analyze all owned rivens and generate report:
+python riven_tracker.py
+
+# Filter specifically by weapon category (e.g. Shotguns only):
+python riven_tracker.py --type shotgun
+
+# Filter by weapon category and show only the most valuable (Good & Perfect):
+python riven_tracker.py --type shotgun --top-valuable
+
+# Check specific weapons on demand:
+python riven_tracker.py --weapon "Corinth, Arca Plasmor, Bubonico"
+
+# Filter by roll quality:
+python riven_tracker.py --grade Perfect,Good
+
+# Run fast offline audit (no HTTP requests):
+python riven_tracker.py --skip-market
+
+# Update Google Drive with the riven intelligence report:
+python riven_tracker.py --update-drive
+```
+
+---
+
+### 2. Auto-Copy Sources & Scripts to Google Drive (`sync_to_drive.py`)
+```powershell
+# Copy all markdown sources and scripts directly to G:\Mi unidad\WF_DATA\:
 python sync_to_drive.py
 
-# Preview what files would be copied without writing to Google Drive (Dry Run):
+# Preview what files would be archived to OLD/ and copied (Dry Run):
 python sync_to_drive.py --dry-run
 ```
 
 ---
 
-### 2. View or Rebuild the Dashboard & Mastery Rank Helper
+### 3. View or Rebuild the Dashboard & Mastery Rank Helper
 ```powershell
 python stats_analyzer.py
 ```
-* Generates [`stats_dashboard.html`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/stats_dashboard.html), [`notebook_sources/account_stats.md`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/notebook_sources/account_stats.md), and [`notebook_sources/mastery_roadmap.md`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/notebook_sources/mastery_roadmap.md).
+* Generates `stats_dashboard.html`, `notebook_sources/account_stats.md`, and `notebook_sources/mastery_roadmap.md`.
 * Double-click `stats_dashboard.html` to open the interactive dashboard in any browser.
 
 ---
 
-### 3. Live Market Intelligence & Wishlist Whispers
+### 4. Live Market Intelligence & Wishlist Whispers
 ```powershell
 # Analyze wishlist and top inventory sell opportunities:
 python market_tracker.py --wishlist wishlist.txt
@@ -176,34 +192,33 @@ python market_tracker.py --watch --interval 15
 
 ---
 
-### 4. Run Pipeline in Simulation Mode (Dry Run)
+### 5. Run Pipeline in Simulation Mode (Dry Run)
 ```powershell
 # Process exports and preview Drive sync without writing files to Google Drive:
 python update_notebook_source.py --dry-run
-```
-python update_notebook_source.py --skip-push
 ```
 
 ---
 
 ## 🤖 Google Gemini / NotebookLM Integration
 
-To query your inventory using Google Gemini or NotebookLM:
-1. Open **[Google NotebookLM](https://notebooklm.google.com/)**.
-2. Create a new Notebook (e.g., *"Warframe Codex & Inventory"*).
-3. Add sources by selecting **Import from GitHub** (or upload files from [`notebook_sources/`](file:///c:/Users/ALEJANDRO%20MEZA/Desktop/AlecaFrame_Export/notebook_sources)):
-   * Add `mastery_roadmap.md` for leveling advice and unmastered gear queries.
-   * Add `market_opportunities.md` for trading and pricing queries.
-   * Add `account_stats.md` for historical wallet statistics and trade receipts.
-   * Add `foundry.md` and `inventorySets.md` for crafting and relic planning.
-4. **Example Queries you can ask NotebookLM:**
-   * *"Which unmastered warframes or weapons do I already own in my inventory?"*
-   * *"What parts am I missing to complete the Daikyu Prime or Trumna Prime?"*
-   * *"What duplicate mods do I own that sell for the highest platinum?"*
-   * *"What is the fastest way for me to level up my Caliban Prime and Kuva Sobek?"*
+Because markdown files are synchronized directly into your Google Drive (`G:\Mi unidad\WF_DATA\`), you can connect Gemini or Google NotebookLM to that Drive folder.
+
+### Example Queries for Gemini:
+* *"Retrieve all my rivens for shotguns and check the prices for the most valuable to sell."*
+* *"Which unmastered warframes or weapons do I already own in my inventory?"*
+* *"What parts am I missing to complete the Daikyu Prime or Trumna Prime?"*
+* *"What duplicate mods do I own that sell for the highest platinum?"*
+* *"What is the fastest way for me to level up my Caliban Prime and Kuva Sobek?"*
+* *"Which of my rivens are the best candidates to roll with Kuva?"*
+
+---
+
+## 🔒 Privacy & Data Protection
+
+All raw JSON exports (`*.json`), generated markdown reports with personal account information (`combined.md`, `market_opportunities.md`, `stats_dashboard.html`, `notebook_sources/`), and personal watchlists are excluded from Git tracking via `.gitignore`. Your personal inventory telemetry, trade history, and wallet statistics stay strictly on your local PC and your private Google Drive account.
 
 ---
 
 ## 📄 License
 This project is open-source and intended for personal Warframe account intelligence and NotebookLM source ingestion. Warframe and all associated assets are trademarks of Digital Extremes Ltd. Warframe.market is an independent trading platform.
-

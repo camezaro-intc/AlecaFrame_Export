@@ -163,7 +163,112 @@ def sync_to_drive(
         print(f"[OK] Successfully copied {len(copied_files)} new generated Markdown source(s) directly into '{target_drive}'.", file=sys.stderr)
         print("     Gemini NotebookLM can now ingest/refresh the latest information from your Drive account.", file=sys.stderr)
 
+    # Sync scripts into SCRIPTS/ (and archive previous to SCRIPTS/OLD/)
+    workspace_root = source_dir.parent if source_dir.name == "notebook_sources" else source_dir
+    sync_scripts_to_drive(
+        workspace_dir=workspace_root,
+        drive_dir=target_drive,
+        dry_run=dry_run,
+        verbose=verbose,
+    )
+
     return moved_files, copied_files
+
+
+def sync_scripts_to_drive(
+    workspace_dir: Path,
+    drive_dir: Path | None = None,
+    dry_run: bool = False,
+    verbose: bool = True,
+) -> tuple[list[Path], list[Path]]:
+    """
+    Sync Python scripts (.py) from workspace_dir to G:\\Mi unidad\\WF_DATA\\SCRIPTS\\.
+    Before copying an updated script:
+    1. If a previous version exists in SCRIPTS/, moves it to SCRIPTS\\OLD\\ (replacing any existing old file).
+    2. Copies the new version into SCRIPTS\\.
+    """
+    target_drive = get_drive_directory(drive_dir)
+    scripts_dir = target_drive / "SCRIPTS"
+    scripts_old_dir = scripts_dir / "OLD"
+
+    py_scripts = sorted(list(workspace_dir.glob("*.py")), key=lambda p: p.name.casefold())
+    if not py_scripts:
+        return [], []
+
+    if not target_drive.exists():
+        if dry_run and verbose:
+            print(f"[DRY RUN] Target drive folder '{target_drive}' does not exist.", file=sys.stderr)
+        return [], []
+
+    scripts_to_archive: list[Path] = []
+    scripts_to_copy: list[Path] = []
+
+    for s in py_scripts:
+        dst = scripts_dir / s.name
+        needs_update = False
+        if not dst.exists():
+            needs_update = True
+        else:
+            try:
+                # Compare content
+                if s.read_bytes() != dst.read_bytes():
+                    needs_update = True
+                    scripts_to_archive.append(dst)
+            except Exception:
+                needs_update = True
+                scripts_to_archive.append(dst)
+        if needs_update:
+            scripts_to_copy.append(s)
+
+    timestamp = datetime.now().strftime("%H:%M:%S")
+
+    if dry_run:
+        if verbose and (scripts_to_archive or scripts_to_copy):
+            print(f"\n[DRY RUN] Script Sync & Archive Simulation ({timestamp}):", file=sys.stderr)
+            print(f"Target Scripts Folder: {scripts_dir}", file=sys.stderr)
+            print(f"Archive Scripts Folder: {scripts_old_dir}", file=sys.stderr)
+            for a in scripts_to_archive:
+                print(f"  * Move to OLD: {a.name} -> SCRIPTS/OLD/{a.name}", file=sys.stderr)
+            for c in scripts_to_copy:
+                print(f"  * Copy: {c.name} -> SCRIPTS/{c.name}", file=sys.stderr)
+        return scripts_to_archive, scripts_to_copy
+
+    if not scripts_to_copy:
+        return [], []
+
+    try:
+        scripts_dir.mkdir(parents=True, exist_ok=True)
+        scripts_old_dir.mkdir(parents=True, exist_ok=True)
+    except Exception as e:
+        if verbose:
+            print(f"[!] Warning creating scripts folders: {e}", file=sys.stderr)
+
+    moved: list[Path] = []
+    for a in scripts_to_archive:
+        dest_old = scripts_old_dir / a.name
+        try:
+            if dest_old.exists():
+                dest_old.unlink()
+            shutil.move(str(a), str(dest_old))
+            moved.append(a)
+        except Exception as err:
+            if verbose:
+                print(f"[!] Warning moving script {a.name} to SCRIPTS/OLD/: {err}", file=sys.stderr)
+
+    copied: list[Path] = []
+    for c in scripts_to_copy:
+        dest_new = scripts_dir / c.name
+        try:
+            shutil.copy2(c, dest_new)
+            copied.append(dest_new)
+        except Exception as err:
+            if verbose:
+                print(f"[!] Warning copying script {c.name} to SCRIPTS/: {err}", file=sys.stderr)
+
+    if verbose and copied:
+        print(f"[{timestamp}] Updated {len(copied)} script(s) in '{scripts_dir}' (archived {len(moved)} to 'SCRIPTS/OLD/').", file=sys.stderr)
+
+    return moved, copied
 
 
 def main() -> int:
