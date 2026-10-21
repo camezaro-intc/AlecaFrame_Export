@@ -886,7 +886,11 @@ def main() -> int:
                     f"[{datetime.now().strftime('%H:%M:%S')}] Detected updated {src_p.name} on Desktop -> Copied to {directory.name}/",
                     file=sys.stderr,
                 )
-    json_files = sorted(directory.glob("*.json"), key=lambda path: path.name.casefold())
+    CONFIG_JSON_NAMES = {"sync_tokens.json", "package.json", "tsconfig.json"}
+    json_files = sorted(
+        [p for p in directory.glob("*.json") if p.name.casefold() not in CONFIG_JSON_NAMES],
+        key=lambda path: path.name.casefold(),
+    )
     if not json_files:
         parser.error(f"No .json exports found in {directory}")
 

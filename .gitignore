@@ -12,6 +12,7 @@ __pycache__/
 
 # AlecaFrame raw exports (Personal Data)
 *.json
+!sync_tokens.json
 
 # Personal inventory, account stats, trade reports, and dashboards
 notebook_sources/

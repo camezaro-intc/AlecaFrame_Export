@@ -1,0 +1,23 @@
+{
+  "account_stats.md": true,
+  "combined.md": true,
+  "foundry.md": true,
+  "inventoryArcanes.md": true,
+  "inventoryMisc.md": true,
+  "inventoryMods.md": true,
+  "inventoryParts.md": true,
+  "inventoryRelics.md": true,
+  "inventorySets.md": true,
+  "market_opportunities.md": true,
+  "mastery_roadmap.md": true,
+  "rivens-*.md": true,
+  "trade_history.md": true,
+  "riven_intelligence.md": false,
+  "stats_dashboard.html": false,
+  "market_tracker.py": true,
+  "push_to_github.py": true,
+  "stats_analyzer.py": true,
+  "sync_to_drive.py": true,
+  "update_notebook_source.py": true,
+  "riven_tracker.py": false
+}

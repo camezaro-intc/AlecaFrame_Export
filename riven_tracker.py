@@ -6,7 +6,7 @@ Supports:
 1. Instant offline grading, trait analysis & categorization of all Rivens.
 2. Targeted live Warframe.market auction pricing (unrolled floor, trash floor, top buyouts).
 3. Independent CLI execution with filtering by weapon type, grade, or weapon name.
-4. Auto-export to notebook_sources/riven_intelligence.md and Google Drive sync.
+4. Auto-export to notebook_sources/riven_intelligence.md (local-only report, omitted from Google Drive uploads).
 """
 
 from __future__ import annotations
@@ -560,7 +560,7 @@ def main() -> int:
     parser.add_argument(
         "--update-drive",
         action="store_true",
-        help="Automatically copy generated report to Google Drive and archive previous to OLD/",
+        help="Trigger Google Drive sync for other sources (Note: riven_intelligence.md is local-only and omitted from Drive)",
     )
 
     args = parser.parse_args()
@@ -665,6 +665,7 @@ def main() -> int:
 
     # Auto-copy to Google Drive if requested
     if args.update_drive:
+        print("[i] Note: riven_intelligence.md and riven_tracker.py are configured for local storage only and omitted from Google Drive uploads.", file=sys.stderr)
         try:
             from sync_to_drive import sync_to_drive
             sync_to_drive(

@@ -54,14 +54,14 @@ A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** da
 
 ### 5. 🤖 Google Drive & Gemini NotebookLM Integration
 * All generated markdown intelligence files are flat-copied directly to **`G:\Mi unidad\WF_DATA\`** for instant ingestion by Google Gemini and NotebookLM:
-  * `riven_intelligence.md` — Strategic riven valuation, market floors & trade strings
   * `account_stats.md` — Wallet & account telemetry
   * `mastery_roadmap.md` — Prioritized MR ranking roadmap & leveling guide
   * `trade_history.md` — Itemized trade transaction receipts
   * `market_opportunities.md` — Current live market pricing & buy/sell targets
   * `foundry.md`, `inventoryMods.md`, `inventorySets.md`, `inventoryParts.md`, `inventoryRelics.md`, `inventoryArcanes.md`, `inventoryMisc.md`, `rivens-001.md`, `combined.md`
+  * *(Note: `riven_intelligence.md` is generated and retained locally in `notebook_sources/`, but is explicitly omitted from Drive uploads)*
 * **Automatic Data History Archiving (`OLD/OLD_DATA_{TIMESTAMP}/`)**: Before new files are copied, previous data snapshots are moved into a dedicated timestamped subfolder (`G:\Mi unidad\WF_DATA\OLD\OLD_DATA_{TIME_STAMP_UTC}\`), maintaining a full historical log of previous data refreshes without cluttering the active folder.
-* **Active Script Sync (`SCRIPTS/` & `SCRIPTS/OLD/`)**: Current `.py` tools are mirrored to `G:\Mi unidad\WF_DATA\SCRIPTS\` so Gemini has access to the latest code, while previous script revisions are archived in `G:\Mi unidad\WF_DATA\SCRIPTS\OLD\` (keeping the single previous version, no subfolders).
+* **Active Script Sync (`SCRIPTS/` & `SCRIPTS/OLD/`)**: Active `.py` tools are mirrored to `G:\Mi unidad\WF_DATA\SCRIPTS\` so Gemini has access to the latest code, while previous script revisions are archived in `G:\Mi unidad\WF_DATA\SCRIPTS\OLD\` (keeping the single previous version, no subfolders). *(Note: `riven_tracker.py` is kept strictly local and omitted from Drive syncing).*
 
 ---
 
@@ -75,13 +75,13 @@ AlecaFrame_Export/
 ├── riven_watchlist.txt            # (Optional) User-defined weapon watchlist for Riven pricing
 │
 ├── update_notebook_source.py      # Master pipeline runner (JSON -> MD -> HTML -> Drive)
-├── riven_tracker.py               # Riven intelligence & Warframe.market auction engine
+├── riven_tracker.py               # Riven intelligence engine (Local only, omitted from Drive)
 ├── market_tracker.py              # Warframe.market standard items v2/v1 client
 ├── stats_analyzer.py              # Telemetry & Mastery Rank optimizer
 ├── sync_to_drive.py               # Google Drive flat sync & version archiving engine
 │
-├── notebook_sources/              # Generated Markdown sources (Local & Google Drive synced)
-│   ├── riven_intelligence.md      # Riven valuations, market floors & sales suggestions
+├── notebook_sources/              # Generated Markdown sources
+│   ├── riven_intelligence.md      # Riven valuations & auction floors (Local only, omitted from Drive)
 │   ├── mastery_roadmap.md         # Prioritized MR ranking roadmap & leveling guide
 │   ├── market_opportunities.md    # Wishlist pricing & in-game trade whispers
 │   ├── account_stats.md           # Progression milestones & financial summary
@@ -163,12 +163,50 @@ python riven_tracker.py --update-drive
 
 ### 2. Auto-Copy Sources & Scripts to Google Drive (`sync_to_drive.py`)
 ```powershell
-# Copy all markdown sources and scripts directly to G:\Mi unidad\WF_DATA\:
+# Copy sync-enabled markdown sources and scripts directly to G:\Mi unidad\WF_DATA\:
 python sync_to_drive.py
 
 # Preview what files would be archived to OLD/ and copied (Dry Run):
 python sync_to_drive.py --dry-run
+
+# View the sync tokens list for all generated files and scripts:
+python sync_to_drive.py --tokens
+
+# Toggle sync token for any file on/off:
+python sync_to_drive.py --set-token riven_intelligence.md false
+python sync_to_drive.py --set-token riven_intelligence.md true
 ```
+
+#### 🎛️ Google Drive Sync Tokens (`sync_tokens.json`)
+Each file generated in the workspace is associated with a boolean token:
+* **`token = true`** ➔ File is synchronized and uploaded to Google Drive.
+* **`token = false`** ➔ File is generated and retained locally on your PC, but omitted from Google Drive.
+
+Tokens can be configured directly in `sync_tokens.json` or via `python sync_to_drive.py --set-token <file> <true|false>`:
+
+| Generated File | Sync Token | Description / Purpose |
+| :--- | :---: | :--- |
+| `account_stats.md` | `true` | Wallet, Credits, Endo, Platinum & account milestones |
+| `combined.md` | `true` | Full combined snapshot of all inventory exports |
+| `foundry.md` | `true` | Active blueprints, crafting components & foundry items |
+| `inventoryArcanes.md` | `true` | Owned arcanes catalog with ranks & quantities |
+| `inventoryMisc.md` | `true` | Raw materials, resources, cosmetics & keys |
+| `inventoryMods.md` | `true` | Complete mod inventory, ranks & duplicate counts |
+| `inventoryParts.md` | `true` | Prime weapon and frame components |
+| `inventoryRelics.md` | `true` | Void relics categorized by era and refinement |
+| `inventorySets.md` | `true` | Prime full set completion status |
+| `market_opportunities.md`| `true` | Live market buy/sell targets & in-game whispers |
+| `mastery_roadmap.md` | `true` | Prioritized MR ranking roadmap & leveling cheat sheet |
+| `rivens-*.md` | `true` | Paginated Riven mod inventory chunks |
+| `trade_history.md` | `true` | Itemized trade transaction receipts |
+| `riven_intelligence.md` | **`false`** | Riven appraisals & auction floors (retained locally) |
+| `stats_dashboard.html` | **`false`** | Interactive HTML dashboard (local browser viewer) |
+| `market_tracker.py` | `true` | Warframe.market pricing engine (mirrored to `SCRIPTS/`) |
+| `push_to_github.py` | `true` | Git commit & push automation (mirrored to `SCRIPTS/`) |
+| `stats_analyzer.py` | `true` | Telemetry & Mastery rank analyzer (mirrored to `SCRIPTS/`) |
+| `sync_to_drive.py` | `true` | Drive sync & version archiving engine (mirrored to `SCRIPTS/`) |
+| `update_notebook_source.py` | `true` | Master pipeline runner (mirrored to `SCRIPTS/`) |
+| `riven_tracker.py` | **`false`** | Riven valuation engine (retained locally, omitted from Drive) |
 
 ---
 
