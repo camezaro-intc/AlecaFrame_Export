@@ -14,7 +14,7 @@ import argparse
 import os
 import shutil
 import sys
-from datetime import datetime
+from datetime import datetime, timezone
 from pathlib import Path
 
 DEFAULT_DRIVE_DIR = Path(r"G:\Mi unidad\WF_DATA")
@@ -103,20 +103,23 @@ def sync_to_drive(
     previous_files_to_move.sort(key=lambda p: p.name.casefold())
 
     timestamp = datetime.now().strftime("%H:%M:%S")
+    utc_timestamp_str = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H%M%S_UTC")
+    subfolder_name = f"OLD_DATA_{utc_timestamp_str}"
+    target_archive_subfolder = old_dir / subfolder_name
 
     # 2. Dry run simulation
     if dry_run:
         if verbose:
             print(f"\n[DRY RUN] Google Drive Archive & Copy Simulation ({timestamp}):", file=sys.stderr)
             print(f"Target Active Folder: {target_drive} (Flat structure)", file=sys.stderr)
-            print(f"Archive Folder:       {old_dir} (Replaced, no duplicates)", file=sys.stderr)
+            print(f"Archive Folder:       {target_archive_subfolder} (Timestamped subfolder)", file=sys.stderr)
 
             if previous_files_to_move:
-                print(f"\n[DRY RUN] Step 1: Would move {len(previous_files_to_move)} previous file(s) to OLD/:", file=sys.stderr)
+                print(f"\n[DRY RUN] Step 1: Would move {len(previous_files_to_move)} previous file(s) to OLD/{subfolder_name}/:", file=sys.stderr)
                 for f in previous_files_to_move:
-                    print(f"  * {f.name} -> OLD/{f.name}", file=sys.stderr)
+                    print(f"  * {f.name} -> OLD/{subfolder_name}/{f.name}", file=sys.stderr)
             else:
-                print("\n[DRY RUN] Step 1: No previous files in active folder to move to OLD/.", file=sys.stderr)
+                print(f"\n[DRY RUN] Step 1: No previous files in active folder to move to OLD/{subfolder_name}/.", file=sys.stderr)
 
             print(f"\n[DRY RUN] Step 2: Would copy {len(sources)} new generated Markdown source(s) to WF_DATA/:", file=sys.stderr)
             for s in sources:
@@ -125,17 +128,17 @@ def sync_to_drive(
 
         return previous_files_to_move, sources
 
-    # 3. Execution: Step 1 - Move previous files to OLD/
+    # 3. Execution: Step 1 - Move previous files to OLD/OLD_DATA_{TIME_STAMP_UTC}/
     moved_files: list[Path] = []
     if previous_files_to_move:
         try:
-            old_dir.mkdir(parents=True, exist_ok=True)
+            target_archive_subfolder.mkdir(parents=True, exist_ok=True)
         except Exception as e:
             if verbose:
-                print(f"[!] Warning: Could not create archive folder '{old_dir}': {e}", file=sys.stderr)
+                print(f"[!] Warning: Could not create archive folder '{target_archive_subfolder}': {e}", file=sys.stderr)
 
         for prev_f in previous_files_to_move:
-            dest_in_old = old_dir / prev_f.name
+            dest_in_old = target_archive_subfolder / prev_f.name
             try:
                 if dest_in_old.exists():
                     dest_in_old.unlink()
@@ -143,10 +146,10 @@ def sync_to_drive(
                 moved_files.append(prev_f)
             except Exception as move_err:
                 if verbose:
-                    print(f"[!] Warning moving {prev_f.name} to OLD/: {move_err}", file=sys.stderr)
+                    print(f"[!] Warning moving {prev_f.name} to OLD/{subfolder_name}/: {move_err}", file=sys.stderr)
 
         if verbose and moved_files:
-            print(f"[{timestamp}] Moved {len(moved_files)} previous file(s) to '{old_dir}'.", file=sys.stderr)
+            print(f"[{timestamp}] Moved {len(moved_files)} previous file(s) to 'OLD/{subfolder_name}/'.", file=sys.stderr)
 
     # 4. Execution: Step 2 - Copy newly generated files to target_drive
     copied_files: list[Path] = []

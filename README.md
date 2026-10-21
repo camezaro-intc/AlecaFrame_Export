@@ -60,8 +60,8 @@ A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** da
   * `trade_history.md` — Itemized trade transaction receipts
   * `market_opportunities.md` — Current live market pricing & buy/sell targets
   * `foundry.md`, `inventoryMods.md`, `inventorySets.md`, `inventoryParts.md`, `inventoryRelics.md`, `inventoryArcanes.md`, `inventoryMisc.md`, `rivens-001.md`, `combined.md`
-* **Automatic Version Archiving (`OLD/`)**: Before new files are copied, previous versions are moved to `G:\Mi unidad\WF_DATA\OLD\` (replacing older files without accumulating duplicates).
-* **Active Script Sync (`SCRIPTS/` & `SCRIPTS/OLD/`)**: Current `.py` tools are mirrored to `G:\Mi unidad\WF_DATA\SCRIPTS\` so Gemini has access to the latest code, while previous script revisions are archived in `G:\Mi unidad\WF_DATA\SCRIPTS\OLD\`.
+* **Automatic Data History Archiving (`OLD/OLD_DATA_{TIMESTAMP}/`)**: Before new files are copied, previous data snapshots are moved into a dedicated timestamped subfolder (`G:\Mi unidad\WF_DATA\OLD\OLD_DATA_{TIME_STAMP_UTC}\`), maintaining a full historical log of previous data refreshes without cluttering the active folder.
+* **Active Script Sync (`SCRIPTS/` & `SCRIPTS/OLD/`)**: Current `.py` tools are mirrored to `G:\Mi unidad\WF_DATA\SCRIPTS\` so Gemini has access to the latest code, while previous script revisions are archived in `G:\Mi unidad\WF_DATA\SCRIPTS\OLD\` (keeping the single previous version, no subfolders).
 
 ---
 
