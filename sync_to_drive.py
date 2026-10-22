@@ -2,8 +2,13 @@
 """
 Automated Google Drive Sync for AlecaFrame Markdown Sources & Scripts
 Before copying new files:
-1. Moves previous files in G:\\Mi unidad\\WF_DATA\\ to timestamped archive folders in OLD/.
-2. Copies new generated .md files directly into G:\\Mi unidad\\WF_DATA\\ (flat, no subfolders).
+1. Moves previous files in G:\\Mi unidad\\WF_DATA\\ to timestamped archive folders in OLD/
+   (mirroring the subfolder structure: RIVENS_DATA/, MODS_DATA/, BUILDS_DATA/).
+2. Copies new generated .md files into dedicated subfolders in G:\\Mi unidad\\WF_DATA\\:
+   - rivens-*.md  -> RIVENS_DATA/
+   - mods-*.md    -> MODS_DATA/
+   - builds-*.md  -> BUILDS_DATA/
+   - Core sources -> WF_DATA/ root
 3. Synchronizes Python scripts into G:\\Mi unidad\\WF_DATA\\SCRIPTS\\ (archiving previous versions to SCRIPTS\\OLD\\).
 4. Explicitly omits local-only files (riven_intelligence.md and riven_tracker.py) from uploading.
 Supports --dry-run to preview archiving and copying without touching any files.
@@ -22,6 +27,29 @@ from pathlib import Path
 
 DEFAULT_DRIVE_DIR = Path(r"G:\Mi unidad\WF_DATA")
 SYNC_TOKENS_FILE = Path("sync_tokens.json")
+
+SUBFOLDER_RIVENS = "RIVENS_DATA"
+SUBFOLDER_MODS = "MODS_DATA"
+SUBFOLDER_BUILDS = "BUILDS_DATA"
+DATA_SUBFOLDERS = (SUBFOLDER_RIVENS, SUBFOLDER_MODS, SUBFOLDER_BUILDS)
+
+
+def get_target_subfolder(filename: str) -> str | None:
+    """
+    Return the category subfolder name for a file, or None if it stays in the root directory.
+    - rivens-*.md, rivens.md, riven_*.md -> RIVENS_DATA
+    - mods-*.md, inventoryMods.md        -> MODS_DATA
+    - builds-*.md, builds.md             -> BUILDS_DATA
+    - Others (foundry, inventory*, etc.) -> None (WF_DATA root)
+    """
+    fname = filename.casefold()
+    if fname.startswith("rivens-") or fname.startswith("riven_") or fname == "rivens.md":
+        return SUBFOLDER_RIVENS
+    if fname.startswith("mods-") or fname == "inventorymods.md":
+        return SUBFOLDER_MODS
+    if fname.startswith("builds-") or fname == "builds.md":
+        return SUBFOLDER_BUILDS
+    return None
 
 # ==============================================================================
 # SYNC CONFIGURATION TOKENS
@@ -139,7 +167,7 @@ def is_sync_enabled(filename: str, tokens: dict[str, bool] | None = None) -> boo
 
 
 def print_sync_tokens(tokens: dict[str, bool] | None = None) -> None:
-    """Display the current sync tokens formatted cleanly."""
+    """Display the current sync tokens formatted cleanly by destination folder."""
     if tokens is None:
         tokens = load_sync_tokens()
 
@@ -150,19 +178,32 @@ def print_sync_tokens(tokens: dict[str, bool] | None = None) -> None:
     print("      Token = false -> Omit from upload (Retain locally only)")
     print("-" * 76)
 
-    md_tokens = {k: v for k, v in tokens.items() if k.endswith(".md") or k.endswith(".html")}
-    py_tokens = {k: v for k, v in tokens.items() if k.endswith(".py")}
+    def print_group(title: str, items: dict[str, bool]) -> None:
+        if not items:
+            return
+        print(f"[{title}]")
+        for name, enabled in items.items():
+            status_tag = "[SYNC ENABLED]" if enabled else "[LOCAL ONLY] "
+            print(f"  {status_tag}  {name:<28} = {'true' if enabled else 'false'};")
+        print()
 
-    print("[MARKDOWN SOURCES & DASHBOARDS]")
-    for name, enabled in md_tokens.items():
-        status_tag = "[SYNC ENABLED]" if enabled else "[LOCAL ONLY] "
-        print(f"  {status_tag}  {name:<28} = {'true' if enabled else 'false'};")
+    rivens_items = {k: v for k, v in tokens.items() if (k.startswith("riven") or k.startswith("rivens-")) and not k.endswith(".py")}
+    mods_items = {k: v for k, v in tokens.items() if k.startswith("mods-") or k == "inventoryMods.md"}
+    builds_items = {k: v for k, v in tokens.items() if k.startswith("builds-")}
+    core_md_items = {
+        k: v for k, v in tokens.items()
+        if (k.endswith(".md") or k.endswith(".html"))
+        and k not in rivens_items
+        and k not in mods_items
+        and k not in builds_items
+    }
+    py_items = {k: v for k, v in tokens.items() if k.endswith(".py")}
 
-    print("\n[PYTHON SCRIPTS (G:\\Mi unidad\\WF_DATA\\SCRIPTS\\)]")
-    for name, enabled in py_tokens.items():
-        status_tag = "[SYNC ENABLED]" if enabled else "[LOCAL ONLY] "
-        print(f"  {status_tag}  {name:<28} = {'true' if enabled else 'false'};")
-
+    print_group(f"RIVENS DATA (G:\\Mi unidad\\WF_DATA\\{SUBFOLDER_RIVENS}\\)", rivens_items)
+    print_group(f"MODS DATA (G:\\Mi unidad\\WF_DATA\\{SUBFOLDER_MODS}\\)", mods_items)
+    print_group(f"BUILDS DATA (G:\\Mi unidad\\WF_DATA\\{SUBFOLDER_BUILDS}\\)", builds_items)
+    print_group("CORE MARKDOWN & DASHBOARDS (G:\\Mi unidad\\WF_DATA\\)", core_md_items)
+    print_group("PYTHON SCRIPTS (G:\\Mi unidad\\WF_DATA\\SCRIPTS\\)", py_items)
     print("=" * 76)
 
 
@@ -174,16 +215,18 @@ def get_drive_directory(custom_path: Path | str | None = None) -> Path:
 
 
 def get_markdown_sources(source_dir: Path, tokens: dict[str, bool] | None = None) -> list[Path]:
-    """Find all Markdown sources in source_dir, plus combined.md if present, respecting sync tokens."""
+    """Find all Markdown sources in source_dir (and subfolders), plus combined.md if present, respecting sync tokens."""
     if not source_dir.exists():
         return []
     if tokens is None:
         tokens = load_sync_tokens()
     sources: dict[str, Path] = {}
-    for p in source_dir.glob("*.md"):
+    for p in source_dir.rglob("*.md"):
+        if not p.is_file():
+            continue
         if not is_sync_enabled(p.name, tokens):
             continue
-        sources[p.name.lower()] = p
+        sources[p.name.casefold()] = p
     root_combined = source_dir.parent / "combined.md"
     if "combined.md" not in sources and root_combined.exists() and root_combined.is_file():
         if is_sync_enabled("combined.md", tokens):
@@ -199,7 +242,12 @@ def sync_to_drive(
     tokens: dict[str, bool] | None = None,
 ) -> tuple[list[Path], list[Path]]:
     """
-    Archive previous files to OLD/ and copy new generated Markdown files directly to Google Drive.
+    Archive previous files to OLD/OLD_DATA_{TIMESTAMP}/ (mirroring subfolder structure)
+    and copy new generated Markdown files to designated subfolders in Google Drive:
+    - RIVENS_DATA/ (rivens-*.md)
+    - MODS_DATA/   (mods-*.md)
+    - BUILDS_DATA/ (builds-*.md)
+    - WF_DATA/     (root core sources)
 
     Args:
         source_dir: Directory containing generated .md files (e.g. notebook_sources/)
@@ -248,22 +296,42 @@ def sync_to_drive(
                 return [], []
 
     # 1. Identify previous files in target_drive to move to OLD/, and detect omitted files to remove
-    incoming_names = {s.name.lower() for s in sources}
-    previous_files_to_move: list[Path] = []
+    incoming_names = {s.name.casefold() for s in sources}
+    previous_files_to_move: list[tuple[Path, Path]] = []
     omitted_files_in_drive: list[Path] = []
+    seen_archive_destinations: set[str] = set()
 
+    # (a) Check root of target_drive
     for f in target_drive.iterdir():
-        # Do not move directories (like OLD or SCRIPTS itself)
         if not f.is_file():
             continue
         if not is_sync_enabled(f.name, tokens):
             omitted_files_in_drive.append(f)
             continue
-        if f.suffix.lower() == ".md" or f.name.lower() in incoming_names:
-            previous_files_to_move.append(f)
+        if f.suffix.lower() == ".md" or f.name.casefold() in incoming_names:
+            sub = get_target_subfolder(f.name)
+            rel_dest = Path(sub) / f.name if sub else Path(f.name)
+            previous_files_to_move.append((f, rel_dest))
+            seen_archive_destinations.add(rel_dest.as_posix().casefold())
 
-    previous_files_to_move.sort(key=lambda p: p.name.casefold())
-    omitted_files_in_drive.sort(key=lambda p: p.name.casefold())
+    # (b) Check dedicated subfolders (RIVENS_DATA, MODS_DATA, BUILDS_DATA)
+    for subfolder_name in DATA_SUBFOLDERS:
+        sub_dir = target_drive / subfolder_name
+        if not sub_dir.exists() or not sub_dir.is_dir():
+            continue
+        for f in sub_dir.iterdir():
+            if not f.is_file():
+                continue
+            if not is_sync_enabled(f.name, tokens):
+                omitted_files_in_drive.append(f)
+                continue
+            if f.suffix.lower() == ".md" or f.name.casefold() in incoming_names:
+                rel_dest = Path(subfolder_name) / f.name
+                previous_files_to_move.append((f, rel_dest))
+                seen_archive_destinations.add(rel_dest.as_posix().casefold())
+
+    previous_files_to_move.sort(key=lambda item: item[1].as_posix().casefold())
+    omitted_files_in_drive.sort(key=lambda p: p.as_posix().casefold())
 
     timestamp = datetime.now().strftime("%H:%M:%S")
     utc_timestamp_str = datetime.now(timezone.utc).strftime("%Y-%m-%d_%H%M%S_UTC")
@@ -274,25 +342,27 @@ def sync_to_drive(
     if dry_run:
         if verbose:
             print(f"\n[DRY RUN] Google Drive Archive & Copy Simulation ({timestamp}):", file=sys.stderr)
-            print(f"Target Active Folder: {target_drive} (Flat structure)", file=sys.stderr)
-            print(f"Archive Folder:       {target_archive_subfolder} (Timestamped subfolder)", file=sys.stderr)
+            print(f"Target Active Folder: {target_drive} (Subfolders: {', '.join(DATA_SUBFOLDERS)})", file=sys.stderr)
+            print(f"Archive Folder:       {target_archive_subfolder} (Mirrored subfolders)", file=sys.stderr)
 
             if omitted_files_in_drive:
-                print(f"\n[DRY RUN] Step 0: Would remove {len(omitted_files_in_drive)} disabled/omitted file(s) from active Drive folder:", file=sys.stderr)
+                print(f"\n[DRY RUN] Step 0: Would remove {len(omitted_files_in_drive)} disabled/omitted file(s) from Drive:", file=sys.stderr)
                 for om in omitted_files_in_drive:
-                    print(f"  * {om.name} (Token = false, local only)", file=sys.stderr)
+                    print(f"  * {om.relative_to(target_drive)} (Token = false, local only)", file=sys.stderr)
 
             if previous_files_to_move:
-                print(f"\n[DRY RUN] Step 1: Would move {len(previous_files_to_move)} previous file(s) to OLD/{subfolder_name}/:", file=sys.stderr)
-                for f in previous_files_to_move:
-                    print(f"  * {f.name} -> OLD/{subfolder_name}/{f.name}", file=sys.stderr)
+                print(f"\n[DRY RUN] Step 1: Would move {len(previous_files_to_move)} previous file(s) to OLD/{subfolder_name}/ (preserving subfolders):", file=sys.stderr)
+                for f, rel_dest in previous_files_to_move:
+                    print(f"  * {f.relative_to(target_drive)} -> OLD/{subfolder_name}/{rel_dest}", file=sys.stderr)
             else:
                 print(f"\n[DRY RUN] Step 1: No previous files in active folder to move to OLD/{subfolder_name}/.", file=sys.stderr)
 
-            print(f"\n[DRY RUN] Step 2: Would copy {len(sources)} new generated Markdown source(s) to WF_DATA/:", file=sys.stderr)
+            print(f"\n[DRY RUN] Step 2: Would copy {len(sources)} new generated Markdown source(s) into category subfolders:", file=sys.stderr)
             for s in sources:
                 size_kb = round(s.stat().st_size / 1024, 1)
-                print(f"  * {s.name} ({size_kb} KB)", file=sys.stderr)
+                sub = get_target_subfolder(s.name)
+                rel_dst = f"{sub}/{s.name}" if sub else s.name
+                print(f"  * {rel_dst} ({size_kb} KB)", file=sys.stderr)
 
         workspace_root = source_dir.parent if source_dir.name == "notebook_sources" else source_dir
         sync_scripts_to_drive(
@@ -303,45 +373,63 @@ def sync_to_drive(
             tokens=tokens,
         )
 
-        return previous_files_to_move, sources
+        return [f for f, _ in previous_files_to_move], sources
 
-    # Remove any omitted files lingering in target_drive
+    # Remove any omitted files lingering in target_drive or subfolders
     for om in omitted_files_in_drive:
         try:
             om.unlink()
             if verbose:
-                print(f"[{timestamp}] Removed omitted file '{om.name}' from active Drive folder (Token = false).", file=sys.stderr)
+                rel = om.relative_to(target_drive) if target_drive in om.parents else om.name
+                print(f"[{timestamp}] Removed omitted file '{rel}' from Drive (Token = false).", file=sys.stderr)
         except Exception as om_err:
             if verbose:
-                print(f"[!] Warning removing omitted file {om.name}: {om_err}", file=sys.stderr)
+                print(f"[!] Warning removing omitted file {om}: {om_err}", file=sys.stderr)
 
     # 3. Execution: Step 1 - Move previous files to OLD/OLD_DATA_{TIME_STAMP_UTC}/
     moved_files: list[Path] = []
     if previous_files_to_move:
         try:
             target_archive_subfolder.mkdir(parents=True, exist_ok=True)
+            for sub_name in DATA_SUBFOLDERS:
+                (target_archive_subfolder / sub_name).mkdir(parents=True, exist_ok=True)
         except Exception as e:
             if verbose:
                 print(f"[!] Warning: Could not create archive folder '{target_archive_subfolder}': {e}", file=sys.stderr)
 
-        for prev_f in previous_files_to_move:
-            dest_in_old = target_archive_subfolder / prev_f.name
+        for prev_f, rel_dest in previous_files_to_move:
+            dest_in_old = target_archive_subfolder / rel_dest
             try:
+                dest_in_old.parent.mkdir(parents=True, exist_ok=True)
                 if dest_in_old.exists():
                     dest_in_old.unlink()
                 shutil.move(str(prev_f), str(dest_in_old))
                 moved_files.append(prev_f)
             except Exception as move_err:
                 if verbose:
-                    print(f"[!] Warning moving {prev_f.name} to OLD/{subfolder_name}/: {move_err}", file=sys.stderr)
+                    print(f"[!] Warning moving {prev_f.name} to OLD/{subfolder_name}/{rel_dest}: {move_err}", file=sys.stderr)
 
         if verbose and moved_files:
-            print(f"[{timestamp}] Moved {len(moved_files)} previous file(s) to 'OLD/{subfolder_name}/'.", file=sys.stderr)
+            print(f"[{timestamp}] Moved {len(moved_files)} previous file(s) to 'OLD/{subfolder_name}/' (mirrored subfolder structure).", file=sys.stderr)
 
-    # 4. Execution: Step 2 - Copy newly generated files to target_drive
+    # Clean up any stray category files that lingered in root of target_drive
+    for f in target_drive.iterdir():
+        if f.is_file() and f.suffix.lower() == ".md" and get_target_subfolder(f.name) is not None:
+            try:
+                f.unlink()
+            except Exception:
+                pass
+
+    # Ensure dedicated subfolders exist in target_drive
+    for sub_name in DATA_SUBFOLDERS:
+        (target_drive / sub_name).mkdir(parents=True, exist_ok=True)
+
+    # 4. Execution: Step 2 - Copy newly generated files into target subfolder or root
     copied_files: list[Path] = []
     for src in sources:
-        dst = target_drive / src.name
+        sub = get_target_subfolder(src.name)
+        dest_dir = target_drive / sub if sub else target_drive
+        dst = dest_dir / src.name
         try:
             shutil.copy2(src, dst)
             copied_files.append(dst)
@@ -350,8 +438,16 @@ def sync_to_drive(
                 print(f"[!] Error copying {src.name} to {dst}: {copy_err}", file=sys.stderr)
 
     if verbose:
-        print(f"[OK] Successfully copied {len(copied_files)} new generated Markdown source(s) directly into '{target_drive}'.", file=sys.stderr)
-        print("     Gemini NotebookLM can now ingest/refresh the latest information from your Drive account.", file=sys.stderr)
+        rivens_count = sum(1 for p in copied_files if SUBFOLDER_RIVENS in p.parts)
+        mods_count = sum(1 for p in copied_files if SUBFOLDER_MODS in p.parts)
+        builds_count = sum(1 for p in copied_files if SUBFOLDER_BUILDS in p.parts)
+        root_count = len(copied_files) - rivens_count - mods_count - builds_count
+        print(f"[OK] Successfully synchronized {len(copied_files)} Markdown source(s) into '{target_drive}':", file=sys.stderr)
+        print(f"     - {SUBFOLDER_RIVENS}/: {rivens_count} file(s)", file=sys.stderr)
+        print(f"     - {SUBFOLDER_MODS}/:   {mods_count} file(s)", file=sys.stderr)
+        print(f"     - {SUBFOLDER_BUILDS}/: {builds_count} file(s)", file=sys.stderr)
+        print(f"     - Root folder:  {root_count} file(s)", file=sys.stderr)
+        print("     Gemini NotebookLM can now ingest/refresh the latest organized information from your Drive.", file=sys.stderr)
 
     # Sync scripts into SCRIPTS/ (and archive previous to SCRIPTS/OLD/)
     workspace_root = source_dir.parent if source_dir.name == "notebook_sources" else source_dir

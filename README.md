@@ -53,17 +53,13 @@ A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** da
   ```
 
 ### 5. 🤖 Google Drive & Gemini NotebookLM Integration
-* All generated markdown intelligence files are flat-copied directly to **`G:\Mi unidad\WF_DATA\`** for instant ingestion by Google Gemini and NotebookLM:
-  * `account_stats.md` — Wallet & account telemetry
-  * `mastery_roadmap.md` — Prioritized MR ranking roadmap & leveling guide
-  * `trade_history.md` — Itemized trade transaction receipts
-  * `market_opportunities.md` — Current live market pricing & buy/sell targets
-  * `foundry.md`, `inventorySets.md`, `inventoryParts.md`, `inventoryRelics.md`, `inventoryArcanes.md`, `inventoryMisc.md`, `combined.md`
-  * **Mod Categories**: `mods-overview.md`, `mods-warframe.md`, `mods-shotguns.md`, `mods-rifles.md`, `mods-pistols.md`, `mods-melee.md`, `mods-companions.md`, `mods-archwing.md`, `mods-specialized.md`
-  * **Arsenal Loadouts**: `builds-overview.md`, `builds-warframes.md`, `builds-shotguns.md`, `builds-rifles.md`, `builds-pistols.md`, `builds-melee.md`, `builds-companions.md`, `builds-archwing.md`
-  * **Riven Categories**: `rivens-overview.md`, `rivens-rifles.md`, `rivens-shotguns.md`, `rivens-pistols.md`, `rivens-melee.md`, `rivens-modular.md`
-  * *(Note: `riven_intelligence.md` is generated and retained locally in `notebook_sources/`, but is explicitly omitted from Drive uploads)*
-* **Automatic Data History Archiving (`OLD/OLD_DATA_{TIMESTAMP}/`)**: Before new files are copied, previous data snapshots are moved into a dedicated timestamped subfolder (`G:\Mi unidad\WF_DATA\OLD\OLD_DATA_{TIME_STAMP_UTC}\`), maintaining a full historical log of previous data refreshes without cluttering the active folder.
+* All generated markdown intelligence files are synchronized directly to **`G:\Mi unidad\WF_DATA\`** with clean category subfolder organization for instant ingestion by Google Gemini and NotebookLM:
+  * **`RIVENS_DATA/`**: `rivens-overview.md`, `rivens-rifles.md`, `rivens-shotguns.md`, `rivens-pistols.md`, `rivens-melee.md`, `rivens-modular.md`
+  * **`MODS_DATA/`**: `mods-overview.md`, `mods-warframe.md`, `mods-shotguns.md`, `mods-rifles.md`, `mods-pistols.md`, `mods-melee.md`, `mods-companions.md`, `mods-archwing.md`, `mods-specialized.md`
+  * **`BUILDS_DATA/`**: `builds-overview.md`, `builds-warframes.md`, `builds-shotguns.md`, `builds-rifles.md`, `builds-pistols.md`, `builds-melee.md`, `builds-companions.md`, `builds-archwing.md`
+  * **Root folder**: `account_stats.md`, `mastery_roadmap.md`, `trade_history.md`, `market_opportunities.md`, `foundry.md`, `inventorySets.md`, `inventoryParts.md`, `inventoryRelics.md`, `inventoryArcanes.md`, `inventoryMisc.md`, `combined.md`
+  * *(Note: `riven_intelligence.md` is generated and retained locally in `notebook_sources/`, but is explicitly omitted from Drive uploads via sync tokens)*
+* **Automatic Data History Archiving (`OLD/OLD_DATA_{TIMESTAMP}/`)**: Before new files are copied, previous data snapshots are moved into a dedicated timestamped subfolder (`G:\Mi unidad\WF_DATA\OLD\OLD_DATA_{TIME_STAMP_UTC}\`), perfectly mirroring the subfolder organization (`RIVENS_DATA/`, `MODS_DATA/`, `BUILDS_DATA/`, and root files) without cluttering the active folder.
 * **Active Script Sync (`SCRIPTS/` & `SCRIPTS/OLD/`)**: Active `.py` tools are mirrored to `G:\Mi unidad\WF_DATA\SCRIPTS\` so Gemini has access to the latest code, while previous script revisions are archived in `G:\Mi unidad\WF_DATA\SCRIPTS\OLD\` (keeping the single previous version, no subfolders). *(Note: `riven_tracker.py` is kept strictly local and omitted from Drive syncing).*
 
 ---

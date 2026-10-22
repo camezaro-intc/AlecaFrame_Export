@@ -1818,14 +1818,16 @@ def main() -> int:
                 except Exception as err:
                     print(f"Warning removing stale source {stale_path.name}: {err}", file=sys.stderr)
 
-        # Clean up legacy files from Google Drive sync target as well
+        # Clean up legacy files from active Google Drive sync folders (omit OLD archive)
         if not args.skip_drive_copy and args.drive_dir and args.drive_dir.exists():
             for legacy_pat in ["rivens-00*.md", "rivens.md", "inventoryMods.md"]:
-                for stale_drive_file in args.drive_dir.glob(legacy_pat):
+                for stale_drive_file in args.drive_dir.rglob(legacy_pat):
+                    if "OLD" in stale_drive_file.parts:
+                        continue
                     if stale_drive_file.name not in {p.name for p in generated_split_files}:
                         try:
                             stale_drive_file.unlink()
-                            print(f"[{datetime.now().strftime('%H:%M:%S')}] Removed legacy file '{stale_drive_file.name}' from Google Drive.", file=sys.stderr)
+                            print(f"[{datetime.now().strftime('%H:%M:%S')}] Removed legacy file '{stale_drive_file.name}' from active Google Drive.", file=sys.stderr)
                         except Exception as drive_del_err:
                             print(f"Warning deleting legacy file {stale_drive_file.name} from Drive: {drive_del_err}", file=sys.stderr)
     except (OSError, json.JSONDecodeError, ValueError) as error:
@@ -1842,7 +1844,7 @@ def main() -> int:
         f"{sum(len(data) if isinstance(data, list) else 1 for data in current.values())} top-level record(s)."
     )
 
-    # Auto-copy generated Markdown sources directly into Google Drive (flat structure)
+    # Auto-copy generated Markdown sources directly into Google Drive (structured subfolders)
     if not args.skip_drive_copy:
         try:
             from sync_to_drive import sync_to_drive
