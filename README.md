@@ -125,15 +125,15 @@ G:\Mi unidad\WF_DATA\
 │   ├── mods-archwing.md                   # Archwings, Archguns, Archmelee, Necramechs
 │   └── mods-specialized.md                # Parazon, K-Drive, Plexus, Universal/Flawed
 │
-├── 📁 BUILDS_DATA/                         # Reverse-engineered active arsenal loadouts
-│   ├── builds-overview.md                 # Equipped roster summary & investment telemetry
-│   ├── builds-warframes.md                # Equipped Warframe loadouts across active configs
-│   ├── builds-shotguns.md                 # Equipped Shotguns with embedded owned Rivens
-│   ├── builds-rifles.md                   # Equipped Rifles/Bows/Snipers with embedded Rivens
-│   ├── builds-pistols.md                  # Equipped Secondaries with embedded Rivens
-│   ├── builds-melee.md                    # Equipped Melee weapons with embedded Rivens
-│   ├── builds-companions.md               # Equipped Sentinels, Pets & Robotic weapons
-│   └── builds-archwing.md                 # Equipped Archwings & Necramechs
+├── 📁 BUILDS_DATA/                         # Reverse-engineered active arsenal loadouts by functional slot
+│   ├── builds-overview.md                 # Equipped roster summary, Archon Shards count & Riven telemetry
+│   ├── builds-warframes.md                # Equipped Warframes by slot role (Auras, Exilus, Augments, Sets, Shards)
+│   ├── builds-shotguns.md                 # Equipped Shotguns by slot role (Exilus, Galvanized, Crit/Status, Rivens)
+│   ├── builds-rifles.md                   # Equipped Rifles/Bows by slot role with embedded Rivens
+│   ├── builds-pistols.md                  # Equipped Secondaries by slot role with embedded Rivens
+│   ├── builds-melee.md                    # Equipped Melee weapons by slot role (Stances, Tennokai, Combo, Rivens)
+│   ├── builds-companions.md               # Equipped Sentinels, Pets & Robotic weapons (Precepts, Survival, Offense)
+│   └── builds-archwing.md                 # Equipped Archwings & Necramechs (Suit, Mobility, Abilities, Weapons)
 │
 ├── 📁 SCRIPTS/                             # Production Python scripts mirrored for Gemini access
 │   ├── 📁 OLD/                            # Single previous script revision archive

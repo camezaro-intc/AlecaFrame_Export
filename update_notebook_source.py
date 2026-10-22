@@ -10,7 +10,7 @@ import re
 import shutil
 import sys
 import tempfile
-from collections import Counter
+from collections import Counter, defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
@@ -1314,9 +1314,236 @@ def extract_arsenal_builds(
     return categorized_builds
 
 
+ARCHON_SHARD_NAMES = {
+    "red": "Crimson Archon Shard",
+    "red_mythic": "Tauforged Crimson Archon Shard",
+    "blue": "Azure Archon Shard",
+    "blue_mythic": "Tauforged Azure Archon Shard",
+    "yellow": "Amber Archon Shard",
+    "yellow_mythic": "Tauforged Amber Archon Shard",
+    "purple": "Violet Archon Shard",
+    "purple_mythic": "Tauforged Violet Archon Shard",
+    "green": "Emerald Archon Shard",
+    "green_mythic": "Tauforged Emerald Archon Shard",
+    "orange": "Topaz Archon Shard",
+    "orange_mythic": "Tauforged Topaz Archon Shard",
+}
+
+WARFRAME_AURAS = {
+    "brief respite", "corrosive projection", "emp aura", "energy siphon",
+    "loot detector", "physique", "ready steel", "rifle amp", "rifle scavenger",
+    "shepherd", "sprint boost", "steel charge", "aerodynamic", "combat discipline",
+    "growing power", "melee guidance", "power donation", "swift momentum", "holster amp",
+    "pistol amp", "shotgun amp", "stand united", "speed holster", "toxin resistance",
+    "flame repellent", "rejuvenation", "infestation impedance", "empowered blades",
+}
+
+WARFRAME_EXILUS = {
+    "primed sure footed", "sure footed", "handspring", "rush", "mobilize", "patagium",
+    "controlled slide", "thief's wit", "vigilante pursuit", "preparation", "aviator",
+    "aero vantage", "pain threshold", "coaction drift", "cunning drift", "endurance drift",
+    "power drift", "speed drift", "stealth drift", "agility drift", "boreal's anguish",
+    "amar's anguish", "nira's anguish", "firewalker", "ice spring", "toxic flight",
+    "lightning dash", "battering maneuver", "rending turn", "piercing step", "shock absorbers",
+    "warm coat", "diamond skin", "insulation", "lightning rod", "antitoxin",
+}
+
+BUILD_SLOT_GROUPS: dict[str, list[tuple[str, str]]] = {
+    "warframes": [
+        ("auras", "🌟 Aura Candidates (1 per Config)"),
+        ("exilus", "⚡ Exilus Candidates (1 per Config)"),
+        ("augments", "🔮 Ability Augments"),
+        ("sets", "🛡️ Umbral & Set Enhancements"),
+        ("core", "📊 Core Stat Shapers"),
+    ],
+    "melee": [
+        ("stances", "🥋 Stance Slot"),
+        ("exilus", "⚡ Tennokai & Exilus"),
+        ("combo", "🩸 Combo & Scaling Engine"),
+        ("core", "⚔️ Core Damage, Speed & Elementals"),
+    ],
+    "shotguns": [
+        ("exilus", "⚡ Exilus Slot"),
+        ("multishot", "💥 Galvanized & Multishot"),
+        ("crit_status", "🎯 Critical & Status Engine"),
+        ("core", "📊 Core Damage & Elementals"),
+    ],
+    "rifles": [
+        ("exilus", "⚡ Exilus Slot"),
+        ("multishot", "💥 Galvanized & Multishot"),
+        ("crit_status", "🎯 Critical & Status Engine"),
+        ("core", "📊 Core Damage & Elementals"),
+    ],
+    "pistols": [
+        ("exilus", "⚡ Exilus Slot"),
+        ("multishot", "💥 Galvanized & Multishot"),
+        ("crit_status", "🎯 Critical & Status Engine"),
+        ("core", "📊 Core Damage & Elementals"),
+    ],
+    "companions": [
+        ("precepts", "🐾 Precepts & Unique Abilities"),
+        ("survival", "🛡️ Survival & Utility"),
+        ("core", "⚔️ Weapon & Offense Mods"),
+    ],
+    "archwing": [
+        ("survival", "🛡️ Suit & Defense"),
+        ("mobility", "⚡ Mobility & Efficiency"),
+        ("abilities", "🔮 Abilities & Power"),
+        ("core", "⚔️ Heavy Weapon Mods"),
+    ],
+}
+
+
+def format_archon_shards(raw_shards: Any) -> list[str]:
+    """Extract and format installed Archon Shards into grouped bullets."""
+    if not raw_shards:
+        return []
+    flat = []
+    if isinstance(raw_shards, list):
+        for item in raw_shards:
+            if isinstance(item, list):
+                flat.extend([s for s in item if isinstance(s, dict)])
+            elif isinstance(item, dict):
+                flat.append(item)
+    if not flat:
+        return []
+    from collections import Counter, defaultdict
+    counts = Counter()
+    texts = {}
+    for s in flat:
+        stype = s.get("type", "unknown")
+        stext = s.get("text", "")
+        key = (stype, stext)
+        counts[key] += 1
+        texts[key] = stext
+    lines = []
+    for (stype, stext), count in counts.items():
+        sname = ARCHON_SHARD_NAMES.get(stype, stype.replace("_", " ").title() + " Shard")
+        count_prefix = f"{count}x " if count > 1 else ""
+        text_desc = f": `{stext}`" if stext else ""
+        lines.append(f"  - {count_prefix}**{sname}**{text_desc}")
+    return lines
+
+
+def classify_item_mod(mod: dict[str, Any], category_key: str) -> str:
+    """Classify an equipped mod into a functional slot group for its item category."""
+    name = (mod.get("name") or "").casefold()
+    iname = mod.get("internalName") or ""
+
+    if category_key == "warframes":
+        if "/Mods/Aura/" in iname or mod.get("type") == "Aura" or name.endswith(" aura") or name in WARFRAME_AURAS:
+            return "auras"
+        if (
+            "/OrokinChallenge/" in iname
+            or "/BorealExilusMod" in iname
+            or "/AmarExilusMod" in iname
+            or "/NiraExilusMod" in iname
+            or name in WARFRAME_EXILUS
+        ):
+            return "exilus"
+        if iname.endswith("AugmentCard") or iname.endswith("AugmentTwoCard") or "/Augment" in iname:
+            return "augments"
+        if (
+            "/Mods/Sets/" in iname
+            or name.startswith("umbral ")
+            or name.startswith("archon ")
+            or name.startswith("sacrificial ")
+        ):
+            return "sets"
+        return "core"
+
+    elif category_key == "melee":
+        if "/MeleeTrees/" in iname or iname.endswith("MeleeTree") or "/Stances/" in iname or name.endswith(" stance"):
+            return "stances"
+        if "tennokai" in iname.casefold() or name in {
+            "opportunity's reach", "dreamer's wrath", "discipline's merit",
+            "master's edge", "condition's perfection", "whirlwind"
+        }:
+            return "exilus"
+        if (
+            name in {
+                "blood rush", "weeping wounds", "condition overload",
+                "gladiator might", "gladiator rush", "sacrificial steel",
+                "sacrificial pressure", "drifting contact", "maiming strike"
+            }
+            or "/Event/Combo" in iname
+            or "WeaponDamageIfVictimProcActive" in iname
+        ):
+            return "combo"
+        return "core"
+
+    elif category_key in {"shotguns", "rifles", "pistols"}:
+        if "exilus" in iname.casefold() or name in {
+            "vigilante supplies", "terminal velocity", "sinister reach", "hush",
+            "stabilizer", "rifle ammo mutation", "primed rifle ammo mutation",
+            "arrow mutation", "primed arrow mutation", "cautious shot", "aero agility",
+            "shotgun ammo mutation", "primed shotgun ammo mutation", "silent battery",
+            "fatal acceleration", "lock and load", "narrow barrel", "lethal momentum",
+            "ruinous extension", "spry sights", "eject magazine", "target acquired",
+            "pistol ammo mutation", "primed pistol ammo mutation", "suppress", "steady hands"
+        }:
+            return "exilus"
+        if name.startswith("galvanized ") or name in {
+            "hell's chamber", "split chamber", "barrel diffusion", "lethal torrent",
+            "vigilante armaments", "amalgam barrel diffusion"
+        } or "SPMod" in iname:
+            return "multishot"
+        if "crit" in iname.casefold() or "dualstat" in iname.casefold() or name in {
+            "vital sense", "point strike", "critical delay", "blunderbuss",
+            "primed ravage", "ravage", "critical deceleration", "hunter munitions",
+            "target cracker", "primed target cracker", "pistol gambit",
+            "primed pistol gambit", "creeping bullseye", "internal bleeding",
+            "hemorrhage", "chilling reload", "seeking fury", "toxic barrage",
+            "frigid blast", "scattering virulence", "shell shock", "scattering inferno",
+            "malignant force", "rime rounds", "high voltage", "thermite rounds",
+            "pistol pestilence", "frostbite", "jolt", "scorch", "carnis stinger"
+        }:
+            return "crit_status"
+        return "core"
+
+    elif category_key == "companions":
+        if "Precept" in iname or "bond" in name or name in {
+            "vacuum", "fetch", "assault mode", "synth deconstruct", "synth fiber",
+            "tenacious bond", "reinforced bond", "duplex bond", "momentous bond",
+            "aerial bond", "restorative bond", "bite", "maul", "link health",
+            "link shields", "link armor", "medi-ray", "animal instinct",
+            "primed animal instinct", "charm", "cat's eye", "ghost", "striker",
+            "revenge", "crowd dispersion", "electro pulse", "arc coil", "thumper",
+            "warrior", "fatal attraction", "anti-grav array", "vaporize"
+        }:
+            return "precepts"
+        if any(k in iname for k in ("Health", "Shield", "Armour")) or name in {
+            "calculated redirection", "enhanced vitality", "metal fiber", "repair kit"
+        }:
+            return "survival"
+        return "core"
+
+    elif category_key == "archwing":
+        if any(k in iname for k in ("Health", "Shield", "Armour")) or name in {
+            "necramech steel fiber", "necramech vitality", "necramech redirection",
+            "enhanced durability", "energy inversion"
+        }:
+            return "survival"
+        if name in {
+            "necramech friction", "necramech blitz", "necramech thrusters",
+            "necramech drift", "necramech efficiency", "hyperion thrusters", "superior defenses"
+        }:
+            return "mobility"
+        if name in {
+            "necramech intensify", "necramech streamline", "necramech continuity",
+            "system reroute", "energy amplifier", "morphic transformer"
+        }:
+            return "abilities"
+        return "core"
+
+    return "core"
+
+
 def build_loadout_category_markdown(
+    category_key: str,
     category_title: str,
     item_builds: list[tuple[str, list[dict[str, Any]], list[dict[str, Any]]]],
+    archon_shards_map: dict[str, Any] | None = None,
 ) -> str:
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     lines = [
@@ -1327,7 +1554,7 @@ def build_loadout_category_markdown(
         f"Total Configured {category_title}: **{len(item_builds)}**",
         "",
         "> [!NOTE]",
-        "> Reconstructed from active `inventoryMods.json` and `rivens.json` exports. Items with >8 mods reflect your complete modding pool across active configurations (Config A, B, and C).",
+        "> Reconstructed from active `inventoryMods.json` and `rivens.json` exports. Items with >8 mods reflect your complete modding pool across active configurations (Config A, B, and C), organized into functional slot roles (Auras, Exilus, Augments, Sets, and Core).",
         "",
         "## Loadouts",
         "",
@@ -1335,27 +1562,52 @@ def build_loadout_category_markdown(
     if not item_builds:
         lines.append("_No loadouts found in this category._")
     else:
+        slot_groups = BUILD_SLOT_GROUPS.get(category_key, [("core", "📊 Equipped Mods")])
         for item_name, mod_list, riven_list in item_builds:
-            lines.append(f"### {item_name} ({len(mod_list)} Mods Equipped)")
-            for m in mod_list:
-                m_name = m.get("name", "Unknown Mod")
-                cur_r = m.get("currentModRank", 0)
-                max_r = m.get("modRankMax", 0)
-                m_type = (m.get("modType") or "").capitalize()
-                rank_str = f"Rank: {cur_r}/{max_r}" + (" [Max]" if max_r and cur_r == max_r else "")
-                type_str = f", Type: {m_type}" if m_type else ""
-                lines.append(f"- **{m_name}** ({rank_str}{type_str})")
+            header_text = f"### {item_name} ({len(mod_list)} Mods Equipped"
+            if len(mod_list) > 8:
+                header_text += " Across Active Configs)"
+            else:
+                header_text += ")"
+            lines.append(header_text)
 
-            # Append owned Rivens
+            # 1. Archon shards if available for this item
+            if archon_shards_map and item_name in archon_shards_map:
+                shard_lines = format_archon_shards(archon_shards_map[item_name])
+                if shard_lines:
+                    lines.append("- 💎 **Installed Archon Shards**:")
+                    lines.extend(shard_lines)
+
+            # 2. Group mods by functional slot
+            grouped_mods = defaultdict(list)
+            for m in mod_list:
+                grp_key = classify_item_mod(m, category_key)
+                grouped_mods[grp_key].append(m)
+
+            for grp_key, grp_title in slot_groups:
+                mods_in_grp = grouped_mods.get(grp_key, [])
+                if not mods_in_grp:
+                    continue
+                lines.append(f"- {grp_title}:")
+                for m in mods_in_grp:
+                    m_name = m.get("name", "Unknown Mod")
+                    cur_r = m.get("currentModRank", 0)
+                    max_r = m.get("modRankMax", 0)
+                    m_type = (m.get("modType") or "").capitalize()
+                    rank_str = f"Rank: {cur_r}/{max_r}" + (" [Max]" if max_r and cur_r == max_r else "")
+                    type_str = f", Type: {m_type}" if m_type else ""
+                    lines.append(f"  - **{m_name}** ({rank_str}{type_str})")
+
+            # 3. Append owned Rivens
             if riven_list:
                 if len(riven_list) == 1:
                     r = riven_list[0]
                     r_name = r.get("name", "Riven")
                     rolls = r.get("rerollCount", 0)
                     roll_str = "unrolled" if rolls == 0 else f"{rolls} rolls"
-                    lines.append(f"- **Owned Riven**: `{item_name} {r_name}` ({roll_str})")
+                    lines.append(f"- 🔮 **Owned Riven**: `{item_name} {r_name}` ({roll_str})")
                 else:
-                    lines.append("- **Owned Rivens**:")
+                    lines.append("- 🔮 **Owned Rivens**:")
                     for r in riven_list:
                         r_name = r.get("name", "Riven")
                         rolls = r.get("rerollCount", 0)
@@ -1369,6 +1621,7 @@ def build_loadout_category_markdown(
 
 def build_loadouts_overview_markdown(
     categorized_builds: dict[str, list[tuple[str, list[dict[str, Any]], list[dict[str, Any]]]]],
+    archon_shards_map: dict[str, Any] | None = None,
 ) -> str:
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     total_items = sum(len(items) for items in categorized_builds.values())
@@ -1377,6 +1630,12 @@ def build_loadouts_overview_markdown(
         for items in categorized_builds.values()
         for _, mod_list, _ in items
     )
+    total_rivens_embedded = sum(
+        len(riven_list)
+        for items in categorized_builds.values()
+        for _, _, riven_list in items
+    )
+    shards_frame_count = len(archon_shards_map) if archon_shards_map else 0
 
     all_items = [
         (item_name, len(mod_list), cat_spec[2])
@@ -1393,6 +1652,8 @@ def build_loadouts_overview_markdown(
         "## 📊 Reconstructed Arsenal Summary",
         f"- **Total Configured Items**: **{total_items}** items with active equipped mods",
         f"- **Total Equipped Mod Slots Tracked**: **{total_mod_instances}** mod instances",
+        f"- **Owned Rivens Embedded in Loadouts**: **{total_rivens_embedded}** matching weapon rivens",
+        f"- **Warframes with Installed Archon Shards**: **{shards_frame_count}** frames",
         "",
         "## ⚔️ Loadout Breakdown by Category",
     ]
@@ -1410,7 +1671,9 @@ def build_loadouts_overview_markdown(
     lines.extend([
         "",
         "## 💡 Architecture & Modding Notes",
+        "- **Functional Slot Categorization**: Equipped mods are grouped by role (Auras, Exilus, Augments, Sets/Umbral, Galvanized/Multishot, Combo, and Core Stats) to distinguish build components across configs.",
         "- **Multi-Config Aggregation**: Items with >8 mods reflect your total mod pool invested across active configurations (Config A, B, and C).",
+        "- **Archon Shards Tracking**: Warframes cross-reference `foundry.json` to report installed Crimson, Azure, Amber, Violet, Emerald, and Topaz Archon Shards (including Tauforged variants).",
         "- **Riven Integration**: Each weapon automatically cross-references and embeds matching owned Rivens from `rivens.json`.",
         "- **Staple Mod Truncation**: High-frequency staple mods (such as base Serration or Vitality) shared across 20+ weapons are exported by AlecaFrame with trailing counts, while weapon-specific, rare, Galvanized, Primed, and Augment mods are captured with full fidelity.",
         "",
@@ -1730,10 +1993,22 @@ def main() -> int:
                 rivens_data = current.get("rivens.json", [])
                 categorized_builds = extract_arsenal_builds(data, foundry_data, rivens_data)
 
+                # Pre-index Archon Shards from foundry_data
+                archon_shards_map = {
+                    item.get("name"): item.get("archonShards")
+                    for item in foundry_data
+                    if isinstance(item, dict) and item.get("archonShards")
+                }
+
                 for b_key, b_filename, b_title in BUILD_CATEGORY_SPECS:
                     b_items = categorized_builds.get(b_key, [])
                     b_path = split_output_dir / b_filename
-                    b_md = build_loadout_category_markdown(b_title, b_items)
+                    b_md = build_loadout_category_markdown(
+                        category_key=b_key,
+                        category_title=b_title,
+                        item_builds=b_items,
+                        archon_shards_map=archon_shards_map if b_key == "warframes" else None,
+                    )
                     write_atomically(b_path, b_md)
                     generated_split_files.add(b_path)
                     print(
@@ -1742,7 +2017,10 @@ def main() -> int:
                     )
 
                 # 4. Arsenal Loadouts Overview (builds-overview.md)
-                builds_overview_md = build_loadouts_overview_markdown(categorized_builds)
+                builds_overview_md = build_loadouts_overview_markdown(
+                    categorized_builds,
+                    archon_shards_map=archon_shards_map,
+                )
                 builds_overview_path = split_output_dir / "builds-overview.md"
                 write_atomically(builds_overview_path, builds_overview_md)
                 generated_split_files.add(builds_overview_path)
