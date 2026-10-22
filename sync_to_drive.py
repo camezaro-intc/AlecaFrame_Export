@@ -36,12 +36,14 @@ DEFAULT_SYNC_TOKENS: dict[str, bool] = {
     "foundry.md": True,
     "inventoryArcanes.md": True,
     "inventoryMisc.md": True,
-    "inventoryMods.md": True,
     "inventoryParts.md": True,
     "inventoryRelics.md": True,
     "inventorySets.md": True,
     "market_opportunities.md": True,
     "mastery_roadmap.md": True,
+    "trade_history.md": True,
+
+    # Riven Inventory Split & Overview
     "rivens-overview.md": True,
     "rivens-rifles.md": True,
     "rivens-shotguns.md": True,
@@ -49,8 +51,30 @@ DEFAULT_SYNC_TOKENS: dict[str, bool] = {
     "rivens-melee.md": True,
     "rivens-modular.md": True,
     "rivens-*.md": True,
-    "trade_history.md": True,
     "riven_intelligence.md": False,
+
+    # Mod Inventory Split & Overview
+    "mods-overview.md": True,
+    "mods-warframe.md": True,
+    "mods-shotguns.md": True,
+    "mods-rifles.md": True,
+    "mods-pistols.md": True,
+    "mods-melee.md": True,
+    "mods-companions.md": True,
+    "mods-archwing.md": True,
+    "mods-specialized.md": True,
+    "mods-*.md": True,
+
+    # Reconstructed Arsenal Loadouts & Builds
+    "builds-overview.md": True,
+    "builds-warframes.md": True,
+    "builds-shotguns.md": True,
+    "builds-rifles.md": True,
+    "builds-pistols.md": True,
+    "builds-melee.md": True,
+    "builds-companions.md": True,
+    "builds-archwing.md": True,
+    "builds-*.md": True,
 
     # HTML Dashboards & Visualizers
     "stats_dashboard.html": False,
