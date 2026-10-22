@@ -70,25 +70,102 @@ A comprehensive, zero-dependency toolkit designed to transform **AlecaFrame** da
 AlecaFrame_Export/
 ├── README.md                      # Repository documentation & guide
 ├── .gitignore                     # Excludes personal data (*.json, *.md, dashboards)
+├── sync_tokens.json               # Sync configuration tokens (Drive upload vs local-only)
 ├── wishlist.txt                   # User-defined mod & item wishlist
 ├── riven_watchlist.txt            # (Optional) User-defined weapon watchlist for Riven pricing
 │
 ├── update_notebook_source.py      # Master pipeline runner (JSON -> MD -> HTML -> Drive)
+├── sync_to_drive.py               # Google Drive sync & categorized version archiving engine
 ├── riven_tracker.py               # Riven intelligence engine (Local only, omitted from Drive)
 ├── market_tracker.py              # Warframe.market standard items v2/v1 client
 ├── stats_analyzer.py              # Telemetry & Mastery Rank optimizer
-├── sync_to_drive.py               # Google Drive flat sync & version archiving engine
+├── push_to_github.py              # Git staging, commit & push automation
 │
-├── notebook_sources/              # Generated Markdown sources
-│   ├── riven_intelligence.md      # Riven valuations & auction floors (Local only, omitted from Drive)
-│   ├── mastery_roadmap.md         # Prioritized MR ranking roadmap & leveling guide
-│   ├── market_opportunities.md    # Wishlist pricing & in-game trade whispers
-│   ├── account_stats.md           # Progression milestones & financial summary
-│   ├── trade_history.md           # Trade receipts & ledger
-│   └── ...                        # Inventory catalog sources
+├── stats_dashboard.html           # Interactive telemetry dashboard (Local only)
+├── combined.md                    # Master unified markdown knowledge source (Local only)
+│
+├── notebook_sources/              # Local staging folder for generated Markdown sources
+│   ├── account_stats.md           # Wallet balances, Endo, Credits & MR telemetry
+│   ├── mastery_roadmap.md         # Prioritized MR ranking roadmap & meta guide
+│   ├── market_opportunities.md    # Wishlist pricing, inventory selling & trade whispers
+│   ├── trade_history.md           # Itemized trade transactions & net plat ledger
+│   ├── riven_intelligence.md      # Riven valuations & auction floors (Local only)
+│   ├── rivens-*.md (6 files)      # Deterministic riven splits by weapon type
+│   ├── mods-*.md (9 files)        # Deterministic mod splits by category
+│   ├── builds-*.md (8 files)      # Reconstructed arsenal loadouts by gear type
+│   └── ...                        # Core inventory catalogs (foundry, arcanes, relics)
 │
 └── *.json                         # Raw AlecaFrame JSON exports (Excluded from Git)
 ```
+
+---
+
+## 📂 Output Folder Structure (Google Drive: `WF_DATA`)
+
+All Markdown sources and active pipeline scripts synchronized to Google Drive (**`G:\Mi unidad\WF_DATA\`**) are deterministically organized into dedicated subfolders for instant, structured ingestion by **Google Gemini** and **Google NotebookLM**:
+
+```text
+G:\Mi unidad\WF_DATA\
+├── 📁 RIVENS_DATA/                         # Deterministic Riven splits by weapon category
+│   ├── rivens-overview.md                 # Unveiled/veiled summary, duplicates, roll statistics
+│   ├── rivens-rifles.md                   # Rifles, Bows, Snipers, Launchers
+│   ├── rivens-shotguns.md                 # Shotguns
+│   ├── rivens-pistols.md                  # Secondaries and Pistols
+│   ├── rivens-melee.md                    # Melee weapons
+│   └── rivens-modular.md                  # Kitguns and Zaws
+│
+├── 📁 MODS_DATA/                           # Complete mod inventory categorized via DE internal pathing
+│   ├── mods-overview.md                   # Rarity breakdown, maxed/unranked counts, duplicates
+│   ├── mods-warframe.md                   # Warframes, Augments, Auras, Exilus
+│   ├── mods-shotguns.md                   # Shotgun mods
+│   ├── mods-rifles.md                     # Rifle & Primary mods
+│   ├── mods-pistols.md                    # Pistol & Secondary mods
+│   ├── mods-melee.md                      # Melee mods & Stances
+│   ├── mods-companions.md                 # Sentinels, Beasts, Robotic weapons
+│   ├── mods-archwing.md                   # Archwings, Archguns, Archmelee, Necramechs
+│   └── mods-specialized.md                # Parazon, K-Drive, Plexus, Universal/Flawed
+│
+├── 📁 BUILDS_DATA/                         # Reverse-engineered active arsenal loadouts
+│   ├── builds-overview.md                 # Equipped roster summary & investment telemetry
+│   ├── builds-warframes.md                # Equipped Warframe loadouts across active configs
+│   ├── builds-shotguns.md                 # Equipped Shotguns with embedded owned Rivens
+│   ├── builds-rifles.md                   # Equipped Rifles/Bows/Snipers with embedded Rivens
+│   ├── builds-pistols.md                  # Equipped Secondaries with embedded Rivens
+│   ├── builds-melee.md                    # Equipped Melee weapons with embedded Rivens
+│   ├── builds-companions.md               # Equipped Sentinels, Pets & Robotic weapons
+│   └── builds-archwing.md                 # Equipped Archwings & Necramechs
+│
+├── 📁 SCRIPTS/                             # Production Python scripts mirrored for Gemini access
+│   ├── 📁 OLD/                            # Single previous script revision archive
+│   │   ├── update_notebook_source.py
+│   │   └── sync_to_drive.py
+│   ├── update_notebook_source.py          # Master pipeline runner
+│   ├── sync_to_drive.py                   # Categorized sync & history archiving engine
+│   ├── market_tracker.py                  # Warframe.market pricing & whisper client
+│   ├── push_to_github.py                  # Git commit & push automation
+│   └── stats_analyzer.py                  # Telemetry & Mastery Rank optimizer
+│
+├── 📁 OLD/                                 # Historical snapshots archive (timestamped)
+│   └── 📁 OLD_DATA_{YYYY-MM-DD_HHMMSS_UTC}/ # Exact mirror of active subfolders per refresh
+│       ├── 📁 RIVENS_DATA/                # Archived Riven files from previous run
+│       ├── 📁 MODS_DATA/                  # Archived Mod files from previous run
+│       ├── 📁 BUILDS_DATA/                # Archived Build files from previous run
+│       ├── account_stats.md               # Archived account telemetry
+│       ├── foundry.md                     # Archived foundry catalog
+│       └── ...
+│
+└── 📄 [Core Markdown Catalog Sources]     # Global inventory & account progress (Root level)
+    ├── account_stats.md                   # Wallet balances, Endo, Credits, MR telemetry
+    ├── mastery_roadmap.md                 # Prioritized MR ranking roadmap & meta guide
+    ├── trade_history.md                   # Itemized trade transactions & net plat ledger
+    ├── market_opportunities.md            # Live market pricing, wishlists & trade whispers
+    ├── foundry.md                         # Complete blueprint crafting & ownership catalog
+    ├── inventorySets.md                   # Complete & incomplete prime sets
+    ├── inventoryParts.md                  # Prime components, weapon parts, relics parts
+    ├── inventoryRelics.md                 # Void relics categorized by era (Lith, Meso, Neo, Axi)
+    ├── inventoryArcanes.md                # Owned arcanes, ranks, and duplicate counts
+    ├── inventoryMisc.md                   # Resources, keys, fish, gems, beacons
+    └── combined.md                        # Master unified markdown knowledge source
 
 ---
 
@@ -183,53 +260,53 @@ Each file generated in the workspace is associated with a boolean token:
 
 Tokens can be configured directly in `sync_tokens.json` or via `python sync_to_drive.py --set-token <file> <true|false>`:
 
-| Generated File | Sync Token | Description / Purpose |
-| :--- | :---: | :--- |
-| `account_stats.md` | `true` | Wallet, Credits, Endo, Platinum & account milestones |
-| `combined.md` | `true` | Full combined snapshot of all inventory exports |
-| `foundry.md` | `true` | Active blueprints, crafting components & foundry items |
-| `inventoryArcanes.md` | `true` | Owned arcanes catalog with ranks & quantities |
-| `inventoryMisc.md` | `true` | Raw materials, resources, cosmetics & keys |
-| `inventoryParts.md` | `true` | Prime weapon and frame components |
-| `inventoryRelics.md` | `true` | Void relics categorized by era and refinement |
-| `inventorySets.md` | `true` | Prime full set completion status |
-| `market_opportunities.md`| `true` | Live market buy/sell targets & in-game whispers |
-| `mastery_roadmap.md` | `true` | Prioritized MR ranking roadmap & leveling cheat sheet |
-| `trade_history.md` | `true` | Itemized trade transaction receipts |
-| `rivens-overview.md` | `true` | Full riven inventory overview, duplicates & veiled summary |
-| `rivens-rifles.md` | `true` | Rifles, Bows, Snipers & Launchers riven cards |
-| `rivens-shotguns.md` | `true` | Shotgun riven cards |
-| `rivens-pistols.md` | `true` | Pistol & Secondary riven cards |
-| `rivens-melee.md` | `true` | Melee weapon riven cards |
-| `rivens-modular.md` | `true` | Kitgun & Zaw modular riven cards |
-| `rivens-*.md` | `true` | Wildcard token matching all riven category files |
-| `mods-overview.md` | `true` | High-level mod collection overview, duplicates & Endo summary |
-| `mods-warframe.md` | `true` | Core Warframe stats, Auras, Exilus, Drift & Augments |
-| `mods-shotguns.md` | `true` | Shotgun damage, multishot, crit & elementals |
-| `mods-rifles.md` | `true` | Rifle, Bow, Sniper & Launcher mods |
-| `mods-pistols.md` | `true` | Pistol, Secondary & Grimoire/Tome mods |
-| `mods-melee.md` | `true` | Melee damage, attack speed, combo & Stance mods |
-| `mods-companions.md` | `true` | Sentinel, Beast, Robotic weapon & Precept mods |
-| `mods-archwing.md` | `true` | Archwing suit, Heavy Archgun & Archmelee mods |
-| `mods-specialized.md` | `true` | Necramech, Railjack, Parazon, Requiem & Peculiars |
-| `mods-*.md` | `true` | Wildcard token matching all mod category files |
-| `builds-overview.md` | `true` | Summary of all 340+ reconstructed arsenal loadouts |
-| `builds-warframes.md` | `true` | Reconstructed Warframe loadouts across active configs |
-| `builds-shotguns.md` | `true` | Reconstructed Shotgun loadouts with embedded Rivens |
-| `builds-rifles.md` | `true` | Reconstructed Rifle loadouts with embedded Rivens |
-| `builds-pistols.md` | `true` | Reconstructed Secondary loadouts with embedded Rivens |
-| `builds-melee.md` | `true` | Reconstructed Melee loadouts with embedded Rivens |
-| `builds-companions.md`| `true` | Reconstructed Companion & Sentinel loadouts |
-| `builds-archwing.md` | `true` | Reconstructed Archwing, Heavy & Necramech loadouts |
-| `builds-*.md` | `true` | Wildcard token matching all loadout files |
-| `riven_intelligence.md` | **`false`** | Riven appraisals & auction floors (retained locally) |
-| `stats_dashboard.html` | **`false`** | Interactive HTML dashboard (local browser viewer) |
-| `market_tracker.py` | `true` | Warframe.market pricing engine (mirrored to `SCRIPTS/`) |
-| `push_to_github.py` | `true` | Git commit & push automation (mirrored to `SCRIPTS/`) |
-| `stats_analyzer.py` | `true` | Telemetry & Mastery rank analyzer (mirrored to `SCRIPTS/`) |
-| `sync_to_drive.py` | `true` | Drive sync & version archiving engine (mirrored to `SCRIPTS/`) |
-| `update_notebook_source.py` | `true` | Master pipeline runner (mirrored to `SCRIPTS/`) |
-| `riven_tracker.py` | **`false`** | Riven valuation engine (retained locally, omitted from Drive) |
+| Generated File | Sync Token | Drive Target Folder | Description / Purpose |
+| :--- | :---: | :--- | :--- |
+| **`rivens-overview.md`** | `true` | `RIVENS_DATA/` | Full riven inventory overview, duplicates & veiled summary |
+| **`rivens-rifles.md`** | `true` | `RIVENS_DATA/` | Rifles, Bows, Snipers & Launchers riven cards |
+| **`rivens-shotguns.md`** | `true` | `RIVENS_DATA/` | Shotgun riven cards |
+| **`rivens-pistols.md`** | `true` | `RIVENS_DATA/` | Pistol & Secondary riven cards |
+| **`rivens-melee.md`** | `true` | `RIVENS_DATA/` | Melee weapon riven cards |
+| **`rivens-modular.md`** | `true` | `RIVENS_DATA/` | Kitgun & Zaw modular riven cards |
+| `rivens-*.md` | `true` | `RIVENS_DATA/` | Wildcard token matching all riven category files |
+| **`mods-overview.md`** | `true` | `MODS_DATA/` | High-level mod collection overview, duplicates & Endo summary |
+| **`mods-warframe.md`** | `true` | `MODS_DATA/` | Core Warframe stats, Auras, Exilus, Drift & Augments |
+| **`mods-shotguns.md`** | `true` | `MODS_DATA/` | Shotgun damage, multishot, crit & elementals |
+| **`mods-rifles.md`** | `true` | `MODS_DATA/` | Rifle, Bow, Sniper & Launcher mods |
+| **`mods-pistols.md`** | `true` | `MODS_DATA/` | Pistol, Secondary & Grimoire/Tome mods |
+| **`mods-melee.md`** | `true` | `MODS_DATA/` | Melee damage, attack speed, combo & Stance mods |
+| **`mods-companions.md`** | `true` | `MODS_DATA/` | Sentinel, Beast, Robotic weapon & Precept mods |
+| **`mods-archwing.md`** | `true` | `MODS_DATA/` | Archwing suit, Heavy Archgun & Archmelee mods |
+| **`mods-specialized.md`** | `true` | `MODS_DATA/` | Necramech, Railjack, Parazon, Requiem & Peculiars |
+| `mods-*.md` | `true` | `MODS_DATA/` | Wildcard token matching all mod category files |
+| **`builds-overview.md`** | `true` | `BUILDS_DATA/` | Summary of all 340+ reconstructed arsenal loadouts |
+| **`builds-warframes.md`** | `true` | `BUILDS_DATA/` | Reconstructed Warframe loadouts across active configs |
+| **`builds-shotguns.md`** | `true` | `BUILDS_DATA/` | Reconstructed Shotgun loadouts with embedded Rivens |
+| **`builds-rifles.md`** | `true` | `BUILDS_DATA/` | Reconstructed Rifle loadouts with embedded Rivens |
+| **`builds-pistols.md`** | `true` | `BUILDS_DATA/` | Reconstructed Secondary loadouts with embedded Rivens |
+| **`builds-melee.md`** | `true` | `BUILDS_DATA/` | Reconstructed Melee loadouts with embedded Rivens |
+| **`builds-companions.md`**| `true` | `BUILDS_DATA/` | Reconstructed Companion & Sentinel loadouts |
+| **`builds-archwing.md`** | `true` | `BUILDS_DATA/` | Reconstructed Archwing, Heavy & Necramech loadouts |
+| `builds-*.md` | `true` | `BUILDS_DATA/` | Wildcard token matching all loadout files |
+| `account_stats.md` | `true` | Root (`WF_DATA/`) | Wallet, Credits, Endo, Platinum & account milestones |
+| `combined.md` | `true` | Root (`WF_DATA/`) | Full combined snapshot of all inventory exports |
+| `foundry.md` | `true` | Root (`WF_DATA/`) | Active blueprints, crafting components & foundry items |
+| `inventoryArcanes.md` | `true` | Root (`WF_DATA/`) | Owned arcanes catalog with ranks & quantities |
+| `inventoryMisc.md` | `true` | Root (`WF_DATA/`) | Raw materials, resources, cosmetics & keys |
+| `inventoryParts.md` | `true` | Root (`WF_DATA/`) | Prime weapon and frame components |
+| `inventoryRelics.md` | `true` | Root (`WF_DATA/`) | Void relics categorized by era and refinement |
+| `inventorySets.md` | `true` | Root (`WF_DATA/`) | Prime full set completion status |
+| `market_opportunities.md`| `true` | Root (`WF_DATA/`) | Live market buy/sell targets & in-game whispers |
+| `mastery_roadmap.md` | `true` | Root (`WF_DATA/`) | Prioritized MR ranking roadmap & leveling cheat sheet |
+| `trade_history.md` | `true` | Root (`WF_DATA/`) | Itemized trade transaction receipts |
+| `market_tracker.py` | `true` | `SCRIPTS/` | Warframe.market pricing engine (mirrored) |
+| `push_to_github.py` | `true` | `SCRIPTS/` | Git commit & push automation (mirrored) |
+| `stats_analyzer.py` | `true` | `SCRIPTS/` | Telemetry & Mastery rank analyzer (mirrored) |
+| `sync_to_drive.py` | `true` | `SCRIPTS/` | Drive sync & version archiving engine (mirrored) |
+| `update_notebook_source.py` | `true` | `SCRIPTS/` | Master pipeline runner (mirrored) |
+| `riven_intelligence.md` | **`false`** | *Local Only* | Riven appraisals & auction floors (retained locally) |
+| `riven_tracker.py` | **`false`** | *Local Only* | Riven valuation engine (retained locally) |
+| `stats_dashboard.html` | **`false`** | *Local Only* | Interactive HTML dashboard (local browser viewer) |
 
 ---
 
